@@ -1,0 +1,149 @@
+organ,as,as_label,sex,dataset_count
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001052,rectum,Female,3
+pancreas,http://purl.obolibrary.org/obo/UBERON_0001069,head of pancreas,Female,1
+pancreas,http://purl.obolibrary.org/obo/UBERON_0001150,body of pancreas,Female,1
+pancreas,http://purl.obolibrary.org/obo/UBERON_0001151,tail of pancreas,Female,1
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001153,caecum,Female,3
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001153,caecum,Female,2
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001156,ascending colon,Female,6
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001156,ascending colon,Female,2
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001157,transverse colon,Female,3
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001157,transverse colon,Female,2
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001158,descending colon,Female,4
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001158,descending colon,Female,2
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001159,sigmoid colon,Female,7
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001159,sigmoid colon,Female,2
+Right ureter,http://purl.obolibrary.org/obo/UBERON_0001222,Right ureter,Female,1
+Left ureter,http://purl.obolibrary.org/obo/UBERON_0001223,Left ureter,Female,4
+Right kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Female,6
+Left kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Female,6
+spleen,http://purl.obolibrary.org/obo/UBERON_0001248,hilum of spleen,Female,2
+spleen,http://purl.obolibrary.org/obo/UBERON_0001248,hilum of spleen,Female,1
+Right kidney,http://purl.obolibrary.org/obo/UBERON_0001284,renal column,Female,10
+Left kidney,http://purl.obolibrary.org/obo/UBERON_0001284,renal column,Female,10
+Right kidney,http://purl.obolibrary.org/obo/UBERON_0002015,kidney capsule,Female,5
+Left kidney,http://purl.obolibrary.org/obo/UBERON_0002015,kidney capsule,Female,5
+heart,http://purl.obolibrary.org/obo/UBERON_0002078,right cardiac atrium,Female,7
+heart,http://purl.obolibrary.org/obo/UBERON_0002079,left cardiac atrium,Female,7
+heart,http://purl.obolibrary.org/obo/UBERON_0002080,heart right ventricle,Female,14
+heart,http://purl.obolibrary.org/obo/UBERON_0002084,heart left ventricle,Female,28
+heart,http://purl.obolibrary.org/obo/UBERON_0002094,interventricular septum,Female,7
+skin,http://purl.obolibrary.org/obo/UBERON_0002097,skin,Female,3
+small intestine,http://purl.obolibrary.org/obo/UBERON_0002115,jejunum,Female,4
+small intestine,http://purl.obolibrary.org/obo/UBERON_0002115,jejunum,Female,2
+small intestine,http://purl.obolibrary.org/obo/UBERON_0002116,ileum,Female,5
+small intestine,http://purl.obolibrary.org/obo/UBERON_0002116,ileum,Female,2
+Right kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Female,22
+Left kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Female,22
+Left kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Female,54
+Right kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Female,54
+thymus,http://purl.obolibrary.org/obo/UBERON_0005457,left thymus lobe,Female,2
+thymus,http://purl.obolibrary.org/obo/UBERON_0005469,right thymus lobe,Female,2
+urinary bladder,http://purl.obolibrary.org/obo/UBERON_0006082,fundus of urinary bladder,Female,2
+pancreas,http://purl.obolibrary.org/obo/UBERON_0010373,uncinate process of pancreas,Female,1
+small intestine,http://purl.obolibrary.org/obo/UBERON_0013644,duodenal ampulla,Female,2
+Right mammary gland,http://purl.obolibrary.org/obo/UBERON_0015134,main lactiferous duct,Female,5
+Left mammary gland,http://purl.obolibrary.org/obo/UBERON_0015134,main lactiferous duct,Female,5
+Left mammary gland,http://purl.obolibrary.org/obo/UBERON_0018140,mammary lobe,Female,2
+Right mammary gland,http://purl.obolibrary.org/obo/UBERON_0018140,mammary lobe,Female,2
+large intestine,http://purl.obolibrary.org/obo/UBERON_0022277,hepatic flexure of colon,Female,3
+pancreas,http://purl.org/sig/ont/fma/fma14517,Neck of pancreas,Female,1
+small intestine,http://purl.org/sig/ont/fma/fma14928,descending part of duodenum,Female,4
+small intestine,http://purl.org/sig/ont/fma/fma14928,descending part of duodenum,Female,2
+small intestine,http://purl.org/sig/ont/fma/fma14929,horizontal part of duodenum,Female,3
+small intestine,http://purl.org/sig/ont/fma/fma14929,horizontal part of duodenum,Female,2
+small intestine,http://purl.org/sig/ont/fma/fma14930,ascending part of duodenum,Female,3
+small intestine,http://purl.org/sig/ont/fma/fma14930,ascending part of duodenum,Female,2
+small intestine,http://purl.org/sig/ont/fma/fma14966,distal part of ileum,Female,3
+small intestine,http://purl.org/sig/ont/fma/fma14966,distal part of ileum,Female,2
+spleen,http://purl.org/sig/ont/fma/fma15828,diaphragmatic surface of spleen,Female,1
+lung,http://purl.org/sig/ont/fma/fma62662,Cartilage of segmental bronchus,Female,3
+small intestine,http://purl.org/sig/ont/fma/fma7206,superior part of duodenum,Female,2
+heart,http://purl.org/sig/ont/fma/fma7267,Posteromedial head of posterior papillary muscle of left ventricle,Female,6
+Right mammary gland,http://purl.org/sig/ont/fma/fma73165,Interlobar adipose tissue of right mammary gland,Female,3
+Left mammary gland,http://purl.org/sig/ont/fma/fma73166,Interlobar adipose tissue of left mammary gland,Female,2
+lung,http://purl.org/sig/ont/fma/fma7359,Right Anterior Bronchopulmonary Segment,Female,1
+lung,http://purl.org/sig/ont/fma/fma7362,Right Posterior Basal Bronchopulmonary Segment,Female,16
+lung,http://purl.org/sig/ont/fma/fma7374,Superior lingular bronchopulmonary segment,Female,1
+lung,http://purl.org/sig/ont/fma/fma7402,Lateral segmental bronchus,Female,1
+lung,http://purl.org/sig/ont/fma/fma7508,Left posterior basal segmental bronchus,Female,2
+prostate,http://purl.obolibrary.org/obo/UBERON_0000998,seminal vesicle,Male,2
+pancreas,http://purl.obolibrary.org/obo/UBERON_0001069,head of pancreas,Male,1
+pancreas,http://purl.obolibrary.org/obo/UBERON_0001150,body of pancreas,Male,1
+pancreas,http://purl.obolibrary.org/obo/UBERON_0001151,tail of pancreas,Male,1
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001153,caecum,Male,1
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001153,caecum,Male,25
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001156,ascending colon,Male,8
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001156,ascending colon,Male,31
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001157,transverse colon,Male,5
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001158,descending colon,Male,7
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001159,sigmoid colon,Male,8
+large intestine,http://purl.obolibrary.org/obo/UBERON_0001159,sigmoid colon,Male,6
+Right ureter,http://purl.obolibrary.org/obo/UBERON_0001222,Right ureter,Male,2
+Left ureter,http://purl.obolibrary.org/obo/UBERON_0001223,Left ureter,Male,8
+Right kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,3
+Left kidney,http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,Male,3
+spleen,http://purl.obolibrary.org/obo/UBERON_0001248,hilum of spleen,Male,2
+spleen,http://purl.obolibrary.org/obo/UBERON_0001248,hilum of spleen,Male,1
+urinary bladder,http://purl.obolibrary.org/obo/UBERON_0001257,trigone of urinary bladder,Male,4
+Left kidney,http://purl.obolibrary.org/obo/UBERON_0001284,renal column,Male,2
+Right kidney,http://purl.obolibrary.org/obo/UBERON_0001284,renal column,Male,2
+Right kidney,http://purl.obolibrary.org/obo/UBERON_0002015,kidney capsule,Male,2
+Left kidney,http://purl.obolibrary.org/obo/UBERON_0002015,kidney capsule,Male,2
+heart,http://purl.obolibrary.org/obo/UBERON_0002078,right cardiac atrium,Male,10
+heart,http://purl.obolibrary.org/obo/UBERON_0002079,left cardiac atrium,Male,7
+heart,http://purl.obolibrary.org/obo/UBERON_0002080,heart right ventricle,Male,16
+heart,http://purl.obolibrary.org/obo/UBERON_0002084,heart left ventricle,Male,37
+heart,http://purl.obolibrary.org/obo/UBERON_0002094,interventricular septum,Male,8
+skin,http://purl.obolibrary.org/obo/UBERON_0002097,skin,Male,7
+small intestine,http://purl.obolibrary.org/obo/UBERON_0002115,jejunum,Male,8
+small intestine,http://purl.obolibrary.org/obo/UBERON_0002115,jejunum,Male,6
+small intestine,http://purl.obolibrary.org/obo/UBERON_0002116,ileum,Male,1
+Left kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,94
+Right kidney,http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,Male,94
+Right kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,31
+Left kidney,http://purl.obolibrary.org/obo/UBERON_0004200,renal pyramid,Male,31
+thymus,http://purl.obolibrary.org/obo/UBERON_0005457,left thymus lobe,Male,2
+thymus,http://purl.obolibrary.org/obo/UBERON_0005469,right thymus lobe,Male,2
+urinary bladder,http://purl.obolibrary.org/obo/UBERON_0006082,fundus of urinary bladder,Male,5
+Left kidney,http://purl.obolibrary.org/obo/UBERON_0008716,hilum of kidney,Male,2
+Right kidney,http://purl.obolibrary.org/obo/UBERON_0008716,hilum of kidney,Male,2
+pancreas,http://purl.obolibrary.org/obo/UBERON_0010373,uncinate process of pancreas,Male,1
+liver,http://purl.obolibrary.org/obo/UBERON_0016479,capsule of the liver,Male,2
+large intestine,http://purl.obolibrary.org/obo/UBERON_0022277,hepatic flexure of colon,Male,1
+prostate,http://purl.obolibrary.org/obo/UBERON_0035441,apex of prostate,Male,2
+prostate,http://purl.obolibrary.org/obo/UBERON_8410025,transition zone of prostate,Male,2
+prostate,http://purl.obolibrary.org/obo/UBERON_8410026,peripheral zone of prostate,Male,6
+prostate,http://purl.obolibrary.org/obo/UBERON_8410027,central zone of prostate,Male,6
+liver,http://purl.org/sig/ont/fma/fma14487,gastric impression of liver,Male,2
+pancreas,http://purl.org/sig/ont/fma/fma14517,Neck of pancreas,Male,1
+small intestine,http://purl.org/sig/ont/fma/fma14928,descending part of duodenum,Male,7
+small intestine,http://purl.org/sig/ont/fma/fma14928,descending part of duodenum,Male,6
+small intestine,http://purl.org/sig/ont/fma/fma14929,horizontal part of duodenum,Male,7
+small intestine,http://purl.org/sig/ont/fma/fma14929,horizontal part of duodenum,Male,6
+small intestine,http://purl.org/sig/ont/fma/fma14930,ascending part of duodenum,Male,8
+small intestine,http://purl.org/sig/ont/fma/fma14930,ascending part of duodenum,Male,6
+small intestine,http://purl.org/sig/ont/fma/fma14966,distal part of ileum,Male,7
+small intestine,http://purl.org/sig/ont/fma/fma14966,distal part of ileum,Male,6
+liver,http://purl.org/sig/ont/fma/fma15729,diaphragmatic surface of liver,Male,2
+spleen,http://purl.org/sig/ont/fma/fma15828,diaphragmatic surface of spleen,Male,6
+spleen,http://purl.org/sig/ont/fma/fma15828,diaphragmatic surface of spleen,Male,1
+spleen,http://purl.org/sig/ont/fma/fma15839,renal surface of spleen,Male,1
+prostate,http://purl.org/sig/ont/fma/fma19719,Verumontanum,Male,2
+lung,http://purl.org/sig/ont/fma/fma62662,Cartilage of segmental bronchus,Male,2
+small intestine,http://purl.org/sig/ont/fma/fma7206,superior part of duodenum,Male,1
+lung,http://purl.org/sig/ont/fma/fma7360,Right Medial Bronchopulmonary Segment,Male,8
+lung,http://purl.org/sig/ont/fma/fma7361,Right Lateral Bronchopulmonary Segment,Male,3
+lung,http://purl.org/sig/ont/fma/fma7364,Right anterior basal bronchopulmonary segment,Male,1
+lung,http://purl.org/sig/ont/fma/fma7377,Left Medial Basal Bronchopulmonary Segment,Male,1
+lung,http://purl.org/sig/ont/fma/fma7378,left anterior basal bronchopulmonary segment,Male,1
+lung,http://purl.org/sig/ont/fma/fma7379,left Lateral Basal Bronchopulmonary Segment,Male,1
+lung,http://purl.org/sig/ont/fma/fma7386,Left posterior bronchopulmonary segment,Male,1
+lung,http://purl.org/sig/ont/fma/fma7402,Lateral segmental bronchus,Male,2
+lung,http://purl.org/sig/ont/fma/fma7416,Right superior segmental bronchus,Male,1
+lung,http://purl.org/sig/ont/fma/fma7426,Left apical segmental bronchus,Male,1
+lung,http://purl.org/sig/ont/fma/fma7428,Left anterior segmental bronchus,Male,1
+lung,http://purl.org/sig/ont/fma/fma7505,Left medial basal segmental bronchus,Male,1
+lung,http://purl.org/sig/ont/fma/fma7507,Left lateral basal segmental bronchus,Male,1
+lung,http://purl.org/sig/ont/fma/fma7508,Left posterior basal segmental bronchus,Male,27
+lung,http://purl.org/sig/ont/fma/fma7508,Left posterior basal segmental bronchus,Male,1
