@@ -1,0 +1,9 @@
+#!/bin/bash
+source constants.sh
+shopt -s extglob
+# set -ev
+
+DIR=$OUTPUT_DIR
+FILTER="$1"
+
+node ./src/run-reports-blazegraph.js $DIR/blazegraph.jnl $DIR/reports $FILTER
