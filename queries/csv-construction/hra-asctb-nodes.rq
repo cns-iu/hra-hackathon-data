@@ -1,0 +1,19 @@
+#+ summary: Unique AS, CT, and B in HRA
+
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ccf: <http://purl.org/ccf/>
+PREFIX HRA: <https://purl.humanatlas.io/collection/hra>
+
+SELECT DISTINCT ?iri (SAMPLE(?label) as ?label) (SAMPLE(?type) as ?type) (HRA: as ?source)
+FROM HRA:
+WHERE {
+  VALUES (?asctb_type ?type) {
+    ("AS"^^xsd:string <http://purl.obolibrary.org/obo/UBERON_0000061>)
+    ("CT"^^xsd:string <http://purl.obolibrary.org/obo/CL_0000000>)
+    ("BM"^^xsd:string <http://purl.bioontology.org/ontology/HGNC/gene>)
+  }
+  ?iri ccf:ccf_asctb_type ?asctb_type ;
+    rdfs:label ?label .
+}
+GROUP BY ?iri

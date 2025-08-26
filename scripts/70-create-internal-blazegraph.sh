@@ -36,7 +36,7 @@ run_jsonld() {
 for TTL in $OUTPUT_DIR/ttl/*.ttl; do
   blazegraph-runner load --journal=$JNL "--graph=${HRA_ATLAS}" $TTL
 done
-blazegraph-runner update --journal=$JNL queries/construction/reify-edges.rq
+blazegraph-runner update --journal=$JNL queries/graph-construction/reify-edges.rq
 
 # Dump HRA Atlas back out to turtle format for publishing
 blazegraph-runner dump --journal=$JNL "--graph=${HRA_ATLAS}" $DIR/hra-kidney-disease-atlas.ttl

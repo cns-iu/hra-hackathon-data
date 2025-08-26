@@ -9,3 +9,8 @@ for CSV in $INPUT_DIR/*-nodes.csv; do
   TTL=$OUTPUT_DIR/ttl/$(basename -s .csv $CSV).ttl
   ./src/convert-csv-nodes.sh $CSV $TTL
 done
+
+for CSV in $INPUT_DIR/*-edges.csv; do
+  TTL=$OUTPUT_DIR/ttl/$(basename -s .csv $CSV).ttl
+  ./src/convert-csv-edges.sh $CSV $TTL
+done
