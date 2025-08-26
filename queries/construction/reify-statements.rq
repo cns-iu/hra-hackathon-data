@@ -1,0 +1,18 @@
+#+ summary: Update query to take SPOs from statements and make them simple triples in a named graph
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+INSERT {
+  GRAPH ?source {
+    ?subject ?predicate ?object .
+  }
+}
+WHERE {
+  [] a rdf:Statement ;
+    rdf:subject ?subject ;
+    rdf:predicate ?predicate ;
+    rdf:object ?object ;
+    rdfs:isDefinedBy ?source ;
+  .
+}
