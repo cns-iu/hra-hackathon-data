@@ -1,0 +1,22 @@
+# metamodel_version: 1.7.0
+type Edge
+  {
+    subject: Node
+    predicate: Uriorcurie
+    object: Node
+    source: Uri
+  }
+
+type Graph
+  {
+    nodes: [Node]
+    edges: [Edge]
+  }
+
+type Node
+  {
+    iri: Uri!
+    label: String
+    type: Uri
+    source: Uri
+  }

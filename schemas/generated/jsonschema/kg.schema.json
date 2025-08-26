@@ -1,0 +1,128 @@
+{
+    "$defs": {
+        "Edge": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "object": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "predicate": {
+                    "enum": [
+                        "rdf:Statement"
+                    ],
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "source": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "subject": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "title": "Edge",
+            "type": "object"
+        },
+        "Graph": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "edges": {
+                    "items": {
+                        "$ref": "#/$defs/Edge"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
+                "nodes": {
+                    "items": {
+                        "$ref": "#/$defs/Node"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                }
+            },
+            "title": "Graph",
+            "type": "object"
+        },
+        "Node": {
+            "additionalProperties": false,
+            "description": "",
+            "properties": {
+                "iri": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "label": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "source": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "type": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "iri"
+            ],
+            "title": "Node",
+            "type": "object"
+        }
+    },
+    "$id": "https://purl.humanatlas.io/vocab/kg",
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "additionalProperties": true,
+    "description": "",
+    "metamodel_version": "1.7.0",
+    "properties": {
+        "edges": {
+            "items": {
+                "$ref": "#/$defs/Edge"
+            },
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "nodes": {
+            "items": {
+                "$ref": "#/$defs/Node"
+            },
+            "type": [
+                "array",
+                "null"
+            ]
+        }
+    },
+    "title": "KG",
+    "type": "object",
+    "version": null
+}

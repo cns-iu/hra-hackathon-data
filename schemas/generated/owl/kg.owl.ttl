@@ -1,0 +1,174 @@
+@prefix kg: <https://purl.humanatlas.io/vocab/kg/> .
+@prefix linkml: <https://w3id.org/linkml/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+kg:Graph a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Graph" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty kg:edges ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom kg:Edge ;
+            owl:onProperty kg:edges ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom kg:Node ;
+            owl:onProperty kg:nodes ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty kg:nodes ] ;
+    skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
+
+kg:edges a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "edges" ;
+    skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
+
+kg:nodes a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "nodes" ;
+    skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
+
+kg:Edge a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Edge" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom kg:Uri ;
+            owl:onProperty kg:source ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty kg:subject ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty kg:object ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty kg:object ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty kg:predicate ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:Uriorcurie ;
+            owl:onProperty kg:predicate ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom kg:Node ;
+            owl:onProperty kg:subject ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty kg:source ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty kg:source ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty kg:predicate ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom kg:Node ;
+            owl:onProperty kg:object ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty kg:subject ] ;
+    skos:exactMatch rdf:Statement ;
+    skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
+
+kg:iri a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "iri" ;
+    rdfs:range kg:Uri ;
+    skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
+
+kg:label a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "label" ;
+    rdfs:range linkml:String ;
+    skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
+
+kg:object a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "object" ;
+    rdfs:range kg:Node ;
+    skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
+
+kg:subject a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "subject" ;
+    rdfs:range kg:Node ;
+    skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
+
+kg:type a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "type" ;
+    rdfs:range kg:Uri ;
+    skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
+
+kg:predicate a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "predicate" ;
+    rdfs:range linkml:Uriorcurie ;
+    skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
+
+kg:Node a owl:Class,
+        linkml:ClassDefinition ;
+    rdfs:label "Node" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty kg:type ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom kg:Uri ;
+            owl:onProperty kg:source ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom linkml:String ;
+            owl:onProperty kg:label ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty kg:type ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty kg:label ],
+        [ a owl:Restriction ;
+            owl:minCardinality 1 ;
+            owl:onProperty kg:iri ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty kg:label ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty kg:source ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty kg:iri ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty kg:source ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom kg:Uri ;
+            owl:onProperty kg:iri ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom kg:Uri ;
+            owl:onProperty kg:type ] ;
+    skos:exactMatch owl:Class ;
+    skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
+
+kg:source a owl:ObjectProperty,
+        linkml:SlotDefinition ;
+    rdfs:label "source" ;
+    rdfs:range kg:Uri ;
+    skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
+
+kg:Uri a owl:Class,
+        linkml:TypeDefinition ;
+    rdfs:subClassOf linkml:Uriorcurie .
+
+<https://purl.humanatlas.io/vocab/kg> a owl:Ontology ;
+    rdfs:label "KG" ;
+    skos:definition "Simple Knowledge Graph representation" .
+
+[] a owl:Restriction ;
+    rdfs:subClassOf kg:Edge ;
+    owl:onProperty kg:predicate ;
+    owl:someValuesFrom kg:Edge .
+

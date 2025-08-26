@@ -1,0 +1,22 @@
+ syntax="proto3";
+ package
+// metamodel_version: 1.7.0
+message Edge
+ {
+  node subject = 0
+  uriorcurie predicate = 0
+  node object = 0
+  uri source = 0
+ }
+message Graph
+ {
+ repeated  node nodes = 0
+ repeated  edge edges = 0
+ }
+message Node
+ {
+  uri iri = 0
+  string label = 0
+  uri type = 0
+  uri source = 0
+ }
