@@ -3,6 +3,7 @@ shopt -s expand_aliases
 # Set global configuration
 export LANG=C.UTF-8
 export PYTHONPATH=".:./src"
+export PATH=./node_modules/.bin:${PATH}
 export GPG_TTY=$(tty)
 
 # Load environment
@@ -14,3 +15,6 @@ export INPUT_DIR=${INPUT_DIR:-"./input-csvs"}
 export OUTPUT_DIR=${OUTPUT_DIR:-"./output-data"}
 
 mkdir -p $OUTPUT_DIR
+
+JAVA_OPTS="-Xms2g -Xmx64g"
+export NODE_OPTIONS="--max-old-space-size=60480"
