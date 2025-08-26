@@ -1,0 +1,81 @@
+name: KG
+description: Simple Knowledge Graph representation
+id: https://purl.humanatlas.io/vocab/kg
+
+default_curi_maps:
+  - semweb_context
+prefixes:
+  linkml: https://w3id.org/linkml/
+  schema: http://schema.org/
+  kg: https://purl.humanatlas.io/vocab/kg/
+
+imports:
+  - linkml:types
+
+types:
+  Uri:
+    typeof: uriorcurie
+    description: Use this only in the `range` field of a slot to make a URI point at a node in an RDF graph.
+    base: str
+    uri: rdfs:Resource
+
+slots:
+  iri:
+    examples:
+    - value: http://purl.obolibrary.org/obo/UBERON_0014885
+    identifier: true
+    range: Uri
+  label:
+    slot_uri: rdfs:label
+    examples:
+    - value: distal epiphysis of distal phalanx of manual digit 5
+    range: string
+  type:
+    slot_uri: rdf:type
+    examples:
+    - value: http://purl.obolibrary.org/obo/UBERON_0000061
+    range: Uri
+  source:
+    slot_uri: rdfs:isDefinedBy
+    examples:
+    - value: https://purl.humanatlas.io/vocab/hp
+    range: Uri
+  subject:
+    slot_uri: rdf:subject
+    range: Node
+  predicate:
+    range: uriorcurie
+    slot_uri: rdf:predicate
+    designates_type: true
+  object:
+    slot_uri: rdf:object
+    range: Node
+
+classes:
+  Node:
+    class_uri: owl:Class
+    slots:
+    - iri
+    - label
+    - type
+    - source
+  
+  Edge:
+    class_uri: rdf:Statement
+    slots:
+      - subject
+      - predicate
+      - object
+      - source
+
+  Graph:
+    tree_root: true
+    attributes:
+      nodes:
+        range: Node
+        multivalued: true
+        inlined_as_list: true
+      edges:
+        range: Edge
+        multivalued: true
+        inlined_as_list: true
