@@ -1,6 +1,6 @@
 # HRA Kidney Disease Atlas 0.0.1
 
-HRAlit is part of the Human Reference Atlas (HRA) <https://humanatlas.io> and published in the HRA Knowledge Graph (HRA-KG). HRAlit 0.0.1 was generated on Thu Aug 28 14:45:19 EDT 2025. Users should use the data published to the HRA-KG at <https://lod.humanatlas.io/graph/hra-kidney-disease-atlas/0.0.1/>.
+HRAlit is part of the Human Reference Atlas (HRA) <https://humanatlas.io> and published in the HRA Knowledge Graph (HRA-KG). HRAlit 0.0.1 was generated on Thu Aug 28 16:22:42 EDT 2025. Users should use the data published to the HRA-KG at <https://lod.humanatlas.io/graph/hra-kidney-disease-atlas/0.0.1/>.
 
 Primary outputs which make up the official HRAlit:
 

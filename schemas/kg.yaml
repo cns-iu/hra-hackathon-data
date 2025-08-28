@@ -44,9 +44,8 @@ slots:
     slot_uri: rdf:subject
     range: Node
   predicate:
-    range: uriorcurie
+    range: Uri
     slot_uri: rdf:predicate
-    designates_type: true
   object:
     slot_uri: rdf:object
     range: Node
