@@ -2,15 +2,15 @@ name: KG
 description: Simple Knowledge Graph representation
 id: https://purl.humanatlas.io/vocab/kg
 
-default_curi_maps:
-  - semweb_context
 prefixes:
   linkml: https://w3id.org/linkml/
   schema: http://schema.org/
-  kg: https://purl.humanatlas.io/vocab/kg/
-
+  kg: https://purl.humanatlas.io/vocab/kg#
 imports:
   - linkml:types
+default_prefix: kg
+default_curi_maps:
+  - semweb_context
 
 types:
   Uri:

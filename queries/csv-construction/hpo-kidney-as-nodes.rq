@@ -1,0 +1,22 @@
+#+ summary: Unique Kidney AS in HPO
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ccf: <http://purl.org/ccf/>
+PREFIX kidney: <http://purl.obolibrary.org/obo/UBERON_0002113>
+PREFIX HRA: <https://purl.humanatlas.io/collection/hra>
+PREFIX HPO: <https://purl.humanatlas.io/vocab/hp>
+
+SELECT DISTINCT ?iri ?label
+  ('http://purl.obolibrary.org/obo/UBERON_0000061' as ?type)
+  (HPO: as ?source)
+FROM HPO:
+WHERE {
+  ?iri rdfs:label ?label .
+
+  # Ensure AS is part of the kidney
+  GRAPH HRA: {
+    ?iri ccf:ccf_part_of* kidney: .
+  }
+}
+ORDER BY ?iri

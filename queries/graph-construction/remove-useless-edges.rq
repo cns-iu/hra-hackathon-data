@@ -1,0 +1,13 @@
+#+ summary: Update query to take SPOs from statements and make them simple triples
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kg: <https://purl.humanatlas.io/vocab/kg#>
+PREFIX HRAkda: <https://purl.humanatlas.io/graph/hra-kidney-disease-atlas>
+
+DELETE WHERE {
+  GRAPH HRAkda: {
+    ?nodeGraph a kg:Graph ; kg:nodes ?node .
+    ?edgeGraph a kg:Graph ; kg:edges ?edge .
+  }
+}

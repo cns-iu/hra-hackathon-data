@@ -1,134 +1,4 @@
 iri,label,type,source
-http://purl.obolibrary.org/obo/UBERON_0004190,renal glomerulus vasculature,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0002042,lymphatic vessel endothelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_8600036,kidney loop of Henle long descending thin limb outer medulla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_8600037,kidney loop of Henle long descending thin limb inner medulla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-https://purl.org/ccf/ASCTB-TEMP_papillary-tip-epithelium,Papillary Tip Epithelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0005215,kidney interstitium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0009095,tip of renal papilla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0002015,kidney capsule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004200,kidney pyramid,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0006544,kidney vasculature,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004100,renal collecting system,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0002319,mesangium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0009883,medullary ray,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0034884,juxtaglomerular arteriole,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-https://purl.org/ccf/ASCTB-TEMP_kidney-lymphatic-vessel,Kidney Lymphatic Vessel,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0000362,renal medulla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001225,cortex of kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001229,renal corpuscle,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001284,renal column,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001285,nephron,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001289,descending limb of loop of Henle,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001291,thick ascending limb of loop of Henle,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001294,inner medulla of kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004201,kidney outer medulla inner stripe,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004202,kidney outer medulla outer stripe,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004538,left kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004539,right kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004726,vasa recta,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0005271,juxtamedullary cortex,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0009202,descending vasa recta,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0000074,renal glomerulus,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001231,nephron tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001232,collecting duct of renal tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0002113,kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0003517,kidney blood vessel,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0003527,kidney capillary,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004188,glomerular epithelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001290,proximal straight tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001292,distal convoluted tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0002320,glomerular mesangium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0002335,macula densa,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004193,loop of Henle ascending limb thin segment,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004196,proximal convoluted tubule segment 1,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004197,proximal convoluted tubule segment 2,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004203,cortical collecting duct,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004204,outer medullary collecting duct,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004205,inner medullary collecting duct,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004212,glomerular capillary,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004639,renal afferent arteriole,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004640,renal efferent arteriole,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0005097,renal connecting tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0005272,peritubular capillary,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0005750,glomerular parietal epithelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0009091,ascending vasa recta,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0002303,juxtaglomerular apparatus,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004134,proximal tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0004294,glomerular capillary endothelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0005096,descending thin limb,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0005751,glomerular visceral epithelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0012441,endothelium of peritubular capillary,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0001986,endothelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/UBERON_0005099,short descending thin limb,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_0000775,neutrophil,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1000718,kidney inner medulla collecting duct principal cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_0000097,mast cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-https://purl.org/ccf/ASCTB-TEMP_capsule-mesenchymal-stromal-cell,capsule mesenchymal stromal cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_0000071,blood vessel endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_0000648,kidney granular cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_0000653,podocyte,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_0002138,endothelial cell of lymphatic vessel,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_0002144,capillary endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_0002306,epithelial cell of proximal tubule,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1000452,parietal epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1000597,papillary tips cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1001005,glomerular capillary endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1001033,peritubular capillary endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1001111,kidney loop of Henle thin descending limb epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1001131,vasa recta ascending limb cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1001285,vasa recta descending limb cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_4030012,kidney loop of Henle short descending thin limb epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_4030013,kidney loop of Henle long descending thin limb outer medulla epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_4030014,kidney loop of Henle long descending thin limb inner medulla epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_4030020,kidney connecting tubule alpha-intercalated cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_4030021,kidney connecting tubule beta-intercalated cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_0000057,fibroblast,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_0000359,vascular associated smooth muscle cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1000412,endothelial cell of arteriole,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1000714,kidney cortex collecting duct principal cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1000716,kidney outer medulla collecting duct principal cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1000768,kidney connecting tubule epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1000849,kidney distal convoluted tubule epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1000850,macula densa epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1001096,kidney afferent arteriole endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1001099,kidney efferent arteriole endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1001106,kidney loop of Henle thick ascending limb epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1001107,kidney loop of Henle thin ascending limb epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://purl.obolibrary.org/obo/CL_1001108,kidney loop of Henle medullary thick ascending limb epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/6724,LUM,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/6934,MCAM,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/7569,MYH11,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/7656,NCAM1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/7830,NKG7,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/8031,NTRK1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/8033,NTRK3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/9666,PTPRC,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/10630,CCL4,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/10632,CCL5,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/11935,CD40LG,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/12339,TRPM2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/1241,C1QA,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/15979,TP63,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/1673,CD3D,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/1437,CALCA,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/7315,MS4A1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/1698,CD79A,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/18508,FCRL5,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/2435,CSF2RA,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/26705,CLEC9A,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/6442,KRT5,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/3765,FLT3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/4554,GPX2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/4942,HLA-DQA1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/4948,HLA-DRB1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/6012,IL3RA,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/6106,FOXP3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/7376,MSR1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/9958,REN,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://purl.obolibrary.org/obo/CL_1001109,kidney loop of Henle cortical thick ascending limb epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
 http://purl.obolibrary.org/obo/CL_4030009,epithelial cell of proximal tubule segment 1,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
 http://purl.obolibrary.org/obo/CL_4030010,epithelial cell of proximal tubule segment 2,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
@@ -229,6 +99,136 @@ http://identifiers.org/hgnc/1373,CA2,http://purl.bioontology.org/ontology/HGNC/g
 http://identifiers.org/hgnc/14467,SLC26A7,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/8951,SERPINE2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/18266,ATP6V0D2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004190,renal glomerulus vasculature,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0002042,lymphatic vessel endothelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_8600036,kidney loop of Henle long descending thin limb outer medulla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_8600037,kidney loop of Henle long descending thin limb inner medulla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+https://purl.org/ccf/ASCTB-TEMP_papillary-tip-epithelium,Papillary Tip Epithelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0005215,kidney interstitium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0009095,tip of renal papilla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0002015,kidney capsule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004200,kidney pyramid,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0006544,kidney vasculature,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004100,renal collecting system,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0002319,mesangium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0009883,medullary ray,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0034884,juxtaglomerular arteriole,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+https://purl.org/ccf/ASCTB-TEMP_kidney-lymphatic-vessel,Kidney Lymphatic Vessel,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001290,proximal straight tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001292,distal convoluted tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0002320,glomerular mesangium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0002335,macula densa,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004193,loop of Henle ascending limb thin segment,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004196,proximal convoluted tubule segment 1,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004197,proximal convoluted tubule segment 2,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004203,cortical collecting duct,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004204,outer medullary collecting duct,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004205,inner medullary collecting duct,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004212,glomerular capillary,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004639,renal afferent arteriole,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004640,renal efferent arteriole,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0005097,renal connecting tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0005272,peritubular capillary,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0005750,glomerular parietal epithelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0009091,ascending vasa recta,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0002303,juxtaglomerular apparatus,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004134,proximal tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004294,glomerular capillary endothelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0005096,descending thin limb,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0005751,glomerular visceral epithelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0012441,endothelium of peritubular capillary,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001986,endothelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0005099,short descending thin limb,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0000362,renal medulla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001225,cortex of kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001229,renal corpuscle,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001284,renal column,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001285,nephron,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001289,descending limb of loop of Henle,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001291,thick ascending limb of loop of Henle,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001294,inner medulla of kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004201,kidney outer medulla inner stripe,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004202,kidney outer medulla outer stripe,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004538,left kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004539,right kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004726,vasa recta,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0005271,juxtamedullary cortex,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0009202,descending vasa recta,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0000074,renal glomerulus,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001231,nephron tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0001232,collecting duct of renal tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0002113,kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0003517,kidney blood vessel,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0003527,kidney capillary,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/UBERON_0004188,glomerular epithelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_0000775,neutrophil,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1000718,kidney inner medulla collecting duct principal cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_0000097,mast cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+https://purl.org/ccf/ASCTB-TEMP_capsule-mesenchymal-stromal-cell,capsule mesenchymal stromal cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_0000071,blood vessel endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_0000648,kidney granular cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_0000653,podocyte,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_0002138,endothelial cell of lymphatic vessel,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_0002144,capillary endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_0002306,epithelial cell of proximal tubule,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1000452,parietal epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1000597,papillary tips cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1001005,glomerular capillary endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1001033,peritubular capillary endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1001111,kidney loop of Henle thin descending limb epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1001131,vasa recta ascending limb cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1001285,vasa recta descending limb cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_4030012,kidney loop of Henle short descending thin limb epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_4030013,kidney loop of Henle long descending thin limb outer medulla epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_4030014,kidney loop of Henle long descending thin limb inner medulla epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_4030020,kidney connecting tubule alpha-intercalated cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_4030021,kidney connecting tubule beta-intercalated cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_0000057,fibroblast,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_0000359,vascular associated smooth muscle cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1000412,endothelial cell of arteriole,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1000714,kidney cortex collecting duct principal cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1000716,kidney outer medulla collecting duct principal cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1000768,kidney connecting tubule epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1000849,kidney distal convoluted tubule epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1000850,macula densa epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1001096,kidney afferent arteriole endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1001099,kidney efferent arteriole endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1001106,kidney loop of Henle thick ascending limb epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1001107,kidney loop of Henle thin ascending limb epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://purl.obolibrary.org/obo/CL_1001108,kidney loop of Henle medullary thick ascending limb epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/7976,NR2F2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/13635,PLVAP,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/16112,TLDC2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/1631,CD163,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/1636,CD1C,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/1638,CD1E,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/613,APOE,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/20391,SULF1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/2193,COL16A1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/2209,COL5A1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/23616,SLC35F3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/7228,MRC1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/26183,MCTP1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/2959,DNASE1L3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/6442,KRT5,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/3609,FCER1A,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/3619,FCGR3A,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/4414,GNLY,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/4460,GPM6A,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/4554,GPX2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/6024,IL7R,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/6093,INSRR,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/6277,KCNK2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/7178,MMRN1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/7656,NCAM1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/7830,NKG7,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/8076,NXPH2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/9666,PTPRC,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/9845,RAMP3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/9958,REN,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/222,ADAMTS6,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/4028,FXYD4,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/4172,GATA3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
@@ -256,76 +256,76 @@ http://identifiers.org/hgnc/6694,LRP2,http://purl.bioontology.org/ontology/HGNC/
 http://identifiers.org/hgnc/7908,NPHS1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/9051,PLAT,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/9171,PODXL,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/11068,SLC8A1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/11073,SLC9A3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/16438,SLC4A11,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/2032,CLDN1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/20862,SLC39A8,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/2303,CPE,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/28524,SLC44A5,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/6188,JAG1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/5360,ID1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/10250,ROBO2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/10527,SALL3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/10588,SCN2A,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/10912,SLC12A3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/11068,SLC8A1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/1434,CALB1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/17995,TRPM6,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/30125,MZB1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/3145,TRPV5,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/5209,HSD11B2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/5713,JCHAIN,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/5716,IGKC,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/7872,NOS1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/9858,RAP1GAP,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/10918,SLC14A1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/11592,TBX1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/7976,NR2F2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/13635,PLVAP,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/16112,TLDC2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/23616,SLC35F3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/26183,MCTP1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/8818,SLC26A4,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/2959,DNASE1L3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/4460,GPM6A,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/6093,INSRR,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/639,AQP6,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/7178,MMRN1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/8076,NXPH2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/9845,RAMP3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/10002,RGS6,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/10473,RUNX3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/11509,SYT1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/1346,C7,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/14881,ZEB2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/15710,LDB3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/10630,CCL4,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/10632,CCL5,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/11935,CD40LG,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/12339,TRPM2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/1241,C1QA,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/1673,CD3D,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/1628,CD14,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/1631,CD163,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/1636,CD1C,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/1638,CD1E,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/7315,MS4A1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/1675,CD3G,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/1677,CD247,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/16892,CD96,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/1698,CD79A,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/18508,FCRL5,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/2435,CSF2RA,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/4708,GZMA,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/26705,CLEC9A,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/30125,MZB1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/3765,FLT3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/4942,HLA-DQA1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/4947,HLA-DRA,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/4948,HLA-DRB1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/5713,JCHAIN,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/5716,IGKC,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/6012,IL3RA,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/6106,FOXP3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/6152,ITGAX,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/7376,MSR1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/10002,RGS6,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/10918,SLC14A1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/11073,SLC9A3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/11509,SYT1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/1346,C7,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/1437,CALCA,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/14881,ZEB2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/15710,LDB3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/16438,SLC4A11,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/18122,SOX17,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/26295,CCDC102B,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/613,APOE,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/20391,SULF1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/2193,COL16A1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/2032,CLDN1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/20862,SLC39A8,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/2197,COL1A1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/2198,COL1A2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/2209,COL5A1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/2303,CPE,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/234,ADCY3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/24039,CLMP,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/7228,MRC1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/4708,GZMA,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/2705,DCN,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/27220,TMEM213,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/277,ADRA1A,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/28524,SLC44A5,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/8818,SLC26A4,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
 http://identifiers.org/hgnc/5318,TNC,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/3609,FCER1A,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/3619,FCGR3A,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/4414,GNLY,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/4947,HLA-DRA,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/6024,IL7R,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/6152,ITGAX,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
-http://identifiers.org/hgnc/6277,KCNK2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/6188,JAG1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/5360,ID1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/639,AQP6,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/6724,LUM,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/6934,MCAM,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/7569,MYH11,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/8031,NTRK1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/8033,NTRK3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/10473,RUNX3,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/11592,TBX1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra
+http://identifiers.org/hgnc/15979,TP63,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/collection/hra

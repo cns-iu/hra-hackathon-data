@@ -38,7 +38,7 @@ ORDER BY ?graph
 | https://purl.humanatlas.io/collection/hra | 2120944 |
 | https://purl.humanatlas.io/collection/hra-api | 2006982 |
 | https://purl.humanatlas.io/graph/ccf | 557123 |
-| https://purl.humanatlas.io/graph/hra-kidney-disease-atlas | 35534 |
+| https://purl.humanatlas.io/graph/hra-kidney-disease-atlas | 8850 |
 | https://purl.humanatlas.io/vocab/cl | 99013 |
 | https://purl.humanatlas.io/vocab/hp | 903078 |
 | https://purl.humanatlas.io/vocab/uberon | 1181703 |

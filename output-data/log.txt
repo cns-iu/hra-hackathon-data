@@ -1,4 +1,4 @@
-Run started on Thu Aug 28 16:20:21 EDT 2025...
+Run started on Thu Aug 28 17:11:44 EDT 2025...
 
 >> Running scripts/20-sparql-csv-construction.sh...
 
@@ -9,9 +9,9 @@ for RQ in queries/csv-construction/*.rq; do
   ./src/sparql-select.sh $ENDPOINT $RQ | csvformat > $OUT
 done
 
-real	0m1.114s
-user	0m0.533s
-sys	0m0.127s
+real	0m1.765s
+user	0m0.906s
+sys	0m0.212s
 
 >> Running scripts/60-convert-to-rdf.sh...
 
@@ -27,9 +27,9 @@ for CSV in $INPUT_DIR/*-edges.csv; do
   ./src/convert-csv-edges.sh $CSV $TTL
 done
 
-real	0m10.906s
-user	0m8.805s
-sys	0m0.673s
+real	0m8.404s
+user	0m6.540s
+sys	0m0.649s
 
 >> Running scripts/70-create-internal-blazegraph.sh...
 
@@ -70,7 +70,7 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 johnson.cns.iu.edu
-Thu Aug 28 16:20:34 EDT 2025
+Thu Aug 28 17:11:55 EDT 2025
 Linux/6.8.0-60-generic amd64
 Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz Family 6 Model 85 Stepping 7, GenuineIntel #CPU=20
 Ubuntu 11.0.28
@@ -110,10 +110,10 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-[36m[1m2025.08.28 16:20:35:373[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
-    Loading ./output-data/ttl/hpo-as-nodes.ttl[0m
-[36m[1m2025.08.28 16:20:36:160[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    25216 stmts added in 0.533 secs, rate= 47309, commitLatency=165ms, {failSet=0,goodSet=0}[0m
+[36m[1m2025.08.28 17:11:56:364[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+    Loading ./output-data/ttl/hpo-kidney-as-nodes.ttl[0m
+[36m[1m2025.08.28 17:11:56:596[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    151 stmts added in 0.08 secs, rate= 1887, commitLatency=30ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -132,7 +132,7 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 johnson.cns.iu.edu
-Thu Aug 28 16:20:37 EDT 2025
+Thu Aug 28 17:11:57 EDT 2025
 Linux/6.8.0-60-generic amd64
 Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz Family 6 Model 85 Stepping 7, GenuineIntel #CPU=20
 Ubuntu 11.0.28
@@ -172,10 +172,10 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-[36m[1m2025.08.28 16:20:37:901[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2025.08.28 17:11:58:278[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ./output-data/ttl/hra-asctb-kidney-edges.ttl[0m
-[36m[1m2025.08.28 16:20:38:418[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    7501 stmts added in 0.318 secs, rate= 23588, commitLatency=100ms, {failSet=0,goodSet=0}[0m
+[36m[1m2025.08.28 17:11:58:807[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    7501 stmts added in 0.329 secs, rate= 22799, commitLatency=92ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -194,7 +194,7 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 johnson.cns.iu.edu
-Thu Aug 28 16:20:39 EDT 2025
+Thu Aug 28 17:11:59 EDT 2025
 Linux/6.8.0-60-generic amd64
 Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz Family 6 Model 85 Stepping 7, GenuineIntel #CPU=20
 Ubuntu 11.0.28
@@ -234,10 +234,12 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-[36m[1m2025.08.28 16:20:40:173[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2025.08.28 17:12:00:531[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ./output-data/ttl/hra-asctb-kidney-nodes.ttl[0m
-[36m[1m2025.08.28 16:20:40:684[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    1651 stmts added in 0.286 secs, rate= 5772, commitLatency=115ms, {failSet=0,goodSet=0}[0m
+[36m[1m2025.08.28 17:12:01:028[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    1651 stmts added in 0.325 secs, rate= 5080, commitLatency=63ms, {failSet=0,goodSet=0}[0m
+
+# Make modifications to the KG to improve its usefulness
 blazegraph-runner update --journal=$JNL queries/graph-construction/reify-edges.rq
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
@@ -257,7 +259,7 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 johnson.cns.iu.edu
-Thu Aug 28 16:20:41 EDT 2025
+Thu Aug 28 17:12:01 EDT 2025
 Linux/6.8.0-60-generic amd64
 Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz Family 6 Model 85 Stepping 7, GenuineIntel #CPU=20
 Ubuntu 11.0.28
@@ -297,8 +299,69 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-[36m[1m2025.08.28 16:20:42:608[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Update.runUsingConnection:24[0m
+[36m[1m2025.08.28 17:12:02:949[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Update.runUsingConnection:24[0m
     1250 changes[0m
+blazegraph-runner update --journal=$JNL queries/graph-construction/remove-useless-edges.rq
+log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+ERROR: com.bigdata.util.config.LogUtil : Could not initialize Log4J logging utility.
+Set system property '-Dlog4j.configuration=file:bigdata/src/resources/logging/log4j.properties'
+  and / or 
+Set system property '-Dlog4j.primary.configuration=file:<installDir>/bigdata/src/resources/logging/log4j.properties'
+
+BlazeGraph(TM) Graph Engine
+
+                   Flexible
+                   Reliable
+                  Affordable
+      Web-Scale Computing for the Enterprise
+
+Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
+
+johnson.cns.iu.edu
+Thu Aug 28 17:12:04 EDT 2025
+Linux/6.8.0-60-generic amd64
+Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz Family 6 Model 85 Stepping 7, GenuineIntel #CPU=20
+Ubuntu 11.0.28
+freeMemory=2113191936
+buildVersion=2.1.4
+gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
+
+Dependency         License                                                                 
+ICU                http://source.icu-project.org/repos/icu/icu/trunk/license.html          
+bigdata-ganglia    http://www.apache.org/licenses/LICENSE-2.0.html                         
+blueprints-core    https://github.com/tinkerpop/blueprints/blob/master/LICENSE.txt         
+colt               http://acs.lbl.gov/software/colt/license.html                           
+commons-codec      http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-fileupload http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-io         http://www.apache.org/licenses/LICENSE-2.0.html                         
+commons-logging    http://www.apache.org/licenses/LICENSE-2.0.html                         
+dsiutils           http://www.gnu.org/licenses/lgpl-2.1.html                               
+fastutil           http://www.apache.org/licenses/LICENSE-2.0.html                         
+flot               http://www.opensource.org/licenses/mit-license.php                      
+high-scale-lib     http://creativecommons.org/licenses/publicdomain                        
+httpclient         http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpclient-cache   http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpcore           http://www.apache.org/licenses/LICENSE-2.0.html                         
+httpmime           http://www.apache.org/licenses/LICENSE-2.0.html                         
+jackson-core       http://www.apache.org/licenses/LICENSE-2.0.html                         
+jetty              http://www.apache.org/licenses/LICENSE-2.0.html                         
+jquery             https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt            
+jsonld             https://raw.githubusercontent.com/jsonld-java/jsonld-java/master/LICENCE
+log4j              http://www.apache.org/licenses/LICENSE-2.0.html                         
+lucene             http://www.apache.org/licenses/LICENSE-2.0.html                         
+nanohttp           http://elonen.iki.fi/code/nanohttpd/#license                            
+rexster-core       https://github.com/tinkerpop/rexster/blob/master/LICENSE.txt            
+river              http://www.apache.org/licenses/LICENSE-2.0.html                         
+semargl            https://github.com/levkhomich/semargl/blob/master/LICENSE               
+servlet-api        http://www.apache.org/licenses/LICENSE-2.0.html                         
+sesame             http://www.openrdf.org/download.jsp                                     
+slf4j              http://www.slf4j.org/license.html                                       
+zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
+
+[36m[1m2025.08.28 17:12:06:581[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Update.runUsingConnection:24[0m
+    1613 changes[0m
 
 # Dump HRA Atlas back out to turtle format for publishing
 blazegraph-runner dump --journal=$JNL "--graph=${HRA_ATLAS}" $DIR/hra-kidney-disease-atlas.ttl
@@ -320,7 +383,7 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 johnson.cns.iu.edu
-Thu Aug 28 16:20:43 EDT 2025
+Thu Aug 28 17:12:07 EDT 2025
 Linux/6.8.0-60-generic amd64
 Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz Family 6 Model 85 Stepping 7, GenuineIntel #CPU=20
 Ubuntu 11.0.28
@@ -386,7 +449,7 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 johnson.cns.iu.edu
-Thu Aug 28 16:20:46 EDT 2025
+Thu Aug 28 17:12:10 EDT 2025
 Linux/6.8.0-60-generic amd64
 Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz Family 6 Model 85 Stepping 7, GenuineIntel #CPU=20
 Ubuntu 11.0.28
@@ -426,10 +489,10 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-[36m[1m2025.08.28 16:20:47:077[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2025.08.28 17:12:11:315[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ./output-data/digital-object.owl[0m
-[36m[1m2025.08.28 16:20:54:228[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    557235 stmts added in 5.859 secs, rate= 95107, commitLatency=1186ms, {failSet=0,goodSet=0}[0m
+[36m[1m2025.08.28 17:12:18:305[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    557235 stmts added in 5.756 secs, rate= 96809, commitLatency=1140ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -448,7 +511,7 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 johnson.cns.iu.edu
-Thu Aug 28 16:20:58 EDT 2025
+Thu Aug 28 17:12:25 EDT 2025
 Linux/6.8.0-60-generic amd64
 Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz Family 6 Model 85 Stepping 7, GenuineIntel #CPU=20
 Ubuntu 11.0.28
@@ -488,10 +551,10 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-[36m[1m2025.08.28 16:20:59:073[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2025.08.28 17:12:25:906[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ./output-data/digital-object.owl[0m
-[36m[1m2025.08.28 16:21:20:619[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    2121168 stmts added in 18.217 secs, rate= 116438, commitLatency=3201ms, {failSet=0,goodSet=0}[0m
+[36m[1m2025.08.28 17:12:48:390[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    2121168 stmts added in 19.134 secs, rate= 110858, commitLatency=3252ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -510,7 +573,7 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 johnson.cns.iu.edu
-Thu Aug 28 16:21:27 EDT 2025
+Thu Aug 28 17:12:54 EDT 2025
 Linux/6.8.0-60-generic amd64
 Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz Family 6 Model 85 Stepping 7, GenuineIntel #CPU=20
 Ubuntu 11.0.28
@@ -550,10 +613,10 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-[36m[1m2025.08.28 16:21:28:211[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2025.08.28 17:12:54:985[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ./output-data/digital-object.owl[0m
-[36m[1m2025.08.28 16:21:52:721[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    2007189 stmts added in 22.599 secs, rate= 88817, commitLatency=1820ms, {failSet=0,goodSet=0}[0m
+[36m[1m2025.08.28 17:13:19:620[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    2007189 stmts added in 22.608 secs, rate= 88782, commitLatency=1925ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -572,7 +635,7 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 johnson.cns.iu.edu
-Thu Aug 28 16:21:56 EDT 2025
+Thu Aug 28 17:13:24 EDT 2025
 Linux/6.8.0-60-generic amd64
 Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz Family 6 Model 85 Stepping 7, GenuineIntel #CPU=20
 Ubuntu 11.0.28
@@ -612,10 +675,10 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-[36m[1m2025.08.28 16:21:57:582[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2025.08.28 17:13:25:328[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ./output-data/digital-object.owl[0m
-[36m[1m2025.08.28 16:22:14:204[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    1181703 stmts added in 14.078 secs, rate= 83939, commitLatency=2430ms, {failSet=0,goodSet=0}[0m
+[36m[1m2025.08.28 17:13:41:645[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    1181703 stmts added in 13.804 secs, rate= 85605, commitLatency=2381ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -634,7 +697,7 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 johnson.cns.iu.edu
-Thu Aug 28 16:22:15 EDT 2025
+Thu Aug 28 17:13:43 EDT 2025
 Linux/6.8.0-60-generic amd64
 Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz Family 6 Model 85 Stepping 7, GenuineIntel #CPU=20
 Ubuntu 11.0.28
@@ -674,10 +737,10 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-[36m[1m2025.08.28 16:22:16:623[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2025.08.28 17:13:44:279[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ./output-data/digital-object.owl[0m
-[36m[1m2025.08.28 16:22:20:581[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    99013 stmts added in 2.926 secs, rate= 33839, commitLatency=937ms, {failSet=0,goodSet=0}[0m
+[36m[1m2025.08.28 17:13:48:481[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    99013 stmts added in 3.092 secs, rate= 32022, commitLatency=984ms, {failSet=0,goodSet=0}[0m
 log4j:WARN No appenders could be found for logger (com.bigdata.config.Configuration).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
@@ -696,11 +759,11 @@ BlazeGraph(TM) Graph Engine
 Copyright SYSTAP, LLC DBA Blazegraph 2006-2016.  All rights reserved.
 
 johnson.cns.iu.edu
-Thu Aug 28 16:22:23 EDT 2025
+Thu Aug 28 17:13:51 EDT 2025
 Linux/6.8.0-60-generic amd64
 Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz Family 6 Model 85 Stepping 7, GenuineIntel #CPU=20
 Ubuntu 11.0.28
-freeMemory=2113191936
+freeMemory=2115287040
 buildVersion=2.1.4
 gitCommit=738d05f08cffd319233a4bfbb0ec2a858e260f9c
 
@@ -736,21 +799,21 @@ sesame             http://www.openrdf.org/download.jsp
 slf4j              http://www.slf4j.org/license.html                                       
 zookeeper          http://www.apache.org/licenses/LICENSE-2.0.html                         
 
-[36m[1m2025.08.28 16:22:24:460[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
+[36m[1m2025.08.28 17:13:52:651[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:43[0m
     Loading ./output-data/digital-object.owl[0m
-[36m[1m2025.08.28 16:22:39:718[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
-    903078 stmts added in 13.028 secs, rate= 69318, commitLatency=2132ms, {failSet=0,goodSet=0}[0m
+[36m[1m2025.08.28 17:14:07:856[0m[36m[0m [3mmain[0m [34mINFO[0m [32morg.renci.blazegraph.Load.runUsingConnection:47[0m
+    903078 stmts added in 12.937 secs, rate= 69805, commitLatency=2154ms, {failSet=0,goodSet=0}[0m
 
-real	2m6.504s
-user	7m55.120s
-sys	0m29.710s
+real	2m13.920s
+user	8m11.318s
+sys	0m30.888s
 
 >> Running scripts/75-run-reports.sh...
 Creating report: named-graphs
 
-real	0m2.658s
-user	0m4.881s
-sys	0m0.624s
+real	0m2.681s
+user	0m5.143s
+sys	0m0.609s
 
 >> Running scripts/80-publish-results.sh...
 
@@ -768,9 +831,9 @@ echo "$CREATION_DATE" > $OUT/CREATION_DATE
 
 node src/gen-readme.js $VERSION "$CREATION_DATE" $OUT/README.md
 
-real	0m0.241s
-user	0m0.241s
-sys	0m0.043s
+real	0m0.272s
+user	0m0.238s
+sys	0m0.060s
 
 
-Run finished on Thu Aug 28 16:22:43 EDT 2025
+Run finished on Thu Aug 28 17:14:11 EDT 2025
