@@ -11,15 +11,15 @@ kg:Graph a owl:Class,
     rdfs:label "Graph" ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:minCardinality 0 ;
+            owl:onProperty kg:nodes ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
             owl:onProperty kg:edges ],
         [ a owl:Restriction ;
             owl:allValuesFrom kg:Edge ;
             owl:onProperty kg:edges ],
         [ a owl:Restriction ;
             owl:allValuesFrom kg:Node ;
-            owl:onProperty kg:nodes ],
-        [ a owl:Restriction ;
-            owl:minCardinality 0 ;
             owl:onProperty kg:nodes ] ;
     skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
 
@@ -37,41 +37,41 @@ kg:Edge a owl:Class,
         linkml:ClassDefinition ;
     rdfs:label "Edge" ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:allValuesFrom kg:Uri ;
-            owl:onProperty kg:source ],
+            owl:maxCardinality 1 ;
+            owl:onProperty kg:object ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom kg:Node ;
+            owl:onProperty kg:subject ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty kg:predicate ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty kg:subject ],
         [ a owl:Restriction ;
             owl:minCardinality 0 ;
             owl:onProperty kg:subject ],
         [ a owl:Restriction ;
             owl:maxCardinality 1 ;
-            owl:onProperty kg:object ],
+            owl:onProperty kg:source ],
         [ a owl:Restriction ;
             owl:minCardinality 0 ;
             owl:onProperty kg:object ],
         [ a owl:Restriction ;
-            owl:minCardinality 0 ;
+            owl:allValuesFrom kg:Node ;
+            owl:onProperty kg:object ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
             owl:onProperty kg:predicate ],
         [ a owl:Restriction ;
             owl:allValuesFrom linkml:Uriorcurie ;
             owl:onProperty kg:predicate ],
         [ a owl:Restriction ;
-            owl:allValuesFrom kg:Node ;
-            owl:onProperty kg:subject ],
-        [ a owl:Restriction ;
             owl:minCardinality 0 ;
             owl:onProperty kg:source ],
         [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty kg:source ],
-        [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty kg:predicate ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom kg:Node ;
-            owl:onProperty kg:object ],
-        [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty kg:subject ] ;
+            owl:allValuesFrom kg:Uri ;
+            owl:onProperty kg:source ] ;
     skos:exactMatch rdf:Statement ;
     skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
 
@@ -115,41 +115,41 @@ kg:Node a owl:Class,
         linkml:ClassDefinition ;
     rdfs:label "Node" ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty kg:type ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom kg:Uri ;
-            owl:onProperty kg:source ],
-        [ a owl:Restriction ;
             owl:allValuesFrom linkml:String ;
             owl:onProperty kg:label ],
         [ a owl:Restriction ;
+            owl:allValuesFrom kg:Uri ;
+            owl:onProperty kg:iri ],
+        [ a owl:Restriction ;
             owl:maxCardinality 1 ;
+            owl:onProperty kg:iri ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom kg:Uri ;
             owl:onProperty kg:type ],
         [ a owl:Restriction ;
-            owl:minCardinality 0 ;
-            owl:onProperty kg:label ],
+            owl:maxCardinality 1 ;
+            owl:onProperty kg:source ],
         [ a owl:Restriction ;
             owl:minCardinality 1 ;
             owl:onProperty kg:iri ],
         [ a owl:Restriction ;
+            owl:allValuesFrom kg:Uri ;
+            owl:onProperty kg:source ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty kg:type ],
+        [ a owl:Restriction ;
+            owl:minCardinality 0 ;
+            owl:onProperty kg:label ],
+        [ a owl:Restriction ;
+            owl:maxCardinality 1 ;
+            owl:onProperty kg:type ],
+        [ a owl:Restriction ;
             owl:maxCardinality 1 ;
             owl:onProperty kg:label ],
         [ a owl:Restriction ;
             owl:minCardinality 0 ;
-            owl:onProperty kg:source ],
-        [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty kg:iri ],
-        [ a owl:Restriction ;
-            owl:maxCardinality 1 ;
-            owl:onProperty kg:source ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom kg:Uri ;
-            owl:onProperty kg:iri ],
-        [ a owl:Restriction ;
-            owl:allValuesFrom kg:Uri ;
-            owl:onProperty kg:type ] ;
+            owl:onProperty kg:source ] ;
     skos:exactMatch owl:Class ;
     skos:inScheme <https://purl.humanatlas.io/vocab/kg> .
 

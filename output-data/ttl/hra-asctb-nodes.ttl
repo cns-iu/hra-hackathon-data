@@ -35987,7 +35987,7 @@
     rdfs:label "luteinized unruptured follicle" ;
     rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
 
-<https://purl.org/ccf/ASCTB-TEMP_lymphatic> a <http://purl.obolibrary.org/obo/CL_0000000>,
+<https://purl.org/ccf/ASCTB-TEMP_lymphatic> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
         owl:Class ;
     rdfs:label "lymphatic" ;
     rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
@@ -36717,7 +36717,7 @@
     rdfs:label "neck of radius of radius" ;
     rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
 
-<https://purl.org/ccf/ASCTB-TEMP_nerve> a <http://purl.obolibrary.org/obo/CL_0000000>,
+<https://purl.org/ccf/ASCTB-TEMP_nerve> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
         owl:Class ;
     rdfs:label "nerve" ;
     rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
@@ -36752,7 +36752,7 @@
     rdfs:label "nerve of mesosalpinx" ;
     rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
 
-<https://purl.org/ccf/ASCTB-TEMP_nerves> a <http://purl.obolibrary.org/obo/CL_0000000>,
+<https://purl.org/ccf/ASCTB-TEMP_nerves> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
         owl:Class ;
     rdfs:label "nerves" ;
     rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
