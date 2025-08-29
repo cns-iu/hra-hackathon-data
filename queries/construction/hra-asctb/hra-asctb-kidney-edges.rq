@@ -1,0 +1,43 @@
+#+ summary: Unique Kidney AS, CT, and B in HRA
+
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ccf: <http://purl.org/ccf/>
+PREFIX partof: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX kidney: <http://purl.obolibrary.org/obo/UBERON_0002113>
+PREFIX HRA: <https://purl.humanatlas.io/collection/hra>
+
+SELECT DISTINCT ?subject ?predicate ?object (HRA: as ?source)
+FROM HRA:
+WHERE {
+  {
+    SELECT ?subject (ccf:ccf_part_of as ?predicate) ?object
+    WHERE {
+      ?subject ccf:ccf_part_of* ?object .
+      ?subject ccf:ccf_part_of* kidney: .
+    }
+  }
+  UNION
+  {
+    SELECT ?subject (ccf:ccf_located_in as ?predicate) ?object
+    WHERE {
+      [] a ccf:CellMarkerDescriptor ;
+        ccf:primary_anatomical_structure ?object ;
+        ccf:primary_cell_type ?subject ;
+        ccf:biomarker ?biomarker .
+      ?object ccf:ccf_part_of* kidney: .
+    }
+  }
+  UNION
+  {
+    SELECT ?subject (ccf:ccf_characterizes as ?predicate) ?object
+    WHERE {
+      [] a ccf:CellMarkerDescriptor ;
+        ccf:primary_anatomical_structure ?as ;
+        ccf:primary_cell_type ?object ;
+        ccf:biomarker ?subject .
+      ?as ccf:ccf_part_of* kidney: .
+    }
+  }
+}
+ORDER BY ?predicate
