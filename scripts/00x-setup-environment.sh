@@ -41,17 +41,17 @@ fi
 if [ ! -e "$ENV/opt/blazegraph-runner" ]; then
   mkdir -p $ENV/opt
   BR=1.7
-  wget -nv https://github.com/balhoff/blazegraph-runner/releases/download/v$BR/blazegraph-runner-$BR.tgz &&
+  curl -L -o blazegraph-runner-$BR.tgz https://github.com/balhoff/blazegraph-runner/releases/download/v$BR/blazegraph-runner-$BR.tgz &&
     tar -zxf blazegraph-runner-$BR.tgz &&
     mv blazegraph-runner-$BR $ENV/opt/blazegraph-runner
-  ln -s opt/blazegraph-runner/bin/blazegraph-runner $ENV/blazegraph-runner
+  ln -s $ENV/opt/blazegraph-runner/bin/blazegraph-runner $ENV/bin/blazegraph-runner
   rm -f blazegraph-runner-$BR.tgz
 fi
 
-if [ ! -e "$ENV/duckdb" ]; then
-  wget -nv https://github.com/duckdb/duckdb/releases/download/v1.0.0/duckdb_cli-linux-amd64.zip &&
+if [ ! -e "$ENV/bin/duckdb" ]; then
+  curl -L -o duckdb_cli-linux-amd64.zip https://github.com/duckdb/duckdb/releases/download/v1.0.0/duckdb_cli-linux-amd64.zip &&
     unzip -qq duckdb_cli-linux-amd64.zip duckdb &&
-    mv duckdb $ENV/duckdb &&
+    mv duckdb $ENV/bin/duckdb &&
     rm -f duckdb_cli-linux-amd64.zip
 fi
 
