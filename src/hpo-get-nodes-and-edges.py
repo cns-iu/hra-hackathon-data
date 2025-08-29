@@ -4,7 +4,6 @@ import biorosetta as br
 import hpotk
 import typing
 from hpotk import TermId
-import os
 
 # %% [markdown]
 # This notebook collects the sources to integrate HPO and HRA as a knowledge graph (KG). The KG will be agregated in the form of nodes and edges. In thecase of HPO we have the following nodes:
