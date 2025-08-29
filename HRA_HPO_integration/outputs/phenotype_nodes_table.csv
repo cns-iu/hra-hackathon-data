@@ -1,0 +1,184 @@
+iri,label,type,source
+http://purl.obolibrary.org/obo/HP_0005576,Tubulointerstitial fibrosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012622,Chronic kidney disease,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000790,Hematuria,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000126,Hydronephrosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000003,Multicystic kidney dysplasia,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0003774,Stage 5 chronic kidney disease,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000097,Focal segmental glomerulosclerosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004719,Hyperechogenic kidneys,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005565,Reduced renal corticomedullary differentiation,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0001967,Diffuse mesangial sclerosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012579,Minimal change glomerulonephritis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000787,Nephrolithiasis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000100,Nephrotic syndrome,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008659,Multiple small medullary renal cysts,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000089,Renal hypoplasia,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000081,Duplicated collecting system,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000110,Renal dysplasia,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0001947,Renal tubular acidosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0001920,Renal artery stenosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008660,Renotubular dysgenesis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0100519,Anuria,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008672,Calcium oxalate nephrolithiasis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000083,Renal insufficiency,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000121,Nephrocalcinosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012213,Decreased glomerular filtration rate,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0002667,Nephroblastoma,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000107,Renal cyst,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000105,Enlarged kidney,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005584,Renal cell carcinoma,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0001919,Acute kidney injury,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000114,Proximal tubulopathy,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0002049,Proximal renal tubular acidosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008678,Renal hypoplasia/aplasia,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004736,Crossed fused renal ectopia,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005562,Multiple renal cysts,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000123,Nephritis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0001917,Renal amyloidosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0002907,Microscopic hematuria,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000799,Renal steatosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0100820,Glomerulopathy,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012574,Mesangial hypercellularity,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0100520,Oliguria,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000791,Uric acid nephrolithiasis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012587,Macroscopic hematuria,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000099,Glomerulonephritis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000103,Polyuria,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0100817,Renovascular hypertension,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012408,Medullary nephrocalcinosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012409,Cortical nephrocalcinosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012577,Thin glomerular basement membrane,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0030760,Renal fibrosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000122,Unilateral renal agenesis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000113,Polycystic kidney dysplasia,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0009726,Renal neoplasm,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000124,Renal tubular dysfunction,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000104,Renal agenesis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000085,Horseshoe kidney,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0010946,Dilatation of the renal pelvis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012210,Abnormal renal morphology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000112,Nephropathy,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0001970,Tubulointerstitial nephritis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0001994,Renal Fanconi syndrome,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005575,Hemolytic-uremic syndrome,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0033726,Lupus nephritis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0100542,Abnormal localization of kidney,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000086,Ectopic kidney,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005580,Duplication of renal pelvis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000793,Membranoproliferative glomerulonephritis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008341,Distal renal tubular acidosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0033295,Mesangial Immune complex deposition,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004722,Thickened glomerular basement membrane,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0033485,Glomerular basement membrane disruption,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012211,Abnormal renal physiology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0006772,Renal angiomyolipoma,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000803,Renal cortical cysts,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012584,Bilateral renal hypoplasia,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012624,Stage 2 chronic kidney disease,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0010945,Fetal pyelectasis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000096,Glomerular sclerosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000092,Renal tubular atrophy,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004727,Impaired renal concentrating ability,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005579,Impaired renal tubular reabsorption of chloride,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0033282,Abnormal glomerular basement membrane morphology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0030034,Glomerular basement membrane lamellation,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000794,IgA deposition in the glomerulus,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008653,Crescentic glomerulonephritis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008682,Renal tubular epithelial necrosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000800,Cystic renal dysplasia,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0001969,Abnormal tubulointerstitial morphology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_6001031,Cystine nephrolithiasis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000125,Pelvic kidney,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0011036,Abnormality of renal excretion,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000075,Renal duplication,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004910,Bicarbonate-wasting renal tubular acidosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012330,Pyelonephritis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0031266,Podocyte foot process effacement,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012588,Steroid-resistant nephrotic syndrome,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0100581,Dilatation of renal calices,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004742,Abnormal renal collecting system morphology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004712,Renal malrotation,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0009741,Nephrosclerosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0011129,Bilateral fetal pyelectasis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0006732,Papillary renal cell carcinoma type 2,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0006766,Papillary renal cell carcinoma,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0030949,Glomerular deposits,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_6000428,Glomerular fibronectin deposits,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0001966,Abnormal glomerular mesangium morphology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0030162,Glomerulomegaly,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005572,Decreased renal tubular phosphate excretion,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005571,Increased renal tubular phosphate reabsorption,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008718,Unilateral renal dysplasia,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0034359,Impaired renal tubular reabsorption of phosphate,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0010958,Bilateral renal agenesis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000091,Abnormal renal tubule morphology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008738,Partially duplicated kidney,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0032614,Renal glomerular amyloid deposition,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004746,Glomerular subendothelial electron-dense deposits,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0034231,Sigmoid kidney,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0030409,Renal transitional cell carcinoma,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012583,Unilateral renal hypoplasia,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005564,Absence of renal corticomedullary differentiation,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012578,Membranous nephropathy,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000111,Renal juxtaglomerular cell hypertrophy/hyperplasia,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008677,Congenital nephrotic syndrome,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0032582,Renal interstitial foam cells,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005574,Non-acidotic proximal tubulopathy,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0011126,Nephroptosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000804,Xanthine nephrolithiasis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012573,Global proximal tubulopathy,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0100611,Multiple glomerular cysts,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000108,Renal corticomedullary cysts,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0002048,Renal cortical atrophy,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004732,Impaired renal uric acid clearance,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005583,Tubular basement membrane disintegration,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0033132,Renal cortical hyperechogenicity,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0100957,Abnormal renal medulla morphology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000090,Nephronophthisis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0020132,Thickening of the tubular basement membrane,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012585,Renal atrophy,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005563,Decreased numbers of nephrons,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0025361,Abnormal medullary pyramid morphology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004734,Renal cortical microcysts,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012625,Stage 3 chronic kidney disease,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012626,Stage 4 chronic kidney disease,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0031033,Impaired urinary acidification,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0030036,Isothenuria,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0034402,Rhabdoid tumor of the kidney,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012582,Bilateral renal dysplasia,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0032622,Tubular luminal dilatation,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0032948,Renal interstitial fibrosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008695,Transient nephrotic syndrome,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012623,Stage 1 chronic kidney disease,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004737,Global glomerulosclerosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_4000010,Impaired renal tubular reabsorption of bicarbonate,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012586,Bilateral renal atrophy,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004717,Axial malrotation of the kidney,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0005932,Abnormal renal corticomedullary differentiation,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004724,Calcium nephrolithiasis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0041050,Renal tubular cyst,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0032945,Renal interstitial inflammation,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0004743,Chronic tubulointerstitial nephritis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0032581,Abnormal renal insterstitial morphology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0033261,Renal artery aneurysm,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0000095,Abnormal renal glomerulus morphology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0033759,Impaired renal tubular reabsorption of magnesium,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008651,Uric acid urolithiasis independent of gout,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0006770,Clear cell renal cell carcinoma,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0031684,Renal artery atherosclerosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0033601,Glomerular subepithelial immune-complex deposits,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0033867,Multilamellation of medullary peritubular capillary basement membranes,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0011038,Abnormal renal tubular resorption,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008696,Renal hamartoma,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0006735,Renal cortical adenoma,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008776,Abnormal renal artery morphology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0025005,Thickening of glomerular capillary wall,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0033493,Mesangial matrix expansion,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012576,Glomerular C3 deposition,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_6000746,Elevated fractional excretion of urate,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0008643,Nephroblastomatosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0100880,Nephrogenic rest,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0032417,Periglomerular fibrosis,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0025650,Steroid-dependent nephrotic syndrome,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0011035,Abnormal renal cortex morphology,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp

@@ -1,0 +1,65 @@
+part_iri,part_label
+http://purl.obolibrary.org/obo/UBERON_0000074,renal glomerulus
+http://purl.obolibrary.org/obo/UBERON_0000362,renal medulla
+http://purl.obolibrary.org/obo/UBERON_0001225,cortex of kidney
+http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla
+http://purl.obolibrary.org/obo/UBERON_0001229,renal corpuscle
+http://purl.obolibrary.org/obo/UBERON_0001231,nephron tubule
+http://purl.obolibrary.org/obo/UBERON_0001232,collecting duct of renal tubule
+http://purl.obolibrary.org/obo/UBERON_0001284,renal column
+http://purl.obolibrary.org/obo/UBERON_0001285,nephron
+http://purl.obolibrary.org/obo/UBERON_0001289,descending limb of loop of Henle
+http://purl.obolibrary.org/obo/UBERON_0001290,proximal straight tubule
+http://purl.obolibrary.org/obo/UBERON_0001291,thick ascending limb of loop of Henle
+http://purl.obolibrary.org/obo/UBERON_0001292,distal convoluted tubule
+http://purl.obolibrary.org/obo/UBERON_0001294,inner medulla of kidney
+http://purl.obolibrary.org/obo/UBERON_0001986,endothelium
+http://purl.obolibrary.org/obo/UBERON_0002015,kidney capsule
+http://purl.obolibrary.org/obo/UBERON_0002042,lymphatic vessel endothelium
+http://purl.obolibrary.org/obo/UBERON_0002113,kidney
+http://purl.obolibrary.org/obo/UBERON_0002189,outer cortex of kidney
+http://purl.obolibrary.org/obo/UBERON_0002303,juxtaglomerular apparatus
+http://purl.obolibrary.org/obo/UBERON_0002319,mesangium
+http://purl.obolibrary.org/obo/UBERON_0002320,glomerular mesangium
+http://purl.obolibrary.org/obo/UBERON_0002335,macula densa
+http://purl.obolibrary.org/obo/UBERON_0003517,kidney blood vessel
+http://purl.obolibrary.org/obo/UBERON_0003527,kidney capillary
+http://purl.obolibrary.org/obo/UBERON_0004100,renal collecting system
+http://purl.obolibrary.org/obo/UBERON_0004134,proximal tubule
+http://purl.obolibrary.org/obo/UBERON_0004188,glomerular epithelium
+http://purl.obolibrary.org/obo/UBERON_0004190,renal glomerulus vasculature
+http://purl.obolibrary.org/obo/UBERON_0004193,loop of Henle ascending limb thin segment
+http://purl.obolibrary.org/obo/UBERON_0004196,proximal convoluted tubule segment 1
+http://purl.obolibrary.org/obo/UBERON_0004197,proximal convoluted tubule segment 2
+http://purl.obolibrary.org/obo/UBERON_0004200,kidney pyramid
+http://purl.obolibrary.org/obo/UBERON_0004201,kidney outer medulla inner stripe
+http://purl.obolibrary.org/obo/UBERON_0004202,kidney outer medulla outer stripe
+http://purl.obolibrary.org/obo/UBERON_0004203,cortical collecting duct
+http://purl.obolibrary.org/obo/UBERON_0004204,outer medullary collecting duct
+http://purl.obolibrary.org/obo/UBERON_0004205,inner medullary collecting duct
+http://purl.obolibrary.org/obo/UBERON_0004212,glomerular capillary
+http://purl.obolibrary.org/obo/UBERON_0004294,glomerular capillary endothelium
+http://purl.obolibrary.org/obo/UBERON_0004538,left kidney
+http://purl.obolibrary.org/obo/UBERON_0004539,right kidney
+http://purl.obolibrary.org/obo/UBERON_0004639,renal afferent arteriole
+http://purl.obolibrary.org/obo/UBERON_0004640,renal efferent arteriole
+http://purl.obolibrary.org/obo/UBERON_0004726,vasa recta
+http://purl.obolibrary.org/obo/UBERON_0005096,descending thin limb
+http://purl.obolibrary.org/obo/UBERON_0005097,renal connecting tubule
+http://purl.obolibrary.org/obo/UBERON_0005099,short descending thin limb
+http://purl.obolibrary.org/obo/UBERON_0005215,kidney interstitium
+http://purl.obolibrary.org/obo/UBERON_0005271,juxtamedullary cortex
+http://purl.obolibrary.org/obo/UBERON_0005272,peritubular capillary
+http://purl.obolibrary.org/obo/UBERON_0005750,glomerular parietal epithelium
+http://purl.obolibrary.org/obo/UBERON_0005751,glomerular visceral epithelium
+http://purl.obolibrary.org/obo/UBERON_0006544,kidney vasculature
+http://purl.obolibrary.org/obo/UBERON_0009091,ascending vasa recta
+http://purl.obolibrary.org/obo/UBERON_0009095,tip of renal papilla
+http://purl.obolibrary.org/obo/UBERON_0009202,descending vasa recta
+http://purl.obolibrary.org/obo/UBERON_0009883,medullary ray
+http://purl.obolibrary.org/obo/UBERON_0012441,endothelium of peritubular capillary
+http://purl.obolibrary.org/obo/UBERON_0034884,juxtaglomerular arteriole
+http://purl.obolibrary.org/obo/UBERON_8600036,kidney loop of Henle long descending thin limb outer medulla
+http://purl.obolibrary.org/obo/UBERON_8600037,kidney loop of Henle long descending thin limb inner medulla
+https://purl.org/ccf/ASCTB-TEMP_kidney-lymphatic-vessel,Kidney Lymphatic Vessel
+https://purl.org/ccf/ASCTB-TEMP_papillary-tip-epithelium,Papillary Tip Epithelium

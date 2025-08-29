@@ -1,0 +1,6 @@
+iri,label,type,source
+http://purl.obolibrary.org/obo/UBERON_0004100,renal collecting system,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/UBERON_0000074,renal glomerulus,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/UBERON_0002113,kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/UBERON_0004538,left kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/UBERON_0004539,right kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
