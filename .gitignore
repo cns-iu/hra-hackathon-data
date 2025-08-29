@@ -347,3 +347,6 @@ dist
 
 # VS Code Settings
 .vscode
+
+# OS
+.DS_Store

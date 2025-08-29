@@ -1,0 +1,1104 @@
+@prefix kg: <https://purl.humanatlas.io/vocab/kg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://purl.obolibrary.org/obo/HP_0000003> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Multicystic kidney dysplasia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000075> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal duplication" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000081> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Duplicated collecting system" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000083> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal insufficiency" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000085> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Horseshoe kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000086> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Ectopic kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000089> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal hypoplasia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000090> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Nephronophthisis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000091> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal renal tubule morphology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000092> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal tubular atrophy" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000095> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal renal glomerulus morphology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000096> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Glomerular sclerosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000097> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Focal segmental glomerulosclerosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000099> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Glomerulonephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000100> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Nephrotic syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000103> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Polyuria" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000104> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal agenesis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000105> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Enlarged kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000107> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal cyst" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000108> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal corticomedullary cysts" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000110> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal dysplasia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000111> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal juxtaglomerular cell hypertrophy/hyperplasia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000112> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Nephropathy" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000113> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Polycystic kidney dysplasia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000114> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Proximal tubulopathy" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000121> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Nephrocalcinosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000122> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Unilateral renal agenesis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000123> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Nephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000124> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal tubular dysfunction" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000125> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Pelvic kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000126> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Hydronephrosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000787> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Nephrolithiasis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000790> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Hematuria" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000791> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Uric acid nephrolithiasis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000793> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Membranoproliferative glomerulonephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000794> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "IgA deposition in the glomerulus" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000799> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal steatosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000800> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Cystic renal dysplasia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000803> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal cortical cysts" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0000804> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Xanthine nephrolithiasis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0001917> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal amyloidosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0001919> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Acute kidney injury" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0001920> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal artery stenosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0001947> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal tubular acidosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0001966> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal glomerular mesangium morphology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0001967> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Diffuse mesangial sclerosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0001969> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal tubulointerstitial morphology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0001970> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Tubulointerstitial nephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0001994> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal Fanconi syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0002048> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal cortical atrophy" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0002049> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Proximal renal tubular acidosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0002667> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Nephroblastoma" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0002907> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Microscopic hematuria" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0003774> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Stage 5 chronic kidney disease" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004712> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal malrotation" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004717> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Axial malrotation of the kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004719> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Hyperechogenic kidneys" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004722> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Thickened glomerular basement membrane" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004724> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Calcium nephrolithiasis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004727> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Impaired renal concentrating ability" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004732> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Impaired renal uric acid clearance" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004734> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal cortical microcysts" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004736> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Crossed fused renal ectopia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004737> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Global glomerulosclerosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004742> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal renal collecting system morphology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004743> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Chronic tubulointerstitial nephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004746> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Glomerular subendothelial electron-dense deposits" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0004910> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Bicarbonate-wasting renal tubular acidosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005562> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Multiple renal cysts" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005563> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Decreased numbers of nephrons" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005564> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Absence of renal corticomedullary differentiation" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005565> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Reduced renal corticomedullary differentiation" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005571> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Increased renal tubular phosphate reabsorption" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005572> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Decreased renal tubular phosphate excretion" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005574> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Non-acidotic proximal tubulopathy" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005575> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Hemolytic-uremic syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005576> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Tubulointerstitial fibrosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005579> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Impaired renal tubular reabsorption of chloride" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005580> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Duplication of renal pelvis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005583> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Tubular basement membrane disintegration" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005584> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal cell carcinoma" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0005932> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal renal corticomedullary differentiation" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0006732> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Papillary renal cell carcinoma type 2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0006735> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal cortical adenoma" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0006766> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Papillary renal cell carcinoma" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0006770> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Clear cell renal cell carcinoma" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0006772> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal angiomyolipoma" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008341> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Distal renal tubular acidosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008643> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Nephroblastomatosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008651> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Uric acid urolithiasis independent of gout" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008653> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Crescentic glomerulonephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008659> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Multiple small medullary renal cysts" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008660> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renotubular dysgenesis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008672> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Calcium oxalate nephrolithiasis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008677> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Congenital nephrotic syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008678> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal hypoplasia/aplasia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008682> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal tubular epithelial necrosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008695> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Transient nephrotic syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008696> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal hamartoma" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008718> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Unilateral renal dysplasia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008738> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Partially duplicated kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0008776> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal renal artery morphology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0009726> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal neoplasm" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0009741> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Nephrosclerosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0010945> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Fetal pyelectasis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0010946> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Dilatation of the renal pelvis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0010958> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Bilateral renal agenesis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0011035> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal renal cortex morphology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0011036> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormality of renal excretion" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0011038> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal renal tubular resorption" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0011126> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Nephroptosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0011129> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Bilateral fetal pyelectasis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012210> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal renal morphology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012211> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal renal physiology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012213> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Decreased glomerular filtration rate" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012330> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Pyelonephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012408> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Medullary nephrocalcinosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012409> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Cortical nephrocalcinosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012573> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Global proximal tubulopathy" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012574> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Mesangial hypercellularity" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012576> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Glomerular C3 deposition" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012577> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Thin glomerular basement membrane" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012578> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Membranous nephropathy" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012579> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Minimal change glomerulonephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012582> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Bilateral renal dysplasia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012583> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Unilateral renal hypoplasia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012584> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Bilateral renal hypoplasia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012585> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal atrophy" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012586> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Bilateral renal atrophy" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012587> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Macroscopic hematuria" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012588> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Steroid-resistant nephrotic syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012622> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Chronic kidney disease" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012623> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Stage 1 chronic kidney disease" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012624> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Stage 2 chronic kidney disease" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012625> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Stage 3 chronic kidney disease" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012626> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Stage 4 chronic kidney disease" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0020132> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Thickening of the tubular basement membrane" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0025005> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Thickening of glomerular capillary wall" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0025361> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal medullary pyramid morphology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0025650> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Steroid-dependent nephrotic syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0030034> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Glomerular basement membrane lamellation" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0030036> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Isothenuria" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0030162> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Glomerulomegaly" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0030409> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal transitional cell carcinoma" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0030760> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal fibrosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0030949> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Glomerular deposits" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0031033> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Impaired urinary acidification" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0031266> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Podocyte foot process effacement" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0031684> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal artery atherosclerosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0032417> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Periglomerular fibrosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0032581> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal renal insterstitial morphology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0032582> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal interstitial foam cells" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0032614> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal glomerular amyloid deposition" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0032622> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Tubular luminal dilatation" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0032945> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal interstitial inflammation" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0032948> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal interstitial fibrosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0033132> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal cortical hyperechogenicity" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0033261> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal artery aneurysm" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0033282> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal glomerular basement membrane morphology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0033295> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Mesangial Immune complex deposition" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0033485> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Glomerular basement membrane disruption" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0033493> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Mesangial matrix expansion" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0033601> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Glomerular subepithelial immune-complex deposits" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0033726> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Lupus nephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0033759> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Impaired renal tubular reabsorption of magnesium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0033867> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Multilamellation of medullary peritubular capillary basement membranes" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0034231> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Sigmoid kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0034359> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Impaired renal tubular reabsorption of phosphate" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0034402> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Rhabdoid tumor of the kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0041050> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renal tubular cyst" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0100519> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Anuria" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0100520> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Oliguria" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0100542> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal localization of kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0100581> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Dilatation of renal calices" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0100611> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Multiple glomerular cysts" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0100817> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Renovascular hypertension" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0100820> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Glomerulopathy" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0100880> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Nephrogenic rest" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0100957> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Abnormal renal medulla morphology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_4000010> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Impaired renal tubular reabsorption of bicarbonate" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_6000428> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Glomerular fibronectin deposits" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_6000746> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Elevated fractional excretion of urate" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_6001031> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Cystine nephrolithiasis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+[] a kg:Graph ;
+    kg:nodes <http://purl.obolibrary.org/obo/HP_0000003>,
+        <http://purl.obolibrary.org/obo/HP_0000075>,
+        <http://purl.obolibrary.org/obo/HP_0000081>,
+        <http://purl.obolibrary.org/obo/HP_0000083>,
+        <http://purl.obolibrary.org/obo/HP_0000085>,
+        <http://purl.obolibrary.org/obo/HP_0000086>,
+        <http://purl.obolibrary.org/obo/HP_0000089>,
+        <http://purl.obolibrary.org/obo/HP_0000090>,
+        <http://purl.obolibrary.org/obo/HP_0000091>,
+        <http://purl.obolibrary.org/obo/HP_0000092>,
+        <http://purl.obolibrary.org/obo/HP_0000095>,
+        <http://purl.obolibrary.org/obo/HP_0000096>,
+        <http://purl.obolibrary.org/obo/HP_0000097>,
+        <http://purl.obolibrary.org/obo/HP_0000099>,
+        <http://purl.obolibrary.org/obo/HP_0000100>,
+        <http://purl.obolibrary.org/obo/HP_0000103>,
+        <http://purl.obolibrary.org/obo/HP_0000104>,
+        <http://purl.obolibrary.org/obo/HP_0000105>,
+        <http://purl.obolibrary.org/obo/HP_0000107>,
+        <http://purl.obolibrary.org/obo/HP_0000108>,
+        <http://purl.obolibrary.org/obo/HP_0000110>,
+        <http://purl.obolibrary.org/obo/HP_0000111>,
+        <http://purl.obolibrary.org/obo/HP_0000112>,
+        <http://purl.obolibrary.org/obo/HP_0000113>,
+        <http://purl.obolibrary.org/obo/HP_0000114>,
+        <http://purl.obolibrary.org/obo/HP_0000121>,
+        <http://purl.obolibrary.org/obo/HP_0000122>,
+        <http://purl.obolibrary.org/obo/HP_0000123>,
+        <http://purl.obolibrary.org/obo/HP_0000124>,
+        <http://purl.obolibrary.org/obo/HP_0000125>,
+        <http://purl.obolibrary.org/obo/HP_0000126>,
+        <http://purl.obolibrary.org/obo/HP_0000787>,
+        <http://purl.obolibrary.org/obo/HP_0000790>,
+        <http://purl.obolibrary.org/obo/HP_0000791>,
+        <http://purl.obolibrary.org/obo/HP_0000793>,
+        <http://purl.obolibrary.org/obo/HP_0000794>,
+        <http://purl.obolibrary.org/obo/HP_0000799>,
+        <http://purl.obolibrary.org/obo/HP_0000800>,
+        <http://purl.obolibrary.org/obo/HP_0000803>,
+        <http://purl.obolibrary.org/obo/HP_0000804>,
+        <http://purl.obolibrary.org/obo/HP_0001917>,
+        <http://purl.obolibrary.org/obo/HP_0001919>,
+        <http://purl.obolibrary.org/obo/HP_0001920>,
+        <http://purl.obolibrary.org/obo/HP_0001947>,
+        <http://purl.obolibrary.org/obo/HP_0001966>,
+        <http://purl.obolibrary.org/obo/HP_0001967>,
+        <http://purl.obolibrary.org/obo/HP_0001969>,
+        <http://purl.obolibrary.org/obo/HP_0001970>,
+        <http://purl.obolibrary.org/obo/HP_0001994>,
+        <http://purl.obolibrary.org/obo/HP_0002048>,
+        <http://purl.obolibrary.org/obo/HP_0002049>,
+        <http://purl.obolibrary.org/obo/HP_0002667>,
+        <http://purl.obolibrary.org/obo/HP_0002907>,
+        <http://purl.obolibrary.org/obo/HP_0003774>,
+        <http://purl.obolibrary.org/obo/HP_0004712>,
+        <http://purl.obolibrary.org/obo/HP_0004717>,
+        <http://purl.obolibrary.org/obo/HP_0004719>,
+        <http://purl.obolibrary.org/obo/HP_0004722>,
+        <http://purl.obolibrary.org/obo/HP_0004724>,
+        <http://purl.obolibrary.org/obo/HP_0004727>,
+        <http://purl.obolibrary.org/obo/HP_0004732>,
+        <http://purl.obolibrary.org/obo/HP_0004734>,
+        <http://purl.obolibrary.org/obo/HP_0004736>,
+        <http://purl.obolibrary.org/obo/HP_0004737>,
+        <http://purl.obolibrary.org/obo/HP_0004742>,
+        <http://purl.obolibrary.org/obo/HP_0004743>,
+        <http://purl.obolibrary.org/obo/HP_0004746>,
+        <http://purl.obolibrary.org/obo/HP_0004910>,
+        <http://purl.obolibrary.org/obo/HP_0005562>,
+        <http://purl.obolibrary.org/obo/HP_0005563>,
+        <http://purl.obolibrary.org/obo/HP_0005564>,
+        <http://purl.obolibrary.org/obo/HP_0005565>,
+        <http://purl.obolibrary.org/obo/HP_0005571>,
+        <http://purl.obolibrary.org/obo/HP_0005572>,
+        <http://purl.obolibrary.org/obo/HP_0005574>,
+        <http://purl.obolibrary.org/obo/HP_0005575>,
+        <http://purl.obolibrary.org/obo/HP_0005576>,
+        <http://purl.obolibrary.org/obo/HP_0005579>,
+        <http://purl.obolibrary.org/obo/HP_0005580>,
+        <http://purl.obolibrary.org/obo/HP_0005583>,
+        <http://purl.obolibrary.org/obo/HP_0005584>,
+        <http://purl.obolibrary.org/obo/HP_0005932>,
+        <http://purl.obolibrary.org/obo/HP_0006732>,
+        <http://purl.obolibrary.org/obo/HP_0006735>,
+        <http://purl.obolibrary.org/obo/HP_0006766>,
+        <http://purl.obolibrary.org/obo/HP_0006770>,
+        <http://purl.obolibrary.org/obo/HP_0006772>,
+        <http://purl.obolibrary.org/obo/HP_0008341>,
+        <http://purl.obolibrary.org/obo/HP_0008643>,
+        <http://purl.obolibrary.org/obo/HP_0008651>,
+        <http://purl.obolibrary.org/obo/HP_0008653>,
+        <http://purl.obolibrary.org/obo/HP_0008659>,
+        <http://purl.obolibrary.org/obo/HP_0008660>,
+        <http://purl.obolibrary.org/obo/HP_0008672>,
+        <http://purl.obolibrary.org/obo/HP_0008677>,
+        <http://purl.obolibrary.org/obo/HP_0008678>,
+        <http://purl.obolibrary.org/obo/HP_0008682>,
+        <http://purl.obolibrary.org/obo/HP_0008695>,
+        <http://purl.obolibrary.org/obo/HP_0008696>,
+        <http://purl.obolibrary.org/obo/HP_0008718>,
+        <http://purl.obolibrary.org/obo/HP_0008738>,
+        <http://purl.obolibrary.org/obo/HP_0008776>,
+        <http://purl.obolibrary.org/obo/HP_0009726>,
+        <http://purl.obolibrary.org/obo/HP_0009741>,
+        <http://purl.obolibrary.org/obo/HP_0010945>,
+        <http://purl.obolibrary.org/obo/HP_0010946>,
+        <http://purl.obolibrary.org/obo/HP_0010958>,
+        <http://purl.obolibrary.org/obo/HP_0011035>,
+        <http://purl.obolibrary.org/obo/HP_0011036>,
+        <http://purl.obolibrary.org/obo/HP_0011038>,
+        <http://purl.obolibrary.org/obo/HP_0011126>,
+        <http://purl.obolibrary.org/obo/HP_0011129>,
+        <http://purl.obolibrary.org/obo/HP_0012210>,
+        <http://purl.obolibrary.org/obo/HP_0012211>,
+        <http://purl.obolibrary.org/obo/HP_0012213>,
+        <http://purl.obolibrary.org/obo/HP_0012330>,
+        <http://purl.obolibrary.org/obo/HP_0012408>,
+        <http://purl.obolibrary.org/obo/HP_0012409>,
+        <http://purl.obolibrary.org/obo/HP_0012573>,
+        <http://purl.obolibrary.org/obo/HP_0012574>,
+        <http://purl.obolibrary.org/obo/HP_0012576>,
+        <http://purl.obolibrary.org/obo/HP_0012577>,
+        <http://purl.obolibrary.org/obo/HP_0012578>,
+        <http://purl.obolibrary.org/obo/HP_0012579>,
+        <http://purl.obolibrary.org/obo/HP_0012582>,
+        <http://purl.obolibrary.org/obo/HP_0012583>,
+        <http://purl.obolibrary.org/obo/HP_0012584>,
+        <http://purl.obolibrary.org/obo/HP_0012585>,
+        <http://purl.obolibrary.org/obo/HP_0012586>,
+        <http://purl.obolibrary.org/obo/HP_0012587>,
+        <http://purl.obolibrary.org/obo/HP_0012588>,
+        <http://purl.obolibrary.org/obo/HP_0012622>,
+        <http://purl.obolibrary.org/obo/HP_0012623>,
+        <http://purl.obolibrary.org/obo/HP_0012624>,
+        <http://purl.obolibrary.org/obo/HP_0012625>,
+        <http://purl.obolibrary.org/obo/HP_0012626>,
+        <http://purl.obolibrary.org/obo/HP_0020132>,
+        <http://purl.obolibrary.org/obo/HP_0025005>,
+        <http://purl.obolibrary.org/obo/HP_0025361>,
+        <http://purl.obolibrary.org/obo/HP_0025650>,
+        <http://purl.obolibrary.org/obo/HP_0030034>,
+        <http://purl.obolibrary.org/obo/HP_0030036>,
+        <http://purl.obolibrary.org/obo/HP_0030162>,
+        <http://purl.obolibrary.org/obo/HP_0030409>,
+        <http://purl.obolibrary.org/obo/HP_0030760>,
+        <http://purl.obolibrary.org/obo/HP_0030949>,
+        <http://purl.obolibrary.org/obo/HP_0031033>,
+        <http://purl.obolibrary.org/obo/HP_0031266>,
+        <http://purl.obolibrary.org/obo/HP_0031684>,
+        <http://purl.obolibrary.org/obo/HP_0032417>,
+        <http://purl.obolibrary.org/obo/HP_0032581>,
+        <http://purl.obolibrary.org/obo/HP_0032582>,
+        <http://purl.obolibrary.org/obo/HP_0032614>,
+        <http://purl.obolibrary.org/obo/HP_0032622>,
+        <http://purl.obolibrary.org/obo/HP_0032945>,
+        <http://purl.obolibrary.org/obo/HP_0032948>,
+        <http://purl.obolibrary.org/obo/HP_0033132>,
+        <http://purl.obolibrary.org/obo/HP_0033261>,
+        <http://purl.obolibrary.org/obo/HP_0033282>,
+        <http://purl.obolibrary.org/obo/HP_0033295>,
+        <http://purl.obolibrary.org/obo/HP_0033485>,
+        <http://purl.obolibrary.org/obo/HP_0033493>,
+        <http://purl.obolibrary.org/obo/HP_0033601>,
+        <http://purl.obolibrary.org/obo/HP_0033726>,
+        <http://purl.obolibrary.org/obo/HP_0033759>,
+        <http://purl.obolibrary.org/obo/HP_0033867>,
+        <http://purl.obolibrary.org/obo/HP_0034231>,
+        <http://purl.obolibrary.org/obo/HP_0034359>,
+        <http://purl.obolibrary.org/obo/HP_0034402>,
+        <http://purl.obolibrary.org/obo/HP_0041050>,
+        <http://purl.obolibrary.org/obo/HP_0100519>,
+        <http://purl.obolibrary.org/obo/HP_0100520>,
+        <http://purl.obolibrary.org/obo/HP_0100542>,
+        <http://purl.obolibrary.org/obo/HP_0100581>,
+        <http://purl.obolibrary.org/obo/HP_0100611>,
+        <http://purl.obolibrary.org/obo/HP_0100817>,
+        <http://purl.obolibrary.org/obo/HP_0100820>,
+        <http://purl.obolibrary.org/obo/HP_0100880>,
+        <http://purl.obolibrary.org/obo/HP_0100957>,
+        <http://purl.obolibrary.org/obo/HP_4000010>,
+        <http://purl.obolibrary.org/obo/HP_6000428>,
+        <http://purl.obolibrary.org/obo/HP_6000746>,
+        <http://purl.obolibrary.org/obo/HP_6001031> .
+
