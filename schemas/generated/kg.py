@@ -1,5 +1,5 @@
 # Auto generated from kg.yaml by pythongen.py version: 0.0.1
-# Generation date: 2025-08-26T08:25:38
+# Generation date: 2025-08-28T14:46:49
 # Schema: KG
 #
 # id: https://purl.humanatlas.io/vocab/kg

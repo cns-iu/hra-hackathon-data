@@ -8,20 +8,25 @@
 kg:Graph a sh:NodeShape ;
     sh:closed true ;
     sh:ignoredProperties ( rdf:type ) ;
-    sh:property [ sh:class owl:Class ;
-            sh:nodeKind sh:IRI ;
-            sh:order 0 ;
-            sh:path kg:nodes ],
-        [ sh:class rdf:Statement ;
+    sh:property [ sh:class rdf:Statement ;
             sh:nodeKind sh:BlankNodeOrIRI ;
             sh:order 1 ;
-            sh:path kg:edges ] ;
+            sh:path kg:edges ],
+        [ sh:class owl:Class ;
+            sh:nodeKind sh:IRI ;
+            sh:order 0 ;
+            sh:path kg:nodes ] ;
     sh:targetClass kg:Graph .
 
 rdf:Statement a sh:NodeShape ;
     sh:closed true ;
     sh:ignoredProperties ( rdf:type ) ;
-    sh:property [ sh:datatype xsd:anyURI ;
+    sh:property [ sh:class owl:Class ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:IRI ;
+            sh:order 2 ;
+            sh:path rdf:object ],
+        [ sh:datatype xsd:anyURI ;
             sh:maxCount 1 ;
             sh:nodeKind sh:Literal ;
             sh:order 1 ;
@@ -35,23 +40,13 @@ rdf:Statement a sh:NodeShape ;
             sh:maxCount 1 ;
             sh:nodeKind sh:IRI ;
             sh:order 0 ;
-            sh:path rdf:subject ],
-        [ sh:class owl:Class ;
-            sh:maxCount 1 ;
-            sh:nodeKind sh:IRI ;
-            sh:order 2 ;
-            sh:path rdf:object ] ;
+            sh:path rdf:subject ] ;
     sh:targetClass rdf:Statement .
 
 owl:Class a sh:NodeShape ;
     sh:closed true ;
     sh:ignoredProperties ( rdf:type ) ;
-    sh:property [ sh:datatype rdfs:Resource ;
-            sh:maxCount 1 ;
-            sh:nodeKind sh:Literal ;
-            sh:order 3 ;
-            sh:path rdfs:isDefinedBy ],
-        [ sh:datatype xsd:string ;
+    sh:property [ sh:datatype xsd:string ;
             sh:maxCount 1 ;
             sh:nodeKind sh:Literal ;
             sh:order 1 ;
@@ -61,6 +56,11 @@ owl:Class a sh:NodeShape ;
             sh:nodeKind sh:Literal ;
             sh:order 0 ;
             sh:path kg:iri ],
+        [ sh:datatype rdfs:Resource ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 3 ;
+            sh:path rdfs:isDefinedBy ],
         [ sh:datatype rdfs:Resource ;
             sh:maxCount 1 ;
             sh:nodeKind sh:Literal ;

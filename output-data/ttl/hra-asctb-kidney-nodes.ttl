@@ -1,0 +1,1986 @@
+@prefix kg: <https://purl.humanatlas.io/vocab/kg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://identifiers.org/hgnc/10002> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RGS6" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10249> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ROBO1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10250> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ROBO2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10473> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RUNX3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10498> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "S100A8" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10499> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "S100A9" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10527> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SALL3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10588> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SCN2A" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10602> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SCNN1G" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10630> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CCL4" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10632> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CCL5" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10832> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SH3GL3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10910> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC12A1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10912> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC12A3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10916> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC13A1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10918> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC14A1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10919> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC14A2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10929> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC17A1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10970> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC22A6" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10971> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC22A7" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/10972> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC22A8" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11019> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC34A1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11027> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC4A1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11035> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC4A9" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11037> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC5A2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11068> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC8A1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11073> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC9A3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11255> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SPP1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11509> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SYT1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11530> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TACSTD2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11553> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TAGLN" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11592> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TBX1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11724> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TEK" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11809> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TIE1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11853> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TM4SF1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/11935> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD40LG" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/12339> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TRPM2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1241> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "C1QA" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/12559> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "UMOD" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/12663> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "VCAM1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/12692> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "VIM" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/130> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ACTA2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/13394> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NPHS2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1346> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "C7" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/13517> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CLIC5" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/13635> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PLVAP" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1373> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CA2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1434> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CALB1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1437> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CALCA" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/14430> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC13A3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/14467> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC26A7" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/14881> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ZEB2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1514> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CASR" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/15472> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ALDH1A2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/15710> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LDB3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/15846> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PALMD" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/15979> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TP63" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/16041> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "EMCN" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/16067> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MYOCD" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/16112> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TLDC2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1628> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD14" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1631> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD163" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1636> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD1C" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1638> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD1E" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/16438> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC4A11" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1673> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD3D" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1675> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD3G" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1677> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD247" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/16892> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD96" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/16953> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "POSTN" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1698> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD79A" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1748> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CDH1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1764> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CDH5" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/17732> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SYNPO2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/17995> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TRPM6" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/18122> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SOX17" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/18210> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MOGAT1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/18266> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ATP6V0D2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/18508> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FCRL5" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/18688> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CRB2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/1975> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "VSX2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2026> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CLCNKA" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2032> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CLDN1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2037> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CLDN16" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/20391> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SULF1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2045> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CLDN3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/20862> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC39A8" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/21411> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "AIFM2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2155> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CNN1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/21637> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SATB2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2193> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "COL16A1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2197> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "COL1A1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2198> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "COL1A2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2209> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "COL5A1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/222> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ADAMTS6" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2298> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CPA3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2303> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CPE" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/23091> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC5A11" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/23319> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NTNG1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/234> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ADCY3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/23616> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC35F3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2389> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CRYAB" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/24039> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CLMP" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2435> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CSF2RA" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2439> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CSF3R" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2548> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CUBN" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/26183> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MCTP1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/26270> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PIEZO2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/26295> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CCDC102B" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/26705> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CLEC9A" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2705> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DCN" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/27220> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TMEM213" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2731> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DDR2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/277> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ADRA1A" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/28524> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC44A5" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/28750> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC5A12" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/2959> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DNASE1L3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/29853> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HECW2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/30125> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MZB1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/3145> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TRPV5" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/32017> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ACSM2A" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/3244> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "EHD3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/33705> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TMEM207" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/3609> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FCER1A" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/3619> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FCGR3A" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/3620> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FCGR3B" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/3763> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FLT1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/3765> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FLT3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/3802> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FOXD1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/4028> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FXYD4" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/417> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ALDOB" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/4172> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GATA3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/4175> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GATM" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/4414> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GNLY" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/4460> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GPM6A" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/4554> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GPX2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/4708> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GZMA" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/4883> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CFH" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/4942> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HLA-DQA1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/4947> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HLA-DRA" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/4948> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HLA-DRB1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/5209> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HSD11B2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/5318> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TNC" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/5360> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ID1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/5713> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "JCHAIN" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/5716> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IGKC" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6012> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IL3RA" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6024> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IL7R" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6093> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "INSRR" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6106> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FOXP3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/613> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "APOE" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6144> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ITGA8" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6152> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ITGAX" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6188> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "JAG1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6277> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KCNK2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/633> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "AQP1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/634> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "AQP2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6342> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KIT" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/636> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "AQP3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/639> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "AQP6" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6442> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KRT5" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6446> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KRT8" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6694> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LRP2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6724> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LUM" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/6934> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MCAM" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/7178> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MMRN1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/7228> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MRC1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/7315> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MS4A1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/7316> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MS4A2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/7376> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MSR1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/7569> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MYH11" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/7656> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NCAM1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/7830> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NKG7" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/7872> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NOS1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/7908> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NPHS1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/7976> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NR2F2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/799> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ATP1A1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/8031> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NTRK1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/8033> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NTRK3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/8076> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NXPH2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/8804> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PDGFRB" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/8818> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC26A4" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/8823> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PECAM1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/8951> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SERPINE2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/9051> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PLAT" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/9171> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PODXL" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/9453> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PRODH" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/9459> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PROX1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/9666> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTPRC" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/9679> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTPRQ" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/9845> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RAMP3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/9858> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RAP1GAP" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://identifiers.org/hgnc/9958> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "REN" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000057> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "fibroblast" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000071> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "blood vessel endothelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000084> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "T cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000097> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "mast cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000115> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "endothelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000236> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "B cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000359> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "vascular associated smooth muscle cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000576> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "monocyte" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000623> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "natural killer cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000648> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney granular cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000653> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "podocyte" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000738> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "leukocyte" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000775> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "neutrophil" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000786> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "plasma cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000814> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "mature NK T cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000815> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "regulatory T cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000875> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "non-classical monocyte" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000910> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "cytotoxic T cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0000990> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "conventional dendritic cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0001056> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "dendritic cell, human" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0001058> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "plasmacytoid dendritic cell, human" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0002138> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "endothelial cell of lymphatic vessel" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0002144> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "capillary endothelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0002201> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "renal beta-intercalated cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0002306> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "epithelial cell of proximal tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_0019018> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "blood vessel smooth muscle cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000412> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "endothelial cell of arteriole" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000452> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "parietal epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000454> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney collecting duct epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000597> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "papillary tips cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000691> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney interstitial myofibroblast" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000692> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney interstitial fibroblast" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000695> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney interstitial alternatively activated macrophage" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000714> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney cortex collecting duct principal cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000715> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney cortex collecting duct intercalated cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000716> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney outer medulla collecting duct principal cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000717> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney outer medulla collecting duct intercalated cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000718> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney inner medulla collecting duct principal cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000742> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "glomerular mesangial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000768> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney connecting tubule epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000849> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney distal convoluted tubule epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1000850> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "macula densa epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001005> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "glomerular capillary endothelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001033> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "peritubular capillary endothelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001096> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney afferent arteriole endothelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001099> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney efferent arteriole endothelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001106> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle thick ascending limb epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001107> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle thin ascending limb epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001108> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle medullary thick ascending limb epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001109> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle cortical thick ascending limb epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001111> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle thin descending limb epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001131> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "vasa recta ascending limb cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001285> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "vasa recta descending limb cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001318> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "renal interstitial pericyte" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001431> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney collecting duct principal cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_1001432> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney collecting duct intercalated cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030009> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "epithelial cell of proximal tubule segment 1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030010> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "epithelial cell of proximal tubule segment 2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030011> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "epithelial cell of proximal tubule segment 3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030012> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle short descending thin limb epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030013> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle long descending thin limb outer medulla epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030014> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle long descending thin limb inner medulla epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030015> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney collecting duct alpha-intercalated cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030016> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "epithelial cell of early distal convoluted tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030017> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "epithelial cell of late distal convoluted tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030018> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney connecting tubule principal cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030019> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney connecting tubule intercalated cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030020> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney connecting tubule alpha-intercalated cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030021> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney connecting tubule beta-intercalated cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/CL_4030022> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "renal medullary fibroblast" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0000074> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal glomerulus" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0000362> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal medulla" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001225> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "cortex of kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001228> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal papilla" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001229> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal corpuscle" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001231> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "nephron tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001232> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "collecting duct of renal tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001284> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal column" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001285> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "nephron" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001289> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "descending limb of loop of Henle" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001290> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "proximal straight tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001291> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "thick ascending limb of loop of Henle" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001292> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "distal convoluted tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001294> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "inner medulla of kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001986> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "endothelium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002015> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney capsule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002042> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "lymphatic vessel endothelium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002113> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002189> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "outer cortex of kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002303> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "juxtaglomerular apparatus" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002319> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "mesangium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002320> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "glomerular mesangium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002335> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "macula densa" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0003517> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney blood vessel" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0003527> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney capillary" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004100> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal collecting system" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004134> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "proximal tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004188> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "glomerular epithelium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004190> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal glomerulus vasculature" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004193> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "loop of Henle ascending limb thin segment" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004196> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "proximal convoluted tubule segment 1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004197> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "proximal convoluted tubule segment 2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004200> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney pyramid" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004201> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney outer medulla inner stripe" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004202> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney outer medulla outer stripe" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004203> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "cortical collecting duct" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004204> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "outer medullary collecting duct" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004205> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "inner medullary collecting duct" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004212> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "glomerular capillary" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004294> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "glomerular capillary endothelium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004538> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "left kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004539> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "right kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004639> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal afferent arteriole" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004640> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal efferent arteriole" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004726> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "vasa recta" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0005096> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "descending thin limb" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0005097> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal connecting tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0005099> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "short descending thin limb" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0005215> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney interstitium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0005271> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "juxtamedullary cortex" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0005272> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "peritubular capillary" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0005750> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "glomerular parietal epithelium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0005751> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "glomerular visceral epithelium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0006544> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney vasculature" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0009091> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "ascending vasa recta" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0009095> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "tip of renal papilla" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0009202> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "descending vasa recta" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0009883> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "medullary ray" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0012441> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "endothelium of peritubular capillary" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_0034884> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "juxtaglomerular arteriole" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_8600036> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle long descending thin limb outer medulla" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<http://purl.obolibrary.org/obo/UBERON_8600037> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle long descending thin limb inner medulla" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<https://purl.org/ccf/ASCTB-TEMP_capsule-mesenchymal-stromal-cell> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "capsule mesenchymal stromal cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<https://purl.org/ccf/ASCTB-TEMP_kidney-lymphatic-vessel> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "Kidney Lymphatic Vessel" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<https://purl.org/ccf/ASCTB-TEMP_monocyte-derived-cell> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Monocyte Derived Cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<https://purl.org/ccf/ASCTB-TEMP_papillary-tip-epithelium> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "Papillary Tip Epithelium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+<https://purl.org/ccf/ASCTB-TEMP_transitional-principal-intercalated-cell> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Transitional principal-intercalated cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> .
+
+[] a kg:Graph ;
+    kg:nodes <http://identifiers.org/hgnc/10002>,
+        <http://identifiers.org/hgnc/10249>,
+        <http://identifiers.org/hgnc/10250>,
+        <http://identifiers.org/hgnc/10473>,
+        <http://identifiers.org/hgnc/10498>,
+        <http://identifiers.org/hgnc/10499>,
+        <http://identifiers.org/hgnc/10527>,
+        <http://identifiers.org/hgnc/10588>,
+        <http://identifiers.org/hgnc/10602>,
+        <http://identifiers.org/hgnc/10630>,
+        <http://identifiers.org/hgnc/10632>,
+        <http://identifiers.org/hgnc/10832>,
+        <http://identifiers.org/hgnc/10910>,
+        <http://identifiers.org/hgnc/10912>,
+        <http://identifiers.org/hgnc/10916>,
+        <http://identifiers.org/hgnc/10918>,
+        <http://identifiers.org/hgnc/10919>,
+        <http://identifiers.org/hgnc/10929>,
+        <http://identifiers.org/hgnc/10970>,
+        <http://identifiers.org/hgnc/10971>,
+        <http://identifiers.org/hgnc/10972>,
+        <http://identifiers.org/hgnc/11019>,
+        <http://identifiers.org/hgnc/11027>,
+        <http://identifiers.org/hgnc/11035>,
+        <http://identifiers.org/hgnc/11037>,
+        <http://identifiers.org/hgnc/11068>,
+        <http://identifiers.org/hgnc/11073>,
+        <http://identifiers.org/hgnc/11255>,
+        <http://identifiers.org/hgnc/11509>,
+        <http://identifiers.org/hgnc/11530>,
+        <http://identifiers.org/hgnc/11553>,
+        <http://identifiers.org/hgnc/11592>,
+        <http://identifiers.org/hgnc/11724>,
+        <http://identifiers.org/hgnc/11809>,
+        <http://identifiers.org/hgnc/11853>,
+        <http://identifiers.org/hgnc/11935>,
+        <http://identifiers.org/hgnc/12339>,
+        <http://identifiers.org/hgnc/1241>,
+        <http://identifiers.org/hgnc/12559>,
+        <http://identifiers.org/hgnc/12663>,
+        <http://identifiers.org/hgnc/12692>,
+        <http://identifiers.org/hgnc/130>,
+        <http://identifiers.org/hgnc/13394>,
+        <http://identifiers.org/hgnc/1346>,
+        <http://identifiers.org/hgnc/13517>,
+        <http://identifiers.org/hgnc/13635>,
+        <http://identifiers.org/hgnc/1373>,
+        <http://identifiers.org/hgnc/1434>,
+        <http://identifiers.org/hgnc/1437>,
+        <http://identifiers.org/hgnc/14430>,
+        <http://identifiers.org/hgnc/14467>,
+        <http://identifiers.org/hgnc/14881>,
+        <http://identifiers.org/hgnc/1514>,
+        <http://identifiers.org/hgnc/15472>,
+        <http://identifiers.org/hgnc/15710>,
+        <http://identifiers.org/hgnc/15846>,
+        <http://identifiers.org/hgnc/15979>,
+        <http://identifiers.org/hgnc/16041>,
+        <http://identifiers.org/hgnc/16067>,
+        <http://identifiers.org/hgnc/16112>,
+        <http://identifiers.org/hgnc/1628>,
+        <http://identifiers.org/hgnc/1631>,
+        <http://identifiers.org/hgnc/1636>,
+        <http://identifiers.org/hgnc/1638>,
+        <http://identifiers.org/hgnc/16438>,
+        <http://identifiers.org/hgnc/1673>,
+        <http://identifiers.org/hgnc/1675>,
+        <http://identifiers.org/hgnc/1677>,
+        <http://identifiers.org/hgnc/16892>,
+        <http://identifiers.org/hgnc/16953>,
+        <http://identifiers.org/hgnc/1698>,
+        <http://identifiers.org/hgnc/1748>,
+        <http://identifiers.org/hgnc/1764>,
+        <http://identifiers.org/hgnc/17732>,
+        <http://identifiers.org/hgnc/17995>,
+        <http://identifiers.org/hgnc/18122>,
+        <http://identifiers.org/hgnc/18210>,
+        <http://identifiers.org/hgnc/18266>,
+        <http://identifiers.org/hgnc/18508>,
+        <http://identifiers.org/hgnc/18688>,
+        <http://identifiers.org/hgnc/1975>,
+        <http://identifiers.org/hgnc/2026>,
+        <http://identifiers.org/hgnc/2032>,
+        <http://identifiers.org/hgnc/2037>,
+        <http://identifiers.org/hgnc/20391>,
+        <http://identifiers.org/hgnc/2045>,
+        <http://identifiers.org/hgnc/20862>,
+        <http://identifiers.org/hgnc/21411>,
+        <http://identifiers.org/hgnc/2155>,
+        <http://identifiers.org/hgnc/21637>,
+        <http://identifiers.org/hgnc/2193>,
+        <http://identifiers.org/hgnc/2197>,
+        <http://identifiers.org/hgnc/2198>,
+        <http://identifiers.org/hgnc/2209>,
+        <http://identifiers.org/hgnc/222>,
+        <http://identifiers.org/hgnc/2298>,
+        <http://identifiers.org/hgnc/2303>,
+        <http://identifiers.org/hgnc/23091>,
+        <http://identifiers.org/hgnc/23319>,
+        <http://identifiers.org/hgnc/234>,
+        <http://identifiers.org/hgnc/23616>,
+        <http://identifiers.org/hgnc/2389>,
+        <http://identifiers.org/hgnc/24039>,
+        <http://identifiers.org/hgnc/2435>,
+        <http://identifiers.org/hgnc/2439>,
+        <http://identifiers.org/hgnc/2548>,
+        <http://identifiers.org/hgnc/26183>,
+        <http://identifiers.org/hgnc/26270>,
+        <http://identifiers.org/hgnc/26295>,
+        <http://identifiers.org/hgnc/26705>,
+        <http://identifiers.org/hgnc/2705>,
+        <http://identifiers.org/hgnc/27220>,
+        <http://identifiers.org/hgnc/2731>,
+        <http://identifiers.org/hgnc/277>,
+        <http://identifiers.org/hgnc/28524>,
+        <http://identifiers.org/hgnc/28750>,
+        <http://identifiers.org/hgnc/2959>,
+        <http://identifiers.org/hgnc/29853>,
+        <http://identifiers.org/hgnc/30125>,
+        <http://identifiers.org/hgnc/3145>,
+        <http://identifiers.org/hgnc/32017>,
+        <http://identifiers.org/hgnc/3244>,
+        <http://identifiers.org/hgnc/33705>,
+        <http://identifiers.org/hgnc/3609>,
+        <http://identifiers.org/hgnc/3619>,
+        <http://identifiers.org/hgnc/3620>,
+        <http://identifiers.org/hgnc/3763>,
+        <http://identifiers.org/hgnc/3765>,
+        <http://identifiers.org/hgnc/3802>,
+        <http://identifiers.org/hgnc/4028>,
+        <http://identifiers.org/hgnc/417>,
+        <http://identifiers.org/hgnc/4172>,
+        <http://identifiers.org/hgnc/4175>,
+        <http://identifiers.org/hgnc/4414>,
+        <http://identifiers.org/hgnc/4460>,
+        <http://identifiers.org/hgnc/4554>,
+        <http://identifiers.org/hgnc/4708>,
+        <http://identifiers.org/hgnc/4883>,
+        <http://identifiers.org/hgnc/4942>,
+        <http://identifiers.org/hgnc/4947>,
+        <http://identifiers.org/hgnc/4948>,
+        <http://identifiers.org/hgnc/5209>,
+        <http://identifiers.org/hgnc/5318>,
+        <http://identifiers.org/hgnc/5360>,
+        <http://identifiers.org/hgnc/5713>,
+        <http://identifiers.org/hgnc/5716>,
+        <http://identifiers.org/hgnc/6012>,
+        <http://identifiers.org/hgnc/6024>,
+        <http://identifiers.org/hgnc/6093>,
+        <http://identifiers.org/hgnc/6106>,
+        <http://identifiers.org/hgnc/613>,
+        <http://identifiers.org/hgnc/6144>,
+        <http://identifiers.org/hgnc/6152>,
+        <http://identifiers.org/hgnc/6188>,
+        <http://identifiers.org/hgnc/6277>,
+        <http://identifiers.org/hgnc/633>,
+        <http://identifiers.org/hgnc/634>,
+        <http://identifiers.org/hgnc/6342>,
+        <http://identifiers.org/hgnc/636>,
+        <http://identifiers.org/hgnc/639>,
+        <http://identifiers.org/hgnc/6442>,
+        <http://identifiers.org/hgnc/6446>,
+        <http://identifiers.org/hgnc/6694>,
+        <http://identifiers.org/hgnc/6724>,
+        <http://identifiers.org/hgnc/6934>,
+        <http://identifiers.org/hgnc/7178>,
+        <http://identifiers.org/hgnc/7228>,
+        <http://identifiers.org/hgnc/7315>,
+        <http://identifiers.org/hgnc/7316>,
+        <http://identifiers.org/hgnc/7376>,
+        <http://identifiers.org/hgnc/7569>,
+        <http://identifiers.org/hgnc/7656>,
+        <http://identifiers.org/hgnc/7830>,
+        <http://identifiers.org/hgnc/7872>,
+        <http://identifiers.org/hgnc/7908>,
+        <http://identifiers.org/hgnc/7976>,
+        <http://identifiers.org/hgnc/799>,
+        <http://identifiers.org/hgnc/8031>,
+        <http://identifiers.org/hgnc/8033>,
+        <http://identifiers.org/hgnc/8076>,
+        <http://identifiers.org/hgnc/8804>,
+        <http://identifiers.org/hgnc/8818>,
+        <http://identifiers.org/hgnc/8823>,
+        <http://identifiers.org/hgnc/8951>,
+        <http://identifiers.org/hgnc/9051>,
+        <http://identifiers.org/hgnc/9171>,
+        <http://identifiers.org/hgnc/9453>,
+        <http://identifiers.org/hgnc/9459>,
+        <http://identifiers.org/hgnc/9666>,
+        <http://identifiers.org/hgnc/9679>,
+        <http://identifiers.org/hgnc/9845>,
+        <http://identifiers.org/hgnc/9858>,
+        <http://identifiers.org/hgnc/9958>,
+        <http://purl.obolibrary.org/obo/CL_0000057>,
+        <http://purl.obolibrary.org/obo/CL_0000071>,
+        <http://purl.obolibrary.org/obo/CL_0000084>,
+        <http://purl.obolibrary.org/obo/CL_0000097>,
+        <http://purl.obolibrary.org/obo/CL_0000115>,
+        <http://purl.obolibrary.org/obo/CL_0000236>,
+        <http://purl.obolibrary.org/obo/CL_0000359>,
+        <http://purl.obolibrary.org/obo/CL_0000576>,
+        <http://purl.obolibrary.org/obo/CL_0000623>,
+        <http://purl.obolibrary.org/obo/CL_0000648>,
+        <http://purl.obolibrary.org/obo/CL_0000653>,
+        <http://purl.obolibrary.org/obo/CL_0000738>,
+        <http://purl.obolibrary.org/obo/CL_0000775>,
+        <http://purl.obolibrary.org/obo/CL_0000786>,
+        <http://purl.obolibrary.org/obo/CL_0000814>,
+        <http://purl.obolibrary.org/obo/CL_0000815>,
+        <http://purl.obolibrary.org/obo/CL_0000875>,
+        <http://purl.obolibrary.org/obo/CL_0000910>,
+        <http://purl.obolibrary.org/obo/CL_0000990>,
+        <http://purl.obolibrary.org/obo/CL_0001056>,
+        <http://purl.obolibrary.org/obo/CL_0001058>,
+        <http://purl.obolibrary.org/obo/CL_0002138>,
+        <http://purl.obolibrary.org/obo/CL_0002144>,
+        <http://purl.obolibrary.org/obo/CL_0002201>,
+        <http://purl.obolibrary.org/obo/CL_0002306>,
+        <http://purl.obolibrary.org/obo/CL_0019018>,
+        <http://purl.obolibrary.org/obo/CL_1000412>,
+        <http://purl.obolibrary.org/obo/CL_1000452>,
+        <http://purl.obolibrary.org/obo/CL_1000454>,
+        <http://purl.obolibrary.org/obo/CL_1000597>,
+        <http://purl.obolibrary.org/obo/CL_1000691>,
+        <http://purl.obolibrary.org/obo/CL_1000692>,
+        <http://purl.obolibrary.org/obo/CL_1000695>,
+        <http://purl.obolibrary.org/obo/CL_1000714>,
+        <http://purl.obolibrary.org/obo/CL_1000715>,
+        <http://purl.obolibrary.org/obo/CL_1000716>,
+        <http://purl.obolibrary.org/obo/CL_1000717>,
+        <http://purl.obolibrary.org/obo/CL_1000718>,
+        <http://purl.obolibrary.org/obo/CL_1000742>,
+        <http://purl.obolibrary.org/obo/CL_1000768>,
+        <http://purl.obolibrary.org/obo/CL_1000849>,
+        <http://purl.obolibrary.org/obo/CL_1000850>,
+        <http://purl.obolibrary.org/obo/CL_1001005>,
+        <http://purl.obolibrary.org/obo/CL_1001033>,
+        <http://purl.obolibrary.org/obo/CL_1001096>,
+        <http://purl.obolibrary.org/obo/CL_1001099>,
+        <http://purl.obolibrary.org/obo/CL_1001106>,
+        <http://purl.obolibrary.org/obo/CL_1001107>,
+        <http://purl.obolibrary.org/obo/CL_1001108>,
+        <http://purl.obolibrary.org/obo/CL_1001109>,
+        <http://purl.obolibrary.org/obo/CL_1001111>,
+        <http://purl.obolibrary.org/obo/CL_1001131>,
+        <http://purl.obolibrary.org/obo/CL_1001285>,
+        <http://purl.obolibrary.org/obo/CL_1001318>,
+        <http://purl.obolibrary.org/obo/CL_1001431>,
+        <http://purl.obolibrary.org/obo/CL_1001432>,
+        <http://purl.obolibrary.org/obo/CL_4030009>,
+        <http://purl.obolibrary.org/obo/CL_4030010>,
+        <http://purl.obolibrary.org/obo/CL_4030011>,
+        <http://purl.obolibrary.org/obo/CL_4030012>,
+        <http://purl.obolibrary.org/obo/CL_4030013>,
+        <http://purl.obolibrary.org/obo/CL_4030014>,
+        <http://purl.obolibrary.org/obo/CL_4030015>,
+        <http://purl.obolibrary.org/obo/CL_4030016>,
+        <http://purl.obolibrary.org/obo/CL_4030017>,
+        <http://purl.obolibrary.org/obo/CL_4030018>,
+        <http://purl.obolibrary.org/obo/CL_4030019>,
+        <http://purl.obolibrary.org/obo/CL_4030020>,
+        <http://purl.obolibrary.org/obo/CL_4030021>,
+        <http://purl.obolibrary.org/obo/CL_4030022>,
+        <http://purl.obolibrary.org/obo/UBERON_0000074>,
+        <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001229>,
+        <http://purl.obolibrary.org/obo/UBERON_0001231>,
+        <http://purl.obolibrary.org/obo/UBERON_0001232>,
+        <http://purl.obolibrary.org/obo/UBERON_0001284>,
+        <http://purl.obolibrary.org/obo/UBERON_0001285>,
+        <http://purl.obolibrary.org/obo/UBERON_0001289>,
+        <http://purl.obolibrary.org/obo/UBERON_0001290>,
+        <http://purl.obolibrary.org/obo/UBERON_0001291>,
+        <http://purl.obolibrary.org/obo/UBERON_0001292>,
+        <http://purl.obolibrary.org/obo/UBERON_0001294>,
+        <http://purl.obolibrary.org/obo/UBERON_0001986>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002042>,
+        <http://purl.obolibrary.org/obo/UBERON_0002113>,
+        <http://purl.obolibrary.org/obo/UBERON_0002189>,
+        <http://purl.obolibrary.org/obo/UBERON_0002303>,
+        <http://purl.obolibrary.org/obo/UBERON_0002319>,
+        <http://purl.obolibrary.org/obo/UBERON_0002320>,
+        <http://purl.obolibrary.org/obo/UBERON_0002335>,
+        <http://purl.obolibrary.org/obo/UBERON_0003517>,
+        <http://purl.obolibrary.org/obo/UBERON_0003527>,
+        <http://purl.obolibrary.org/obo/UBERON_0004100>,
+        <http://purl.obolibrary.org/obo/UBERON_0004134>,
+        <http://purl.obolibrary.org/obo/UBERON_0004188>,
+        <http://purl.obolibrary.org/obo/UBERON_0004190>,
+        <http://purl.obolibrary.org/obo/UBERON_0004193>,
+        <http://purl.obolibrary.org/obo/UBERON_0004196>,
+        <http://purl.obolibrary.org/obo/UBERON_0004197>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200>,
+        <http://purl.obolibrary.org/obo/UBERON_0004201>,
+        <http://purl.obolibrary.org/obo/UBERON_0004202>,
+        <http://purl.obolibrary.org/obo/UBERON_0004203>,
+        <http://purl.obolibrary.org/obo/UBERON_0004204>,
+        <http://purl.obolibrary.org/obo/UBERON_0004205>,
+        <http://purl.obolibrary.org/obo/UBERON_0004212>,
+        <http://purl.obolibrary.org/obo/UBERON_0004294>,
+        <http://purl.obolibrary.org/obo/UBERON_0004538>,
+        <http://purl.obolibrary.org/obo/UBERON_0004539>,
+        <http://purl.obolibrary.org/obo/UBERON_0004639>,
+        <http://purl.obolibrary.org/obo/UBERON_0004640>,
+        <http://purl.obolibrary.org/obo/UBERON_0004726>,
+        <http://purl.obolibrary.org/obo/UBERON_0005096>,
+        <http://purl.obolibrary.org/obo/UBERON_0005097>,
+        <http://purl.obolibrary.org/obo/UBERON_0005099>,
+        <http://purl.obolibrary.org/obo/UBERON_0005215>,
+        <http://purl.obolibrary.org/obo/UBERON_0005271>,
+        <http://purl.obolibrary.org/obo/UBERON_0005272>,
+        <http://purl.obolibrary.org/obo/UBERON_0005750>,
+        <http://purl.obolibrary.org/obo/UBERON_0005751>,
+        <http://purl.obolibrary.org/obo/UBERON_0006544>,
+        <http://purl.obolibrary.org/obo/UBERON_0009091>,
+        <http://purl.obolibrary.org/obo/UBERON_0009095>,
+        <http://purl.obolibrary.org/obo/UBERON_0009202>,
+        <http://purl.obolibrary.org/obo/UBERON_0009883>,
+        <http://purl.obolibrary.org/obo/UBERON_0012441>,
+        <http://purl.obolibrary.org/obo/UBERON_0034884>,
+        <http://purl.obolibrary.org/obo/UBERON_8600036>,
+        <http://purl.obolibrary.org/obo/UBERON_8600037>,
+        <https://purl.org/ccf/ASCTB-TEMP_capsule-mesenchymal-stromal-cell>,
+        <https://purl.org/ccf/ASCTB-TEMP_kidney-lymphatic-vessel>,
+        <https://purl.org/ccf/ASCTB-TEMP_monocyte-derived-cell>,
+        <https://purl.org/ccf/ASCTB-TEMP_papillary-tip-epithelium>,
+        <https://purl.org/ccf/ASCTB-TEMP_transitional-principal-intercalated-cell> .
+

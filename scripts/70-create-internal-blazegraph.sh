@@ -19,24 +19,13 @@ HPO=https://purl.humanatlas.io/vocab/hp
 
 DOs_TO_IMPORT="$CCF $HRA $HRA_API $UBERON $CL $HPO"
 
-run_ndjsonld() {
-  QUADS=${1%.jsonld}.nq
-  ndjsonld canonize $1 $QUADS -c context.jsonld 
-  blazegraph-runner load --journal=$JNL "--graph=${2}" $QUADS
-  rm -f $QUADS
-}
-
-run_jsonld() {
-  QUADS=${1%.jsonld}.nq
-  jsonld canonize $1 > $QUADS
-  blazegraph-runner load --journal=$JNL "--graph=${2}" $QUADS
-  rm -f $QUADS
-}
-
 for TTL in $OUTPUT_DIR/ttl/*.ttl; do
   blazegraph-runner load --journal=$JNL "--graph=${HRA_ATLAS}" $TTL
 done
+
+# Make modifications to the KG to improve its usefulness
 blazegraph-runner update --journal=$JNL queries/graph-construction/reify-edges.rq
+blazegraph-runner update --journal=$JNL queries/graph-construction/remove-useless-edges.rq
 
 # Dump HRA Atlas back out to turtle format for publishing
 blazegraph-runner dump --journal=$JNL "--graph=${HRA_ATLAS}" $DIR/hra-kidney-disease-atlas.ttl

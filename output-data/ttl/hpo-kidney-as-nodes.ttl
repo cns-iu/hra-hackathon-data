@@ -1,0 +1,186 @@
+@prefix kg: <https://purl.humanatlas.io/vocab/kg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://purl.obolibrary.org/obo/UBERON_0000074> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal glomerulus" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0000362> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal medulla" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001225> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "cortex of kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001228> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal papilla" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001229> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal corpuscle" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001231> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "nephron tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001232> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "collecting duct of renal tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001285> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "nephron" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001294> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "inner medulla of kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001986> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "endothelium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002015> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney capsule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002042> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "lymphatic vessel endothelium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002113> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002319> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "mesangium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0003517> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney blood vessel" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0003527> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney capillary" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004100> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal collecting system" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004188> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "glomerular epithelium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004190> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal glomerulus vasculature" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004200> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney pyramid" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004203> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "cortical collecting duct" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004205> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "inner medullary collecting duct" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004212> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "glomerular capillary" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004294> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "glomerular capillary endothelium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004538> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "left kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004539> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "right kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004639> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal afferent arteriole" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0005215> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney interstitium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0006544> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney vasculature" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0009883> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "medullary ray" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+[] a kg:Graph ;
+    kg:nodes <http://purl.obolibrary.org/obo/UBERON_0000074>,
+        <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001229>,
+        <http://purl.obolibrary.org/obo/UBERON_0001231>,
+        <http://purl.obolibrary.org/obo/UBERON_0001232>,
+        <http://purl.obolibrary.org/obo/UBERON_0001285>,
+        <http://purl.obolibrary.org/obo/UBERON_0001294>,
+        <http://purl.obolibrary.org/obo/UBERON_0001986>,
+        <http://purl.obolibrary.org/obo/UBERON_0002015>,
+        <http://purl.obolibrary.org/obo/UBERON_0002042>,
+        <http://purl.obolibrary.org/obo/UBERON_0002113>,
+        <http://purl.obolibrary.org/obo/UBERON_0002319>,
+        <http://purl.obolibrary.org/obo/UBERON_0003517>,
+        <http://purl.obolibrary.org/obo/UBERON_0003527>,
+        <http://purl.obolibrary.org/obo/UBERON_0004100>,
+        <http://purl.obolibrary.org/obo/UBERON_0004188>,
+        <http://purl.obolibrary.org/obo/UBERON_0004190>,
+        <http://purl.obolibrary.org/obo/UBERON_0004200>,
+        <http://purl.obolibrary.org/obo/UBERON_0004203>,
+        <http://purl.obolibrary.org/obo/UBERON_0004205>,
+        <http://purl.obolibrary.org/obo/UBERON_0004212>,
+        <http://purl.obolibrary.org/obo/UBERON_0004294>,
+        <http://purl.obolibrary.org/obo/UBERON_0004538>,
+        <http://purl.obolibrary.org/obo/UBERON_0004539>,
+        <http://purl.obolibrary.org/obo/UBERON_0004639>,
+        <http://purl.obolibrary.org/obo/UBERON_0005215>,
+        <http://purl.obolibrary.org/obo/UBERON_0006544>,
+        <http://purl.obolibrary.org/obo/UBERON_0009883> .
+

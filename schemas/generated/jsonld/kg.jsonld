@@ -577,7 +577,7 @@
   "source_file": "kg.yaml",
   "source_file_date": "2025-08-25T23:13:12",
   "source_file_size": 1593,
-  "generation_date": "2025-08-26T08:25:37",
+  "generation_date": "2025-08-28T14:46:48",
   "@type": "SchemaDefinition",
   "@context": [
     "schemas/generated/jsonld/kg.context.jsonld",
