@@ -24,8 +24,8 @@ for TTL in $OUTPUT_DIR/ttl/*.ttl; do
 done
 
 # Make modifications to the KG to improve its usefulness
-blazegraph-runner update --journal=$JNL queries/graph-construction/reify-edges.rq
-blazegraph-runner update --journal=$JNL queries/graph-construction/remove-useless-edges.rq
+blazegraph-runner update --journal=$JNL queries/construction/postprocessing/reify-edges.rq
+blazegraph-runner update --journal=$JNL queries/construction/postprocessing/remove-useless-edges.rq
 
 # Dump HRA Atlas back out to turtle format for publishing
 blazegraph-runner dump --journal=$JNL "--graph=${HRA_ATLAS}" $DIR/hra-kidney-disease-atlas.ttl
