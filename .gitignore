@@ -4,6 +4,9 @@
 # Blazegraph Journal
 blazegraph.jnl
 
+# Raw data directory
+/raw-data
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

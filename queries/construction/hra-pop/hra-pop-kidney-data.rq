@@ -1,0 +1,100 @@
+#+ summary: Cell Summaries with Biomarker information by Dataset
+#+ description: Computes the cell summaries plus biomarkers and their mean gene expression for each organ by dataset.
+
+#+ defaults:
+#+   - location: http://purl.obolibrary.org/obo/UBERON_0002113
+
+PREFIX hint: <http://www.bigdata.com/queryHints#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX ccf: <http://purl.org/ccf/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX part_of: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+PREFIX FMA: <http://purl.org/sig/ont/fma/fma>
+PREFIX HRA: <https://purl.humanatlas.io/collection/hra-api>
+PREFIX HRApop: <https://purl.humanatlas.io/graph/hra-pop>
+PREFIX HRApopFull: <https://purl.humanatlas.io/ds-graph/hra-pop-full>
+PREFIX HRApopTestData: <https://purl.humanatlas.io/graph/hra-pop#test-data>
+
+SELECT 
+  (SAMPLE(?as_label) AS ?as_label)
+  (SAMPLE(?ct_label) AS ?ct_label)
+  (SAMPLE(?biomarker_label) AS ?biomarker_label)
+  ?as
+  ?ct
+  ?biomarker
+  (SUM(?cell_count) AS ?cell_count)
+  (AVG(?mean_gene_expr_value) AS ?gene_expr)
+  ?tool
+FROM HRA:
+FROM HRApop:
+FROM HRApopFull:
+FROM HRApopTestData:
+WHERE {
+  {
+    SELECT DISTINCT ?dataset ?as_label ?as
+    WHERE {
+      {
+        ?sample ccf:has_registration_location ?rui_location .
+        ?sample ccf:generates_dataset ?dataset .
+      } UNION {
+        ?block ccf:subdivided_into_sections ?sample .
+        ?block ccf:has_registration_location ?rui_location .
+        ?sample ccf:generates_dataset ?dataset .
+      }
+      ?rui_location ccf:has_collision_summary [
+        ccf:has_collision_item [
+          ccf:as_id ?as ;
+        ]
+      ] .
+      ?as rdfs:label ?as_label .
+
+      FILTER EXISTS {
+        VALUES (?_location_iri) {
+          (<http://purl.obolibrary.org/obo/UBERON_0002113>)
+        }
+        ?as ccf:ccf_part_of*|part_of:* ?_location_iri .
+      }
+    }
+  }
+  UNION
+  {
+    SELECT DISTINCT ?dataset ?as_label ?as
+    WHERE {
+      ?dataset ccf:organ_id ?reportedOrganIriString .
+      BIND(IRI(?reportedOrganIriString) as ?as)
+      ?as rdfs:label ?as_label .
+      FILTER EXISTS {
+        VALUES (?_location_iri) {
+          (<http://purl.obolibrary.org/obo/UBERON_0002113>)
+        }
+        ?as ccf:ccf_part_of*|part_of:* ?_location_iri .
+      }
+    }
+  }
+
+  ?dataset ccf:has_cell_summary [
+    ccf:cell_annotation_method ?tool ;
+    ccf:has_cell_summary_row [
+      ccf:cell_id ?ct ;
+      ccf:cell_label ?raw_cell_label ;
+      ccf:cell_count ?cell_count ;
+      ccf:gene_expr [
+        ccf:gene_label ?biomarker_label ;
+        ccf:gene_id ?biomarkerId ;
+        ccf:mean_gene_expr_value ?mean_gene_expr_value ;
+      ]
+    ]
+  ] .
+
+  OPTIONAL { ?ct rdfs:label ?rdfs_cell_label . }
+  BIND(COALESCE(?rdfs_cell_label, ?raw_cell_label) as ?ct_label)
+  BIND(IRI(REPLACE(REPLACE(REPLACE(STR(?biomarkerId), 
+      'HGNC:', 'http://identifiers.org/hgnc/'), 
+      'ASCTB-TEMP:', 'https://purl.org/ccf/ASCTB-TEMP_'),
+      'ensembl:', 'https://identifiers.org/ensembl:')
+    ) as ?biomarker)
+}
+GROUP BY ?tool ?as ?ct ?biomarker
