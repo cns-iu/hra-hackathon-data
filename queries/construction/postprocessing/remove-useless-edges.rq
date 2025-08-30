@@ -6,8 +6,8 @@ PREFIX kg: <https://purl.humanatlas.io/vocab/kg#>
 PREFIX HRAkda: <https://purl.humanatlas.io/graph/hra-kidney-disease-atlas>
 
 DELETE WHERE {
-  GRAPH HRAkda: {
-    ?nodeGraph a kg:Graph ; kg:nodes ?node .
-    ?edgeGraph a kg:Graph ; kg:edges ?edge .
-  }
+  GRAPH HRAkda: { ?nodeGraph a kg:Graph ; kg:nodes ?node . }
+};
+DELETE WHERE {
+  GRAPH HRAkda: { ?edgeGraph a kg:Graph ; kg:edges ?edge . }
 }
