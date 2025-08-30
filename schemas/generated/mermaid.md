@@ -1,11 +1,12 @@
 ```mermaid
 erDiagram
+Edge {
+    Uri predicate  
+    Uri source  
+    float gene_expr  
+}
 Graph {
 
-}
-Edge {
-    uriorcurie predicate  
-    Uri source  
 }
 Node {
     Uri iri  
@@ -14,10 +15,10 @@ Node {
     Uri source  
 }
 
-Graph ||--}o Node : "nodes"
+Edge ||--|| Node : "object"
+Edge ||--|| Node : "subject"
 Graph ||--}o Edge : "edges"
-Edge ||--|o Node : "subject"
-Edge ||--|o Node : "object"
+Graph ||--}o Node : "nodes"
 
 ```
 

@@ -3,7 +3,7 @@
 
 
 
-URI: [kg:graph__nodes](https://purl.humanatlas.io/vocab/kg/graph__nodes)
+URI: [kg:graph__nodes](https://purl.humanatlas.io/vocab/kg#graph__nodes)
 
 
 ## Domain and Range

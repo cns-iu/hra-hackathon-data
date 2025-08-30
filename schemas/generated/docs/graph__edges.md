@@ -3,7 +3,7 @@
 
 
 
-URI: [kg:graph__edges](https://purl.humanatlas.io/vocab/kg/graph__edges)
+URI: [kg:graph__edges](https://purl.humanatlas.io/vocab/kg#graph__edges)
 
 
 ## Domain and Range

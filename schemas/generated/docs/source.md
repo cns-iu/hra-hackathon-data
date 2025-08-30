@@ -3,12 +3,12 @@
 
 
 
-URI: [kg:source](https://purl.humanatlas.io/vocab/kg/source)
+URI: [kg:source](https://purl.humanatlas.io/vocab/kg#source)
 
 
 ## Domain and Range
 
-None &#8594;  <sub>0..1</sub> [Uri](types/Uri.md)
+None &#8594;  <sub>1..1</sub> [Uri](types/Uri.md)
 
 ## Parents
 

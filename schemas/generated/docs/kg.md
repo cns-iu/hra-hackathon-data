@@ -21,6 +21,7 @@ Simple Knowledge Graph representation
 
 ### Slots
 
+ * [gene_expr](gene_expr.md)
  * [➞edges](graph__edges.md)
  * [➞nodes](graph__nodes.md)
  * [iri](iri.md)

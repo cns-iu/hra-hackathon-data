@@ -1,5 +1,5 @@
 # metamodel_version: 1.7.0
-BASE <https://purl.humanatlas.io/vocab/kg/>
+BASE <https://purl.humanatlas.io/vocab/kg#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -48,10 +48,11 @@ linkml:Jsonpath xsd:string
 linkml:Sparqlpath xsd:string
 
 <Edge> CLOSED {
-    (  $<Edge_tes> (  rdf:subject @<Node> ? ;
-          rdf:predicate @linkml:Uriorcurie ? ;
-          rdf:object @<Node> ? ;
-          rdfs:isDefinedBy @<Uri> ?
+    (  $<Edge_tes> (  rdf:subject @<Node> ;
+          rdf:predicate @<Uri> ;
+          rdf:object @<Node> ;
+          rdfs:isDefinedBy @<Uri> ;
+          <http://purl.obolibrary.org/obo/OBI_0001938> @linkml:Float ?
        ) ;
        rdf:type [ rdf:Statement ] ?
     )
@@ -66,9 +67,9 @@ linkml:Sparqlpath xsd:string
 }
 
 <Node> CLOSED {
-    (  $<Node_tes> (  rdfs:label @linkml:String ? ;
-          rdf:type @<Uri> ? ;
-          rdfs:isDefinedBy @<Uri> ?
+    (  $<Node_tes> (  rdfs:label @linkml:String ;
+          rdf:type @<Uri> ;
+          rdfs:isDefinedBy @<Uri>
        ) ;
        rdf:type [ owl:Class ]
     )

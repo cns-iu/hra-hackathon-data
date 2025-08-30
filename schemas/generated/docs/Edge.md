@@ -3,10 +3,10 @@
 
 
 
-URI: [kg:Edge](https://purl.humanatlas.io/vocab/kg/Edge)
+URI: [kg:Edge](https://purl.humanatlas.io/vocab/kg#Edge)
 
 
-[![img](https://yuml.me/diagram/nofunky;dir:TB/class/[Node],[Node]<object%200..1-%20[Edge&#124;predicate:uriorcurie%20%3F;source:Uri%20%3F],[Node]<subject%200..1-%20[Edge],[Graph]++-%20edges%200..*>[Edge],[Graph])](https://yuml.me/diagram/nofunky;dir:TB/class/[Node],[Node]<object%200..1-%20[Edge&#124;predicate:uriorcurie%20%3F;source:Uri%20%3F],[Node]<subject%200..1-%20[Edge],[Graph]++-%20edges%200..*>[Edge],[Graph])
+[![img](https://yuml.me/diagram/nofunky;dir:TB/class/[Node],[Node]<object%201..1-%20[Edge&#124;predicate:Uri;source:Uri;gene_expr:float%20%3F],[Node]<subject%201..1-%20[Edge],[Graph]++-%20edges%200..*>[Edge],[Graph])](https://yuml.me/diagram/nofunky;dir:TB/class/[Node],[Node]<object%201..1-%20[Edge&#124;predicate:Uri;source:Uri;gene_expr:float%20%3F],[Node]<subject%201..1-%20[Edge],[Graph]++-%20edges%200..*>[Edge],[Graph])
 
 ## Referenced by Class
 
@@ -17,15 +17,17 @@ URI: [kg:Edge](https://purl.humanatlas.io/vocab/kg/Edge)
 
 ### Own
 
- * [subject](subject.md)  <sub>0..1</sub>
+ * [subject](subject.md)  <sub>1..1</sub>
      * Range: [Node](Node.md)
- * [predicate](predicate.md)  <sub>0..1</sub>
-     * Range: [Uriorcurie](types/Uriorcurie.md)
- * [object](object.md)  <sub>0..1</sub>
+ * [predicate](predicate.md)  <sub>1..1</sub>
+     * Range: [Uri](types/Uri.md)
+ * [object](object.md)  <sub>1..1</sub>
      * Range: [Node](Node.md)
- * [source](source.md)  <sub>0..1</sub>
+ * [source](source.md)  <sub>1..1</sub>
      * Range: [Uri](types/Uri.md)
      * Example: https://purl.humanatlas.io/vocab/hp None
+ * [gene_expr](gene_expr.md)  <sub>0..1</sub>
+     * Range: [Float](types/Float.md)
 
 ## Other properties
 

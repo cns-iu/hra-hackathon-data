@@ -3,12 +3,12 @@
 
 
 
-URI: [kg:predicate](https://purl.humanatlas.io/vocab/kg/predicate)
+URI: [kg:predicate](https://purl.humanatlas.io/vocab/kg#predicate)
 
 
 ## Domain and Range
 
-None &#8594;  <sub>0..1</sub> [Uriorcurie](types/Uriorcurie.md)
+None &#8594;  <sub>1..1</sub> [Uri](types/Uri.md)
 
 ## Parents
 

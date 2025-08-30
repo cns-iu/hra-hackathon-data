@@ -6,6 +6,7 @@ prefixes:
   linkml: https://w3id.org/linkml/
   schema: http://schema.org/
   kg: https://purl.humanatlas.io/vocab/kg#
+  OBI: http://purl.obolibrary.org/obo/OBI_
 imports:
   - linkml:types
 default_prefix: kg
@@ -25,39 +26,49 @@ slots:
     - value: http://purl.obolibrary.org/obo/UBERON_0014885
     identifier: true
     range: Uri
+    required: true
   label:
     slot_uri: rdfs:label
     examples:
     - value: distal epiphysis of distal phalanx of manual digit 5
     range: string
+    required: true
   type:
     slot_uri: rdf:type
     examples:
     - value: http://purl.obolibrary.org/obo/UBERON_0000061
     range: Uri
+    required: true
   source:
     slot_uri: rdfs:isDefinedBy
     examples:
     - value: https://purl.humanatlas.io/vocab/hp
     range: Uri
+    required: true
   subject:
     slot_uri: rdf:subject
     range: Node
+    required: true
   predicate:
     range: Uri
     slot_uri: rdf:predicate
+    required: true
   object:
     slot_uri: rdf:object
     range: Node
+    required: true
+  gene_expr:
+    slot_uri: OBI:0001938 # has specified value
+    range: float
 
 classes:
   Node:
     class_uri: owl:Class
     slots:
-    - iri
-    - label
-    - type
-    - source
+      - iri
+      - label
+      - type
+      - source
   
   Edge:
     class_uri: rdf:Statement
@@ -66,6 +77,7 @@ classes:
       - predicate
       - object
       - source
+      - gene_expr
 
   Graph:
     tree_root: true

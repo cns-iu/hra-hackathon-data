@@ -1,4 +1,5 @@
-@prefix kg: <https://purl.humanatlas.io/vocab/kg/> .
+@prefix OBI: <http://purl.obolibrary.org/obo/OBI_> .
+@prefix kg: <https://purl.humanatlas.io/vocab/kg#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -21,26 +22,35 @@ kg:Graph a sh:NodeShape ;
 rdf:Statement a sh:NodeShape ;
     sh:closed true ;
     sh:ignoredProperties ( rdf:type ) ;
-    sh:property [ sh:class owl:Class ;
+    sh:property [ sh:datatype rdfs:Resource ;
             sh:maxCount 1 ;
-            sh:nodeKind sh:IRI ;
-            sh:order 2 ;
-            sh:path rdf:object ],
-        [ sh:datatype xsd:anyURI ;
-            sh:maxCount 1 ;
-            sh:nodeKind sh:Literal ;
-            sh:order 1 ;
-            sh:path rdf:predicate ],
-        [ sh:datatype rdfs:Resource ;
-            sh:maxCount 1 ;
+            sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
             sh:order 3 ;
             sh:path rdfs:isDefinedBy ],
         [ sh:class owl:Class ;
             sh:maxCount 1 ;
+            sh:minCount 1 ;
             sh:nodeKind sh:IRI ;
             sh:order 0 ;
-            sh:path rdf:subject ] ;
+            sh:path rdf:subject ],
+        [ sh:datatype rdfs:Resource ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 1 ;
+            sh:path rdf:predicate ],
+        [ sh:class owl:Class ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:IRI ;
+            sh:order 2 ;
+            sh:path rdf:object ],
+        [ sh:datatype xsd:float ;
+            sh:maxCount 1 ;
+            sh:nodeKind sh:Literal ;
+            sh:order 4 ;
+            sh:path OBI:0001938 ] ;
     sh:targetClass rdf:Statement .
 
 owl:Class a sh:NodeShape ;
@@ -48,23 +58,27 @@ owl:Class a sh:NodeShape ;
     sh:ignoredProperties ( rdf:type ) ;
     sh:property [ sh:datatype xsd:string ;
             sh:maxCount 1 ;
+            sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
             sh:order 1 ;
             sh:path rdfs:label ],
         [ sh:datatype rdfs:Resource ;
             sh:maxCount 1 ;
+            sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
-            sh:order 0 ;
-            sh:path kg:iri ],
+            sh:order 2 ;
+            sh:path rdf:type ],
         [ sh:datatype rdfs:Resource ;
             sh:maxCount 1 ;
+            sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
             sh:order 3 ;
             sh:path rdfs:isDefinedBy ],
         [ sh:datatype rdfs:Resource ;
             sh:maxCount 1 ;
+            sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
-            sh:order 2 ;
-            sh:path rdf:type ] ;
+            sh:order 0 ;
+            sh:path kg:iri ] ;
     sh:targetClass owl:Class .
 

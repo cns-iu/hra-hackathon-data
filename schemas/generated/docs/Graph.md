@@ -3,7 +3,7 @@
 
 
 
-URI: [kg:Graph](https://purl.humanatlas.io/vocab/kg/Graph)
+URI: [kg:Graph](https://purl.humanatlas.io/vocab/kg#Graph)
 
 
 [![img](https://yuml.me/diagram/nofunky;dir:TB/class/[Node],[Edge]<edges%200..*-++[Graph],[Node]<nodes%200..*-++[Graph],[Edge])](https://yuml.me/diagram/nofunky;dir:TB/class/[Node],[Edge]<edges%200..*-++[Graph],[Node]<nodes%200..*-++[Graph],[Edge])

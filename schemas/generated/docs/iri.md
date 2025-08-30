@@ -3,7 +3,7 @@
 
 
 
-URI: [kg:iri](https://purl.humanatlas.io/vocab/kg/iri)
+URI: [kg:iri](https://purl.humanatlas.io/vocab/kg#iri)
 
 
 ## Domain and Range

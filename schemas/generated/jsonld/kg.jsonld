@@ -17,18 +17,22 @@
     },
     {
       "prefix_prefix": "kg",
-      "prefix_reference": "https://purl.humanatlas.io/vocab/kg/"
+      "prefix_reference": "https://purl.humanatlas.io/vocab/kg#"
+    },
+    {
+      "prefix_prefix": "OBI",
+      "prefix_reference": "http://purl.obolibrary.org/obo/OBI_"
     }
   ],
   "default_curi_maps": [
     "semweb_context"
   ],
-  "default_prefix": "https://purl.humanatlas.io/vocab/kg/",
+  "default_prefix": "kg",
   "default_range": "string",
   "types": [
     {
       "name": "Uri",
-      "definition_uri": "https://purl.humanatlas.io/vocab/kg/Uri",
+      "definition_uri": "https://purl.humanatlas.io/vocab/kg#Uri",
       "description": "Use this only in the `range` field of a slot to make a URI point at a node in an RDF graph.",
       "from_schema": "https://purl.humanatlas.io/vocab/kg",
       "typeof": "uriorcurie",
@@ -349,7 +353,7 @@
   "slots": [
     {
       "name": "iri",
-      "definition_uri": "https://purl.humanatlas.io/vocab/kg/iri",
+      "definition_uri": "https://purl.humanatlas.io/vocab/kg#iri",
       "examples": [
         {
           "value": "http://purl.obolibrary.org/obo/UBERON_0014885",
@@ -357,7 +361,7 @@
         }
       ],
       "from_schema": "https://purl.humanatlas.io/vocab/kg",
-      "slot_uri": "https://purl.humanatlas.io/vocab/kg/iri",
+      "slot_uri": "https://purl.humanatlas.io/vocab/kg#iri",
       "identifier": true,
       "owner": "Node",
       "domain_of": [
@@ -369,7 +373,7 @@
     },
     {
       "name": "label",
-      "definition_uri": "https://purl.humanatlas.io/vocab/kg/label",
+      "definition_uri": "https://purl.humanatlas.io/vocab/kg#label",
       "examples": [
         {
           "value": "distal epiphysis of distal phalanx of manual digit 5",
@@ -386,11 +390,12 @@
         "Node"
       ],
       "range": "string",
+      "required": true,
       "@type": "SlotDefinition"
     },
     {
       "name": "type",
-      "definition_uri": "https://purl.humanatlas.io/vocab/kg/type",
+      "definition_uri": "https://purl.humanatlas.io/vocab/kg#type",
       "examples": [
         {
           "value": "http://purl.obolibrary.org/obo/UBERON_0000061",
@@ -407,11 +412,12 @@
         "Node"
       ],
       "range": "Uri",
+      "required": true,
       "@type": "SlotDefinition"
     },
     {
       "name": "source",
-      "definition_uri": "https://purl.humanatlas.io/vocab/kg/source",
+      "definition_uri": "https://purl.humanatlas.io/vocab/kg#source",
       "examples": [
         {
           "value": "https://purl.humanatlas.io/vocab/hp",
@@ -429,11 +435,12 @@
         "Edge"
       ],
       "range": "Uri",
+      "required": true,
       "@type": "SlotDefinition"
     },
     {
       "name": "subject",
-      "definition_uri": "https://purl.humanatlas.io/vocab/kg/subject",
+      "definition_uri": "https://purl.humanatlas.io/vocab/kg#subject",
       "from_schema": "https://purl.humanatlas.io/vocab/kg",
       "mappings": [
         "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"
@@ -444,27 +451,28 @@
         "Edge"
       ],
       "range": "Node",
+      "required": true,
       "@type": "SlotDefinition"
     },
     {
       "name": "predicate",
-      "definition_uri": "https://purl.humanatlas.io/vocab/kg/predicate",
+      "definition_uri": "https://purl.humanatlas.io/vocab/kg#predicate",
       "from_schema": "https://purl.humanatlas.io/vocab/kg",
       "mappings": [
         "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"
       ],
       "slot_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate",
-      "designates_type": true,
       "owner": "Edge",
       "domain_of": [
         "Edge"
       ],
-      "range": "uriorcurie",
+      "range": "Uri",
+      "required": true,
       "@type": "SlotDefinition"
     },
     {
       "name": "object",
-      "definition_uri": "https://purl.humanatlas.io/vocab/kg/object",
+      "definition_uri": "https://purl.humanatlas.io/vocab/kg#object",
       "from_schema": "https://purl.humanatlas.io/vocab/kg",
       "mappings": [
         "http://www.w3.org/1999/02/22-rdf-syntax-ns#object"
@@ -475,12 +483,28 @@
         "Edge"
       ],
       "range": "Node",
+      "required": true,
+      "@type": "SlotDefinition"
+    },
+    {
+      "name": "gene_expr",
+      "definition_uri": "https://purl.humanatlas.io/vocab/kg#gene_expr",
+      "from_schema": "https://purl.humanatlas.io/vocab/kg",
+      "mappings": [
+        "http://purl.obolibrary.org/obo/OBI_0001938"
+      ],
+      "slot_uri": "http://purl.obolibrary.org/obo/OBI_0001938",
+      "owner": "Edge",
+      "domain_of": [
+        "Edge"
+      ],
+      "range": "float",
       "@type": "SlotDefinition"
     },
     {
       "name": "graph__nodes",
       "from_schema": "https://purl.humanatlas.io/vocab/kg",
-      "slot_uri": "https://purl.humanatlas.io/vocab/kg/nodes",
+      "slot_uri": "https://purl.humanatlas.io/vocab/kg#nodes",
       "alias": "nodes",
       "owner": "Graph",
       "domain_of": [
@@ -495,7 +519,7 @@
     {
       "name": "graph__edges",
       "from_schema": "https://purl.humanatlas.io/vocab/kg",
-      "slot_uri": "https://purl.humanatlas.io/vocab/kg/edges",
+      "slot_uri": "https://purl.humanatlas.io/vocab/kg#edges",
       "alias": "edges",
       "owner": "Graph",
       "domain_of": [
@@ -511,7 +535,7 @@
   "classes": [
     {
       "name": "Node",
-      "definition_uri": "https://purl.humanatlas.io/vocab/kg/Node",
+      "definition_uri": "https://purl.humanatlas.io/vocab/kg#Node",
       "from_schema": "https://purl.humanatlas.io/vocab/kg",
       "mappings": [
         "owl:Class"
@@ -528,7 +552,7 @@
     },
     {
       "name": "Edge",
-      "definition_uri": "https://purl.humanatlas.io/vocab/kg/Edge",
+      "definition_uri": "https://purl.humanatlas.io/vocab/kg#Edge",
       "from_schema": "https://purl.humanatlas.io/vocab/kg",
       "mappings": [
         "rdf:Statement"
@@ -537,7 +561,8 @@
         "subject",
         "predicate",
         "object",
-        "source"
+        "source",
+        "gene_expr"
       ],
       "slot_usage": {},
       "class_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
@@ -545,7 +570,7 @@
     },
     {
       "name": "Graph",
-      "definition_uri": "https://purl.humanatlas.io/vocab/kg/Graph",
+      "definition_uri": "https://purl.humanatlas.io/vocab/kg#Graph",
       "from_schema": "https://purl.humanatlas.io/vocab/kg",
       "slots": [
         "graph__nodes",
@@ -568,22 +593,22 @@
           "@type": "SlotDefinition"
         }
       ],
-      "class_uri": "https://purl.humanatlas.io/vocab/kg/Graph",
+      "class_uri": "https://purl.humanatlas.io/vocab/kg#Graph",
       "tree_root": true,
       "@type": "ClassDefinition"
     }
   ],
   "metamodel_version": "1.7.0",
   "source_file": "kg.yaml",
-  "source_file_date": "2025-08-25T23:13:12",
-  "source_file_size": 1593,
-  "generation_date": "2025-08-28T14:46:48",
+  "source_file_date": "2025-08-30T18:42:30",
+  "source_file_size": 1858,
+  "generation_date": "2025-08-30T18:46:55",
   "@type": "SchemaDefinition",
   "@context": [
     "schemas/generated/jsonld/kg.context.jsonld",
     "https://w3id.org/linkml/types.context.jsonld",
     {
-      "@base": "https://purl.humanatlas.io/vocab/kg/"
+      "@base": "https://purl.humanatlas.io/vocab/kg#"
     }
   ]
 }

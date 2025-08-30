@@ -1,5 +1,6 @@
 {
-   "kg": "https://purl.humanatlas.io/vocab/kg/",
+   "OBI": "http://purl.obolibrary.org/obo/OBI_",
+   "kg": "https://purl.humanatlas.io/vocab/kg#",
    "linkml": "https://w3id.org/linkml/",
    "owl": "http://www.w3.org/2002/07/owl#",
    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

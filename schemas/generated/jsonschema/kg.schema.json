@@ -4,34 +4,31 @@
             "additionalProperties": false,
             "description": "",
             "properties": {
-                "object": {
+                "gene_expr": {
                     "type": [
-                        "string",
+                        "number",
                         "null"
                     ]
+                },
+                "object": {
+                    "type": "string"
                 },
                 "predicate": {
-                    "enum": [
-                        "rdf:Statement"
-                    ],
-                    "type": [
-                        "string",
-                        "null"
-                    ]
+                    "type": "string"
                 },
                 "source": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
+                    "type": "string"
                 },
                 "subject": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
+                    "type": "string"
                 }
             },
+            "required": [
+                "subject",
+                "predicate",
+                "object",
+                "source"
+            ],
             "title": "Edge",
             "type": "object"
         },
@@ -66,32 +63,23 @@
             "description": "",
             "properties": {
                 "iri": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
+                    "type": "string"
                 },
                 "label": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
+                    "type": "string"
                 },
                 "source": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
+                    "type": "string"
                 },
                 "type": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
+                    "type": "string"
                 }
             },
             "required": [
-                "iri"
+                "iri",
+                "label",
+                "type",
+                "source"
             ],
             "title": "Node",
             "type": "object"

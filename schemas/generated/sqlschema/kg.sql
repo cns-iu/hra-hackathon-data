@@ -10,6 +10,7 @@
 --     * Slot: predicate
 --     * Slot: object
 --     * Slot: source
+--     * Slot: gene_expr
 --     * Slot: Graph_id Description: Autocreated FK slot
 -- # Class: Graph
 --     * Slot: id
@@ -20,19 +21,20 @@ CREATE TABLE "Graph" (
 );CREATE INDEX "ix_Graph_id" ON "Graph" (id);
 CREATE TABLE "Node" (
 	iri TEXT NOT NULL,
-	label TEXT,
-	type TEXT,
-	source TEXT,
+	label TEXT NOT NULL,
+	type TEXT NOT NULL,
+	source TEXT NOT NULL,
 	"Graph_id" INTEGER,
 	PRIMARY KEY (iri),
 	FOREIGN KEY("Graph_id") REFERENCES "Graph" (id)
 );CREATE INDEX "ix_Node_iri" ON "Node" (iri);
 CREATE TABLE "Edge" (
 	id INTEGER NOT NULL,
-	subject TEXT,
-	predicate TEXT,
-	object TEXT,
-	source TEXT,
+	subject TEXT NOT NULL,
+	predicate TEXT NOT NULL,
+	object TEXT NOT NULL,
+	source TEXT NOT NULL,
+	gene_expr FLOAT,
 	"Graph_id" INTEGER,
 	PRIMARY KEY (id),
 	FOREIGN KEY(subject) REFERENCES "Node" (iri),

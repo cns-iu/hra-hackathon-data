@@ -4,9 +4,10 @@
 message Edge
  {
   node subject = 0
-  uriorcurie predicate = 0
+  uri predicate = 0
   node object = 0
   uri source = 0
+  float geneExpr = 0
  }
 message Graph
  {

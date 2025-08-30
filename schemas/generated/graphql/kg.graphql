@@ -1,10 +1,11 @@
 # metamodel_version: 1.7.0
 type Edge
   {
-    subject: Node
-    predicate: Uriorcurie
-    object: Node
-    source: Uri
+    subject: Node!
+    predicate: Uri!
+    object: Node!
+    source: Uri!
+    geneExpr: Float
   }
 
 type Graph
@@ -16,7 +17,7 @@ type Graph
 type Node
   {
     iri: Uri!
-    label: String
-    type: Uri
-    source: Uri
+    label: String!
+    type: Uri!
+    source: Uri!
   }
