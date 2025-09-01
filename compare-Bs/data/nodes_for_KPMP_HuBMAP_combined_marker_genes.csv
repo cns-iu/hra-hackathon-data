@@ -1,0 +1,56 @@
+iri,type,source,label
+http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp,kidney
+http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp,nephron tubule
+http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp,collecting duct of renal tubule
+http://purl.obolibrary.org/obo/UBERON_0001986,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp,endothelium
+http://purl.obolibrary.org/obo/UBERON_0000074,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp,renal glomerulus
+http://purl.obolibrary.org/obo/UBERON_0001229,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp,renal corpuscle
+http://purl.obolibrary.org/obo/UBERON_0003527,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp,kidney capillary
+http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp,renal papilla
+http://purl.obolibrary.org/obo/CL_1000695,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,kidney interstitial alternatively activated macrophage
+http://purl.obolibrary.org/obo/CL_1000849,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,kidney distal convoluted tubule epithelial cell
+http://purl.obolibrary.org/obo/CL_0002306,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,epithelial cell of proximal tubule
+http://purl.obolibrary.org/obo/CL_0000084,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,T cell
+http://purl.obolibrary.org/obo/CL_1001106,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,kidney loop of Henle thick ascending limb epithelial cell
+http://purl.obolibrary.org/obo/CL_1001432,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,kidney collecting duct intercalated cell
+http://purl.obolibrary.org/obo/CL_1000692,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,kidney interstitial fibroblast
+http://purl.obolibrary.org/obo/CL_1000768,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,kidney connecting tubule epithelial cell
+http://purl.obolibrary.org/obo/CL_1001431,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,kidney collecting duct principal cell
+http://purl.obolibrary.org/obo/CL_0000115,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,endothelial cell
+http://purl.obolibrary.org/obo/CL_0000236,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,B cell
+http://purl.obolibrary.org/obo/CL_0000113,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,mononuclear phagocyte
+http://purl.obolibrary.org/obo/CL_0000653,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,podocyte
+http://purl.obolibrary.org/obo/CL_1000452,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,parietal epithelial cell
+http://purl.obolibrary.org/obo/CL_0000097,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,mast cell
+http://purl.obolibrary.org/obo/CL_0000451,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,dendritic cell
+http://purl.obolibrary.org/obo/CL_0000786,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,plasma cell
+http://purl.obolibrary.org/obo/CL_0000576,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,monocyte
+http://purl.obolibrary.org/obo/CL_1000909,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,kidney loop of Henle epithelial cell
+http://purl.obolibrary.org/obo/CL_1001318,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,renal interstitial pericyte
+http://purl.obolibrary.org/obo/CL_0000775,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,neutrophil
+http://purl.obolibrary.org/obo/CL_1000597,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,papillary tips cell
+http://purl.obolibrary.org/obo/CL_0002319,http://purl.obolibrary.org/obo/CL_0000000,https://www.ebi.ac.uk/ols/ontologies/cl,neural cell
+http://identifiers.org/hgnc/10620,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,CCL21
+http://identifiers.org/hgnc/8008,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,NRXN1
+http://identifiers.org/hgnc/11073,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,SLC9A3
+http://identifiers.org/hgnc/11255,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,SPP1
+http://identifiers.org/hgnc/8951,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,SERPINE2
+http://identifiers.org/hgnc/5986,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,IL18
+http://identifiers.org/hgnc/15625,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,NBAS
+http://identifiers.org/hgnc/11821,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,TIMP2
+http://identifiers.org/hgnc/5476,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,IGFBP7
+http://identifiers.org/hgnc/18643,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,SUGP1
+http://identifiers.org/hgnc/600,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,APOA1
+http://identifiers.org/hgnc/7176,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,MMP9
+http://identifiers.org/hgnc/6149,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,ITGAM
+http://identifiers.org/hgnc/11757,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,TFF3
+http://identifiers.org/hgnc/914,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,B2M
+http://identifiers.org/hgnc/10496,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,S100A6
+http://identifiers.org/hgnc/5962,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,IL10
+http://identifiers.org/hgnc/6018,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,IL6
+http://identifiers.org/hgnc/6025,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,CXCL8
+http://identifiers.org/hgnc/6526,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,LCN2
+http://identifiers.org/hgnc/17866,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,HAVCR1
+http://identifiers.org/hgnc/2475,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,CST3
+http://identifiers.org/hgnc/10618,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,CCL2
+http://identifiers.org/hgnc/3555,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp,FABP1
