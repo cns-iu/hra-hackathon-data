@@ -1,0 +1,51 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?label ?count
+FROM <https://purl.humanatlas.io/graph/hra-kidney-disease-atlas>
+WHERE {
+  {
+    SELECT ("# Nodes" as ?label) (COUNT(*) as ?count)
+    WHERE {
+      SELECT DISTINCT ?s 
+      WHERE {
+        ?s a owl:Class .
+      }
+    }
+  }
+  UNION
+  {
+    SELECT ("# Edges" as ?label) (COUNT(*) as ?count)
+    WHERE {
+      SELECT DISTINCT ?s 
+      WHERE {
+        ?s a rdf:Statement .
+      }
+    }
+  }
+  UNION
+  {
+    SELECT ("# Node Types" as ?label) (COUNT(*) as ?count)
+    WHERE {
+      SELECT DISTINCT ?class
+      WHERE {
+        ?s a owl:Class ;
+          a ?class .
+        FILTER(?class != owl:Class)
+      }
+    }
+  }
+  UNION
+  {
+    SELECT ("# Edge Types" as ?label) (COUNT(*) as ?count)
+    WHERE {
+      SELECT DISTINCT ?p
+      WHERE {
+        [] a rdf:Statement ;
+          rdf:predicate ?p .
+      }
+    }
+  }
+}
+ORDER BY DESC(?count)
