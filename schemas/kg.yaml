@@ -7,6 +7,10 @@ prefixes:
   schema: http://schema.org/
   kg: https://purl.humanatlas.io/vocab/kg#
   OBI: http://purl.obolibrary.org/obo/OBI_
+  obo: http://purl.obolibrary.org/obo/
+  ccf: http://purl.org/ccf/
+  HGNC: http://purl.bioontology.org/ontology/HGNC/
+
 imports:
   - linkml:types
 default_prefix: kg
@@ -20,46 +24,88 @@ types:
     base: str
     uri: rdfs:Resource
 
+enums:
+  NodeTypeEnum:
+    description: Default node type mappings to ontologies
+    permissible_values:
+      AS:
+        description: Anatomical Structure
+        meaning: obo:UBERON_0000061
+      CT:
+        description: Cell Type
+        meaning: obo:CL_0000000
+      Gene:
+        description: Gene Biomarker
+        meaning: HGNC:gene
+      Phenotype:
+        description: Phenotype
+        meaning: obo:HP_0000118
+
+  EdgeTypeEnum:
+    description: Default edge type mappings to ontologies
+    permissible_values:
+      PART_OF:
+        description: part of
+        meaning: ccf:ccf_part_of
+      LOCATED_IN:
+        description: located in
+        meaning: ccf:ccf_located_in
+      CHARACTERIZES:
+        description: characterizes
+        meaning: ccf:ccf_characterizes
+
 slots:
   iri:
     examples:
-    - value: http://purl.obolibrary.org/obo/UBERON_0014885
+      - value: http://purl.obolibrary.org/obo/UBERON_0014885
     identifier: true
     range: Uri
     required: true
   label:
     slot_uri: rdfs:label
     examples:
-    - value: distal epiphysis of distal phalanx of manual digit 5
+      - value: distal epiphysis of distal phalanx of manual digit 5
     range: string
     required: true
+  type_iri:
+    slot_uri: rdf:type
+    examples:
+      - value: http://purl.obolibrary.org/obo/UBERON_0000061
+    range: Uri
   type:
     slot_uri: rdf:type
     examples:
-    - value: http://purl.obolibrary.org/obo/UBERON_0000061
-    range: Uri
-    required: true
+      - value: AS
+    range: NodeTypeEnum
+    recommended: true
   source:
     slot_uri: rdfs:isDefinedBy
     examples:
-    - value: https://purl.humanatlas.io/vocab/hp
+      - value: https://purl.humanatlas.io/vocab/hp
     range: Uri
     required: true
   subject:
     slot_uri: rdf:subject
     range: Node
     required: true
-  predicate:
+  predicate_iri:
     range: Uri
+    examples:
+      - value: http://purl.org/ccf/ccf_part_of
     slot_uri: rdf:predicate
-    required: true
+  predicate:
+    slot_uri: rdf:predicate
+    examples:
+      - value: PART_OF
+    range: EdgeTypeEnum
+    recommended: true
   object:
     slot_uri: rdf:object
     range: Node
     required: true
   gene_expr:
     slot_uri: OBI:0001938 # has specified value
-    range: float
+    range: decimal
 
 classes:
   Node:
@@ -69,7 +115,7 @@ classes:
       - label
       - type
       - source
-  
+
   Edge:
     class_uri: rdf:Statement
     slots:

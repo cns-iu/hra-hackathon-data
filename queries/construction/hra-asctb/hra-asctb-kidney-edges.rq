@@ -11,7 +11,7 @@ SELECT DISTINCT ?subject ?predicate ?object (HRA: as ?source)
 FROM HRA:
 WHERE {
   {
-    SELECT ?subject (ccf:ccf_part_of as ?predicate) ?object
+    SELECT ?subject ("PART_OF" as ?predicate) ?object
     WHERE {
       ?subject ccf:ccf_part_of* ?object .
       ?subject ccf:ccf_part_of* kidney: .
@@ -19,7 +19,7 @@ WHERE {
   }
   UNION
   {
-    SELECT ?subject (ccf:ccf_located_in as ?predicate) ?object
+    SELECT ?subject ("LOCATED_IN" as ?predicate) ?object
     WHERE {
       [] a ccf:CellMarkerDescriptor ;
         ccf:primary_anatomical_structure ?object ;
@@ -30,7 +30,7 @@ WHERE {
   }
   UNION
   {
-    SELECT ?subject (ccf:ccf_characterizes as ?predicate) ?object
+    SELECT ?subject ("CHARACTERIZES" as ?predicate) ?object
     WHERE {
       [] a ccf:CellMarkerDescriptor ;
         ccf:primary_anatomical_structure ?as ;
