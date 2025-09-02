@@ -10,9 +10,9 @@ SELECT DISTINCT ?iri (SAMPLE(?label) as ?label) (SAMPLE(?type) as ?type) (HRA: a
 FROM HRA:
 WHERE {
   VALUES (?asctb_type ?type) {
-    ("AS"^^xsd:string <http://purl.obolibrary.org/obo/UBERON_0000061>)
-    ("CT"^^xsd:string <http://purl.obolibrary.org/obo/CL_0000000>)
-    ("BM"^^xsd:string <http://purl.bioontology.org/ontology/HGNC/gene>)
+    ("AS"^^xsd:string "AS")
+    ("CT"^^xsd:string "CT")
+    ("BM"^^xsd:string "Gene")
   }
   ?iri ccf:ccf_asctb_type ?asctb_type ;
     rdfs:label ?label .
