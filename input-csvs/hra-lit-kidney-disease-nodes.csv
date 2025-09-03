@@ -1,0 +1,86 @@
+iri,label,type,source
+http://id.nlm.nih.gov/mesh/D000069856,Staghorn Calculi,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D000092702,Chronic Kidney Diseases of Uncertain Etiology,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D000141,"Acidosis, Renal Tubular",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D000608,Renal Aminoacidurias,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D001002,Anuria,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D001449,Balkan Nephropathy,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D001477,Bartter Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D002292,"Carcinoma, Renal Cell",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D003555,Cystinuria,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D003919,Diabetes Insipidus,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D003928,Diabetic Nephropathies,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D005198,Fanconi Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D005921,Glomerulonephritis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D005922,"Glomerulonephritis, IGA",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D005923,"Glomerulosclerosis, Focal Segmental",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D006030,"Glycosuria, Renal",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D006250,Hartnup Disease,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D006463,Hemolytic-Uremic Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D006530,Hepatorenal Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D006869,Hydronephrosis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D006959,Hyperoxaluria,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D006960,"Hyperoxaluria, Primary",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D006977,"Hypertension, Renal",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D006978,"Hypertension, Renovascular",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D007015,"Hypophosphatemia, Familial",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D007669,Kidney Calculi,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D007673,Kidney Cortex Necrosis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D007674,Kidney Diseases,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D007676,"Kidney Failure, Chronic",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D007680,Kidney Neoplasms,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D007681,Kidney Papillary Necrosis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D007683,"Kidney Tubular Necrosis, Acute",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D007690,Polycystic Kidney Diseases,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D007691,Medullary Sponge Kidney,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D008181,Lupus Nephritis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D009393,Nephritis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D009394,"Nephritis, Hereditary",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D009395,"Nephritis, Interstitial",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D009396,Wilms Tumor,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D009397,Nephrocalcinosis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D009400,Nephrosclerosis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D009401,Nephrosis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D009402,"Nephrosis, Lipoid",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D009404,Nephrotic Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D009800,Oculocerebrorenal Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D010501,Perinephritis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D011546,Pseudohypoaldosteronism,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D011702,Pyelitis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D011704,Pyelonephritis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D011705,"Pyelonephritis, Xanthogranulomatous",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D012078,Renal Artery Obstruction,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D012080,Chronic Kidney Disease-Mineral and Bone Disorder,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D014398,"Tuberculosis, Renal",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D014511,Uremia,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D014929,Wolfram Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D015211,Zellweger Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D015432,"Glomerulonephritis, Membranoproliferative",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D015433,"Glomerulonephritis, Membranous",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D015499,"Renal Tubular Transport, Inborn Errors",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D016263,AIDS-Associated Nephropathy,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D016891,"Polycystic Kidney, Autosomal Dominant",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D017044,"Polycystic Kidney, Autosomal Recessive",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D017624,WAGR Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D018201,"Nephroma, Mesoblastic",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D018500,"Diabetes Insipidus, Nephrogenic",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D019867,Anti-Glomerular Basement Membrane Disease,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D020790,"Diabetes Insipidus, Neurogenic",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D021782,Multicystic Dysplastic Kidney,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D030321,Denys-Drash Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D051436,"Renal Insufficiency, Chronic",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D051437,Renal Insufficiency,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D052159,Frasier Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D052177,"Kidney Diseases, Cystic",http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D053018,Pyonephrosis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D053040,Nephrolithiasis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D053098,Familial Hypophosphatemic Rickets,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D053099,Azotemia,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D053579,Gitelman Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D053653,Pyelocystitis,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D056929,Liddle Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D057973,Dent Disease,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D058186,Acute Kidney Injury,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D059228,Renal Nutcracker Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D059347,Cardio-Renal Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit
+http://id.nlm.nih.gov/mesh/D065766,Atypical Hemolytic Uremic Syndrome,http://id.nlm.nih.gov/mesh/D007674,https://purl.humanatlas.io/graph/hra-lit

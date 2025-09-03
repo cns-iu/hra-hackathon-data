@@ -1,0 +1,19 @@
+iri,label,type,source
+http://purl.obolibrary.org/obo/CL_0000650,mesangial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0000653,podocyte,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0000074,renal glomerulus,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0000362,renal medulla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0001224,renal pelvis,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0001225,cortex of kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0001230,glomerular capsule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0001231,nephron tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0001232,collecting duct of renal tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0001285,nephron,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0001288,loop of Henle,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0002113,kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0002303,juxtaglomerular apparatus,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0002320,glomerular mesangium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0004134,proximal tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0004135,distal tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0005777,glomerular basement membrane,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/UBERON_0006517,kidney calyx,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/graph/hra-lit

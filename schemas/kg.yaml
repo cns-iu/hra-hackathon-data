@@ -60,6 +60,9 @@ slots:
   gene_expr:
     slot_uri: OBI:0001938 # has specified value
     range: float
+  pub_count:
+    slot_uri: OBI:0001938 # has specified value
+    range: integer
 
 classes:
   Node:
@@ -78,6 +81,7 @@ classes:
       - object
       - source
       - gene_expr
+      - pub_count
 
   Graph:
     tree_root: true

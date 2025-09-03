@@ -1,0 +1,114 @@
+@prefix kg: <https://purl.humanatlas.io/vocab/kg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://purl.obolibrary.org/obo/CL_0000650> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "mesangial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_0000653> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "podocyte" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0000074> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal glomerulus" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0000362> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal medulla" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001224> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal pelvis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001225> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "cortex of kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001230> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "glomerular capsule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001231> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "nephron tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001232> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "collecting duct of renal tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001285> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "nephron" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001288> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "loop of Henle" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002113> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002303> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "juxtaglomerular apparatus" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002320> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "glomerular mesangium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004134> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "proximal tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0004135> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "distal tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0005777> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "glomerular basement membrane" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0006517> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney calyx" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+[] a kg:Graph ;
+    kg:nodes <http://purl.obolibrary.org/obo/CL_0000650>,
+        <http://purl.obolibrary.org/obo/CL_0000653>,
+        <http://purl.obolibrary.org/obo/UBERON_0000074>,
+        <http://purl.obolibrary.org/obo/UBERON_0000362>,
+        <http://purl.obolibrary.org/obo/UBERON_0001224>,
+        <http://purl.obolibrary.org/obo/UBERON_0001225>,
+        <http://purl.obolibrary.org/obo/UBERON_0001230>,
+        <http://purl.obolibrary.org/obo/UBERON_0001231>,
+        <http://purl.obolibrary.org/obo/UBERON_0001232>,
+        <http://purl.obolibrary.org/obo/UBERON_0001285>,
+        <http://purl.obolibrary.org/obo/UBERON_0001288>,
+        <http://purl.obolibrary.org/obo/UBERON_0002113>,
+        <http://purl.obolibrary.org/obo/UBERON_0002303>,
+        <http://purl.obolibrary.org/obo/UBERON_0002320>,
+        <http://purl.obolibrary.org/obo/UBERON_0004134>,
+        <http://purl.obolibrary.org/obo/UBERON_0004135>,
+        <http://purl.obolibrary.org/obo/UBERON_0005777>,
+        <http://purl.obolibrary.org/obo/UBERON_0006517> .
+

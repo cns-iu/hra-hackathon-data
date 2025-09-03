@@ -1,0 +1,516 @@
+@prefix kg: <https://purl.humanatlas.io/vocab/kg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://id.nlm.nih.gov/mesh/D000069856> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Staghorn Calculi" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D000092702> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Chronic Kidney Diseases of Uncertain Etiology" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D000141> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Acidosis, Renal Tubular" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D000608> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Renal Aminoacidurias" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D001002> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Anuria" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D001449> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Balkan Nephropathy" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D001477> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Bartter Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D002292> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Carcinoma, Renal Cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D003555> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Cystinuria" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D003919> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Diabetes Insipidus" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D003928> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Diabetic Nephropathies" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D005198> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Fanconi Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D005921> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Glomerulonephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D005922> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Glomerulonephritis, IGA" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D005923> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Glomerulosclerosis, Focal Segmental" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D006030> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Glycosuria, Renal" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D006250> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Hartnup Disease" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D006463> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Hemolytic-Uremic Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D006530> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Hepatorenal Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D006869> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Hydronephrosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D006959> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Hyperoxaluria" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D006960> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Hyperoxaluria, Primary" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D006977> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Hypertension, Renal" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D006978> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Hypertension, Renovascular" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D007015> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Hypophosphatemia, Familial" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D007669> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Kidney Calculi" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D007673> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Kidney Cortex Necrosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D007676> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Kidney Failure, Chronic" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D007680> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Kidney Neoplasms" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D007681> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Kidney Papillary Necrosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D007683> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Kidney Tubular Necrosis, Acute" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D007690> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Polycystic Kidney Diseases" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D007691> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Medullary Sponge Kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D008181> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Lupus Nephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D009393> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Nephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D009394> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Nephritis, Hereditary" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D009395> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Nephritis, Interstitial" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D009396> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Wilms Tumor" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D009397> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Nephrocalcinosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D009400> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Nephrosclerosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D009401> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Nephrosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D009402> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Nephrosis, Lipoid" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D009404> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Nephrotic Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D009800> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Oculocerebrorenal Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D010501> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Perinephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D011546> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Pseudohypoaldosteronism" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D011702> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Pyelitis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D011704> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Pyelonephritis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D011705> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Pyelonephritis, Xanthogranulomatous" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D012078> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Renal Artery Obstruction" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D012080> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Chronic Kidney Disease-Mineral and Bone Disorder" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D014398> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Tuberculosis, Renal" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D014511> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Uremia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D014929> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Wolfram Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D015211> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Zellweger Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D015432> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Glomerulonephritis, Membranoproliferative" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D015433> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Glomerulonephritis, Membranous" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D015499> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Renal Tubular Transport, Inborn Errors" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D016263> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "AIDS-Associated Nephropathy" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D016891> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Polycystic Kidney, Autosomal Dominant" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D017044> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Polycystic Kidney, Autosomal Recessive" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D017624> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "WAGR Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D018201> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Nephroma, Mesoblastic" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D018500> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Diabetes Insipidus, Nephrogenic" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D019867> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Anti-Glomerular Basement Membrane Disease" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D020790> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Diabetes Insipidus, Neurogenic" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D021782> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Multicystic Dysplastic Kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D030321> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Denys-Drash Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D051436> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Renal Insufficiency, Chronic" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D051437> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Renal Insufficiency" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D052159> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Frasier Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D052177> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Kidney Diseases, Cystic" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D053018> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Pyonephrosis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D053040> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Nephrolithiasis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D053098> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Familial Hypophosphatemic Rickets" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D053099> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Azotemia" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D053579> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Gitelman Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D053653> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Pyelocystitis" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D056929> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Liddle Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D057973> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Dent Disease" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D058186> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Acute Kidney Injury" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D059228> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Renal Nutcracker Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D059347> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Cardio-Renal Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D065766> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Atypical Hemolytic Uremic Syndrome" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://id.nlm.nih.gov/mesh/D007674> a <http://id.nlm.nih.gov/mesh/D007674>,
+        owl:Class ;
+    rdfs:label "Kidney Diseases" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+[] a kg:Graph ;
+    kg:nodes <http://id.nlm.nih.gov/mesh/D000069856>,
+        <http://id.nlm.nih.gov/mesh/D000092702>,
+        <http://id.nlm.nih.gov/mesh/D000141>,
+        <http://id.nlm.nih.gov/mesh/D000608>,
+        <http://id.nlm.nih.gov/mesh/D001002>,
+        <http://id.nlm.nih.gov/mesh/D001449>,
+        <http://id.nlm.nih.gov/mesh/D001477>,
+        <http://id.nlm.nih.gov/mesh/D002292>,
+        <http://id.nlm.nih.gov/mesh/D003555>,
+        <http://id.nlm.nih.gov/mesh/D003919>,
+        <http://id.nlm.nih.gov/mesh/D003928>,
+        <http://id.nlm.nih.gov/mesh/D005198>,
+        <http://id.nlm.nih.gov/mesh/D005921>,
+        <http://id.nlm.nih.gov/mesh/D005922>,
+        <http://id.nlm.nih.gov/mesh/D005923>,
+        <http://id.nlm.nih.gov/mesh/D006030>,
+        <http://id.nlm.nih.gov/mesh/D006250>,
+        <http://id.nlm.nih.gov/mesh/D006463>,
+        <http://id.nlm.nih.gov/mesh/D006530>,
+        <http://id.nlm.nih.gov/mesh/D006869>,
+        <http://id.nlm.nih.gov/mesh/D006959>,
+        <http://id.nlm.nih.gov/mesh/D006960>,
+        <http://id.nlm.nih.gov/mesh/D006977>,
+        <http://id.nlm.nih.gov/mesh/D006978>,
+        <http://id.nlm.nih.gov/mesh/D007015>,
+        <http://id.nlm.nih.gov/mesh/D007669>,
+        <http://id.nlm.nih.gov/mesh/D007673>,
+        <http://id.nlm.nih.gov/mesh/D007674>,
+        <http://id.nlm.nih.gov/mesh/D007676>,
+        <http://id.nlm.nih.gov/mesh/D007680>,
+        <http://id.nlm.nih.gov/mesh/D007681>,
+        <http://id.nlm.nih.gov/mesh/D007683>,
+        <http://id.nlm.nih.gov/mesh/D007690>,
+        <http://id.nlm.nih.gov/mesh/D007691>,
+        <http://id.nlm.nih.gov/mesh/D008181>,
+        <http://id.nlm.nih.gov/mesh/D009393>,
+        <http://id.nlm.nih.gov/mesh/D009394>,
+        <http://id.nlm.nih.gov/mesh/D009395>,
+        <http://id.nlm.nih.gov/mesh/D009396>,
+        <http://id.nlm.nih.gov/mesh/D009397>,
+        <http://id.nlm.nih.gov/mesh/D009400>,
+        <http://id.nlm.nih.gov/mesh/D009401>,
+        <http://id.nlm.nih.gov/mesh/D009402>,
+        <http://id.nlm.nih.gov/mesh/D009404>,
+        <http://id.nlm.nih.gov/mesh/D009800>,
+        <http://id.nlm.nih.gov/mesh/D010501>,
+        <http://id.nlm.nih.gov/mesh/D011546>,
+        <http://id.nlm.nih.gov/mesh/D011702>,
+        <http://id.nlm.nih.gov/mesh/D011704>,
+        <http://id.nlm.nih.gov/mesh/D011705>,
+        <http://id.nlm.nih.gov/mesh/D012078>,
+        <http://id.nlm.nih.gov/mesh/D012080>,
+        <http://id.nlm.nih.gov/mesh/D014398>,
+        <http://id.nlm.nih.gov/mesh/D014511>,
+        <http://id.nlm.nih.gov/mesh/D014929>,
+        <http://id.nlm.nih.gov/mesh/D015211>,
+        <http://id.nlm.nih.gov/mesh/D015432>,
+        <http://id.nlm.nih.gov/mesh/D015433>,
+        <http://id.nlm.nih.gov/mesh/D015499>,
+        <http://id.nlm.nih.gov/mesh/D016263>,
+        <http://id.nlm.nih.gov/mesh/D016891>,
+        <http://id.nlm.nih.gov/mesh/D017044>,
+        <http://id.nlm.nih.gov/mesh/D017624>,
+        <http://id.nlm.nih.gov/mesh/D018201>,
+        <http://id.nlm.nih.gov/mesh/D018500>,
+        <http://id.nlm.nih.gov/mesh/D019867>,
+        <http://id.nlm.nih.gov/mesh/D020790>,
+        <http://id.nlm.nih.gov/mesh/D021782>,
+        <http://id.nlm.nih.gov/mesh/D030321>,
+        <http://id.nlm.nih.gov/mesh/D051436>,
+        <http://id.nlm.nih.gov/mesh/D051437>,
+        <http://id.nlm.nih.gov/mesh/D052159>,
+        <http://id.nlm.nih.gov/mesh/D052177>,
+        <http://id.nlm.nih.gov/mesh/D053018>,
+        <http://id.nlm.nih.gov/mesh/D053040>,
+        <http://id.nlm.nih.gov/mesh/D053098>,
+        <http://id.nlm.nih.gov/mesh/D053099>,
+        <http://id.nlm.nih.gov/mesh/D053579>,
+        <http://id.nlm.nih.gov/mesh/D053653>,
+        <http://id.nlm.nih.gov/mesh/D056929>,
+        <http://id.nlm.nih.gov/mesh/D057973>,
+        <http://id.nlm.nih.gov/mesh/D058186>,
+        <http://id.nlm.nih.gov/mesh/D059228>,
+        <http://id.nlm.nih.gov/mesh/D059347>,
+        <http://id.nlm.nih.gov/mesh/D065766> .
+
