@@ -98,3 +98,4 @@ WHERE {
     ) as ?biomarker)
 }
 GROUP BY ?tool ?as ?ct ?biomarker
+ORDER BY ?tool ?as ?ct ?biomarker

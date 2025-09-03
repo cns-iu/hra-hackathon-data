@@ -40,3 +40,4 @@ WHERE {
   }
 }
 GROUP BY ?iri
+ORDER BY ?iri

@@ -40,4 +40,4 @@ WHERE {
     }
   }
 }
-ORDER BY ?predicate
+ORDER BY ?predicate ?subject
