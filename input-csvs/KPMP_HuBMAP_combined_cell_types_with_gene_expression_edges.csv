@@ -40,7 +40,6 @@
 38,https://identifiers.org/hgnc/9673,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001432,https://purl.humanatlas.io/vocab/hp,8.484098
 39,https://identifiers.org/hgnc/6181,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001432,https://purl.humanatlas.io/vocab/hp,11.487111
 40,https://identifiers.org/hgnc/4028,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001431,https://purl.humanatlas.io/vocab/hp,10.4623
-41,None,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001431,https://purl.humanatlas.io/vocab/hp,
 42,https://identifiers.org/hgnc/634,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001431,https://purl.humanatlas.io/vocab/hp,16.56596
 43,https://identifiers.org/hgnc/18610,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001431,https://purl.humanatlas.io/vocab/hp,2.731033
 44,https://identifiers.org/hgnc/636,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001431,https://purl.humanatlas.io/vocab/hp,8.853724
@@ -59,8 +58,6 @@
 57,https://identifiers.org/hgnc/10860,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001431,https://purl.humanatlas.io/vocab/hp,5.292753
 58,https://identifiers.org/hgnc/33235,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001431,https://purl.humanatlas.io/vocab/hp,4.236561
 59,https://identifiers.org/hgnc/11092,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001431,https://purl.humanatlas.io/vocab/hp,8.770136
-60,None,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000768,https://purl.humanatlas.io/vocab/hp,
-61,None,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000768,https://purl.humanatlas.io/vocab/hp,
 62,https://identifiers.org/hgnc/11068,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000768,https://purl.humanatlas.io/vocab/hp,33.612498
 63,https://identifiers.org/hgnc/10588,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000768,https://purl.humanatlas.io/vocab/hp,4.163097
 64,https://identifiers.org/hgnc/8973,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000768,https://purl.humanatlas.io/vocab/hp,3.431254
@@ -106,11 +103,8 @@
 104,https://identifiers.org/hgnc/1371,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000849,https://purl.humanatlas.io/vocab/hp,11.425428
 105,https://identifiers.org/hgnc/6262,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000849,https://purl.humanatlas.io/vocab/hp,8.055848
 106,https://identifiers.org/hgnc/1404,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000849,https://purl.humanatlas.io/vocab/hp,3.648688
-107,None,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000849,https://purl.humanatlas.io/vocab/hp,
 108,https://identifiers.org/hgnc/6354,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000849,https://purl.humanatlas.io/vocab/hp,3.377655
-109,None,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000849,https://purl.humanatlas.io/vocab/hp,
 110,https://identifiers.org/hgnc/17995,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000849,https://purl.humanatlas.io/vocab/hp,4.179406
-111,None,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000849,https://purl.humanatlas.io/vocab/hp,
 112,https://identifiers.org/hgnc/21747,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000849,https://purl.humanatlas.io/vocab/hp,7.787759
 113,https://identifiers.org/hgnc/3474,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000849,https://purl.humanatlas.io/vocab/hp,21.32403
 114,https://identifiers.org/hgnc/11255,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000849,https://purl.humanatlas.io/vocab/hp,39.717909
@@ -173,7 +167,6 @@
 171,https://identifiers.org/hgnc/15985,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000692,https://purl.humanatlas.io/vocab/hp,3.390659
 172,https://identifiers.org/hgnc/1750,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000692,https://purl.humanatlas.io/vocab/hp,3.057026
 173,https://identifiers.org/hgnc/3602,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000692,https://purl.humanatlas.io/vocab/hp,3.708025
-174,None,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000692,https://purl.humanatlas.io/vocab/hp,
 175,https://identifiers.org/hgnc/17068,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000692,https://purl.humanatlas.io/vocab/hp,5.797438
 176,https://identifiers.org/hgnc/2201,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000692,https://purl.humanatlas.io/vocab/hp,5.963223
 177,https://identifiers.org/hgnc/3126,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000692,https://purl.humanatlas.io/vocab/hp,5.238037
@@ -181,7 +174,6 @@
 179,https://identifiers.org/hgnc/11087,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000692,https://purl.humanatlas.io/vocab/hp,5.68017
 180,https://identifiers.org/hgnc/10910,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000909,https://purl.humanatlas.io/vocab/hp,40.67022
 181,https://identifiers.org/hgnc/804,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000909,https://purl.humanatlas.io/vocab/hp,31.842924
-182,None,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000909,https://purl.humanatlas.io/vocab/hp,
 183,https://identifiers.org/hgnc/4026,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000909,https://purl.humanatlas.io/vocab/hp,28.123291
 184,https://identifiers.org/hgnc/12559,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000909,https://purl.humanatlas.io/vocab/hp,55.893831
 185,https://identifiers.org/hgnc/1645,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000909,https://purl.humanatlas.io/vocab/hp,10.561049
@@ -196,7 +188,6 @@
 194,https://identifiers.org/hgnc/6383,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000909,https://purl.humanatlas.io/vocab/hp,5.449077
 195,https://identifiers.org/hgnc/9286,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000909,https://purl.humanatlas.io/vocab/hp,2.639944
 196,https://identifiers.org/hgnc/6541,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000909,https://purl.humanatlas.io/vocab/hp,6.049955
-197,None,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000909,https://purl.humanatlas.io/vocab/hp,
 198,https://identifiers.org/hgnc/379,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000909,https://purl.humanatlas.io/vocab/hp,9.732359
 199,https://identifiers.org/hgnc/30506,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1000909,https://purl.humanatlas.io/vocab/hp,3.749188
 200,https://identifiers.org/hgnc/6342,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_0000097,https://purl.humanatlas.io/vocab/hp,15.912137
@@ -381,7 +372,6 @@
 379,https://identifiers.org/hgnc/16051,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_0002306,https://purl.humanatlas.io/vocab/hp,11.962546
 380,https://identifiers.org/hgnc/7569,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001318,https://purl.humanatlas.io/vocab/hp,26.396547
 381,https://identifiers.org/hgnc/1441,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001318,https://purl.humanatlas.io/vocab/hp,15.29198
-382,None,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001318,https://purl.humanatlas.io/vocab/hp,
 383,https://identifiers.org/hgnc/3754,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001318,https://purl.humanatlas.io/vocab/hp,15.637002
 384,https://identifiers.org/hgnc/12010,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001318,https://purl.humanatlas.io/vocab/hp,18.085929
 385,https://identifiers.org/hgnc/12011,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001318,https://purl.humanatlas.io/vocab/hp,15.20095
@@ -436,7 +426,6 @@
 434,https://identifiers.org/hgnc/3432,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001106,https://purl.humanatlas.io/vocab/hp,57.068776
 435,https://identifiers.org/hgnc/9026,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001106,https://purl.humanatlas.io/vocab/hp,13.24891
 436,https://identifiers.org/hgnc/1742,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001106,https://purl.humanatlas.io/vocab/hp,11.068352
-437,None,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001106,https://purl.humanatlas.io/vocab/hp,
 438,https://identifiers.org/hgnc/21380,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001106,https://purl.humanatlas.io/vocab/hp,14.547732
 439,https://identifiers.org/hgnc/19125,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_1001106,https://purl.humanatlas.io/vocab/hp,9.899938
 440,https://identifiers.org/hgnc/8008,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_0002319,https://purl.humanatlas.io/vocab/hp,102.015505
@@ -451,7 +440,6 @@
 449,https://identifiers.org/hgnc/13503,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_0002319,https://purl.humanatlas.io/vocab/hp,29.802386
 450,https://identifiers.org/hgnc/9393,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_0002319,https://purl.humanatlas.io/vocab/hp,12.597931
 451,https://identifiers.org/hgnc/19164,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_0002319,https://purl.humanatlas.io/vocab/hp,17.195186
-452,None,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_0002319,https://purl.humanatlas.io/vocab/hp,
 453,https://identifiers.org/hgnc/25361,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_0002319,https://purl.humanatlas.io/vocab/hp,13.256547
 454,https://identifiers.org/hgnc/29144,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_0002319,https://purl.humanatlas.io/vocab/hp,13.324902
 455,https://identifiers.org/hgnc/14881,http://purl.org/ccf/ccf_characterizes,http://purl.obolibrary.org/obo/CL_0002319,https://purl.humanatlas.io/vocab/hp,11.341439
