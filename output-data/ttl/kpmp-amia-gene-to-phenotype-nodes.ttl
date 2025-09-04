@@ -1,0 +1,168 @@
+@prefix kg: <https://purl.humanatlas.io/vocab/kg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://identifiers.org/hgnc/10496> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "S100A6" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/10618> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CCL2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/10620> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CCL21" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/11073> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC9A3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/11255> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SPP1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/11757> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TFF3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/11821> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TIMP2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/15625> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NBAS" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/17866> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HAVCR1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/18562> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FEV" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/18643> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SUGP1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/2475> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CST3" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/3555> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FABP1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/5476> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IGFBP7" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/5962> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IL10" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/5986> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IL18" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/600> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "APOA1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/6018> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IL6" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/6025> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CXCL8" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/6149> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ITGAM" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/6526> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LCN2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/7176> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MMP9" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/8008> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NRXN1" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/8951> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SERPINE2" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://identifiers.org/hgnc/914> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "B2M" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0001919> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Acute kidney injury" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/HP_0012622> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Chronic kidney disease" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+[] a kg:Graph ;
+    kg:nodes <http://identifiers.org/hgnc/10496>,
+        <http://identifiers.org/hgnc/10618>,
+        <http://identifiers.org/hgnc/10620>,
+        <http://identifiers.org/hgnc/11073>,
+        <http://identifiers.org/hgnc/11255>,
+        <http://identifiers.org/hgnc/11757>,
+        <http://identifiers.org/hgnc/11821>,
+        <http://identifiers.org/hgnc/15625>,
+        <http://identifiers.org/hgnc/17866>,
+        <http://identifiers.org/hgnc/18562>,
+        <http://identifiers.org/hgnc/18643>,
+        <http://identifiers.org/hgnc/2475>,
+        <http://identifiers.org/hgnc/3555>,
+        <http://identifiers.org/hgnc/5476>,
+        <http://identifiers.org/hgnc/5962>,
+        <http://identifiers.org/hgnc/5986>,
+        <http://identifiers.org/hgnc/600>,
+        <http://identifiers.org/hgnc/6018>,
+        <http://identifiers.org/hgnc/6025>,
+        <http://identifiers.org/hgnc/6149>,
+        <http://identifiers.org/hgnc/6526>,
+        <http://identifiers.org/hgnc/7176>,
+        <http://identifiers.org/hgnc/8008>,
+        <http://identifiers.org/hgnc/8951>,
+        <http://identifiers.org/hgnc/914>,
+        <http://purl.obolibrary.org/obo/HP_0001919>,
+        <http://purl.obolibrary.org/obo/HP_0012622> .
+

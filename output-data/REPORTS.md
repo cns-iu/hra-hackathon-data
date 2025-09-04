@@ -42,11 +42,12 @@ ORDER BY DESC(?count)
 
 | type | count |
 | :--- | :--- |
-| http://purl.org/ccf/ccf_characterizes | 43389 |
+| http://purl.org/ccf/ccf_characterizes | 43829 |
 | https://purl.humanatlas.io/vocab/hp#has_modifier | 5074 |
 | https://purl.humanatlas.io/graph/hra-lit#COOCCURS_WITH_DISEASE | 981 |
 | http://purl.org/ccf/ccf_part_of | 829 |
 | http://purl.org/ccf/ccf_located_in | 352 |
+| https://purl.humanatlas.io/vocab/hp#associated_with | 26 |
 
 ## ad-hoc
 
@@ -81,7 +82,7 @@ ORDER BY ?graph
 | https://purl.humanatlas.io/collection/hra | 2120944 |
 | https://purl.humanatlas.io/collection/hra-api | 2006982 |
 | https://purl.humanatlas.io/graph/ccf | 557123 |
-| https://purl.humanatlas.io/graph/hra-kidney-disease-atlas | 454807 |
+| https://purl.humanatlas.io/graph/hra-kidney-disease-atlas | 459388 |
 | https://purl.humanatlas.io/vocab/cl | 99013 |
 | https://purl.humanatlas.io/vocab/hp | 903078 |
 | https://purl.humanatlas.io/vocab/uberon | 1181703 |
@@ -156,9 +157,9 @@ ORDER BY DESC(?count)
 
 | label | count |
 | :--- | :--- |
-| # Edges | 50625 |
-| # Nodes | 12854 |
-| # Edge Types | 5 |
+| # Edges | 51091 |
+| # Nodes | 12861 |
+| # Edge Types | 6 |
 | # Node Types | 5 |
 
 
@@ -193,10 +194,10 @@ ORDER BY DESC(?count)
 
 | class | count |
 | :--- | :--- |
-| http://purl.bioontology.org/ontology/HGNC/gene | 12436 |
+| http://purl.bioontology.org/ontology/HGNC/gene | 12439 |
 | http://purl.obolibrary.org/obo/HP_0000118 | 183 |
 | http://id.nlm.nih.gov/mesh/D007674 | 85 |
-| http://purl.obolibrary.org/obo/CL_0000000 | 80 |
+| http://purl.obolibrary.org/obo/CL_0000000 | 84 |
 | http://purl.obolibrary.org/obo/UBERON_0000061 | 70 |
 
 
@@ -228,12 +229,13 @@ SELECT ?mean_gene_expr ?gene ?ct ?as ?phenotype ?gene_label ?ct_label ?as_label 
 FROM HRAkda:
 WHERE {
   {
-    SELECT DISTINCT ?ct ?gene (AVG(?exp) as ?mean_gene_expr)
+    SELECT DISTINCT ?ct ?gene (AVG(?exp) as ?mean_gene_expr) (COUNT(DISTINCT(?source)) as ?num_sources)
     WHERE {
       [] a rdf:Statement ;
         rdf:subject ?gene ;
         rdf:predicate CHARACTERIZES: ;
         rdf:object ?ct ;
+        rdfs:isDefinedBy ?source ;
         expression_level: ?exp .
     }
     GROUP BY ?ct ?gene

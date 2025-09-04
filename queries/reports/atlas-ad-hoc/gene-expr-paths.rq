@@ -18,12 +18,13 @@ SELECT ?mean_gene_expr ?gene ?ct ?as ?phenotype ?gene_label ?ct_label ?as_label 
 FROM HRAkda:
 WHERE {
   {
-    SELECT DISTINCT ?ct ?gene (AVG(?exp) as ?mean_gene_expr)
+    SELECT DISTINCT ?ct ?gene (AVG(?exp) as ?mean_gene_expr) (COUNT(DISTINCT(?source)) as ?num_sources)
     WHERE {
       [] a rdf:Statement ;
         rdf:subject ?gene ;
         rdf:predicate CHARACTERIZES: ;
         rdf:object ?ct ;
+        rdfs:isDefinedBy ?source ;
         expression_level: ?exp .
     }
     GROUP BY ?ct ?gene

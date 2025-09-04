@@ -1,0 +1,2358 @@
+@prefix kg: <https://purl.humanatlas.io/vocab/kg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://identifiers.org/hgnc/10253> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTBP3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10298> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPL10" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10301> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPL11" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10303> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPL13" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10330> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPL28" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10332> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPL3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10333> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPL30" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10364> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPL7A" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10372> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPLP1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10387> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPS14" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10401> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPS18" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10404> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPS2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10411> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPS24" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10417> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPS27A" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10424> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RPS4X" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10488> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "S100A11" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1049> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "BICD1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10496> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "S100A6" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10498> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "S100A8" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10499> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "S100A9" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10528> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SAMSN1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1057> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "BLK" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10588> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SCN2A" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10602> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SCNN1G" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1077> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "BMPR1B" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10860> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ST6GAL1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10875> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SIGLEC6" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10910> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC12A1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10912> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC12A3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10919> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC14A2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10929> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC17A1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10935> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC18A2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10962> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLCO2B1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/10977> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC24A3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11033> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC4A7" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11035> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC4A9" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11068> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC8A1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11070> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC8A3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11087> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLIT3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11168> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SNTB1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11185> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SORL1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11220> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SPARCL1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11244> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SPINK1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11251> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SPOCK1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11255> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SPP1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11276> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SPTBN2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1131> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "BTG2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11553> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TAGLN" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11609> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TBXAS1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11642> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ZEB1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11774> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TGFBR3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11917> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TNFRSF1B" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/11972> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TOX3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/12010> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TPM1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/12011> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TPM2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/12019> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TPSAB1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1224> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LDLRAD4" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/12559> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "UMOD" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/12635> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "UTRN" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/12680> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "VEGFA" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/12799> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "WWOX" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/130> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ACTA2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/13010> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TSHZ2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1309> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TBC1D22A" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/13176> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IKZF1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/13222> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "BCL11B" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/13394> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NPHS2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/13427> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RBMS3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/13446> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC2A9" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/13447> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC38A1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1346> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "C7" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/13503> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ZBTB20" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/13517> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CLIC5" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1357> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TCIM" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/13604> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FBXL7" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1371> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CA12" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/13872> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RIPOR2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1390> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CACNA1C" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1404> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CACNB4" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/14065> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HDAC9" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/14120> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TPSB2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/14189> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LST1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/14262> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "AUTS2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1434> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CALB1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1441> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CALD1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/14430> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC13A3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/14434> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CDK15" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/14467> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC26A7" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/14540> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "WNK1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/14544> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "WNK4" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/14598> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IMMP2L" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/14881> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ZEB2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1514> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CASR" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/15460> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CACNA2D3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/15472> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ALDH1A2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/15605> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SKAP1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/15679> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CTTNBP2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/15754> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MYL9" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1585> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CCND3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/15917> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PLCB1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/15925> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SAMHD1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/15985> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SVEP1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/16041> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "EMCN" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/16286> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ELMO1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/16395> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "OSBPL10" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1645> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD24" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/16697> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SORCS1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/16700> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ZFPM2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/16712> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FBXW7" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1677> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD247" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/16784> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NIBAN1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/16841> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LITAF" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/16951> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IVNS1ABP" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1697> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CD74" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17069> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FNBP1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17073> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ARHGAP26" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17084> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SYNE2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17089> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SYNE1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17175> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PLCE1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17224> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RAB11FIP3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17302> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NEGR1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17422> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CHST11" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17438> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CLNK" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1750> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CDH11" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1758> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CDH19" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17732> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SYNPO2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17890> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HPGDS" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17925> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TFCP2L1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17992> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TRPM3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17994> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TRPM7" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/17995> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TRPM6" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18041> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "BMP2K" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18222> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RBFOX1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18233> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "BANK1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18264> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ATP6V1C2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18266> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ATP6V0D2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18304> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "COTL1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18349> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DHRS2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18610> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KSR2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18628> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "STAB1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18650> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SPATS2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18666> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RNPC3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18713> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GLCCI1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18866> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KCNT2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/18957> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MAGI2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/19030> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ADGRF5" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/19152> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PACRG" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/19164> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "STARD13" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/19191> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DOCK8" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/19192> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DOCK4" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/19221> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "WSB1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/1928> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FOXN3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/19341> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CAMK1D" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/19343> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ST6GALNAC3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/19414> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DPY19L2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2026> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CLCNKA" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/20296> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FNDC3A" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/20605> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ALS2CL" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/20653> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC9A9" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2095> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CLU" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/21013> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PLXDC2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/21030> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ARHGAP15" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/21035> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ARHGAP18" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/21073> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TXNDC5" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/21380> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LINC00472" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/21483> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC35F1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/21569> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "THEMIS" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2197> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "COL1A1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2198> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "COL1A2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2201> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "COL3A1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2213> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "COL6A3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/22962> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MED13L" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2298> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CPA3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/23219> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NAALADL2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/23319> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NTNG1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/23405> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LRMDA" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/23479> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DOCK10" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/23520> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC16A9" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/23571> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "COBLL1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/23720> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CREB3L2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2389> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CRYAB" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/24043> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ADIRF" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2439> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CSF3R" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/24670> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FNDC3B" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/24712> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TENT5C" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/24886> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FRMD4B" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/250> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ADH1B" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/25259> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ANKRD44" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/25308> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TMEM117" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/25361> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ARHGAP24" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2545> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CTSS" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2548> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CUBN" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/25491> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FRMD4A" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2550> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CELF2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/25523> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CCDC88A" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/25945> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ARL15" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/26124> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PARP8" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/26438> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TMEM52B" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2663> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DACH1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2705> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DCN" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/27152> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "APCDD1L-DT" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2720> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ASAP1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/27220> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TMEM213" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/27295> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FYB2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2770> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DES" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/28338> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DENND5B" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/28750> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SLC5A12" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2897> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DLC1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/29075> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ENTREP2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/29090> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SMCHD1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/29108> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SEL1L3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/29114> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FCHSD2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/29173> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KAZN" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/29323> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "WDFY4" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/29349> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CCSER1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/29394> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "XKR4" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/29849> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CADM2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/29866> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NFASC" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/2988> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DOCK2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/29944> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TENM3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/30092> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NAMPT" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3012> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "DPYD" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/30279> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RALGPS2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/30358> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RBM47" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3041> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RCAN2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/30931> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ACSM2B" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3126> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "EBF1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/32017> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ACSM2A" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3229> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "EGF" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3318> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ELF3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3320> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ELF5" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3340> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "EMX1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3432> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ERBB4" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3474> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ESRRG" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3488> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ETS1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3495> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ETV6" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3498> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MECOM" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/35> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ABCA5" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3522> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "EYA4" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3531> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "F13A1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3600> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FBLN1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3602> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FBLN5" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3620> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FCGR3B" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3623> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FCN1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3701> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FHIT" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/37190> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FTX" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3754> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FLNA" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/3765> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FLT3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/381> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "AKR1B1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4019> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FUT8" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4026> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FXYD2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4028> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FXYD4" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4036> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FYB1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4037> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "FYN" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/40862> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MAGI2-AS3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4171> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GATA2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4172> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GATA3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/43910> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IFNG-AS1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4410> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GNG7" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4555> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GPX3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4563> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GRAP2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4580> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "GRIK2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4840> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HCK" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4855> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HDC" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/48667> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "TEX41" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4883> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CFH" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4913> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HIP1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/49222> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LINC01099" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/494> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ANK3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/4940> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HLA-DPB1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/500> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ANPEP" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/50753> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LINC01435" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/5209> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HSD11B2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/5235> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "HSPA2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/5358> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IRF8" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/5413> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IFITM2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/548> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "AOAH" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/5527> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IGHG3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/5716> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IGKC" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/5988> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IL18R1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6024> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IL7R" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6079> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "INPP5D" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6111> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IQGAP2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6134> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ITGA1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6156> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ITGB3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6181> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ITPR2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6261> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KCNJ15" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6262> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KCNJ16" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6286> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KCNMB2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/634> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "AQP2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6342> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KIT" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6354> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KLHL3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/636> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "AQP3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6383> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KNG1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6436> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "KRT19" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6473> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "AFF3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6533> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LDB2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6593> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LHX1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6647> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LMOD1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6694> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LRP2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6735> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "LYN" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6817> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MAL" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6923> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MBNL1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/6996> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MEF2C" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7000> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MEIS1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7001> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MEIS2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7060> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MGP" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7067> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "CIITA" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7154> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MME" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7174> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MMP7" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7183> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MNDA" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7228> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MRC1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7237> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "IRAG1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7315> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MS4A1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7316> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MS4A2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7569> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MYH11" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7590> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MYLK" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7600> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MYO1F" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7657> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NCAM2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7728> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NEDD4L" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7908> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NPHS1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/7999> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NRG3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8008> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NRXN1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8010> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NRXN3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/804> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ATP1B1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8051> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "NUDT4" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8533> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "P2RX1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8602> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PAPPA" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8619> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PAX5" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8630> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PEBP1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8632> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PBX1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/866> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ATP6V0A4" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8774> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PDE1A" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8776> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PDE1C" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8783> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PDE4D" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8803> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PDGFRA" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8804> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PDGFRB" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8823> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PECAM1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8941> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SERPINA1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8973> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PIK3C2G" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/8997> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PIP4K2A" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9016> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PKHD1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9026> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PKP4" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9042> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PLA2R1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9066> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PLCG2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/914> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "B2M" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9171> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PODXL" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9213> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "POU2F2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9228> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PLPP1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9286> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PPP1R1A" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9361> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "SRGN" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9393> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PRKCA" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9395> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PRKCB" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9403> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PRKCH" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/945> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "ADGRB3" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/946> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "MAGI1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/956> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "BARX2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9608> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTH1R" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9609> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTH2R" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9665> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTPRB" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9666> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTPRC" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9668> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTPRD" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9669> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTPRE" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9671> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTPRG" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9675> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTPRM" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9678> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTPRO" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9679> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "PTPRQ" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9841> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RALBP1" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://identifiers.org/hgnc/9874> a <http://purl.bioontology.org/ontology/HGNC/gene>,
+        owl:Class ;
+    rdfs:label "RASAL2" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_0000084> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "T cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_0000097> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Mast cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_0000113> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Mononuclear phagocyte" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_0000115> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Endothelial cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_0000236> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "B cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_0000451> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Dendritic cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_0000576> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Monocyte" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_0000653> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Podocyte" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_0000775> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Neutrophil" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_0000786> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Plasma cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_0002306> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Proximal tubule epithelial cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_0002319> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "neural cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_1000452> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Parietal epithelial cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_1000597> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Papillary tips cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_1000692> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Kidney interstitial fibroblast" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_1000695> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Kidney interstitial alternatively activated macrophage" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_1000768> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Connecting tubule epithelial cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_1000849> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Distal convoluted tubule epithelial cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_1000909> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Loop of Henle epithelial cell " ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_1001106> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle thick ascending limb epithelial cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_1001318> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Renal interstitial pericyte" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_1001431> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Collecting duct principal cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+<http://purl.obolibrary.org/obo/CL_1001432> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "Collecting duct intercalated cell" ;
+    rdfs:isDefinedBy <https://github.com/hubmapconsortium/hra-hubmap-kpmp-integration> .
+
+[] a kg:Graph ;
+    kg:nodes <http://identifiers.org/hgnc/10253>,
+        <http://identifiers.org/hgnc/10298>,
+        <http://identifiers.org/hgnc/10301>,
+        <http://identifiers.org/hgnc/10303>,
+        <http://identifiers.org/hgnc/10330>,
+        <http://identifiers.org/hgnc/10332>,
+        <http://identifiers.org/hgnc/10333>,
+        <http://identifiers.org/hgnc/10364>,
+        <http://identifiers.org/hgnc/10372>,
+        <http://identifiers.org/hgnc/10387>,
+        <http://identifiers.org/hgnc/10401>,
+        <http://identifiers.org/hgnc/10404>,
+        <http://identifiers.org/hgnc/10411>,
+        <http://identifiers.org/hgnc/10417>,
+        <http://identifiers.org/hgnc/10424>,
+        <http://identifiers.org/hgnc/10488>,
+        <http://identifiers.org/hgnc/1049>,
+        <http://identifiers.org/hgnc/10496>,
+        <http://identifiers.org/hgnc/10498>,
+        <http://identifiers.org/hgnc/10499>,
+        <http://identifiers.org/hgnc/10528>,
+        <http://identifiers.org/hgnc/1057>,
+        <http://identifiers.org/hgnc/10588>,
+        <http://identifiers.org/hgnc/10602>,
+        <http://identifiers.org/hgnc/1077>,
+        <http://identifiers.org/hgnc/10860>,
+        <http://identifiers.org/hgnc/10875>,
+        <http://identifiers.org/hgnc/10910>,
+        <http://identifiers.org/hgnc/10912>,
+        <http://identifiers.org/hgnc/10919>,
+        <http://identifiers.org/hgnc/10929>,
+        <http://identifiers.org/hgnc/10935>,
+        <http://identifiers.org/hgnc/10962>,
+        <http://identifiers.org/hgnc/10977>,
+        <http://identifiers.org/hgnc/11033>,
+        <http://identifiers.org/hgnc/11035>,
+        <http://identifiers.org/hgnc/11068>,
+        <http://identifiers.org/hgnc/11070>,
+        <http://identifiers.org/hgnc/11087>,
+        <http://identifiers.org/hgnc/11168>,
+        <http://identifiers.org/hgnc/11185>,
+        <http://identifiers.org/hgnc/11220>,
+        <http://identifiers.org/hgnc/11244>,
+        <http://identifiers.org/hgnc/11251>,
+        <http://identifiers.org/hgnc/11255>,
+        <http://identifiers.org/hgnc/11276>,
+        <http://identifiers.org/hgnc/1131>,
+        <http://identifiers.org/hgnc/11553>,
+        <http://identifiers.org/hgnc/11609>,
+        <http://identifiers.org/hgnc/11642>,
+        <http://identifiers.org/hgnc/11774>,
+        <http://identifiers.org/hgnc/11917>,
+        <http://identifiers.org/hgnc/11972>,
+        <http://identifiers.org/hgnc/12010>,
+        <http://identifiers.org/hgnc/12011>,
+        <http://identifiers.org/hgnc/12019>,
+        <http://identifiers.org/hgnc/1224>,
+        <http://identifiers.org/hgnc/12559>,
+        <http://identifiers.org/hgnc/12635>,
+        <http://identifiers.org/hgnc/12680>,
+        <http://identifiers.org/hgnc/12799>,
+        <http://identifiers.org/hgnc/130>,
+        <http://identifiers.org/hgnc/13010>,
+        <http://identifiers.org/hgnc/1309>,
+        <http://identifiers.org/hgnc/13176>,
+        <http://identifiers.org/hgnc/13222>,
+        <http://identifiers.org/hgnc/13394>,
+        <http://identifiers.org/hgnc/13427>,
+        <http://identifiers.org/hgnc/13446>,
+        <http://identifiers.org/hgnc/13447>,
+        <http://identifiers.org/hgnc/1346>,
+        <http://identifiers.org/hgnc/13503>,
+        <http://identifiers.org/hgnc/13517>,
+        <http://identifiers.org/hgnc/1357>,
+        <http://identifiers.org/hgnc/13604>,
+        <http://identifiers.org/hgnc/1371>,
+        <http://identifiers.org/hgnc/13872>,
+        <http://identifiers.org/hgnc/1390>,
+        <http://identifiers.org/hgnc/1404>,
+        <http://identifiers.org/hgnc/14065>,
+        <http://identifiers.org/hgnc/14120>,
+        <http://identifiers.org/hgnc/14189>,
+        <http://identifiers.org/hgnc/14262>,
+        <http://identifiers.org/hgnc/1434>,
+        <http://identifiers.org/hgnc/1441>,
+        <http://identifiers.org/hgnc/14430>,
+        <http://identifiers.org/hgnc/14434>,
+        <http://identifiers.org/hgnc/14467>,
+        <http://identifiers.org/hgnc/14540>,
+        <http://identifiers.org/hgnc/14544>,
+        <http://identifiers.org/hgnc/14598>,
+        <http://identifiers.org/hgnc/14881>,
+        <http://identifiers.org/hgnc/1514>,
+        <http://identifiers.org/hgnc/15460>,
+        <http://identifiers.org/hgnc/15472>,
+        <http://identifiers.org/hgnc/15605>,
+        <http://identifiers.org/hgnc/15679>,
+        <http://identifiers.org/hgnc/15754>,
+        <http://identifiers.org/hgnc/1585>,
+        <http://identifiers.org/hgnc/15917>,
+        <http://identifiers.org/hgnc/15925>,
+        <http://identifiers.org/hgnc/15985>,
+        <http://identifiers.org/hgnc/16041>,
+        <http://identifiers.org/hgnc/16286>,
+        <http://identifiers.org/hgnc/16395>,
+        <http://identifiers.org/hgnc/1645>,
+        <http://identifiers.org/hgnc/16697>,
+        <http://identifiers.org/hgnc/16700>,
+        <http://identifiers.org/hgnc/16712>,
+        <http://identifiers.org/hgnc/1677>,
+        <http://identifiers.org/hgnc/16784>,
+        <http://identifiers.org/hgnc/16841>,
+        <http://identifiers.org/hgnc/16951>,
+        <http://identifiers.org/hgnc/1697>,
+        <http://identifiers.org/hgnc/17069>,
+        <http://identifiers.org/hgnc/17073>,
+        <http://identifiers.org/hgnc/17084>,
+        <http://identifiers.org/hgnc/17089>,
+        <http://identifiers.org/hgnc/17175>,
+        <http://identifiers.org/hgnc/17224>,
+        <http://identifiers.org/hgnc/17302>,
+        <http://identifiers.org/hgnc/17422>,
+        <http://identifiers.org/hgnc/17438>,
+        <http://identifiers.org/hgnc/1750>,
+        <http://identifiers.org/hgnc/1758>,
+        <http://identifiers.org/hgnc/17732>,
+        <http://identifiers.org/hgnc/17890>,
+        <http://identifiers.org/hgnc/17925>,
+        <http://identifiers.org/hgnc/17992>,
+        <http://identifiers.org/hgnc/17994>,
+        <http://identifiers.org/hgnc/17995>,
+        <http://identifiers.org/hgnc/18041>,
+        <http://identifiers.org/hgnc/18222>,
+        <http://identifiers.org/hgnc/18233>,
+        <http://identifiers.org/hgnc/18264>,
+        <http://identifiers.org/hgnc/18266>,
+        <http://identifiers.org/hgnc/18304>,
+        <http://identifiers.org/hgnc/18349>,
+        <http://identifiers.org/hgnc/18610>,
+        <http://identifiers.org/hgnc/18628>,
+        <http://identifiers.org/hgnc/18650>,
+        <http://identifiers.org/hgnc/18666>,
+        <http://identifiers.org/hgnc/18713>,
+        <http://identifiers.org/hgnc/18866>,
+        <http://identifiers.org/hgnc/18957>,
+        <http://identifiers.org/hgnc/19030>,
+        <http://identifiers.org/hgnc/19152>,
+        <http://identifiers.org/hgnc/19164>,
+        <http://identifiers.org/hgnc/19191>,
+        <http://identifiers.org/hgnc/19192>,
+        <http://identifiers.org/hgnc/19221>,
+        <http://identifiers.org/hgnc/1928>,
+        <http://identifiers.org/hgnc/19341>,
+        <http://identifiers.org/hgnc/19343>,
+        <http://identifiers.org/hgnc/19414>,
+        <http://identifiers.org/hgnc/2026>,
+        <http://identifiers.org/hgnc/20296>,
+        <http://identifiers.org/hgnc/20605>,
+        <http://identifiers.org/hgnc/20653>,
+        <http://identifiers.org/hgnc/2095>,
+        <http://identifiers.org/hgnc/21013>,
+        <http://identifiers.org/hgnc/21030>,
+        <http://identifiers.org/hgnc/21035>,
+        <http://identifiers.org/hgnc/21073>,
+        <http://identifiers.org/hgnc/21380>,
+        <http://identifiers.org/hgnc/21483>,
+        <http://identifiers.org/hgnc/21569>,
+        <http://identifiers.org/hgnc/2197>,
+        <http://identifiers.org/hgnc/2198>,
+        <http://identifiers.org/hgnc/2201>,
+        <http://identifiers.org/hgnc/2213>,
+        <http://identifiers.org/hgnc/22962>,
+        <http://identifiers.org/hgnc/2298>,
+        <http://identifiers.org/hgnc/23219>,
+        <http://identifiers.org/hgnc/23319>,
+        <http://identifiers.org/hgnc/23405>,
+        <http://identifiers.org/hgnc/23479>,
+        <http://identifiers.org/hgnc/23520>,
+        <http://identifiers.org/hgnc/23571>,
+        <http://identifiers.org/hgnc/23720>,
+        <http://identifiers.org/hgnc/2389>,
+        <http://identifiers.org/hgnc/24043>,
+        <http://identifiers.org/hgnc/2439>,
+        <http://identifiers.org/hgnc/24670>,
+        <http://identifiers.org/hgnc/24712>,
+        <http://identifiers.org/hgnc/24886>,
+        <http://identifiers.org/hgnc/250>,
+        <http://identifiers.org/hgnc/25259>,
+        <http://identifiers.org/hgnc/25308>,
+        <http://identifiers.org/hgnc/25361>,
+        <http://identifiers.org/hgnc/2545>,
+        <http://identifiers.org/hgnc/2548>,
+        <http://identifiers.org/hgnc/25491>,
+        <http://identifiers.org/hgnc/2550>,
+        <http://identifiers.org/hgnc/25523>,
+        <http://identifiers.org/hgnc/25945>,
+        <http://identifiers.org/hgnc/26124>,
+        <http://identifiers.org/hgnc/26438>,
+        <http://identifiers.org/hgnc/2663>,
+        <http://identifiers.org/hgnc/2705>,
+        <http://identifiers.org/hgnc/27152>,
+        <http://identifiers.org/hgnc/2720>,
+        <http://identifiers.org/hgnc/27220>,
+        <http://identifiers.org/hgnc/27295>,
+        <http://identifiers.org/hgnc/2770>,
+        <http://identifiers.org/hgnc/28338>,
+        <http://identifiers.org/hgnc/28750>,
+        <http://identifiers.org/hgnc/2897>,
+        <http://identifiers.org/hgnc/29075>,
+        <http://identifiers.org/hgnc/29090>,
+        <http://identifiers.org/hgnc/29108>,
+        <http://identifiers.org/hgnc/29114>,
+        <http://identifiers.org/hgnc/29173>,
+        <http://identifiers.org/hgnc/29323>,
+        <http://identifiers.org/hgnc/29349>,
+        <http://identifiers.org/hgnc/29394>,
+        <http://identifiers.org/hgnc/29849>,
+        <http://identifiers.org/hgnc/29866>,
+        <http://identifiers.org/hgnc/2988>,
+        <http://identifiers.org/hgnc/29944>,
+        <http://identifiers.org/hgnc/30092>,
+        <http://identifiers.org/hgnc/3012>,
+        <http://identifiers.org/hgnc/30279>,
+        <http://identifiers.org/hgnc/30358>,
+        <http://identifiers.org/hgnc/3041>,
+        <http://identifiers.org/hgnc/30931>,
+        <http://identifiers.org/hgnc/3126>,
+        <http://identifiers.org/hgnc/32017>,
+        <http://identifiers.org/hgnc/3229>,
+        <http://identifiers.org/hgnc/3318>,
+        <http://identifiers.org/hgnc/3320>,
+        <http://identifiers.org/hgnc/3340>,
+        <http://identifiers.org/hgnc/3432>,
+        <http://identifiers.org/hgnc/3474>,
+        <http://identifiers.org/hgnc/3488>,
+        <http://identifiers.org/hgnc/3495>,
+        <http://identifiers.org/hgnc/3498>,
+        <http://identifiers.org/hgnc/35>,
+        <http://identifiers.org/hgnc/3522>,
+        <http://identifiers.org/hgnc/3531>,
+        <http://identifiers.org/hgnc/3600>,
+        <http://identifiers.org/hgnc/3602>,
+        <http://identifiers.org/hgnc/3620>,
+        <http://identifiers.org/hgnc/3623>,
+        <http://identifiers.org/hgnc/3701>,
+        <http://identifiers.org/hgnc/37190>,
+        <http://identifiers.org/hgnc/3754>,
+        <http://identifiers.org/hgnc/3765>,
+        <http://identifiers.org/hgnc/381>,
+        <http://identifiers.org/hgnc/4019>,
+        <http://identifiers.org/hgnc/4026>,
+        <http://identifiers.org/hgnc/4028>,
+        <http://identifiers.org/hgnc/4036>,
+        <http://identifiers.org/hgnc/4037>,
+        <http://identifiers.org/hgnc/40862>,
+        <http://identifiers.org/hgnc/4171>,
+        <http://identifiers.org/hgnc/4172>,
+        <http://identifiers.org/hgnc/43910>,
+        <http://identifiers.org/hgnc/4410>,
+        <http://identifiers.org/hgnc/4555>,
+        <http://identifiers.org/hgnc/4563>,
+        <http://identifiers.org/hgnc/4580>,
+        <http://identifiers.org/hgnc/4840>,
+        <http://identifiers.org/hgnc/4855>,
+        <http://identifiers.org/hgnc/48667>,
+        <http://identifiers.org/hgnc/4883>,
+        <http://identifiers.org/hgnc/4913>,
+        <http://identifiers.org/hgnc/49222>,
+        <http://identifiers.org/hgnc/494>,
+        <http://identifiers.org/hgnc/4940>,
+        <http://identifiers.org/hgnc/500>,
+        <http://identifiers.org/hgnc/50753>,
+        <http://identifiers.org/hgnc/5209>,
+        <http://identifiers.org/hgnc/5235>,
+        <http://identifiers.org/hgnc/5358>,
+        <http://identifiers.org/hgnc/5413>,
+        <http://identifiers.org/hgnc/548>,
+        <http://identifiers.org/hgnc/5527>,
+        <http://identifiers.org/hgnc/5716>,
+        <http://identifiers.org/hgnc/5988>,
+        <http://identifiers.org/hgnc/6024>,
+        <http://identifiers.org/hgnc/6079>,
+        <http://identifiers.org/hgnc/6111>,
+        <http://identifiers.org/hgnc/6134>,
+        <http://identifiers.org/hgnc/6156>,
+        <http://identifiers.org/hgnc/6181>,
+        <http://identifiers.org/hgnc/6261>,
+        <http://identifiers.org/hgnc/6262>,
+        <http://identifiers.org/hgnc/6286>,
+        <http://identifiers.org/hgnc/634>,
+        <http://identifiers.org/hgnc/6342>,
+        <http://identifiers.org/hgnc/6354>,
+        <http://identifiers.org/hgnc/636>,
+        <http://identifiers.org/hgnc/6383>,
+        <http://identifiers.org/hgnc/6436>,
+        <http://identifiers.org/hgnc/6473>,
+        <http://identifiers.org/hgnc/6533>,
+        <http://identifiers.org/hgnc/6593>,
+        <http://identifiers.org/hgnc/6647>,
+        <http://identifiers.org/hgnc/6694>,
+        <http://identifiers.org/hgnc/6735>,
+        <http://identifiers.org/hgnc/6817>,
+        <http://identifiers.org/hgnc/6923>,
+        <http://identifiers.org/hgnc/6996>,
+        <http://identifiers.org/hgnc/7000>,
+        <http://identifiers.org/hgnc/7001>,
+        <http://identifiers.org/hgnc/7060>,
+        <http://identifiers.org/hgnc/7067>,
+        <http://identifiers.org/hgnc/7154>,
+        <http://identifiers.org/hgnc/7174>,
+        <http://identifiers.org/hgnc/7183>,
+        <http://identifiers.org/hgnc/7228>,
+        <http://identifiers.org/hgnc/7237>,
+        <http://identifiers.org/hgnc/7315>,
+        <http://identifiers.org/hgnc/7316>,
+        <http://identifiers.org/hgnc/7569>,
+        <http://identifiers.org/hgnc/7590>,
+        <http://identifiers.org/hgnc/7600>,
+        <http://identifiers.org/hgnc/7657>,
+        <http://identifiers.org/hgnc/7728>,
+        <http://identifiers.org/hgnc/7908>,
+        <http://identifiers.org/hgnc/7999>,
+        <http://identifiers.org/hgnc/8008>,
+        <http://identifiers.org/hgnc/8010>,
+        <http://identifiers.org/hgnc/804>,
+        <http://identifiers.org/hgnc/8051>,
+        <http://identifiers.org/hgnc/8533>,
+        <http://identifiers.org/hgnc/8602>,
+        <http://identifiers.org/hgnc/8619>,
+        <http://identifiers.org/hgnc/8630>,
+        <http://identifiers.org/hgnc/8632>,
+        <http://identifiers.org/hgnc/866>,
+        <http://identifiers.org/hgnc/8774>,
+        <http://identifiers.org/hgnc/8776>,
+        <http://identifiers.org/hgnc/8783>,
+        <http://identifiers.org/hgnc/8803>,
+        <http://identifiers.org/hgnc/8804>,
+        <http://identifiers.org/hgnc/8823>,
+        <http://identifiers.org/hgnc/8941>,
+        <http://identifiers.org/hgnc/8973>,
+        <http://identifiers.org/hgnc/8997>,
+        <http://identifiers.org/hgnc/9016>,
+        <http://identifiers.org/hgnc/9026>,
+        <http://identifiers.org/hgnc/9042>,
+        <http://identifiers.org/hgnc/9066>,
+        <http://identifiers.org/hgnc/914>,
+        <http://identifiers.org/hgnc/9171>,
+        <http://identifiers.org/hgnc/9213>,
+        <http://identifiers.org/hgnc/9228>,
+        <http://identifiers.org/hgnc/9286>,
+        <http://identifiers.org/hgnc/9361>,
+        <http://identifiers.org/hgnc/9393>,
+        <http://identifiers.org/hgnc/9395>,
+        <http://identifiers.org/hgnc/9403>,
+        <http://identifiers.org/hgnc/945>,
+        <http://identifiers.org/hgnc/946>,
+        <http://identifiers.org/hgnc/956>,
+        <http://identifiers.org/hgnc/9608>,
+        <http://identifiers.org/hgnc/9609>,
+        <http://identifiers.org/hgnc/9665>,
+        <http://identifiers.org/hgnc/9666>,
+        <http://identifiers.org/hgnc/9668>,
+        <http://identifiers.org/hgnc/9669>,
+        <http://identifiers.org/hgnc/9671>,
+        <http://identifiers.org/hgnc/9675>,
+        <http://identifiers.org/hgnc/9678>,
+        <http://identifiers.org/hgnc/9679>,
+        <http://identifiers.org/hgnc/9841>,
+        <http://identifiers.org/hgnc/9874>,
+        <http://purl.obolibrary.org/obo/CL_0000084>,
+        <http://purl.obolibrary.org/obo/CL_0000097>,
+        <http://purl.obolibrary.org/obo/CL_0000113>,
+        <http://purl.obolibrary.org/obo/CL_0000115>,
+        <http://purl.obolibrary.org/obo/CL_0000236>,
+        <http://purl.obolibrary.org/obo/CL_0000451>,
+        <http://purl.obolibrary.org/obo/CL_0000576>,
+        <http://purl.obolibrary.org/obo/CL_0000653>,
+        <http://purl.obolibrary.org/obo/CL_0000775>,
+        <http://purl.obolibrary.org/obo/CL_0000786>,
+        <http://purl.obolibrary.org/obo/CL_0002306>,
+        <http://purl.obolibrary.org/obo/CL_0002319>,
+        <http://purl.obolibrary.org/obo/CL_1000452>,
+        <http://purl.obolibrary.org/obo/CL_1000597>,
+        <http://purl.obolibrary.org/obo/CL_1000692>,
+        <http://purl.obolibrary.org/obo/CL_1000695>,
+        <http://purl.obolibrary.org/obo/CL_1000768>,
+        <http://purl.obolibrary.org/obo/CL_1000849>,
+        <http://purl.obolibrary.org/obo/CL_1000909>,
+        <http://purl.obolibrary.org/obo/CL_1001106>,
+        <http://purl.obolibrary.org/obo/CL_1001318>,
+        <http://purl.obolibrary.org/obo/CL_1001431>,
+        <http://purl.obolibrary.org/obo/CL_1001432> .
+
