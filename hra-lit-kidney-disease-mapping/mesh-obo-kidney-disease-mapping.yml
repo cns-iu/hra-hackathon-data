@@ -1,0 +1,18 @@
+curie_map:
+  sssom: https://w3id.org/sssom/
+  semapv: https://w-1id.org/semapv/vocab/
+  semv: https://mapping-commons.github.io/semantic-mapping-vocabulary/
+  skos: http://www.w3.org/2004/02/skos/core
+  meshv: http://id.nlm.nih.gov/mesh/vocab
+  mesh: http://id.nlm.nih.gov/mesh/
+  orcid: https://orcid.org/
+  mondo: http://purl.obolibrary.org/obo/mondo.owl
+  doid: http://purl.obolibrary.org/obo/doid.owl
+  hp: http://purl.obolibrary.org/obo/hp.owl
+license: https://creativecommons.org/licenses/by/4.0/
+mapping_set_id: https://purl.humanatlas.io/graph/mesh-obo-kidney-disease-mapping
+mapping_set_version: "v1.0"
+publication_date: "2025-09-04"
+mapping_set_title: "Medical Subject Heading mappings to DOID, HP, and MONDO Ontology for Kidney disease entities."
+mapping_set_description: "This set of SSSOM mappings links semantic entities from Medical Subject Heading (MeSH) RDF taxonomy to those from DOID, HP, and MONDO ontologies for kidney disease concepts."
+mapping_set_comment: "This mapping set were identified using the EMBL-EBI Ontology Xref Service (OxO) and analyzed to apply the best SKOS mapping relationship type to link concepts. Some mappings were identified using implicit relationships identified in alternative names for some concepts related to nephropathy."
