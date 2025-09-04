@@ -1,0 +1,17 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX HRAkda: <https://purl.humanatlas.io/graph/hra-kidney-disease-atlas>
+
+SELECT DISTINCT ?iri
+FROM HRAkda:
+WHERE {
+  { ?iri ?pred1 [] }
+  UNION
+  { 
+    [] ?pred2 ?iri
+    FILTER(isUri(?iri))
+  }
+  FILTER NOT EXISTS {
+    ?iri rdfs:label [] .
+  }
+  FILTER(STRSTARTS(STR(?iri), 'http://purl.obolibrary.org/obo/'))
+}

@@ -15,6 +15,7 @@ WHERE {
     WHERE {
       ?subject ccf:ccf_part_of* ?object .
       ?subject ccf:ccf_part_of* kidney: .
+      ?object ccf:ccf_part_of* kidney: .
     }
   }
   UNION

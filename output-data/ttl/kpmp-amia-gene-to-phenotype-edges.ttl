@@ -6,17 +6,7 @@
     kg:edges [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
             rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/6018> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/18643> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/8008> ;
+            rdf:subject <http://identifiers.org/hgnc/17866> ;
             rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
@@ -26,42 +16,7 @@
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
             rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/600> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/6149> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/11821> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
             rdf:subject <http://identifiers.org/hgnc/11073> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/5986> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/11255> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/914> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/10496> ;
             rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
@@ -71,12 +26,7 @@
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
             rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/18562> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/5962> ;
+            rdf:subject <http://identifiers.org/hgnc/6018> ;
             rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
@@ -86,42 +36,22 @@
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
             rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/10620> ;
+            rdf:subject <http://identifiers.org/hgnc/18562> ;
             rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
             rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/6526> ;
+            rdf:subject <http://identifiers.org/hgnc/10496> ;
             rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
             rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/5476> ;
+            rdf:subject <http://identifiers.org/hgnc/5986> ;
             rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
             rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/11073> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/6025> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/17866> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/11757> ;
-            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
-            rdf:subject <http://identifiers.org/hgnc/8951> ;
+            rdf:subject <http://identifiers.org/hgnc/8008> ;
             rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
@@ -131,6 +61,76 @@
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
             rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/6526> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
             rdf:subject <http://identifiers.org/hgnc/2475> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/6149> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/18643> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/600> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/11073> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/914> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/6025> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/5476> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/10620> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/11821> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/11255> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/8951> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/11757> ;
+            rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
+            rdf:predicate <https://purl.humanatlas.io/vocab/hp#associated_with> ;
+            rdf:subject <http://identifiers.org/hgnc/5962> ;
             rdfs:isDefinedBy <https://doi.org/10.1101/2024.04.01.587658> ] .
 

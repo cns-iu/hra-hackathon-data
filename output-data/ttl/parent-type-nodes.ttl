@@ -1,0 +1,36 @@
+@prefix kg: <https://purl.humanatlas.io/vocab/kg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://purl.obolibrary.org/obo/CL_0000000> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "cell" ;
+    rdfs:isDefinedBy <https://github.com/cns-iu/hra-hackathon-data> .
+
+<http://purl.obolibrary.org/obo/DOID_4> a <http://purl.obolibrary.org/obo/DOID_4>,
+        owl:Class ;
+    rdfs:label "disease" ;
+    rdfs:isDefinedBy <https://github.com/cns-iu/hra-hackathon-data> .
+
+<http://purl.obolibrary.org/obo/HP_0000118> a <http://purl.obolibrary.org/obo/HP_0000118>,
+        owl:Class ;
+    rdfs:label "Phenotypic abnormality" ;
+    rdfs:isDefinedBy <https://github.com/cns-iu/hra-hackathon-data> .
+
+<http://purl.obolibrary.org/obo/MONDO_0000001> a <http://purl.obolibrary.org/obo/MONDO_0000001>,
+        owl:Class ;
+    rdfs:label "disease" ;
+    rdfs:isDefinedBy <https://github.com/cns-iu/hra-hackathon-data> .
+
+<http://purl.obolibrary.org/obo/UBERON_0000061> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "anatomical structure" ;
+    rdfs:isDefinedBy <https://github.com/cns-iu/hra-hackathon-data> .
+
+[] a kg:Graph ;
+    kg:nodes <http://purl.obolibrary.org/obo/CL_0000000>,
+        <http://purl.obolibrary.org/obo/DOID_4>,
+        <http://purl.obolibrary.org/obo/HP_0000118>,
+        <http://purl.obolibrary.org/obo/MONDO_0000001>,
+        <http://purl.obolibrary.org/obo/UBERON_0000061> .
+

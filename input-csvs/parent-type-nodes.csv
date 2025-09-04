@@ -1,0 +1,6 @@
+iri,label,type,source
+http://purl.obolibrary.org/obo/CL_0000000,cell,http://purl.obolibrary.org/obo/CL_0000000,https://github.com/cns-iu/hra-hackathon-data
+http://purl.obolibrary.org/obo/UBERON_0000061,anatomical structure,http://purl.obolibrary.org/obo/UBERON_0000061,https://github.com/cns-iu/hra-hackathon-data
+http://purl.obolibrary.org/obo/HP_0000118,Phenotypic abnormality,http://purl.obolibrary.org/obo/HP_0000118,https://github.com/cns-iu/hra-hackathon-data
+http://purl.obolibrary.org/obo/MONDO_0000001,disease,http://purl.obolibrary.org/obo/MONDO_0000001,https://github.com/cns-iu/hra-hackathon-data
+http://purl.obolibrary.org/obo/DOID_4,disease,http://purl.obolibrary.org/obo/DOID_4,https://github.com/cns-iu/hra-hackathon-data
