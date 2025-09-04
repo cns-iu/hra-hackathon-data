@@ -5,6 +5,7 @@ export LANG=C.UTF-8
 export PYTHONPATH=".:./src"
 export PATH=./node_modules/.bin:${PATH}
 export GPG_TTY=$(tty)
+export CLEAN=false
 
 # Load environment
 if [ -e env.sh ]; then

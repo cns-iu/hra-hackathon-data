@@ -14,7 +14,7 @@ PREFIX HRAkda: <https://purl.humanatlas.io/graph/hra-kidney-disease-atlas>
 PREFIX HRA: <https://purl.humanatlas.io/collection/hra>
 PREFIX HPO: <https://purl.humanatlas.io/vocab/hp>
 
-SELECT ?mean_gene_expr ?gene ?ct ?as ?phenotype ?gene_label ?ct_label ?as_label ?phenotype_label
+SELECT ?mean_gene_expr ?gene ?ct ?as ?phenotype ?gene_label ?ct_label ?as_label ?phenotype_label ?num_sources
 FROM HRAkda:
 WHERE {
   {

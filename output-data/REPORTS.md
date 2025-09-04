@@ -42,7 +42,7 @@ ORDER BY DESC(?count)
 
 | type | count |
 | :--- | :--- |
-| http://purl.org/ccf/ccf_characterizes | 43829 |
+| http://purl.org/ccf/ccf_characterizes | 43819 |
 | https://purl.humanatlas.io/vocab/hp#has_modifier | 5074 |
 | https://purl.humanatlas.io/graph/hra-lit#COOCCURS_WITH_DISEASE | 981 |
 | http://purl.org/ccf/ccf_part_of | 829 |
@@ -82,7 +82,7 @@ ORDER BY ?graph
 | https://purl.humanatlas.io/collection/hra | 2120944 |
 | https://purl.humanatlas.io/collection/hra-api | 2006982 |
 | https://purl.humanatlas.io/graph/ccf | 557123 |
-| https://purl.humanatlas.io/graph/hra-kidney-disease-atlas | 459388 |
+| https://purl.humanatlas.io/graph/hra-kidney-disease-atlas | 459090 |
 | https://purl.humanatlas.io/vocab/cl | 99013 |
 | https://purl.humanatlas.io/vocab/hp | 903078 |
 | https://purl.humanatlas.io/vocab/uberon | 1181703 |
@@ -157,7 +157,7 @@ ORDER BY DESC(?count)
 
 | label | count |
 | :--- | :--- |
-| # Edges | 51091 |
+| # Edges | 51081 |
 | # Nodes | 12861 |
 | # Edge Types | 6 |
 | # Node Types | 5 |
@@ -225,7 +225,7 @@ PREFIX HRAkda: <https://purl.humanatlas.io/graph/hra-kidney-disease-atlas>
 PREFIX HRA: <https://purl.humanatlas.io/collection/hra>
 PREFIX HPO: <https://purl.humanatlas.io/vocab/hp>
 
-SELECT ?mean_gene_expr ?gene ?ct ?as ?phenotype ?gene_label ?ct_label ?as_label ?phenotype_label
+SELECT ?mean_gene_expr ?gene ?ct ?as ?phenotype ?gene_label ?ct_label ?as_label ?phenotype_label ?num_sources
 FROM HRAkda:
 WHERE {
   {
@@ -263,14 +263,14 @@ ORDER BY ?as ?ct DESC(?mean_gene_expr)
 
 #### Results ([View CSV File](reports/atlas-ad-hoc/gene-expr-paths.csv))
 
-| mean_gene_expr | gene | ct | as | phenotype | gene_label | ct_label | as_label | phenotype_label |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 3.843714 | http://identifiers.org/hgnc/10327 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000085 | RPL26 | T cell | renal papilla | Horseshoe kidney |
-| 3.843714 | http://identifiers.org/hgnc/10327 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000104 | RPL26 | T cell | renal papilla | Renal agenesis |
-| 3.843714 | http://identifiers.org/hgnc/10327 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000122 | RPL26 | T cell | renal papilla | Unilateral renal agenesis |
-| 2.8935435 | http://identifiers.org/hgnc/132 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000126 | ACTB | T cell | renal papilla | Hydronephrosis |
-| 2.853652 | http://identifiers.org/hgnc/10369 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000085 | RPL9 | T cell | renal papilla | Horseshoe kidney |
-| ... | ... | ... | ... | ... | ... | ... | ... | ... |
+| mean_gene_expr | gene | ct | as | phenotype | gene_label | ct_label | as_label | phenotype_label | num_sources |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 3.843714 | http://identifiers.org/hgnc/10327 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000085 | RPL26 | T cell | renal papilla | Horseshoe kidney | 1 |
+| 3.843714 | http://identifiers.org/hgnc/10327 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000104 | RPL26 | T cell | renal papilla | Renal agenesis | 1 |
+| 3.843714 | http://identifiers.org/hgnc/10327 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000122 | RPL26 | T cell | renal papilla | Unilateral renal agenesis | 1 |
+| 2.8935435 | http://identifiers.org/hgnc/132 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000126 | ACTB | T cell | renal papilla | Hydronephrosis | 1 |
+| 2.853652 | http://identifiers.org/hgnc/10369 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000085 | RPL9 | T cell | renal papilla | Horseshoe kidney | 1 |
+| ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
 ## atlas-ad-hoc
 
