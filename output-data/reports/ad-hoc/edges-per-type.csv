@@ -4,4 +4,8 @@ https://purl.humanatlas.io/vocab/hp#has_modifier,5074
 https://purl.humanatlas.io/graph/hra-lit#COOCCURS_WITH_DISEASE,981
 http://purl.org/ccf/ccf_part_of,829
 http://purl.org/ccf/ccf_located_in,352
+http://www.w3.org/2004/02/skos/core#exactMatch,179
 https://purl.humanatlas.io/vocab/hp#associated_with,26
+http://www.w3.org/2004/02/skos/core#narrowMatch,20
+http://www.w3.org/2004/02/skos/core#broadMatch,10
+http://www.w3.org/2004/02/skos/core#relatedMatch,6

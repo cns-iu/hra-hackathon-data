@@ -1,0 +1,15 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sssom: <https://w3id.org/sssom/>
+PREFIX HRAlit: <https://purl.humanatlas.io/graph/hra-lit>
+
+SELECT DISTINCT ?subject ?predicate ?object (HRAlit: as ?source)
+WHERE {
+  [] a owl:Axiom ;
+    owl:annotatedSource ?subject ;
+    owl:annotatedProperty ?predicate ;
+    owl:annotatedTarget ?object ;
+  .
+}
+ORDER BY ?predicate ?subject

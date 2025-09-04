@@ -2,7 +2,7 @@
 source constants.sh
 shopt -s extglob
 
-if [ "$CLEAN" == "true" ]; then
+if [ "$1" == "--clean" ] || [ "$CLEAN" == "true" ]; then
   set -ev
 
   if [ ! -e raw-data/hra-pop-blazegraph.jnl ]; then

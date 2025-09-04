@@ -3,7 +3,7 @@ source constants.sh
 shopt -s extglob
 set -ev
 
-if [ "$CLEAN" == "true" ]; then
+if [ "$1" == "--clean" ] || [ "$CLEAN" == "true" ]; then
   set -ev
 
   # cd HRA_HPO_integration

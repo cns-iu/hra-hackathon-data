@@ -1,0 +1,25 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sssom: <https://w3id.org/sssom/>
+PREFIX HRAlit: <https://purl.humanatlas.io/graph/hra-lit>
+
+SELECT ?iri (SAMPLE(?label) as ?label) (SAMPLE(?type) as ?type) (HRAlit: as ?source)
+WHERE {
+  {
+    [] a owl:Axiom ;
+      owl:annotatedSource ?iri ;
+      sssom:subject_label ?label ;
+      sssom:subject_category ?type ;
+    .
+  }
+  UNION
+  {
+    [] a owl:Axiom ;
+      owl:annotatedTarget ?iri ;
+      sssom:object_label ?label ;
+      sssom:object_category ?type ;
+    .
+  }
+}
+GROUP BY ?iri

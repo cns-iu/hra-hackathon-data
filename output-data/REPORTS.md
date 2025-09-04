@@ -47,7 +47,7 @@ ORDER BY DESC(?count)
 | https://purl.humanatlas.io/graph/hra-lit#COOCCURS_WITH_DISEASE | 981 |
 | http://purl.org/ccf/ccf_part_of | 829 |
 | http://purl.org/ccf/ccf_located_in | 352 |
-| https://purl.humanatlas.io/vocab/hp#associated_with | 26 |
+| ... | ... |
 
 ## ad-hoc
 
@@ -82,7 +82,7 @@ ORDER BY ?graph
 | https://purl.humanatlas.io/collection/hra | 2120944 |
 | https://purl.humanatlas.io/collection/hra-api | 2006982 |
 | https://purl.humanatlas.io/graph/ccf | 557123 |
-| https://purl.humanatlas.io/graph/hra-kidney-disease-atlas | 459090 |
+| https://purl.humanatlas.io/graph/hra-kidney-disease-atlas | 461653 |
 | https://purl.humanatlas.io/vocab/cl | 99013 |
 | https://purl.humanatlas.io/vocab/hp | 903078 |
 | https://purl.humanatlas.io/vocab/uberon | 1181703 |
@@ -157,10 +157,10 @@ ORDER BY DESC(?count)
 
 | label | count |
 | :--- | :--- |
-| # Edges | 51081 |
-| # Nodes | 12861 |
-| # Edge Types | 6 |
-| # Node Types | 5 |
+| # Edges | 51296 |
+| # Nodes | 13023 |
+| # Edge Types | 10 |
+| # Node Types | 8 |
 
 
 ### <a id="nodes-per-type"></a>nodes-per-type
@@ -195,9 +195,12 @@ ORDER BY DESC(?count)
 | class | count |
 | :--- | :--- |
 | http://purl.bioontology.org/ontology/HGNC/gene | 12439 |
-| http://purl.obolibrary.org/obo/HP_0000118 | 183 |
+| http://purl.obolibrary.org/obo/HP_0000118 | 192 |
+| http://id.nlm.nih.gov/mesh/D004194 | 87 |
 | http://id.nlm.nih.gov/mesh/D007674 | 85 |
 | http://purl.obolibrary.org/obo/CL_0000000 | 84 |
+| http://purl.obolibrary.org/obo/MONDO_0000001 | 76 |
+| http://purl.obolibrary.org/obo/DOID_4 | 75 |
 | http://purl.obolibrary.org/obo/UBERON_0000061 | 70 |
 
 
