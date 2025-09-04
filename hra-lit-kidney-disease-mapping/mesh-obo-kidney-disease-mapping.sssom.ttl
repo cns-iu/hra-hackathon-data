@@ -1,0 +1,3018 @@
+@prefix DOID: <http://purl.obolibrary.org/obo/DOID_> .
+@prefix HP: <http://purl.obolibrary.org/obo/HP_> .
+@prefix MONDO: <http://purl.obolibrary.org/obo/MONDO_> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dcterms:license a owl:AnnotationProperty .
+
+pav:authoredBy a owl:AnnotationProperty .
+
+rdfs:comment a owl:AnnotationProperty .
+
+sssom:confidence a owl:AnnotationProperty .
+
+sssom:mapping_justification a owl:AnnotationProperty .
+
+sssom:object_category a owl:AnnotationProperty .
+
+sssom:object_label a owl:AnnotationProperty .
+
+sssom:subject_category a owl:AnnotationProperty .
+
+sssom:subject_label a owl:AnnotationProperty .
+
+<http://id.nlm.nih.gov/mesh/D000608> skos:exactMatch MONDO:0006944 .
+
+<http://id.nlm.nih.gov/mesh/D003928> skos:exactMatch MONDO:0005016 .
+
+<http://id.nlm.nih.gov/mesh/D004194> skos:relatedMatch MONDO:0008171 .
+
+<http://id.nlm.nih.gov/mesh/D006959> skos:narrowMatch DOID:2977 .
+
+<http://id.nlm.nih.gov/mesh/D007669> skos:relatedMatch DOID:585 .
+
+<http://id.nlm.nih.gov/mesh/D007691> skos:exactMatch MONDO:0015268 .
+
+<http://id.nlm.nih.gov/mesh/D016263> skos:exactMatch MONDO:0005798 .
+
+<http://id.nlm.nih.gov/mesh/D016891> skos:exactMatch MONDO:0004691 .
+
+<http://id.nlm.nih.gov/mesh/D017044> skos:exactMatch DOID:0110861 .
+
+<http://id.nlm.nih.gov/mesh/D053018> skos:exactMatch MONDO:0021750 .
+
+<http://id.nlm.nih.gov/mesh/D053099> skos:exactMatch HP:0002157 .
+
+<http://id.nlm.nih.gov/mesh/D053653> skos:exactMatch MONDO:0021746 .
+
+<http://id.nlm.nih.gov/mesh/D059228> skos:exactMatch MONDO:0019105 .
+
+<http://id.nlm.nih.gov/mesh/D059347> skos:exactMatch MONDO:0044079 .
+
+<http://id.nlm.nih.gov/mesh/D065766> skos:exactMatch MONDO:0016244 .
+
+<http://id.nlm.nih.gov/mesh/D001477> skos:exactMatch DOID:445,
+        MONDO:0015231 .
+
+<http://id.nlm.nih.gov/mesh/D006030> skos:exactMatch DOID:9432,
+        MONDO:0009297 .
+
+<http://id.nlm.nih.gov/mesh/D006250> skos:exactMatch DOID:1060,
+        MONDO:0009324 .
+
+<http://id.nlm.nih.gov/mesh/D006530> skos:exactMatch DOID:11823,
+        MONDO:0001382 .
+
+<http://id.nlm.nih.gov/mesh/D006960> skos:exactMatch DOID:2977,
+        MONDO:0002474 .
+
+<http://id.nlm.nih.gov/mesh/D006977> skos:exactMatch DOID:1073,
+        MONDO:0001105 .
+
+<http://id.nlm.nih.gov/mesh/D006978> skos:exactMatch DOID:1591,
+        HP:0100817 .
+
+<http://id.nlm.nih.gov/mesh/D007673> skos:exactMatch DOID:2973,
+        MONDO:0006820 .
+
+<http://id.nlm.nih.gov/mesh/D007676> skos:exactMatch DOID:784,
+        MONDO:0005300 .
+
+<http://id.nlm.nih.gov/mesh/D007681> skos:exactMatch DOID:2981,
+        MONDO:0006821 .
+
+<http://id.nlm.nih.gov/mesh/D008181> skos:exactMatch DOID:0080162,
+        MONDO:0005556 .
+
+<http://id.nlm.nih.gov/mesh/D009401> skos:exactMatch DOID:2527,
+        MONDO:0002331 .
+
+<http://id.nlm.nih.gov/mesh/D009800> skos:exactMatch DOID:1056,
+        MONDO:0010645 .
+
+<http://id.nlm.nih.gov/mesh/D011702> skos:exactMatch DOID:2744,
+        MONDO:0006938 .
+
+<http://id.nlm.nih.gov/mesh/D011705> skos:exactMatch DOID:11401,
+        MONDO:0007022 .
+
+<http://id.nlm.nih.gov/mesh/D012080> skos:exactMatch DOID:13068,
+        MONDO:0006946 .
+
+<http://id.nlm.nih.gov/mesh/D014398> skos:exactMatch DOID:9733,
+        MONDO:0005938 .
+
+<http://id.nlm.nih.gov/mesh/D014511> skos:exactMatch DOID:4676,
+        MONDO:0007008 .
+
+<http://id.nlm.nih.gov/mesh/D014929> skos:exactMatch DOID:10632,
+        MONDO:0018105 .
+
+<http://id.nlm.nih.gov/mesh/D015211> skos:exactMatch DOID:905,
+        MONDO:0019609 .
+
+<http://id.nlm.nih.gov/mesh/D015499> skos:exactMatch DOID:447,
+        MONDO:0006510 .
+
+<http://id.nlm.nih.gov/mesh/D017624> skos:exactMatch DOID:14515,
+        MONDO:0008681 .
+
+<http://id.nlm.nih.gov/mesh/D019867> skos:exactMatch DOID:9808,
+        MONDO:0009303 .
+
+<http://id.nlm.nih.gov/mesh/D020790> skos:exactMatch DOID:12388,
+        HP:0000863 .
+
+<http://id.nlm.nih.gov/mesh/D021782> skos:exactMatch HP:0000003,
+        MONDO:0015988 .
+
+<http://id.nlm.nih.gov/mesh/D051436> skos:exactMatch HP:0012622,
+        MONDO:0024327 .
+
+<http://id.nlm.nih.gov/mesh/D052159> skos:exactMatch DOID:0050438,
+        MONDO:0007635 .
+
+<http://id.nlm.nih.gov/mesh/D053040> skos:exactMatch HP:0000787,
+        MONDO:0008171 .
+
+<http://id.nlm.nih.gov/mesh/D053098> skos:exactMatch DOID:0050445,
+        MONDO:0020720 .
+
+<http://id.nlm.nih.gov/mesh/D053579> skos:exactMatch DOID:0050450,
+        MONDO:0009904 .
+
+<http://id.nlm.nih.gov/mesh/D056929> skos:exactMatch DOID:0050477,
+        MONDO:0008323 .
+
+<http://id.nlm.nih.gov/mesh/D057973> skos:exactMatch DOID:0050699,
+        MONDO:0015612 .
+
+<http://id.nlm.nih.gov/mesh/D001002> skos:exactMatch DOID:2983,
+        HP:0100519,
+        MONDO:0002476 .
+
+<http://id.nlm.nih.gov/mesh/D001449> skos:exactMatch DOID:3052,
+        MONDO:0007416 ;
+    skos:narrowMatch HP:0000112 .
+
+<http://id.nlm.nih.gov/mesh/D003555> skos:exactMatch DOID:9266,
+        HP:0003131,
+        MONDO:0009067 .
+
+<http://id.nlm.nih.gov/mesh/D003919> skos:exactMatch DOID:9409,
+        HP:0000873,
+        MONDO:0004782 .
+
+<http://id.nlm.nih.gov/mesh/D005921> skos:exactMatch DOID:2921,
+        HP:0000099,
+        MONDO:0002462 .
+
+<http://id.nlm.nih.gov/mesh/D005923> skos:exactMatch DOID:1312,
+        HP:0000097,
+        MONDO:0005363 .
+
+<http://id.nlm.nih.gov/mesh/D006463> skos:exactMatch DOID:12554,
+        HP:0005575,
+        MONDO:0001549 .
+
+<http://id.nlm.nih.gov/mesh/D006869> skos:exactMatch DOID:11111,
+        HP:0000126,
+        MONDO:0005510 .
+
+<http://id.nlm.nih.gov/mesh/D007680> skos:exactMatch DOID:263,
+        HP:0009726,
+        MONDO:0002367 .
+
+<http://id.nlm.nih.gov/mesh/D007683> skos:exactMatch DOID:12556,
+        HP:0008682,
+        MONDO:0006637 .
+
+<http://id.nlm.nih.gov/mesh/D007690> skos:exactMatch DOID:898,
+        HP:0000113,
+        MONDO:0020642 .
+
+<http://id.nlm.nih.gov/mesh/D009394> skos:exactMatch DOID:10983,
+        MONDO:0005334 ;
+    skos:narrowMatch HP:0000112 .
+
+<http://id.nlm.nih.gov/mesh/D009396> skos:exactMatch DOID:2154,
+        HP:0002667,
+        MONDO:0006058 .
+
+<http://id.nlm.nih.gov/mesh/D009397> skos:exactMatch DOID:12679,
+        HP:0000121,
+        MONDO:0001567 .
+
+<http://id.nlm.nih.gov/mesh/D009400> skos:exactMatch DOID:11664,
+        HP:0009741,
+        MONDO:0006044 .
+
+<http://id.nlm.nih.gov/mesh/D009404> skos:exactMatch DOID:1184,
+        HP:0000100,
+        MONDO:0005377 .
+
+<http://id.nlm.nih.gov/mesh/D010501> skos:exactMatch DOID:2982,
+        HP:0012784,
+        MONDO:0006900 .
+
+<http://id.nlm.nih.gov/mesh/D011704> skos:exactMatch DOID:11400,
+        HP:0012330,
+        MONDO:0006939 .
+
+<http://id.nlm.nih.gov/mesh/D012078> skos:exactMatch DOID:2972,
+        HP:0001920,
+        MONDO:0006945 .
+
+<http://id.nlm.nih.gov/mesh/D015432> skos:broadMatch HP:0004746 ;
+    skos:exactMatch DOID:2920,
+        HP:0000793 .
+
+<http://id.nlm.nih.gov/mesh/D018201> skos:exactMatch DOID:4773,
+        HP:0100881,
+        MONDO:0003130 .
+
+<http://id.nlm.nih.gov/mesh/D018500> skos:exactMatch DOID:12387,
+        HP:0009806,
+        MONDO:0016383 .
+
+<http://id.nlm.nih.gov/mesh/D030321> skos:exactMatch DOID:3764,
+        MONDO:0008682 ;
+    skos:narrowMatch HP:0000112 .
+
+<http://id.nlm.nih.gov/mesh/D051437> skos:exactMatch DOID:1074,
+        HP:0000083,
+        MONDO:0001106 .
+
+<http://id.nlm.nih.gov/mesh/D052177> skos:exactMatch DOID:2975,
+        HP:0000107,
+        MONDO:0002473 .
+
+<http://id.nlm.nih.gov/mesh/D058186> skos:exactMatch DOID:3021,
+        HP:0001919,
+        MONDO:0002492 .
+
+<http://id.nlm.nih.gov/mesh/D005198> skos:exactMatch DOID:1062,
+        HP:0001994,
+        MONDO:0001083 ;
+    skos:narrowMatch HP:0000112 .
+
+<http://id.nlm.nih.gov/mesh/D005922> skos:exactMatch DOID:2986,
+        HP:0000794,
+        MONDO:0005342 ;
+    skos:narrowMatch HP:0000112 .
+
+<http://id.nlm.nih.gov/mesh/D007674> skos:exactMatch DOID:557,
+        MONDO:0005240 ;
+    skos:relatedMatch HP:0000077,
+        HP:0000112 .
+
+<http://id.nlm.nih.gov/mesh/D009393> skos:exactMatch DOID:10952,
+        HP:0000123,
+        MONDO:0001166 ;
+    skos:narrowMatch HP:0000112 .
+
+<http://id.nlm.nih.gov/mesh/D009402> skos:exactMatch DOID:10966,
+        HP:0012579,
+        MONDO:0006835 ;
+    skos:narrowMatch HP:0000112 .
+
+<http://id.nlm.nih.gov/mesh/D015433> skos:exactMatch DOID:10976,
+        HP:0012578,
+        MONDO:0005376 ;
+    skos:narrowMatch HP:0000112 .
+
+<http://id.nlm.nih.gov/mesh/D000141> skos:broadMatch HP:0002049,
+        HP:0008341 ;
+    skos:exactMatch DOID:14219,
+        HP:0001947,
+        MONDO:0001909 .
+
+<http://id.nlm.nih.gov/mesh/D009395> skos:exactMatch DOID:1063,
+        HP:0001970,
+        MONDO:0001085 ;
+    skos:narrowMatch HP:0000112,
+        HP:0001969 .
+
+<http://id.nlm.nih.gov/mesh/D011546> skos:exactMatch DOID:4479,
+        HP:0008242,
+        MONDO:0018638 ;
+    skos:narrowMatch DOID:0060854,
+        DOID:0060855 .
+
+<http://id.nlm.nih.gov/mesh/D002292> skos:broadMatch DOID:4464,
+        DOID:4465,
+        DOID:4467,
+        DOID:4471,
+        DOID:4473,
+        HP:0006766,
+        HP:0006770 ;
+    skos:exactMatch DOID:4450,
+        HP:0005584,
+        MONDO:0005086 .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009395> ;
+    owl:annotatedTarget MONDO:0001085 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "interstitial nephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephritis, Interstitial" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:broadMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D002292> ;
+    owl:annotatedTarget DOID:4464 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "collecting duct carcinoma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Carcinoma, Renal Cell" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    rdfs:comment "Mapping identified by use of nephropathy in alternative names of MeSH concepts." ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005198> ;
+    owl:annotatedTarget HP:0000112 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Fanconi Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    rdfs:comment "Mapping identified by use of nephropathy in alternative names of MeSH concepts." ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009395> ;
+    owl:annotatedTarget HP:0000112 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephritis, Interstitial" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005922> ;
+    owl:annotatedTarget MONDO:0005342 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "IgA glomerulonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis, IGA" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D018500> ;
+    owl:annotatedTarget DOID:12387 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "nephrogenic diabetes insipidus" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Diabetes Insipidus, Nephrogenic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D011546> ;
+    owl:annotatedTarget HP:0008242 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Pseudohypoaldosteronism" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pseudohypoaldosteronism" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D000141> ;
+    owl:annotatedTarget HP:0001947 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Renal tubular acidosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Acidosis, Renal Tubular" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D051437> ;
+    owl:annotatedTarget MONDO:0001106 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "kidney failure" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Renal Insufficiency" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D058186> ;
+    owl:annotatedTarget HP:0001919 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Acute kidney injury" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Acute Kidney Injury" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:broadMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D002292> ;
+    owl:annotatedTarget DOID:4465 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "papillary renal cell carcinoma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Carcinoma, Renal Cell" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D012080> ;
+    owl:annotatedTarget DOID:13068 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "renal osteodystrophy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Chronic Kidney Disease-Mineral and Bone Disorder" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:broadMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D000141> ;
+    owl:annotatedTarget HP:0008341 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Distal renal tubular acidosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Acidosis, Renal Tubular" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:broadMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D002292> ;
+    owl:annotatedTarget DOID:4471 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "chromophobe renal cell carcinoma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Carcinoma, Renal Cell" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005922> ;
+    owl:annotatedTarget DOID:2986 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "IgA glomerulonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis, IGA" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009393> ;
+    owl:annotatedTarget HP:0000123 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D012078> ;
+    owl:annotatedTarget DOID:2972 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "renal artery obstruction" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Renal Artery Obstruction" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D053040> ;
+    owl:annotatedTarget HP:0000787 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephrolithiasis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrolithiasis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D017044> ;
+    owl:annotatedTarget DOID:0110861 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "autosomal recessive polycystic kidney disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Polycystic Kidney, Autosomal Recessive" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    rdfs:comment "Mapping identified by use of nephropathy in alternative names of MeSH concepts." ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009402> ;
+    owl:annotatedTarget HP:0000112 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrosis, Lipoid" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007680> ;
+    owl:annotatedTarget DOID:263 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "kidney neoplasm" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Neoplasms" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D003919> ;
+    owl:annotatedTarget DOID:9409 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "diabetes insipidus" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Diabetes Insipidus" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D053579> ;
+    owl:annotatedTarget DOID:0050450 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Gitelman syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Gitelman Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D015211> ;
+    owl:annotatedTarget DOID:905 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Zellweger syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Zellweger Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005923> ;
+    owl:annotatedTarget MONDO:0005363 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "focal segmental glomerulosclerosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulosclerosis, Focal Segmental" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009397> ;
+    owl:annotatedTarget HP:0000121 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephrocalcinosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrocalcinosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D014398> ;
+    owl:annotatedTarget MONDO:0005938 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "renal tuberculosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Tuberculosis, Renal" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D019867> ;
+    owl:annotatedTarget MONDO:0009303 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "anti-glomerular basement membrane disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Anti-Glomerular Basement Membrane Disease" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006960> ;
+    owl:annotatedTarget MONDO:0002474 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "primary hyperoxaluria" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hyperoxaluria, Primary" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007681> ;
+    owl:annotatedTarget MONDO:0006821 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "kidney papillary necrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Papillary Necrosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D003555> ;
+    owl:annotatedTarget MONDO:0009067 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "cystinuria" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Cystinuria" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D051437> ;
+    owl:annotatedTarget DOID:1074 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "kidney failure" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Renal Insufficiency" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    rdfs:comment "Mapping identified by use of nephropathy in alternative names of MeSH concepts." ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009394> ;
+    owl:annotatedTarget HP:0000112 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephritis, Hereditary" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D053018> ;
+    owl:annotatedTarget MONDO:0021750 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "pyonephrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pyonephrosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D014511> ;
+    owl:annotatedTarget MONDO:0007008 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "uremia" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Uremia" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D021782> ;
+    owl:annotatedTarget HP:0000003 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Multicystic kidney dysplasia" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Multicystic Dysplastic Kidney" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    rdfs:comment "Mapping identified by use of nephropathy in alternative names of MeSH concepts." ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D015433> ;
+    owl:annotatedTarget HP:0000112 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis, Membranous" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007690> ;
+    owl:annotatedTarget DOID:898 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "autosomal dominant polycystic kidney disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Polycystic Kidney Diseases" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007680> ;
+    owl:annotatedTarget HP:0009726 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Renal neoplasm" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Neoplasms" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D020790> ;
+    owl:annotatedTarget DOID:12388 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "neurohypophyseal diabetes insipidus" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Diabetes Insipidus, Neurogenic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009393> ;
+    owl:annotatedTarget DOID:10952 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "nephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005198> ;
+    owl:annotatedTarget DOID:1062 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Fanconi syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Fanconi Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005921> ;
+    owl:annotatedTarget MONDO:0002462 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "glomerulonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    rdfs:comment "Mapping identified by use of nephropathy in alternative names of MeSH concepts." ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D030321> ;
+    owl:annotatedTarget HP:0000112 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Denys-Drash Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009396> ;
+    owl:annotatedTarget MONDO:0006058 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "Wilms tumor" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Wilms Tumor" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D015433> ;
+    owl:annotatedTarget MONDO:0005376 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "membranous glomerulonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis, Membranous" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D000608> ;
+    owl:annotatedTarget MONDO:0006944 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "renal aminoaciduria" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Renal Aminoacidurias" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    rdfs:comment "Mapping identified by use of nephropathy in alternative names of MeSH concepts." ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D001449> ;
+    owl:annotatedTarget HP:0000112 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Balkan Nephropathy" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D053099> ;
+    owl:annotatedTarget HP:0002157 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Azotemia" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Azotemia" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D016891> ;
+    owl:annotatedTarget MONDO:0004691 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "autosomal dominant polycystic kidney disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Polycystic Kidney, Autosomal Dominant" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D001002> ;
+    owl:annotatedTarget MONDO:0002476 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "anuria" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Anuria" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D053098> ;
+    owl:annotatedTarget MONDO:0020720 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "X-linked hypophosphatemic rickets" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Familial Hypophosphatemic Rickets" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006959> ;
+    owl:annotatedTarget DOID:2977 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "primary hyperoxaluria" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hyperoxaluria" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009395> ;
+    owl:annotatedTarget HP:0001969 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Abnormal tubulointerstitial morphology" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephritis, Interstitial" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D018201> ;
+    owl:annotatedTarget HP:0100881 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Congenital mesoblastic nephroma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephroma, Mesoblastic" .
+
+[] a owl:Ontology ;
+    dcterms:created "2025-09-04"^^xsd:date ;
+    dcterms:description "This set of SSSOM mappings links semantic entities from Medical Subject Heading (MeSH) RDF taxonomy to those from DOID, HP, and MONDO ontologies for kidney disease concepts." ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    dcterms:title "Medical Subject Heading mappings to DOID, HP, and MONDO Ontology for Kidney disease entities." ;
+    owl:versionInfo "v1.0" ;
+    sssom:mapping_set_id "https://purl.humanatlas.io/graph/mesh-obo-kidney-disease-mapping"^^xsd:anyURI .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007673> ;
+    owl:annotatedTarget MONDO:0006820 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "kidney cortex necrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Cortex Necrosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D015433> ;
+    owl:annotatedTarget HP:0012578 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Membranous nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis, Membranous" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007690> ;
+    owl:annotatedTarget HP:0000113 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Polycystic kidney dysplasia" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Polycystic Kidney Diseases" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005923> ;
+    owl:annotatedTarget DOID:1312 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "focal segmental glomerulosclerosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulosclerosis, Focal Segmental" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D052177> ;
+    owl:annotatedTarget DOID:2975 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "cystic kidney disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Diseases, Cystic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D017624> ;
+    owl:annotatedTarget MONDO:0008681 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "WAGR syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "WAGR Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007683> ;
+    owl:annotatedTarget DOID:12556 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "acute kidney tubular necrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Tubular Necrosis, Acute" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009800> ;
+    owl:annotatedTarget MONDO:0010645 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "oculocerebrorenal syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Oculocerebrorenal Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:broadMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D002292> ;
+    owl:annotatedTarget HP:0006770 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Clear cell renal cell carcinoma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Carcinoma, Renal Cell" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D011546> ;
+    owl:annotatedTarget DOID:0060855 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "autosomal dominant pseudohypoaldosteronism type 1" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pseudohypoaldosteronism" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D001002> ;
+    owl:annotatedTarget HP:0100519 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Anuria" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Anuria" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D015211> ;
+    owl:annotatedTarget MONDO:0019609 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "Zellweger spectrum disorders" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Zellweger Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006250> ;
+    owl:annotatedTarget MONDO:0009324 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "Hartnup disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hartnup Disease" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006977> ;
+    owl:annotatedTarget MONDO:0001105 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "renal hypertension" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hypertension, Renal" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006463> ;
+    owl:annotatedTarget MONDO:0001549 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "hemolytic-uremic syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hemolytic-Uremic Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D001002> ;
+    owl:annotatedTarget DOID:2983 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "anuria" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Anuria" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D011705> ;
+    owl:annotatedTarget DOID:11401 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "xanthogranulomatous pyelonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pyelonephritis, Xanthogranulomatous" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D053579> ;
+    owl:annotatedTarget MONDO:0009904 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "Gitelman syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Gitelman Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007674> ;
+    owl:annotatedTarget HP:0000077 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Abnormality of the kidney" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Diseases" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D015432> ;
+    owl:annotatedTarget HP:0000793 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Membranoproliferative glomerulonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis, Membranoproliferative" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007674> ;
+    owl:annotatedTarget HP:0000112 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Diseases" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D052159> ;
+    owl:annotatedTarget MONDO:0007635 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "Frasier syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Frasier Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D010501> ;
+    owl:annotatedTarget MONDO:0006900 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "perinephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Perinephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D002292> ;
+    owl:annotatedTarget HP:0005584 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Renal cell carcinoma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Carcinoma, Renal Cell" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D003919> ;
+    owl:annotatedTarget HP:0000873 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Diabetes insipidus" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Diabetes Insipidus" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D011702> ;
+    owl:annotatedTarget DOID:2744 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "pyelitis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pyelitis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D012078> ;
+    owl:annotatedTarget HP:0001920 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Renal artery stenosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Renal Artery Obstruction" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D018201> ;
+    owl:annotatedTarget MONDO:0003130 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "mesoblastic nephroma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephroma, Mesoblastic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D056929> ;
+    owl:annotatedTarget MONDO:0008323 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "Liddle syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Liddle Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D020790> ;
+    owl:annotatedTarget HP:0000863 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Central diabetes insipidus" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Diabetes Insipidus, Neurogenic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    rdfs:comment "Mapping identified by use of nephropathy in alternative names of MeSH concepts." ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005922> ;
+    owl:annotatedTarget HP:0000112 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis, IGA" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    rdfs:comment "Idenfied using Experimental Factor Ontology (EOF) paths to Mapping MeSH and DOID concepts." ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007669> ;
+    owl:annotatedTarget DOID:585 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "nephrolithiasis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Calculi" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D000141> ;
+    owl:annotatedTarget DOID:14219 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "renal tubular acidosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Acidosis, Renal Tubular" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009393> ;
+    owl:annotatedTarget MONDO:0001166 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "nephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D011704> ;
+    owl:annotatedTarget DOID:11400 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "pyelonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pyelonephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D051436> ;
+    owl:annotatedTarget HP:0012622 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Chronic kidney disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Renal Insufficiency, Chronic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007681> ;
+    owl:annotatedTarget DOID:2981 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "kidney papillary necrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Papillary Necrosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006869> ;
+    owl:annotatedTarget HP:0000126 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Hydronephrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hydronephrosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009401> ;
+    owl:annotatedTarget MONDO:0002331 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "nephrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009397> ;
+    owl:annotatedTarget MONDO:0001567 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "nephrocalcinosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrocalcinosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009394> ;
+    owl:annotatedTarget DOID:10983 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Alport syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephritis, Hereditary" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009394> ;
+    owl:annotatedTarget MONDO:0005334 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "hereditary nephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephritis, Hereditary" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007676> ;
+    owl:annotatedTarget MONDO:0005300 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "chronic kidney disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Failure, Chronic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009401> ;
+    owl:annotatedTarget DOID:2527 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "nephrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D059347> ;
+    owl:annotatedTarget MONDO:0044079 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "cardio-renal syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Cardio-Renal Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009402> ;
+    owl:annotatedTarget MONDO:0006835 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "lipoid nephrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrosis, Lipoid" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:broadMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D002292> ;
+    owl:annotatedTarget HP:0006766 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Papillary renal cell carcinoma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Carcinoma, Renal Cell" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D001449> ;
+    owl:annotatedTarget DOID:3052 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Balkan nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Balkan Nephropathy" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006978> ;
+    owl:annotatedTarget DOID:1591 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "renovascular hypertension" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hypertension, Renovascular" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:broadMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D002292> ;
+    owl:annotatedTarget DOID:4467 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "renal clear cell carcinoma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Carcinoma, Renal Cell" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D002292> ;
+    owl:annotatedTarget MONDO:0005086 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "renal cell carcinoma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Carcinoma, Renal Cell" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005921> ;
+    owl:annotatedTarget DOID:2921 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "glomerulonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005198> ;
+    owl:annotatedTarget HP:0001994 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Renal Fanconi syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Fanconi Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D052177> ;
+    owl:annotatedTarget HP:0000107 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Renal cyst" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Diseases, Cystic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009397> ;
+    owl:annotatedTarget DOID:12679 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "nephrocalcinosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrocalcinosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009396> ;
+    owl:annotatedTarget DOID:2154 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "nephroblastoma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Wilms Tumor" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D011704> ;
+    owl:annotatedTarget HP:0012330 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Pyelonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pyelonephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D011705> ;
+    owl:annotatedTarget MONDO:0007022 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "xanthogranulomatous pyelonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pyelonephritis, Xanthogranulomatous" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006250> ;
+    owl:annotatedTarget DOID:1060 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Hartnup disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hartnup Disease" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007683> ;
+    owl:annotatedTarget MONDO:0006637 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "acute kidney tubular necrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Tubular Necrosis, Acute" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007676> ;
+    owl:annotatedTarget DOID:784 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "chronic kidney disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Failure, Chronic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D053040> ;
+    owl:annotatedTarget MONDO:0008171 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "nephrolithiasis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrolithiasis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009395> ;
+    owl:annotatedTarget DOID:1063 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "interstitial nephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephritis, Interstitial" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D059228> ;
+    owl:annotatedTarget MONDO:0019105 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "renal nutcracker syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Renal Nutcracker Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009402> ;
+    owl:annotatedTarget DOID:10966 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "lipoid nephrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrosis, Lipoid" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D019867> ;
+    owl:annotatedTarget DOID:9808 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Goodpasture syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Anti-Glomerular Basement Membrane Disease" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D030321> ;
+    owl:annotatedTarget DOID:3764 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Denys-Drash syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Denys-Drash Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009400> ;
+    owl:annotatedTarget DOID:11664 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "nephrosclerosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrosclerosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006977> ;
+    owl:annotatedTarget DOID:1073 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "renal hypertension" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hypertension, Renal" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D058186> ;
+    owl:annotatedTarget DOID:3021 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "acute kidney failure" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Acute Kidney Injury" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D014929> ;
+    owl:annotatedTarget DOID:10632 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Wolfram syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Wolfram Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    rdfs:comment "Mapping identified by use of nephropathy in alternative names of MeSH concepts." ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009393> ;
+    owl:annotatedTarget HP:0000112 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005923> ;
+    owl:annotatedTarget HP:0000097 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Focal segmental glomerulosclerosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulosclerosis, Focal Segmental" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D065766> ;
+    owl:annotatedTarget MONDO:0016244 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "atypical hemolytic-uremic syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Atypical Hemolytic Uremic Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006530> ;
+    owl:annotatedTarget MONDO:0001382 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "hepatorenal syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hepatorenal Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006960> ;
+    owl:annotatedTarget DOID:2977 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "primary hyperoxaluria" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hyperoxaluria, Primary" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    rdfs:comment "Idenfied using Experimental Factor Ontology (EOF) paths to Mapping MeSH and MONDO concepts." ;
+    owl:annotatedProperty skos:relatedMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D004194> ;
+    owl:annotatedTarget MONDO:0008171 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "nephrolithaisis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Calculi" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005921> ;
+    owl:annotatedTarget HP:0000099 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Glomerulonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006869> ;
+    owl:annotatedTarget MONDO:0005510 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "hydronephrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hydronephrosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D003555> ;
+    owl:annotatedTarget HP:0003131 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Cystinuria" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Cystinuria" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D011702> ;
+    owl:annotatedTarget MONDO:0006938 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "pyelitis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pyelitis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009404> ;
+    owl:annotatedTarget DOID:1184 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "nephrotic syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrotic Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D021782> ;
+    owl:annotatedTarget MONDO:0015988 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "multicystic dysplastic kidney" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Multicystic Dysplastic Kidney" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D057973> ;
+    owl:annotatedTarget DOID:0050699 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Dent disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Dent Disease" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009396> ;
+    owl:annotatedTarget HP:0002667 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephroblastoma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Wilms Tumor" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D053098> ;
+    owl:annotatedTarget DOID:0050445 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "X-linked dominant hypophosphatemic rickets" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Familial Hypophosphatemic Rickets" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D014511> ;
+    owl:annotatedTarget DOID:4676 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "uremia" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Uremia" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D052177> ;
+    owl:annotatedTarget MONDO:0002473 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "cystic kidney disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Diseases, Cystic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006030> ;
+    owl:annotatedTarget MONDO:0009297 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "familial renal glucosuria" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glycosuria, Renal" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007674> ;
+    owl:annotatedTarget MONDO:0005240 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "kidney disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Diseases" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009404> ;
+    owl:annotatedTarget MONDO:0005377 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "nephrotic syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrotic Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D014398> ;
+    owl:annotatedTarget DOID:9733 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "renal tuberculosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Tuberculosis, Renal" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:broadMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D015432> ;
+    owl:annotatedTarget HP:0004746 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Glomerular subendothelial electron-dense deposits)" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis, Membranoproliferative" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D003928> ;
+    owl:annotatedTarget MONDO:0005016 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "diabetic kidney disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Diabetic Nephropathies" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D014929> ;
+    owl:annotatedTarget MONDO:0018105 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "Wolfram syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Wolfram Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007691> ;
+    owl:annotatedTarget MONDO:0015268 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "medullary sponge kidney" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Medullary Sponge Kidney" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D011704> ;
+    owl:annotatedTarget MONDO:0006939 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "pyelonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pyelonephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006463> ;
+    owl:annotatedTarget DOID:12554 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "hemolytic-uremic syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hemolytic-Uremic Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009402> ;
+    owl:annotatedTarget HP:0012579 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Minimal change glomerulonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrosis, Lipoid" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009395> ;
+    owl:annotatedTarget HP:0001970 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Tubulointerstitial nephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephritis, Interstitial" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D030321> ;
+    owl:annotatedTarget MONDO:0008682 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "Denys-Drash syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Denys-Drash Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007683> ;
+    owl:annotatedTarget HP:0008682 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Renal tubular epithelial necrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Tubular Necrosis, Acute" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D011546> ;
+    owl:annotatedTarget DOID:0060854 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "autosomal recessive pseudohypoaldosteronism type 1" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pseudohypoaldosteronism" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009800> ;
+    owl:annotatedTarget DOID:1056 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "oculocerebrorenal syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Oculocerebrorenal Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D001449> ;
+    owl:annotatedTarget MONDO:0007416 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "Balkan nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Balkan Nephropathy" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D008181> ;
+    owl:annotatedTarget DOID:0080162 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "lupus nephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Lupus Nephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009400> ;
+    owl:annotatedTarget MONDO:0006044 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "nephrosclerosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrosclerosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D001477> ;
+    owl:annotatedTarget MONDO:0015231 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "Bartter syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Bartter Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:broadMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D000141> ;
+    owl:annotatedTarget HP:0002049 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Proximal renal tubular acidosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Acidosis, Renal Tubular" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006530> ;
+    owl:annotatedTarget DOID:11823 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "hepatorenal syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hepatorenal Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006030> ;
+    owl:annotatedTarget DOID:9432 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "renal glycosuria" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glycosuria, Renal" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006978> ;
+    owl:annotatedTarget HP:0100817 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Renovascular hypertension" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hypertension, Renovascular" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D015499> ;
+    owl:annotatedTarget DOID:447 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "renal tubular transport disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Renal Tubular Transport, Inborn Errors" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D051436> ;
+    owl:annotatedTarget MONDO:0024327 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "chronic renal failure syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Renal Insufficiency, Chronic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006869> ;
+    owl:annotatedTarget DOID:11111 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "hydronephrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hydronephrosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007673> ;
+    owl:annotatedTarget DOID:2973 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "kidney cortex necrosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Cortex Necrosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D018500> ;
+    owl:annotatedTarget MONDO:0016383 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "nephrogenic diabetes insipidus" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Diabetes Insipidus, Nephrogenic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D006463> ;
+    owl:annotatedTarget HP:0005575 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Hemolytic-uremic syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Hemolytic-Uremic Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D058186> ;
+    owl:annotatedTarget MONDO:0002492 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "acute kidney failure" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Acute Kidney Injury" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D017624> ;
+    owl:annotatedTarget DOID:14515 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "WAGR syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "WAGR Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007690> ;
+    owl:annotatedTarget MONDO:0020642 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "polycystic kidney disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Polycystic Kidney Diseases" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D012078> ;
+    owl:annotatedTarget MONDO:0006945 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "renal artery obstruction" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Renal Artery Obstruction" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005922> ;
+    owl:annotatedTarget HP:0000794 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "IgA deposition in the glomerulu" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis, IGA" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007680> ;
+    owl:annotatedTarget MONDO:0002367 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "kidney cancer" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Neoplasms" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D003919> ;
+    owl:annotatedTarget MONDO:0004782 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "diabetes insipidus" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Diabetes Insipidus" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009400> ;
+    owl:annotatedTarget HP:0009741 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephrosclerosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrosclerosis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D009404> ;
+    owl:annotatedTarget HP:0000100 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephrotic syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephrotic Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D052159> ;
+    owl:annotatedTarget DOID:0050438 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Frasier syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Frasier Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D056929> ;
+    owl:annotatedTarget DOID:0050477 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Liddle syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Liddle Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D015432> ;
+    owl:annotatedTarget DOID:2920 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "membranoproliferative glomerulonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis, Membranoproliferative" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D012080> ;
+    owl:annotatedTarget MONDO:0006946 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "renal osteodystrophy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Chronic Kidney Disease-Mineral and Bone Disorder" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D002292> ;
+    owl:annotatedTarget DOID:4450 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "renal cell carcinoma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Carcinoma, Renal Cell" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D007674> ;
+    owl:annotatedTarget DOID:557 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "kidney disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Kidney Diseases" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D057973> ;
+    owl:annotatedTarget MONDO:0015612 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "Dent disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Dent Disease" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D053653> ;
+    owl:annotatedTarget MONDO:0021746 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "pyelocystitis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pyelocystitis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D010501> ;
+    owl:annotatedTarget DOID:2982 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "perinephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Perinephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D018201> ;
+    owl:annotatedTarget DOID:4773 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "congenital mesoblastic nephroma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Nephroma, Mesoblastic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D010501> ;
+    owl:annotatedTarget HP:0012784 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Perinephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Perinephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D018500> ;
+    owl:annotatedTarget HP:0009806 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Nephrogenic diabetes insipidus" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Diabetes Insipidus, Nephrogenic" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D008181> ;
+    owl:annotatedTarget MONDO:0005556 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "lupus nephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Lupus Nephritis" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D016263> ;
+    owl:annotatedTarget MONDO:0005798 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "HIV-associated nephropathy" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "AIDS-Associated Nephropathy" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D000141> ;
+    owl:annotatedTarget MONDO:0001909 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "renal tubular acidosis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Acidosis, Renal Tubular" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D011546> ;
+    owl:annotatedTarget DOID:4479 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "pseudohypoaldosteronism" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pseudohypoaldosteronism" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D003555> ;
+    owl:annotatedTarget DOID:9266 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "cystinuria" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Cystinuria" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D015499> ;
+    owl:annotatedTarget MONDO:0006510 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "renal tubular transport disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Renal Tubular Transport, Inborn Errors" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D051437> ;
+    owl:annotatedTarget HP:0000083 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/HP_0000118" ;
+    sssom:object_label "Renal insufficiency" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Renal Insufficiency" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D015433> ;
+    owl:annotatedTarget DOID:10976 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "membranous glomerulonephritis" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Glomerulonephritis, Membranous" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D011546> ;
+    owl:annotatedTarget MONDO:0018638 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "pseudohypoaldosteronism" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Pseudohypoaldosteronism" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D005198> ;
+    owl:annotatedTarget MONDO:0001083 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/MONDO_0000001" ;
+    sssom:object_label "Fanconi renotubular syndrome" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Fanconi Syndrome" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:broadMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D002292> ;
+    owl:annotatedTarget DOID:4473 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "sarcomatoid renal cell carcinoma" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Carcinoma, Renal Cell" .
+
+[] a owl:Axiom ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    pav:authoredBy orcid:0000-0002-7500-8096 ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource <http://id.nlm.nih.gov/mesh/D001477> ;
+    owl:annotatedTarget DOID:445 ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_category "http://purl.obolibrary.org/obo/DOID_4" ;
+    sssom:object_label "Bartter disease" ;
+    sssom:subject_category "http://id.nlm.nih.gov/mesh/D004194" ;
+    sssom:subject_label "Bartter Syndrome" .
+
+

@@ -9,6 +9,9 @@ curie_map:
   mondo: http://purl.obolibrary.org/obo/mondo.owl
   doid: http://purl.obolibrary.org/obo/doid.owl
   hp: http://purl.obolibrary.org/obo/hp.owl
+  MONDO: http://purl.obolibrary.org/obo/MONDO_
+  DOID: http://purl.obolibrary.org/obo/DOID_
+  HP: http://purl.obolibrary.org/obo/HP_
 license: https://creativecommons.org/licenses/by/4.0/
 mapping_set_id: https://purl.humanatlas.io/graph/mesh-obo-kidney-disease-mapping
 mapping_set_version: "v1.0"
