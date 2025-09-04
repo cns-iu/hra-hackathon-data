@@ -25,4 +25,4 @@ http://identifiers.org/hgnc/2475,CST3,http://purl.bioontology.org/ontology/HGNC/
 http://identifiers.org/hgnc/10618,CCL2,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp
 http://identifiers.org/hgnc/3555,FABP1,http://purl.bioontology.org/ontology/HGNC/gene,https://purl.humanatlas.io/vocab/hp
 http://purl.obolibrary.org/obo/HP_0001919,Acute kidney injury,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/HP_0012622,Chronic kidney disease,http://purl.obolibrary.org/obo/hp,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/HP_0012622,Chronic kidney disease,http://purl.obolibrary.org/obo/HP_0000118,https://purl.humanatlas.io/vocab/hp
