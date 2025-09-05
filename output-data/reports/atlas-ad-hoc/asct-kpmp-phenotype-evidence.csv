@@ -1,0 +1,564 @@
+asct_label,phenotype_label,gene_label,gene_expr,publication_count,asct,phenotype,gene
+kidney,Acute kidney injury,IGFBP7,48.598885,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,48.598885,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,48.598885,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,24.4,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,23.835205,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron tubule,Acute kidney injury,B2M,23.835205,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,23.835205,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,SPP1,23.696898,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,B2M,13.531663,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+collecting duct of renal tubule,Acute kidney injury,B2M,13.531663,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,12.435766,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,IGFBP7,9.901171,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+collecting duct of renal tubule,Acute kidney injury,IGFBP7,9.901171,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,8.429864,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,7.2213826,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron tubule,Acute kidney injury,B2M,7.2213826,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,7.2213826,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,6.7212057,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,6.7212057,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,6.7212057,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,6.1496983,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,CST3,6.1031485,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+renal medulla,Acute kidney injury,CST3,6.1031485,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+collecting duct of renal tubule,Acute kidney injury,CST3,6.1031485,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,B2M,5.423519,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,5.4045143,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+renal medulla,Acute kidney injury,S100A6,5.4045143,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+collecting duct of renal tubule,Acute kidney injury,S100A6,5.4045143,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,B2M,5.211851,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron tubule,Acute kidney injury,B2M,5.211851,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,5.211851,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,5.0418673,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,B2M,4.883763,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron tubule,Acute kidney injury,B2M,4.883763,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,4.883763,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,4.817236,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,4.749172,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,4.749172,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,4.749172,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,S100A6,4.6839848,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,4.6839848,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,4.6839848,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+renal medulla,Acute kidney injury,S100A6,4.6839848,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,CCL21,4.6324067,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10620
+kidney,Acute kidney injury,S100A6,4.6033707,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,4.6033707,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,4.6033707,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,IGFBP7,4.4626136,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,CST3,4.4369597,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,S100A6,4.430757,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+cortex of kidney,Acute kidney injury,S100A6,4.430757,286,http://purl.obolibrary.org/obo/UBERON_0001225,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,4.430757,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,CST3,4.4211082,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+nephron tubule,Acute kidney injury,CST3,4.4211082,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+nephron,Acute kidney injury,CST3,4.4211082,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,SPP1,4.414568,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+renal medulla,Acute kidney injury,SPP1,4.414568,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+collecting duct of renal tubule,Acute kidney injury,SPP1,4.414568,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,B2M,4.4047937,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,4.3961368,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+cortex of kidney,Acute kidney injury,B2M,4.3961368,286,http://purl.obolibrary.org/obo/UBERON_0001225,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+collecting duct of renal tubule,Acute kidney injury,B2M,4.3961368,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,4.3893127,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,4.3893127,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,4.3893127,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,S100A6,4.362749,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+collecting duct of renal tubule,Acute kidney injury,S100A6,4.362749,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,B2M,4.350255,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,4.266381,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,SPP1,4.204485,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,4.204485,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,4.204485,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,CST3,4.1444426,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,CXCL8,4.1367283,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6025
+kidney,Acute kidney injury,S100A6,4.0478735,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,S100A6,4.026782,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,S100A6,3.9848804,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,IGFBP7,3.9783795,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,3.9783795,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,3.9571102,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,3.9529824,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,3.9529824,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,3.9529824,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,S100A6,3.9155502,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+cortex of kidney,Acute kidney injury,S100A6,3.9155502,286,http://purl.obolibrary.org/obo/UBERON_0001225,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+collecting duct of renal tubule,Acute kidney injury,S100A6,3.9155502,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,B2M,3.9124584,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+collecting duct of renal tubule,Acute kidney injury,B2M,3.9124584,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,3.8863134,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,3.8863134,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,3.8863134,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,B2M,3.8718965,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+renal glomerulus,Acute kidney injury,B2M,3.8718965,773,http://purl.obolibrary.org/obo/UBERON_0000074,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,3.8718965,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,CST3,3.8452666,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,IGFBP7,3.8323908,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,3.748658,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,3.7401109,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,B2M,3.7373753,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,3.7259219,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,CST3,3.7200584,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,IGFBP7,3.7169905,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,3.7169905,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,3.7169905,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,S100A6,3.7106059,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,3.7106059,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,3.7106059,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,S100A6,3.6944904,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+collecting duct of renal tubule,Acute kidney injury,S100A6,3.6944904,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,S100A6,3.6799355,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,SPP1,3.6225333,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,3.6225333,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,3.6225333,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,CST3,3.5828295,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,B2M,3.5802124,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,3.560566,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron tubule,Acute kidney injury,B2M,3.560566,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+proximal tubule,Acute kidney injury,B2M,3.560566,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,3.560566,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,SPP1,3.5445578,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,CXCL8,3.52949,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6025
+kidney,Acute kidney injury,NRXN1,3.5238364,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/8008
+kidney,Acute kidney injury,B2M,3.497032,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,NRXN1,3.4777045,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/8008
+kidney,Acute kidney injury,CST3,3.4657724,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,IGFBP7,3.463848,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+cortex of kidney,Acute kidney injury,IGFBP7,3.463848,286,http://purl.obolibrary.org/obo/UBERON_0001225,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+collecting duct of renal tubule,Acute kidney injury,IGFBP7,3.463848,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,S100A6,3.4611056,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+collecting duct of renal tubule,Acute kidney injury,S100A6,3.4611056,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,IGFBP7,3.444944,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+renal medulla,Acute kidney injury,IGFBP7,3.444944,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+collecting duct of renal tubule,Acute kidney injury,IGFBP7,3.444944,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,3.4428406,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+renal glomerulus,Acute kidney injury,B2M,3.4428406,773,http://purl.obolibrary.org/obo/UBERON_0000074,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,3.4428406,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,3.43437,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+renal glomerulus,Acute kidney injury,S100A6,3.43437,773,http://purl.obolibrary.org/obo/UBERON_0000074,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,3.43437,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,IGFBP7,3.4169772,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,S100A6,3.4152453,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+collecting duct of renal tubule,Acute kidney injury,S100A6,3.4152453,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,S100A6,3.4142935,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,B2M,3.38394,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,SPP1,3.3699439,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,3.3699439,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+proximal tubule,Acute kidney injury,SPP1,3.3699439,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,3.3699439,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,CST3,3.3599794,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,IGFBP7,3.3577082,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,3.3577082,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,3.3577082,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+renal medulla,Acute kidney injury,IGFBP7,3.3577082,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,S100A6,3.355753,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,3.355753,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,3.355753,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,IGFBP7,3.312193,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,3.312193,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,3.312193,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,S100A6,3.3060036,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,3.3060036,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,3.3060036,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,B2M,3.3054128,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,SPP1,3.3,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,3.3,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+proximal tubule,Acute kidney injury,SPP1,3.3,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,3.3,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,B2M,3.2836504,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+collecting duct of renal tubule,Acute kidney injury,B2M,3.2836504,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,3.2807431,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,3.2807431,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,3.2807431,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,3.2698512,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,3.2698512,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,3.2698512,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,3.2694614,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,3.2694614,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,3.2694614,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,CXCL8,3.2638488,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6025
+kidney,Acute kidney injury,TFF3,3.2423272,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11757
+kidney,Acute kidney injury,IGFBP7,3.2406876,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,3.2406876,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,3.2406876,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,3.2366338,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,SPP1,3.2228901,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,3.2228901,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,3.2228901,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,IGFBP7,3.2214847,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,3.2186372,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,S100A6,3.1586826,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,B2M,3.147418,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,3.1374497,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,SPP1,3.128605,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,3.128605,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+proximal tubule,Acute kidney injury,SPP1,3.128605,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,3.128605,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,B2M,3.0972364,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,FABP1,3.09095,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron tubule,Acute kidney injury,FABP1,3.09095,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron,Acute kidney injury,FABP1,3.09095,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+renal medulla,Acute kidney injury,FABP1,3.09095,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+kidney,Acute kidney injury,S100A6,3.0869346,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+collecting duct of renal tubule,Acute kidney injury,S100A6,3.0869346,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,B2M,3.0834308,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+collecting duct of renal tubule,Acute kidney injury,B2M,3.0834308,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,3.0729444,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,SPP1,3.068211,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,3.068211,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,3.068211,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,SPP1,3.0453768,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,3.0453768,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,3.0453768,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,S100A6,3.023894,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,3.023894,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,3.023894,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,NBAS,3.0182416,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/15625
+nephron tubule,Acute kidney injury,NBAS,3.0182416,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/15625
+nephron,Acute kidney injury,NBAS,3.0182416,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/15625
+kidney,Acute kidney injury,B2M,3.003576,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,2.9937818,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+cortex of kidney,Acute kidney injury,IGFBP7,2.9937818,286,http://purl.obolibrary.org/obo/UBERON_0001225,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,2.9937818,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,2.9931388,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,2.9931388,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,2.9931388,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,SPP1,2.9894304,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,2.9894304,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+proximal tubule,Acute kidney injury,SPP1,2.9894304,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,2.9894304,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,S100A6,2.9772725,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,2.9772725,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,2.9772725,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,CST3,2.9749546,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,B2M,2.965195,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,2.9331465,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,CST3,2.9012525,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+nephron tubule,Acute kidney injury,CST3,2.9012525,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+nephron,Acute kidney injury,CST3,2.9012525,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,CCL2,2.8948798,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10618
+nephron,Acute kidney injury,CCL2,2.8948798,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10618
+kidney,Acute kidney injury,B2M,2.889975,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+renal medulla,Acute kidney injury,B2M,2.889975,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+collecting duct of renal tubule,Acute kidney injury,B2M,2.889975,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,2.8788924,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,2.8788924,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,B2M,2.860549,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,2.8490567,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+collecting duct of renal tubule,Acute kidney injury,B2M,2.8490567,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,2.8461137,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,SPP1,2.8426604,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,2.8426604,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,2.8426604,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,CST3,2.8379498,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+nephron tubule,Acute kidney injury,CST3,2.8379498,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+nephron,Acute kidney injury,CST3,2.8379498,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,IGFBP7,2.8287725,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,2.8287725,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,2.8287725,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,FABP1,2.8281832,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron tubule,Acute kidney injury,FABP1,2.8281832,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+proximal tubule,Acute kidney injury,FABP1,2.8281832,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron,Acute kidney injury,FABP1,2.8281832,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+kidney,Acute kidney injury,FABP1,2.8161619,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron tubule,Acute kidney injury,FABP1,2.8161619,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+proximal tubule,Acute kidney injury,FABP1,2.8161619,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron,Acute kidney injury,FABP1,2.8161619,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+kidney,Acute kidney injury,CST3,2.8106427,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+nephron tubule,Acute kidney injury,CST3,2.8106427,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+nephron,Acute kidney injury,CST3,2.8106427,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+renal medulla,Acute kidney injury,CST3,2.8106427,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,CST3,2.8103867,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,CCL2,2.7983627,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10618
+nephron tubule,Acute kidney injury,CCL2,2.7983627,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10618
+nephron,Acute kidney injury,CCL2,2.7983627,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10618
+kidney,Acute kidney injury,IGFBP7,2.7899482,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,2.7899482,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,2.7899482,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,S100A6,2.7877223,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,IGFBP7,2.7866116,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,2.7866116,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,2.7866116,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,NBAS,2.77851,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/15625
+kidney,Acute kidney injury,SPP1,2.7381952,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,2.7381952,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,2.7381952,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+renal medulla,Acute kidney injury,SPP1,2.7381952,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,B2M,2.7331233,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,2.7306287,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,2.7142859,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,2.7142859,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,2.7142859,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,SPP1,2.7084932,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,2.7084932,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,2.7084932,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,S100A6,2.6877768,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,CST3,2.6456282,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,B2M,2.6330876,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+cortex of kidney,Acute kidney injury,B2M,2.6330876,286,http://purl.obolibrary.org/obo/UBERON_0001225,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,2.6330876,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,FABP1,2.5984435,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron tubule,Acute kidney injury,FABP1,2.5984435,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+proximal tubule,Acute kidney injury,FABP1,2.5984435,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron,Acute kidney injury,FABP1,2.5984435,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+kidney,Acute kidney injury,IGFBP7,2.5714285,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,2.5557735,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,2.5557735,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,2.5557735,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+renal medulla,Acute kidney injury,IGFBP7,2.5557735,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,2.521408,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+collecting duct of renal tubule,Acute kidney injury,B2M,2.521408,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,S100A6,2.5205934,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,B2M,2.5108347,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+cortex of kidney,Acute kidney injury,B2M,2.5108347,286,http://purl.obolibrary.org/obo/UBERON_0001225,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,2.5108347,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,SPP1,2.4729438,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,SPP1,2.4695766,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,B2M,2.4480743,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,TIMP2,2.4286344,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11821
+kidney,Acute kidney injury,CST3,2.417089,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,B2M,2.395828,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+collecting duct of renal tubule,Acute kidney injury,B2M,2.395828,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,2.3918018,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,TIMP2,2.3880455,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11821
+nephron tubule,Acute kidney injury,TIMP2,2.3880455,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11821
+nephron,Acute kidney injury,TIMP2,2.3880455,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11821
+kidney,Acute kidney injury,CST3,2.3772864,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,SPP1,2.3614907,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,2.3614907,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,2.3614907,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,IGFBP7,2.3511794,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,2.329254,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,2.3281596,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,2.3116882,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,2.3116307,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,2.3116307,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,2.3116307,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+renal medulla,Acute kidney injury,IGFBP7,2.3116307,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,APOA1,2.3065183,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/600
+nephron tubule,Acute kidney injury,APOA1,2.3065183,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/600
+proximal tubule,Acute kidney injury,APOA1,2.3065183,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/600
+nephron,Acute kidney injury,APOA1,2.3065183,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/600
+kidney,Acute kidney injury,IL18,2.2930589,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5986
+collecting duct of renal tubule,Acute kidney injury,IL18,2.2930589,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5986
+kidney,Acute kidney injury,SERPINE2,2.2797828,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/8951
+kidney,Acute kidney injury,IGFBP7,2.2621284,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,2.2529643,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,TIMP2,2.2437954,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11821
+cortex of kidney,Acute kidney injury,TIMP2,2.2437954,286,http://purl.obolibrary.org/obo/UBERON_0001225,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11821
+nephron,Acute kidney injury,TIMP2,2.2437954,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11821
+kidney,Acute kidney injury,B2M,2.2332797,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,2.2,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+juxtaglomerular apparatus,Acute kidney injury,IGFBP7,2.2,38,http://purl.obolibrary.org/obo/UBERON_0002303,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,2.173183,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,SPP1,2.1486082,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,2.1486082,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,2.1486082,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+renal medulla,Acute kidney injury,SPP1,2.1486082,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,S100A6,2.1484494,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,2.1484494,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+proximal tubule,Acute kidney injury,S100A6,2.1484494,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,2.1484494,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,TIMP2,2.1247182,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11821
+kidney,Acute kidney injury,CCL2,2.120722,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10618
+kidney,Acute kidney injury,SPP1,2.04046,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,2.04046,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,2.04046,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,IGFBP7,2.037792,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,2.0355613,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,2.025,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+juxtaglomerular apparatus,Acute kidney injury,IGFBP7,2.025,38,http://purl.obolibrary.org/obo/UBERON_0002303,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,2.0038598,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron tubule,Acute kidney injury,B2M,2.0038598,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,2.0038598,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,1.9938935,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,1.9938935,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,1.9938935,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,SLC9A3,1.9717554,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11073
+nephron tubule,Acute kidney injury,SLC9A3,1.9717554,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11073
+nephron,Acute kidney injury,SLC9A3,1.9717554,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11073
+renal medulla,Acute kidney injury,SLC9A3,1.9717554,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11073
+kidney,Acute kidney injury,B2M,1.9441046,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron tubule,Acute kidney injury,B2M,1.9441046,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,1.9441046,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,1.9341136,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,SERPINE2,1.933303,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/8951
+kidney,Acute kidney injury,IL18,1.9255313,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5986
+collecting duct of renal tubule,Acute kidney injury,IL18,1.9255313,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5986
+kidney,Acute kidney injury,B2M,1.9130435,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,TIMP2,1.8799822,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11821
+kidney,Acute kidney injury,SERPINE2,1.7810051,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/8951
+kidney,Acute kidney injury,B2M,1.7601798,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron tubule,Acute kidney injury,B2M,1.7601798,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,1.7601798,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,1.68306,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,SPP1,1.6792331,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,1.6792331,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,1.6792331,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,B2M,1.6711712,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,TIMP2,1.6534382,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11821
+kidney,Acute kidney injury,B2M,1.6221184,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron tubule,Acute kidney injury,B2M,1.6221184,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,1.6221184,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,1.617667,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,1.6145852,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,SPP1,1.5999582,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,1.5999582,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,FABP1,1.5971658,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron tubule,Acute kidney injury,FABP1,1.5971658,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron,Acute kidney injury,FABP1,1.5971658,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+kidney,Acute kidney injury,IGFBP7,1.5915126,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,1.5915126,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,1.5915126,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,ITGAM,1.5901929,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6149
+kidney,Acute kidney injury,IGFBP7,1.5895107,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,HAVCR1,1.5205175,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/17866
+nephron tubule,Acute kidney injury,HAVCR1,1.5205175,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/17866
+nephron,Acute kidney injury,HAVCR1,1.5205175,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/17866
+renal medulla,Acute kidney injury,HAVCR1,1.5205175,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/17866
+kidney,Acute kidney injury,SPP1,1.5150627,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,1.5150627,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,1.5150627,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,IGFBP7,1.5,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,1.5,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+juxtaglomerular apparatus,Acute kidney injury,IGFBP7,1.5,38,http://purl.obolibrary.org/obo/UBERON_0002303,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,1.468232,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,1.468232,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,1.4421602,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,1.4285715,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,1.4057336,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron tubule,Acute kidney injury,B2M,1.4057336,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,1.4057336,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,SPP1,1.3864911,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,1.3864911,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,1.3864911,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+renal medulla,Acute kidney injury,SPP1,1.3864911,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,B2M,1.3333334,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,1.3031092,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron tubule,Acute kidney injury,B2M,1.3031092,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+nephron,Acute kidney injury,B2M,1.3031092,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,1.2891716,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,1.2891716,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+proximal tubule,Acute kidney injury,IGFBP7,1.2891716,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,1.2891716,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,SPP1,1.2696341,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,1.2696341,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,1.2696341,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,CST3,1.25,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,IGFBP7,1.25,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,CST3,1.25,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+nephron,Acute kidney injury,CST3,1.25,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,SPP1,1.2418754,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,1.2418754,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,1.2418754,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,SLC9A3,1.1774598,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11073
+nephron tubule,Acute kidney injury,SLC9A3,1.1774598,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11073
+nephron,Acute kidney injury,SLC9A3,1.1774598,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11073
+kidney,Acute kidney injury,B2M,1.1771095,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,SPP1,1.1666667,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,1.1666667,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,1.1666667,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,B2M,1.1458334,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,1.1439189,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,1.1437238,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+cortex of kidney,Acute kidney injury,IGFBP7,1.1437238,286,http://purl.obolibrary.org/obo/UBERON_0001225,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,1.1437238,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,1.0687212,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+collecting duct of renal tubule,Acute kidney injury,IGFBP7,1.0687212,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,1.0412755,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+collecting duct of renal tubule,Acute kidney injury,IGFBP7,1.0412755,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,LCN2,1.0412123,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6526
+nephron tubule,Acute kidney injury,LCN2,1.0412123,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6526
+nephron,Acute kidney injury,LCN2,1.0412123,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6526
+kidney,Acute kidney injury,B2M,1.022436,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,1.00662,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron tubule,Acute kidney injury,IGFBP7,1.00662,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,1.00662,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,B2M,1.0,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,CST3,1.0,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/2475
+kidney,Acute kidney injury,ITGAM,1.0,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6149
+kidney,Acute kidney injury,SPP1,0.90555555,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,0.90555555,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+proximal tubule,Acute kidney injury,SPP1,0.90555555,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,0.90555555,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,IL18,0.87285566,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5986
+collecting duct of renal tubule,Acute kidney injury,IL18,0.87285566,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5986
+kidney,Acute kidney injury,B2M,0.7758621,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,SPP1,0.7744558,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+collecting duct of renal tubule,Acute kidney injury,SPP1,0.7744558,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,SPP1,0.7657453,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,B2M,0.75582427,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,B2M,0.7234309,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,SERPINE2,0.7,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/8951
+kidney,Acute kidney injury,IGFBP7,0.6904762,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+renal glomerulus,Acute kidney injury,IGFBP7,0.6904762,773,http://purl.obolibrary.org/obo/UBERON_0000074,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+nephron,Acute kidney injury,IGFBP7,0.6904762,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,0.6666667,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,NBAS,0.6666667,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/15625
+kidney,Acute kidney injury,SPP1,0.6326645,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,0.6326645,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,0.6326645,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,IGFBP7,0.6046512,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,SPP1,0.56988907,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,0.56988907,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,0.56988907,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+renal medulla,Acute kidney injury,SPP1,0.56988907,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,SPP1,0.5685349,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,0.5685349,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,0.5685349,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,SPP1,0.5020545,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,0.5020545,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,0.5020545,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,S100A6,0.5,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,IL18,0.5,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5986
+kidney,Acute kidney injury,ITGAM,0.5,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6149
+nephron tubule,Acute kidney injury,S100A6,0.5,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+proximal tubule,Acute kidney injury,S100A6,0.5,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,0.5,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,SPP1,0.49175078,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,B2M,0.46265182,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/914
+kidney,Acute kidney injury,IGFBP7,0.40799996,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,IGFBP7,0.4033333,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+collecting duct of renal tubule,Acute kidney injury,IGFBP7,0.4033333,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5476
+kidney,Acute kidney injury,TIMP2,0.4,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11821
+kidney,Acute kidney injury,ITGAM,0.4,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6149
+kidney,Acute kidney injury,FABP1,0.27535632,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron tubule,Acute kidney injury,FABP1,0.27535632,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+proximal tubule,Acute kidney injury,FABP1,0.27535632,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron,Acute kidney injury,FABP1,0.27535632,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+kidney,Acute kidney injury,SPP1,0.26672676,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,0.26672676,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,0.26672676,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,SPP1,0.2540933,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,0.2540933,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,0.2540933,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,FABP1,0.24675325,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron tubule,Acute kidney injury,FABP1,0.24675325,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+proximal tubule,Acute kidney injury,FABP1,0.24675325,850,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron,Acute kidney injury,FABP1,0.24675325,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+kidney,Acute kidney injury,LCN2,0.21848741,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6526
+nephron tubule,Acute kidney injury,LCN2,0.21848741,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6526
+nephron,Acute kidney injury,LCN2,0.21848741,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/6526
+kidney,Acute kidney injury,SPP1,0.20608109,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron tubule,Acute kidney injury,SPP1,0.20608109,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+nephron,Acute kidney injury,SPP1,0.20608109,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+renal medulla,Acute kidney injury,SPP1,0.20608109,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11255
+kidney,Acute kidney injury,CCL2,0.16411601,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10618
+kidney,Acute kidney injury,SERPINE2,0.1607143,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/8951
+kidney,Acute kidney injury,TFF3,0.125,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11757
+kidney,Acute kidney injury,S100A6,0.07608696,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron tubule,Acute kidney injury,S100A6,0.07608696,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+nephron,Acute kidney injury,S100A6,0.07608696,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+renal medulla,Acute kidney injury,S100A6,0.07608696,155,http://purl.obolibrary.org/obo/UBERON_0000362,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/10496
+kidney,Acute kidney injury,FABP1,0.060402684,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron tubule,Acute kidney injury,FABP1,0.060402684,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron,Acute kidney injury,FABP1,0.060402684,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+kidney,Acute kidney injury,IL18,0.042288534,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5986
+kidney,Acute kidney injury,TIMP2,0.04153366,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/11821
+kidney,Acute kidney injury,FABP1,0.040641405,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron tubule,Acute kidney injury,FABP1,0.040641405,1762,http://purl.obolibrary.org/obo/UBERON_0001231,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+nephron,Acute kidney injury,FABP1,0.040641405,164,http://purl.obolibrary.org/obo/UBERON_0001285,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/3555
+kidney,Acute kidney injury,IL18,0.037749503,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5986
+collecting duct of renal tubule,Acute kidney injury,IL18,0.037749503,27,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/5986
+kidney,Acute kidney injury,SERPINE2,0.033797216,10827,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/HP_0001919,http://identifiers.org/hgnc/8951

@@ -1,0 +1,46 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ccf: <http://purl.org/ccf/>
+
+PREFIX PART_OF: <http://purl.org/ccf/ccf_part_Of>
+PREFIX LOCATED_IN: <http://purl.org/ccf/ccf_located_in>
+PREFIX CHARACTERIZES: <http://purl.org/ccf/ccf_characterizes>
+PREFIX COOCCURS_WITH_DISEASE: <https://purl.humanatlas.io/graph/hra-lit#COOCCURS_WITH_DISEASE>
+PREFIX HAS_MODIFIER: <https://purl.humanatlas.io/vocab/hp#has_modifier>
+PREFIX ASSOCIATED_WITH: <https://purl.humanatlas.io/vocab/hp#associated_with>
+PREFIX value: <http://purl.obolibrary.org/obo/OBI_0001938>
+
+PREFIX HRAkda: <https://purl.humanatlas.io/graph/hra-kidney-disease-atlas>
+PREFIX HRA: <https://purl.humanatlas.io/collection/hra>
+PREFIX HPO: <https://purl.humanatlas.io/vocab/hp>
+
+SELECT DISTINCT ?asct_label ?phenotype_label ?gene_label ?gene_expr ?publication_count ?asct ?phenotype ?gene 
+WHERE {
+  ?asct COOCCURS_WITH_DISEASE: ?disease .
+  ?disease skos:exactMatch|skos:narrowMatch|skos:broadMatch ?phenotype .
+  ?gene HAS_MODIFIER:|ASSOCIATED_WITH: ?phenotype .
+  ?gene CHARACTERIZES: ?ct .
+  ?ct LOCATED_IN: ?asct .
+
+  [ a rdf:Statement ;
+      rdf:subject ?gene ;
+      rdf:predicate CHARACTERIZES: ;
+      rdf:object ?ct ;
+      value: ?gene_expr ;
+  ] .
+
+  [ a rdf:Statement ;
+      rdf:subject ?asct ;
+      rdf:predicate COOCCURS_WITH_DISEASE: ;
+      rdf:object ?disease ;
+      value: ?publication_count ;
+  ] .
+
+  ?asct rdfs:label ?asct_label .
+  ?phenotype rdfs:label ?phenotype_label .
+  ?gene rdfs:label ?gene_label .
+}
+ORDER BY DESC(?gene_expr) DESC(?publication_count)
