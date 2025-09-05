@@ -7,5 +7,5 @@ if [ "$1" == "--clean" ] || [ "$CLEAN" == "true" ]; then
   set -ev
 
   # cd HRA_HPO_integration
-  # python ../src/hpo-get-nodes-and-edges.py
+  # python ./src/hpo-get-nodes-and-edges.py
 fi

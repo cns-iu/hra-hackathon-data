@@ -4,6 +4,9 @@ import biorosetta as br
 import hpotk
 import typing
 from hpotk import TermId
+import warnings
+
+warnings.filterwarnings("ignore")
 
 # %% [markdown]
 # This notebook collects the sources to integrate HPO and HRA as a knowledge graph (KG). The KG will be agregated in the form of nodes and edges. In thecase of HPO we have the following nodes:
@@ -27,8 +30,10 @@ from hpotk import TermId
 # version:v2025-08-11
 
 # %%
+
 hpo_genes_to_phenotype = pd.read_csv(
-    "./data/genes_to_phenotype_v2025-08-11.txt", sep="\t"
+    "./HRA_HPO_integration/data/genes_to_phenotype_v2025-08-11.txt",
+    sep="\t",
 )
 hpo_genes_to_phenotype.head()
 hpo_genes_to_phenotype["ncbi_gene_id"] = hpo_genes_to_phenotype["ncbi_gene_id"].astype(
@@ -176,7 +181,7 @@ gene_nodes_table = pd.DataFrame(
 gene_nodes_table.drop_duplicates(inplace=True)
 
 # %%
-gene_nodes_table.to_csv("../input-csvs/hpo-kidney-genes-nodes.csv", index=False)
+gene_nodes_table.to_csv("./input-csvs/hpo-kidney-genes-nodes.csv", index=False)
 
 # %% [markdown]
 # # Phenotypes Table
@@ -200,7 +205,7 @@ phenotype_nodes_table_complete.head()
 
 # %%
 phenotype_nodes_table_complete.to_csv(
-    "../input-csvs/hpo-kidney-phenotypes-nodes.csv", index=False
+    "./input-csvs/hpo-kidney-phenotypes-nodes.csv", index=False
 )
 
 # %% [markdown]
@@ -217,11 +222,11 @@ phenotype_nodes_table_complete.to_csv(
 #
 
 # %%
-HPO_AS = pd.read_csv("./data/HPO_AS_uberon.csv")
+HPO_AS = pd.read_csv("./HRA_HPO_integration/data/HPO_AS_uberon.csv")
 HPO_AS.head()
 
 # %%
-kidney_as_parts = pd.read_csv("./data/as-parts.csv")
+kidney_as_parts = pd.read_csv("./HRA_HPO_integration/data/as-parts.csv")
 kidney_as_parts.head()
 
 # %%
@@ -233,7 +238,7 @@ HPO_AS_kidney.reset_index(drop=True, inplace=True)
 HPO_AS_kidney.head()
 
 # %%
-HPO_AS_kidney.head().to_csv("../input-csvs/hpo-kidney-as-nodes.csv", index=False)
+HPO_AS_kidney.head().to_csv("./input-csvs/hpo-kidney-as-nodes.csv", index=False)
 
 # %% [markdown]
 # # Edge tables
@@ -265,4 +270,4 @@ edge_table = pd.DataFrame(
 edge_table
 
 # %%
-edge_table.to_csv("../input-csvs/hpo-kidney-genes-to-phenotype-edges.csv", index=False)
+edge_table.to_csv("./input-csvs/hpo-kidney-genes-to-phenotype-edges.csv", index=False)
