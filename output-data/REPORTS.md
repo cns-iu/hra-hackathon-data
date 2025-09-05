@@ -7,6 +7,7 @@
   * [Named graphs in the db (named-graphs)](#named-graphs)
   * [node-and-edge-counts](#node-and-edge-counts)
   * [nodes-per-type](#nodes-per-type)
+  * [nodes-without-labels](#nodes-without-labels)
 * atlas-ad-hoc
   * [gene-expr-paths](#gene-expr-paths)
 
@@ -82,7 +83,7 @@ ORDER BY ?graph
 | https://purl.humanatlas.io/collection/hra | 2120944 |
 | https://purl.humanatlas.io/collection/hra-api | 2006982 |
 | https://purl.humanatlas.io/graph/ccf | 557123 |
-| https://purl.humanatlas.io/graph/hra-kidney-disease-atlas | 458067 |
+| https://purl.humanatlas.io/graph/hra-kidney-disease-atlas | 392487 |
 | https://purl.humanatlas.io/vocab/cl | 99013 |
 | https://purl.humanatlas.io/vocab/hp | 903078 |
 | https://purl.humanatlas.io/vocab/uberon | 1181703 |
@@ -160,7 +161,7 @@ ORDER BY DESC(?count)
 | # Edges | 50780 |
 | # Nodes | 13028 |
 | # Edge Types | 10 |
-| # Node Types | 8 |
+| # Node Types | 7 |
 
 
 ### <a id="nodes-per-type"></a>nodes-per-type
@@ -198,10 +199,47 @@ ORDER BY DESC(?count)
 | http://purl.obolibrary.org/obo/HP_0000118 | 193 |
 | http://id.nlm.nih.gov/mesh/D004194 | 87 |
 | http://purl.obolibrary.org/obo/CL_0000000 | 85 |
-| http://id.nlm.nih.gov/mesh/D007674 | 85 |
 | http://purl.obolibrary.org/obo/MONDO_0000001 | 77 |
 | http://purl.obolibrary.org/obo/DOID_4 | 76 |
 | http://purl.obolibrary.org/obo/UBERON_0000061 | 71 |
+
+
+### <a id="nodes-without-labels"></a>nodes-without-labels
+
+
+
+<details>
+  <summary>View Sparql Query</summary>
+
+```sparql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX HRAkda: <https://purl.humanatlas.io/graph/hra-kidney-disease-atlas>
+
+SELECT DISTINCT ?iri
+FROM HRAkda:
+WHERE {
+  { ?iri ?pred1 [] }
+  UNION
+  { 
+    [] ?pred2 ?iri
+    FILTER(isUri(?iri))
+  }
+  FILTER NOT EXISTS {
+    ?iri rdfs:label [] .
+  }
+  FILTER(STRSTARTS(STR(?iri), 'http://purl.obolibrary.org/obo/'))
+}
+
+```
+
+([View Source](../queries/reports/ad-hoc/nodes-without-labels.rq))
+</details>
+
+#### Results ([View CSV File](reports/ad-hoc/nodes-without-labels.csv))
+
+| iri |
+| :--- |
+
 
 
 ### <a id="gene-expr-paths"></a>gene-expr-paths

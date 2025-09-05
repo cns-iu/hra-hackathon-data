@@ -5,729 +5,9 @@
 
 [] a kg:Graph ;
     kg:edges [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_263> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007680> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_9733> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D014398> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001920> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D012078> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D015433> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_905> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D015211> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2973> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007673> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0024327> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D051436> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2154> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009396> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000123> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009393> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0009297> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006030> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006044> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009400> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_10976> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D015433> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005086> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2975> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D052177> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_12387> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D018500> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0006770> ;
-            rdf:predicate skos:broadMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0008682> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D030321> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_0050477> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D056929> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006835> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009402> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006938> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D011702> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009402> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_1062> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005198> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0009741> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009400> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0009324> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006250> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000003> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D021782> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0012578> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D015433> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005363> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005923> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0044079> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D059347> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0019105> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D059228> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0015988> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D021782> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006820> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007673> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001105> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006977> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000121> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009397> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_9266> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D003555> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001549> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006463> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0005575> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006463> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0012622> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D051436> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0008681> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D017624> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001994> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005198> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2982> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D010501> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0012330> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000098985> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_1184> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009404> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000126> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006869> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0012784> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D010501> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_11111> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006869> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005556> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D008181> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0007635> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D052159> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0008171> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D053040> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2744> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D011702> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_4464> ;
-            rdf:predicate skos:broadMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0015231> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D001477> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_4773> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D018201> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006946> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D012080> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/DOID_1063> ;
             rdf:predicate skos:exactMatch ;
             rdf:subject <http://id.nlm.nih.gov/mesh/D009395> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_0060855> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D011546> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_0060854> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D011546> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0009904> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D053579> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_1591> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006978> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0100881> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D018201> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2972> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D012078> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_447> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D015499> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_10952> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009393> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002331> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009401> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000793> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D015432> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_0050699> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D057973> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001382> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006530> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_12556> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007683> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002473> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D052177> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_12679> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009397> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0012330> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D011704> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_784> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007676> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0004746> ;
-            rdf:predicate skos:broadMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D015432> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005334> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009394> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005300> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000092702> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_0050445> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D053098> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_13068> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D012080> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0009726> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007680> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006900> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D010501> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000099> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005921> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0010645> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009800> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_0080162> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D008181> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0007022> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D011705> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005240> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007674> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0003131> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D003555> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0021746> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D053653> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0008171> ;
-            rdf:predicate skos:relatedMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D004194> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001085> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009395> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0007416> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D001449> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_11823> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006530> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_9432> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006030> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0019609> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D015211> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006939> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D011704> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_0050438> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D052159> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D058186> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0100519> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D001002> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002367> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007680> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0021750> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D053018> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_10983> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009394> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_11664> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009400> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000787> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D053040> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005377> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009404> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2977> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006960> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0008682> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007683> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0016383> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D018500> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006058> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009396> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000863> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D020790> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_784> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000092702> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0009303> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D019867> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0015268> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007691> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_11400> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000098985> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_1056> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009800> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006821> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007681> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_3764> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D030321> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000097> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005923> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005342> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005922> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002462> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005921> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0000313> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007015> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_4467> ;
-            rdf:predicate skos:broadMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006945> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D012078> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009393> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000794> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005922> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_14515> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D017624> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D001449> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0008242> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D011546> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_10632> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D014929> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_4465> ;
-            rdf:predicate skos:broadMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0100817> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006978> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0002157> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D053099> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_0050450> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D053579> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005016> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D003928> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005938> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D014398> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_898> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007690> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0018638> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D011546> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_1060> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006250> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0002667> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009396> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000107> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D052177> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_445> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D001477> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0003130> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D018201> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_11401> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D011705> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0002049> ;
-            rdf:predicate skos:broadMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000141> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2983> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D001002> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002476> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D001002> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_11400> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D011704> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005300> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007676> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0009806> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D018500> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/DOID_557> ;
@@ -735,119 +15,39 @@
             rdf:subject <http://id.nlm.nih.gov/mesh/D007674> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_3021> ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_9733> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D058186> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D014398> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000873> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D003919> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_14219> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000141> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0004782> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D003919> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0009067> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D003555> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_4479> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D011546> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006939> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000098985> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002474> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006960> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006637> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007683> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_9409> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D003919> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_4676> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D014511> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0008171> ;
-            rdf:predicate skos:relatedMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000069856> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2981> ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006821> ;
             rdf:predicate skos:exactMatch ;
             rdf:subject <http://id.nlm.nih.gov/mesh/D007681> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2920> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D015432> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000100> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009404> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001567> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009397> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_9808> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D019867> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_4471> ;
-            rdf:predicate skos:broadMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002492> ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001919> ;
             rdf:predicate skos:exactMatch ;
             rdf:subject <http://id.nlm.nih.gov/mesh/D058186> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005510> ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2972> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006869> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D012078> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2921> ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001549> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005921> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006463> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_0110861> ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0007635> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D017044> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D052159> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2977> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006959> ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0008681> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D017624> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/DOID_4473> ;
@@ -860,49 +60,44 @@
             rdf:subject <http://id.nlm.nih.gov/mesh/D053098> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006510> ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0002157> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D015499> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D053099> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0012579> ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_11664> ;
             rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009400> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000107> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D052177> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_0050438> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D052159> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
+            rdf:predicate skos:narrowMatch ;
             rdf:subject <http://id.nlm.nih.gov/mesh/D009402> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000113> ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005240> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007690> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007674> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005376> ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000787> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D015433> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D053040> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0008323> ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0012784> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D056929> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0005584> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0007008> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D014511> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_10966> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009402> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_1074> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D051437> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D010501> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/DOID_4450> ;
@@ -910,99 +105,19 @@
             rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0020642> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007690> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_1312> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005923> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001909> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000141> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2986> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005922> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005198> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_0050336> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007015> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0006766> ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_4471> ;
             rdf:predicate skos:broadMatch ;
             rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0015612> ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2975> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D057973> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D052177> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_585> ;
-            rdf:predicate skos:relatedMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000069856> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0001947> ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000113> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000141> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001083> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005198> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0008341> ;
-            rdf:predicate skos:broadMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000141> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001166> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009393> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D005922> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000083> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D051437> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0004691> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D016891> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0016244> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D065766> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001106> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D051437> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006944> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D000608> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007690> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/DOID_3052> ;
@@ -1010,19 +125,414 @@
             rdf:subject <http://id.nlm.nih.gov/mesh/D001449> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_585> ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2977> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006960> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0008171> ;
             rdf:predicate skos:relatedMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007669> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D004194> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0009303> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D019867> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0009324> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006250> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001166> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009393> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002474> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006960> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_1073> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006977> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_263> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007680> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_10983> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009394> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_4464> ;
+            rdf:predicate skos:broadMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000793> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D015432> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_12556> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007683> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0012622> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D051436> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0015988> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D021782> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005376> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D015433> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
-            rdf:predicate skos:relatedMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D007674> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005922> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001567> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009397> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_10976> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D015433> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0008682> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007683> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_784> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000092702> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006938> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D011702> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009393> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_4479> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D011546> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0010645> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009800> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_0110861> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D017044> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_1074> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D051437> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_0050699> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D057973> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005198> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006945> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D012078> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_1591> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006978> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002331> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009401> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0006770> ;
+            rdf:predicate skos:broadMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0008242> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D011546> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_11823> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006530> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_10966> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009402> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005334> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009394> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002476> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D001002> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_445> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D001477> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009395> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001947> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000141> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_12387> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D018500> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001106> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D051437> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_1056> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009800> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0004746> ;
+            rdf:predicate skos:broadMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D015432> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0008682> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D030321> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000121> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009397> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006510> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D015499> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_0050450> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D053579> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0009297> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006030> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002492> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D058186> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0021750> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D053018> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0004691> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D016891> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005377> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009404> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0005575> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006463> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002462> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005921> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0100519> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D001002> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001105> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006977> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_9808> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D019867> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_1312> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005923> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_3021> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D058186> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0018638> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D011546> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_12554> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006463> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_0050477> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D056929> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005938> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D014398> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_447> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D015499> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0015612> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D057973> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001970> ;
             rdf:predicate skos:exactMatch ;
             rdf:subject <http://id.nlm.nih.gov/mesh/D009395> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_0060854> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D011546> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D001449> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_4465> ;
+            rdf:predicate skos:broadMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_11111> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006869> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0024327> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D051436> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0008341> ;
+            rdf:predicate skos:broadMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000141> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2977> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006959> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0008323> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D056929> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0007008> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D014511> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2527> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009401> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0002667> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009396> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0009067> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D003555> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_10632> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D014929> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0018105> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D014929> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000873> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D003919> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/DOID_12388> ;
@@ -1032,12 +542,12 @@
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
             rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009394> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D030321> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_1073> ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000863> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006977> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D020790> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0001969> ;
@@ -1045,24 +555,74 @@
             rdf:subject <http://id.nlm.nih.gov/mesh/D009395> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009395> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/MONDO_0018105> ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_12679> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D014929> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009397> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_898> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007690> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2982> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D010501> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000003> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D021782> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_11400> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D011704> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0008171> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D053040> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0009726> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007680> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
-            rdf:predicate skos:narrowMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D030321> ;
-            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
-        [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/HP_0000077> ;
             rdf:predicate skos:relatedMatch ;
             rdf:subject <http://id.nlm.nih.gov/mesh/D007674> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0021746> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D053653> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0000313> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007015> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_11400> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000098985> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_11401> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D011705> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0016244> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D065766> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0012330> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000098985> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
             rdf:object <http://purl.obolibrary.org/obo/MONDO_0005798> ;
@@ -1070,13 +630,453 @@
             rdf:subject <http://id.nlm.nih.gov/mesh/D016263> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_12554> ;
-            rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D006463> ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D015433> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
         [ a rdf:Statement ;
-            rdf:object <http://purl.obolibrary.org/obo/DOID_2527> ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_0050445> ;
             rdf:predicate skos:exactMatch ;
-            rdf:subject <http://id.nlm.nih.gov/mesh/D009401> ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D053098> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0015268> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007691> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001085> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009395> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000794> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005922> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_4773> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D018201> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_14219> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000141> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000083> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D051437> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2983> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D001002> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2154> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009396> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_4676> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D014511> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0020642> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007690> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0006766> ;
+            rdf:predicate skos:broadMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_9432> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006030> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005363> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005923> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005556> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D008181> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0005584> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0015231> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D001477> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000112> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009394> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000126> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006869> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001083> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005198> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0008171> ;
+            rdf:predicate skos:relatedMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000069856> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0004782> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D003919> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_905> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D015211> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_1060> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006250> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_3764> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D030321> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000099> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005921> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0044079> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D059347> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2921> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005921> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0016383> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D018500> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000077> ;
+            rdf:predicate skos:relatedMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007674> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002367> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007680> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006058> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009396> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0007416> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D001449> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2973> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007673> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0007022> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D011705> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0003131> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D003555> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005510> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006869> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0012330> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D011704> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006820> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007673> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_1184> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009404> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006044> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009400> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001920> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D012078> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006835> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009402> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2981> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007681> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2920> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D015432> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_1062> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005198> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0009806> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D018500> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006939> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000098985> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000100> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009404> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0019609> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D015211> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0002049> ;
+            rdf:predicate skos:broadMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000141> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0003130> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D018201> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000097> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005923> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_10952> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009393> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005300> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007676> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_0060855> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D011546> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0009904> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D053579> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001382> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006530> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_0050336> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007015> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2986> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005922> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006946> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D012080> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005086> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006939> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D011704> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006900> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D010501> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0012578> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D015433> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_784> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007676> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006637> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007683> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0100881> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D018201> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_13068> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D012080> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005342> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005922> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0009741> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009400> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_14515> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D017624> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0100817> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D006978> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_9409> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D003919> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005300> ;
+            rdf:predicate skos:narrowMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000092702> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_4467> ;
+            rdf:predicate skos:broadMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D002292> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0005016> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D003928> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_2744> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D011702> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0001994> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D005198> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_585> ;
+            rdf:predicate skos:relatedMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D007669> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0001909> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000141> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_585> ;
+            rdf:predicate skos:relatedMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000069856> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0019105> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D059228> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0006944> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D000608> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0012579> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009402> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_9266> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D003555> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/HP_0000123> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D009393> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/DOID_0080162> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D008181> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/MONDO_0002473> ;
+            rdf:predicate skos:exactMatch ;
+            rdf:subject <http://id.nlm.nih.gov/mesh/D052177> ;
             rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> ] .
 

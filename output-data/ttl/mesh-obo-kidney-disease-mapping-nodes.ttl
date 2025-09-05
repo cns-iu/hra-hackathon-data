@@ -1419,7 +1419,7 @@
 
 <http://id.nlm.nih.gov/mesh/D004194> a <http://id.nlm.nih.gov/mesh/D004194>,
         owl:Class ;
-    rdfs:label "Kidney Calculi" ;
+    rdfs:label "Disease" ;
     rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
 
 [] a kg:Graph ;
