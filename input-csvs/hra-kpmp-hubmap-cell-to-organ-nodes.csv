@@ -1,0 +1,32 @@
+iri,label,type,source
+http://purl.obolibrary.org/obo/UBERON_0002113,kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/UBERON_0001231,nephron tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/UBERON_0001232,collecting duct of renal tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/UBERON_0001986,endothelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/UBERON_0000074,renal glomerulus,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/UBERON_0001229,renal corpuscle,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/UBERON_0003527,kidney capillary,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+http://purl.obolibrary.org/obo/CL_1000695,kidney interstitial alternatively activated macrophage,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_1000849,kidney distal convoluted tubule epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0002306,epithelial cell of proximal tubule,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0000084,T cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_1001106,kidney loop of Henle thick ascending limb epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_1001432,kidney collecting duct intercalated cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_1000692,kidney interstitial fibroblast,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_1000768,kidney connecting tubule epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_1001431,kidney collecting duct principal cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0000236,B cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0000113,mononuclear phagocyte,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0000653,podocyte,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_1000452,parietal epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0000097,mast cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0000451,dendritic cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0000786,plasma cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0000576,monocyte,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_1000909,kidney loop of Henle epithelial cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_1001318,renal interstitial pericyte,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0000775,neutrophil,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_1000597,papillary tips cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
+http://purl.obolibrary.org/obo/CL_0002319,neural cell,http://purl.obolibrary.org/obo/CL_0000000,https://purl.humanatlas.io/graph/hra-lit
