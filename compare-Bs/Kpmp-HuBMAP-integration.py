@@ -63,6 +63,61 @@ def filter_to_dataset_cell_types(adata,dataset_names,source_col='cell_type'):
     adata_filtered = adata[mask, :]
     return adata_filtered
 
+# first mapping
+mapping = {
+    # exact matches
+    'B cell': 'B cell',
+    'T cell': 'T cell',
+    'conventional dendritic cell': 'conventional dendritic cell',
+    'mast cell': 'mast cell',
+    'mature NK T cell': 'mature NK T cell',
+    'mononuclear phagocyte': 'mononuclear phagocyte',
+    'neutrophil': 'neutrophil',
+    'non-classical monocyte': 'non-classical monocyte',
+    'papillary tips cell': 'papillary tips cell',
+    'parietal epithelial cell': 'parietal epithelial cell',
+    'plasma cell': 'plasma cell',
+    'plasmacytoid dendritic cell, human': 'plasmacytoid dendritic cell, human',
+    'podocyte': 'podocyte',
+    'kidney interstitial fibroblast': 'kidney interstitial fibroblast',
+    'renal interstitial pericyte': 'renal interstitial pericyte',
+    # proximal tubule
+    'epithelial cell of proximal tubule segment 1': 'epithelial cell of proximal tubule',
+    'epithelial cell of proximal tubule segment 2': 'epithelial cell of proximal tubule',
+    'epithelial cell of proximal tubule segment 3': 'epithelial cell of proximal tubule',
+    # distal convoluted tubule
+    'epithelial cell of early distal convoluted tubule': 'kidney distal convoluted tubule epithelial cell',
+    'epithelial cell of late distal convoluted tubule': 'kidney distal convoluted tubule epithelial cell',
+    # connecting tubule & collecting duct
+    'kidney connecting tubule alpha-intercalated cell': 'kidney collecting duct intercalated cell',
+    'kidney connecting tubule principal cell': 'kidney collecting duct principal cell',
+    'kidney cortex collecting duct intercalated cell': 'kidney collecting duct intercalated cell',
+    'kidney outer medulla collecting duct intercalated cell': 'kidney collecting duct intercalated cell',
+    'kidney cortex collecting duct principal cell': 'kidney collecting duct principal cell',
+    'kidney inner medulla collecting duct principal cell': 'kidney collecting duct principal cell',
+    'kidney outer medulla collecting duct principal cell': 'kidney collecting duct principal cell',
+    'kidney collecting duct intercalated cell': 'kidney collecting duct intercalated cell',
+    'kidney collecting duct principal cell': 'kidney collecting duct principal cell',
+    'kidney connecting tubule epithelial cell': 'kidney connecting tubule epithelial cell',
+    # loop of Henle
+    'kidney loop of Henle cortical thick ascending limb epithelial cell': 
+        'kidney loop of Henle thick ascending limb epithelial cell',
+    'kidney loop of Henle medullary thick ascending limb epithelial cell': 
+        'kidney loop of Henle thick ascending limb epithelial cell',
+    'kidney loop of Henle thick ascending limb epithelial cell': 
+        'kidney loop of Henle thick ascending limb epithelial cell',
+    'kidney loop of Henle thin ascending limb epithelial cell': 
+        'kidney loop of Henle thin ascending limb epithelial cell',
+    'kidney loop of Henle short descending thin limb epithelial cell': 
+        'kidney loop of Henle thin descending limb epithelial cell',
+    'kidney loop of Henle long descending thin limb inner medulla epithelial cell': 
+        'kidney loop of Henle thin descending limb epithelial cell',
+    'kidney loop of Henle long descending thin limb outer medulla epithelial cell': 
+        'kidney loop of Henle thin descending limb epithelial cell',
+    # endothelial
+    'endothelial cell': 'endothelial cell',
+}
+
 # Label mapping
 label_mapping = {
     # Proximal tubule
@@ -155,60 +210,6 @@ slide_seq=['HBM222.VQSW.335',
  'HBM647.QDBG.936', 'HBM736.MNMD.453', 'HBM827.MJMM.447', 'HBM846.KVCF.674',
  'HBM892.CCDZ.345', 'HBM965.PSNC.855', 'HBM986.KFWG.239', 'HBM232.MBNR.586']
 
-mapping = {
-    # exact matches
-    'B cell': 'B cell',
-    'T cell': 'T cell',
-    'conventional dendritic cell': 'conventional dendritic cell',
-    'mast cell': 'mast cell',
-    'mature NK T cell': 'mature NK T cell',
-    'mononuclear phagocyte': 'mononuclear phagocyte',
-    'neutrophil': 'neutrophil',
-    'non-classical monocyte': 'non-classical monocyte',
-    'papillary tips cell': 'papillary tips cell',
-    'parietal epithelial cell': 'parietal epithelial cell',
-    'plasma cell': 'plasma cell',
-    'plasmacytoid dendritic cell, human': 'plasmacytoid dendritic cell, human',
-    'podocyte': 'podocyte',
-    'kidney interstitial fibroblast': 'kidney interstitial fibroblast',
-    'renal interstitial pericyte': 'renal interstitial pericyte',
-    # proximal tubule
-    'epithelial cell of proximal tubule segment 1': 'epithelial cell of proximal tubule',
-    'epithelial cell of proximal tubule segment 2': 'epithelial cell of proximal tubule',
-    'epithelial cell of proximal tubule segment 3': 'epithelial cell of proximal tubule',
-    # distal convoluted tubule
-    'epithelial cell of early distal convoluted tubule': 'kidney distal convoluted tubule epithelial cell',
-    'epithelial cell of late distal convoluted tubule': 'kidney distal convoluted tubule epithelial cell',
-    # connecting tubule & collecting duct
-    'kidney connecting tubule alpha-intercalated cell': 'kidney collecting duct intercalated cell',
-    'kidney connecting tubule principal cell': 'kidney collecting duct principal cell',
-    'kidney cortex collecting duct intercalated cell': 'kidney collecting duct intercalated cell',
-    'kidney outer medulla collecting duct intercalated cell': 'kidney collecting duct intercalated cell',
-    'kidney cortex collecting duct principal cell': 'kidney collecting duct principal cell',
-    'kidney inner medulla collecting duct principal cell': 'kidney collecting duct principal cell',
-    'kidney outer medulla collecting duct principal cell': 'kidney collecting duct principal cell',
-    'kidney collecting duct intercalated cell': 'kidney collecting duct intercalated cell',
-    'kidney collecting duct principal cell': 'kidney collecting duct principal cell',
-    'kidney connecting tubule epithelial cell': 'kidney connecting tubule epithelial cell',
-    # loop of Henle
-    'kidney loop of Henle cortical thick ascending limb epithelial cell': 
-        'kidney loop of Henle thick ascending limb epithelial cell',
-    'kidney loop of Henle medullary thick ascending limb epithelial cell': 
-        'kidney loop of Henle thick ascending limb epithelial cell',
-    'kidney loop of Henle thick ascending limb epithelial cell': 
-        'kidney loop of Henle thick ascending limb epithelial cell',
-    'kidney loop of Henle thin ascending limb epithelial cell': 
-        'kidney loop of Henle thin ascending limb epithelial cell',
-    'kidney loop of Henle short descending thin limb epithelial cell': 
-        'kidney loop of Henle thin descending limb epithelial cell',
-    'kidney loop of Henle long descending thin limb inner medulla epithelial cell': 
-        'kidney loop of Henle thin descending limb epithelial cell',
-    'kidney loop of Henle long descending thin limb outer medulla epithelial cell': 
-        'kidney loop of Henle thin descending limb epithelial cell',
-    # endothelial
-    'endothelial cell': 'endothelial cell',
-}
-
 
 # Main workflow
 def main():
@@ -259,9 +260,10 @@ def main():
     KPMP_SN_raw = drop_unique_obs_columns(KPMP_SN_raw)
 
     # HuBMAP cleaning
-
+    
     HuBMAP_LK_raw = filter_to_dataset_cell_types(HuBMAP_LK_raw, mapping, source_col='predicted_label')
     HuBMAP_RK_raw = filter_to_dataset_cell_types(HuBMAP_RK_raw, mapping, source_col='predicted_label')
+
 
     HuBMAP_LK_raw=remove_slide_seq_cells(HuBMAP_LK_raw,slide_seq)
     HuBMAP_RK_raw=remove_slide_seq_cells(HuBMAP_RK_raw,slide_seq)
@@ -284,6 +286,7 @@ def main():
         .intersection(HuBMAP_LK_raw.var.index)
         .intersection(HuBMAP_RK_raw.var.index)
     )
+    print(f"Found {len(shared)} genes shared across all datasets.")
 
     KPMP_SN_raw   = KPMP_SN_raw[:, shared].copy()
     HuBMAP_LK_raw = HuBMAP_LK_raw[:, shared].copy()
@@ -320,7 +323,6 @@ def main():
     print(f"Genes: {adata_concat_scvi.n_vars}")
 
     # Save
-    print(f"Saving merged AnnData to {args.output}")
     adata_concat_scvi.write(args.output)
 
 
