@@ -7,14 +7,14 @@ import re
 # Schema
 OBS_FIELDS = [
     "consortium", "collection", "dataset_id", "as_id",
-    "cl_id", "cl_label", "age", "sex", "race", "disease"
+    "cl_id", "cl_label", "age", "sex", "race", "disease","general_cl_label"
 ]
 VAR_FIELDS = ["gene_name"]
 
 # Filtering helpers
 def filter_to_dataset_cell_types(adata, dataset_names, source_col="cell_type"):
     before = adata.n_obs
-    mask = adata.obs[source_col].isin(dataset_names)
+    mask = adata.obs[source_col].isin(list(mapping.keys()))
     adata_filtered = adata[mask, :].copy()
     after = adata_filtered.n_obs
     print(f"Filtered {after}/{before} cells ({before - after} removed) using {source_col}.")
@@ -33,6 +33,7 @@ def add_common_value(adata, is_RK, shared_obs, shared_var):
     adata.obs["as_id"] = "UBERON:0002113"
     adata.obs["disease"] = "normal"
     adata.obs["consortium"] = "HuBMAP"
+    adata.obs["general_cl_label"] = "TBD"
     adata.obs["collection"] = "HuBMAP Right Kidney" if is_RK else "HuBMAP Left Kidney"
     adata.obs.rename(columns=shared_obs, inplace=True)
     adata.var.rename(columns=shared_var, inplace=True)
@@ -58,12 +59,122 @@ def map_the_gene_name(adata, kpmp_var):
     print(f"Updated {len(common_genes)} shared gene names.")
     return adata
 
-def filter_to_dataset_cell_types(adata,dataset_names,source_col='cell_type'):
-    mask = adata.obs[source_col].isin(dataset_names)
-    adata_filtered = adata[mask, :]
-    return adata_filtered
+def general_cl_label_added(adata):
+    adata.obs["general_cl_label"] = adata.obs["cl_label"].map(label_mapping)
+    adata.obs["general_cl_label"] = adata.obs["general_cl_label"].fillna(adata.obs["cl_label"])
+    return adata
 
-# first mapping
+# Label mapping
+label_mapping = label_mapping = {
+    # Proximal tubule
+    'epithelial cell of proximal tubule segment 1': 'epithelial cell of proximal tubule',
+    'epithelial cell of proximal tubule segment 2': 'epithelial cell of proximal tubule',
+    'epithelial cell of proximal tubule segment 3': 'epithelial cell of proximal tubule',
+
+    # Distal convoluted tubule
+    'epithelial cell of early distal convoluted tubule': 'kidney distal convoluted tubule epithelial cell',
+    'epithelial cell of late distal convoluted tubule': 'kidney distal convoluted tubule epithelial cell',
+    'macula densa epithelial cell': 'kidney distal convoluted tubule epithelial cell',
+
+    # Loop of Henle — thin DESCENDING limb
+    'kidney loop of Henle short descending thin limb epithelial cell': 'kidney loop of Henle thin descending limb epithelial cell',
+    'kidney loop of Henle long descending thin limb inner medulla epithelial cell': 'kidney loop of Henle thin descending limb epithelial cell',
+    'kidney loop of Henle long descending thin limb outer medulla epithelial cell': 'kidney loop of Henle thin descending limb epithelial cell',
+
+    # Loop of Henle — thin ASCENDING limb (exact)
+    'kidney loop of Henle thin ascending limb epithelial cell': 'kidney loop of Henle thin ascending limb epithelial cell',
+
+    # Loop of Henle — thick ASCENDING limb
+    'kidney loop of Henle cortical thick ascending limb epithelial cell': 'kidney loop of Henle thick ascending limb epithelial cell',
+    'kidney loop of Henle medullary thick ascending limb epithelial cell': 'kidney loop of Henle thick ascending limb epithelial cell',
+
+    # Collecting duct — principal & intercalated
+    'kidney cortex collecting duct principal cell': 'kidney collecting duct principal cell',
+    'kidney outer medulla collecting duct principal cell': 'kidney collecting duct principal cell',
+    'kidney inner medulla collecting duct principal cell': 'kidney collecting duct principal cell',
+    'kidney cortex collecting duct intercalated cell': 'kidney collecting duct intercalated cell',
+    'kidney outer medulla collecting duct intercalated cell': 'kidney collecting duct intercalated cell',
+
+    # Connecting tubule
+    'kidney connecting tubule epithelial cell': 'kidney connecting tubule epithelial cell',
+    'kidney connecting tubule principal cell': 'kidney connecting tubule epithelial cell',
+    'kidney connecting tubule alpha-intercalated cell': 'kidney connecting tubule epithelial cell',
+
+    # Endothelium (collapse to generic endothelial cell)
+    'peritubular capillary endothelial cell': 'endothelial cell',
+    'glomerular capillary endothelial cell': 'endothelial cell',
+    'endothelial cell of arteriole': 'endothelial cell',
+    'endothelial cell of lymphatic vessel': 'endothelial cell',
+    'vasa recta descending limb cell': 'endothelial cell',
+    'vasa recta ascending limb cell': 'endothelial cell',
+
+    # Immune / myeloid & lymphoid
+    'mature NK T cell': 'mature NK T cell',
+    'T cell': 'T cell',
+    'B cell': 'B cell',
+    'plasma cell': 'plasma cell',
+    'mast cell': 'mast cell',
+    'neutrophil': 'neutrophil',
+    'non-classical monocyte': 'non-classical monocyte',
+    'mononuclear phagocyte': 'mononuclear phagocyte',
+    'kidney resident macrophage': 'mononuclear phagocyte',
+    'monocyte-derived dendritic cell': 'conventional dendritic cell',
+    'conventional dendritic cell': 'conventional dendritic cell',
+    'plasmacytoid dendritic cell, human': 'plasmacytoid dendritic cell, human',
+
+    # Fibroblast / pericyte
+    'kidney interstitial fibroblast': 'kidney interstitial fibroblast',
+    'renal medullary fibroblast': 'kidney interstitial fibroblast',
+    'renal interstitial pericyte': 'renal interstitial pericyte',
+
+    # Epithelial (glomerular & parietal)
+    'podocyte': 'podocyte',
+    'parietal epithelial cell': 'parietal epithelial cell',
+
+    # Principal/intercalated outside regional qualifiers already handled above
+    'renal beta-intercalated cell': 'kidney collecting duct intercalated cell',
+
+    # Other exact matches
+    'papillary tips cell': 'papillary tips cell',
+
+    # Neural
+    'Schwann cell': 'neural cell',
+    
+    # KPMP only cell types
+    'kidney interstitial alternatively activated macrophage':'kidney interstitial alternatively activated macrophage',
+    
+    # HuBMAP only cell types
+    'mesangial cell': 'mesangial cell',
+    'kidney granular cell':'kidney granular cell'
+
+}
+
+slide_seq=['HBM222.VQSW.335',
+ 'HBM248.HPXX.584',
+ 'HBM269.GDLH.894',
+ 'HBM294.XZLM.256',
+ 'HBM356.MDPN.792',
+ 'HBM363.FVKP.935',
+ 'HBM398.BLRW.228',
+ 'HBM456.CGDP.395',
+ 'HBM462.XQCR.933',
+ 'HBM522.QXVG.468',
+ 'HBM528.KNCB.488',
+ 'HBM547.SJSK.268',
+ 'HBM547.TFRR.794',
+ 'HBM595.LBXP.486',
+ 'HBM679.RLJH.432',
+ 'HBM735.FSBZ.626',
+ 'HBM757.KLKW.524',
+ 'HBM775.CMGG.464',
+ 'HBM785.XFTT.663',
+ 'HBM834.SLQN.292',
+ 'HBM883.PHQS.523',
+ 'HBM976.*','HBM232.MBNR.586', 'HBM266.FTJN.632', 'HBM297.FDTX.382', 'HBM445.HBRO.488',
+ 'HBM459.KCST.593', 'HBM532.KKRC.477', 'HBM634.JHVB.286', 'HBM634.ZSHF.736',
+ 'HBM647.QDBG.936', 'HBM736.MNMD.453', 'HBM827.MJMM.447', 'HBM846.KVCF.674',
+ 'HBM892.CCDZ.345', 'HBM965.PSNC.855', 'HBM986.KFWG.239', 'HBM232.MBNR.586']
+
 mapping = {
     # exact matches
     'B cell': 'B cell',
@@ -118,99 +229,36 @@ mapping = {
     'endothelial cell': 'endothelial cell',
 }
 
-# Label mapping
-label_mapping = {
-    # Proximal tubule
-    "epithelial cell of proximal tubule": "Proximal tubule epithelial cell",
-    "epithelial cell of proximal tubule segment 1": "Proximal tubule epithelial cell",
-    "epithelial cell of proximal tubule segment 2": "Proximal tubule epithelial cell",
-    "epithelial cell of proximal tubule segment 3": "Proximal tubule epithelial cell",
-
-    # Distal convoluted tubule
-    "kidney distal convoluted tubule epithelial cell": "Distal convoluted tubule epithelial cell",
-    "epithelial cell of early distal convoluted tubule": "Distal convoluted tubule epithelial cell",
-    "epithelial cell of late distal convoluted tubule": "Distal convoluted tubule epithelial cell",
-
-    # Loop of Henle
-    "kidney loop of Henle thin descending limb epithelial cell": "Loop of Henle epithelial cell",
-    "kidney loop of Henle thin ascending limb epithelial cell": "Loop of Henle epithelial cell",
-    "kidney loop of Henle cortical thick ascending limb epithelial cell": "Loop of Henle epithelial cell",
-    "kidney loop of Henle medullary thick ascending limb epithelial cell": "Loop of Henle epithelial cell",
-    "kidney loop of Henle long descending thin limb outer medulla epithelial cell": "Loop of Henle epithelial cell",
-    "kidney loop of Henle long descending thin limb inner medulla epithelial cell": "Loop of Henle epithelial cell",
-    "kidney loop of Henle short descending thin limb epithelial cell": "Loop of Henle epithelial cell",
-
-    # Collecting duct principal cells
-    "kidney collecting duct principal cell": "Collecting duct principal cell",
-    "kidney cortex collecting duct principal cell": "Collecting duct principal cell",
-    "kidney outer medulla collecting duct principal cell": "Collecting duct principal cell",
-    "kidney inner medulla collecting duct principal cell": "Collecting duct principal cell",
-
-    # Collecting duct intercalated cells
-    "kidney collecting duct intercalated cell": "Collecting duct intercalated cell",
-    "kidney cortex collecting duct intercalated cell": "Collecting duct intercalated cell",
-    "kidney outer medulla collecting duct intercalated cell": "Collecting duct intercalated cell",
-
-    # Connecting tubule
-    "kidney connecting tubule epithelial cell": "Connecting tubule epithelial cell",
-    "kidney connecting tubule principal cell": "Connecting tubule epithelial cell",
-    "kidney connecting tubule alpha-intercalated cell": "Connecting tubule epithelial cell",
-
-    # Other epithelial
-    "podocyte": "Podocyte",
-    "parietal epithelial cell": "Parietal epithelial cell",
-    "papillary tips cell": "Papillary tips cell",
-
-    # Stromal & endothelial
-    "endothelial cell": "Endothelial cell",
-    "kidney interstitial cell": "Kidney interstitial cell",
-    "kidney interstitial fibroblast": "Kidney interstitial fibroblast",
-    "kidney interstitial alternatively activated macrophage": "Kidney interstitial alternatively activated macrophage",
-    "renal interstitial pericyte": "Renal interstitial pericyte",
-
-    # Immune cells
-    "T cell": "T cell",
-    "cytotoxic T cell": "T cell",
-    "mature NK T cell": "T cell",
-    "B cell": "B cell",
-    "plasma cell": "Plasma cell",
-    "natural killer cell": "Natural killer cell",
-    "monocyte": "Monocyte",
-    "non-classical monocyte": "Monocyte",
-    "conventional dendritic cell": "Dendritic cell",
-    "plasmacytoid dendritic cell, human": "Dendritic cell",
-    "mononuclear phagocyte": "Mononuclear phagocyte",
-    "mast cell": "Mast cell",
-    "neutrophil": "Neutrophil",
+cl_id_mapping={
+    'kidney interstitial alternatively activated macrophage': 'CL_1000695',
+    'kidney distal convoluted tubule epithelial cell': 'CL_1000849',
+    'epithelial cell of proximal tubule': 'CL_0002306',
+    'T cell': 'CL_0000084',
+    'kidney loop of Henle thick ascending limb epithelial cell': 'CL_1001106',
+    'kidney collecting duct intercalated cell': 'CL_1001432',
+    'kidney interstitial fibroblast': 'CL_1000692',
+    'kidney connecting tubule epithelial cell': 'CL_1000768',
+    'kidney collecting duct principal cell': 'CL_1001431',
+    'endothelial cell': 'CL_0000115',
+    'B cell': 'CL_0000236',
+    'mature NK T cell': 'CL_0000814',
+    'mononuclear phagocyte': 'CL_0000113',
+    'podocyte': 'CL_0000653',
+    'parietal epithelial cell': 'CL_1000452',
+    'mast cell': 'CL_0000097',
+    'plasmacytoid dendritic cell, human': 'CL_0001058',
+    'plasma cell': 'CL_0000786',
+    'non-classical monocyte': 'CL_0000875',
+    'conventional dendritic cell': 'CL_0000990',
+    'kidney loop of Henle thin descending limb epithelial cell': 'CL_1001111',
+    'renal interstitial pericyte': 'CL_1001318',
+    'kidney loop of Henle thin ascending limb epithelial cell': 'CL_1001107',
+    'neutrophil': 'CL_0000775',
+    'papillary tips cell': 'CL_1000597',
+    'neural cell': 'CL_0002319',
+    'mesangial cell': 'CL_0000650',
+    'kidney granular cell': 'CL_0000648',
 }
-
-slide_seq=['HBM222.VQSW.335',
- 'HBM248.HPXX.584',
- 'HBM269.GDLH.894',
- 'HBM294.XZLM.256',
- 'HBM356.MDPN.792',
- 'HBM363.FVKP.935',
- 'HBM398.BLRW.228',
- 'HBM456.CGDP.395',
- 'HBM462.XQCR.933',
- 'HBM522.QXVG.468',
- 'HBM528.KNCB.488',
- 'HBM547.SJSK.268',
- 'HBM547.TFRR.794',
- 'HBM595.LBXP.486',
- 'HBM679.RLJH.432',
- 'HBM735.FSBZ.626',
- 'HBM757.KLKW.524',
- 'HBM775.CMGG.464',
- 'HBM785.XFTT.663',
- 'HBM834.SLQN.292',
- 'HBM883.PHQS.523',
- 'HBM976.*','HBM232.MBNR.586', 'HBM266.FTJN.632', 'HBM297.FDTX.382', 'HBM445.HBRO.488',
- 'HBM459.KCST.593', 'HBM532.KKRC.477', 'HBM634.JHVB.286', 'HBM634.ZSHF.736',
- 'HBM647.QDBG.936', 'HBM736.MNMD.453', 'HBM827.MJMM.447', 'HBM846.KVCF.674',
- 'HBM892.CCDZ.345', 'HBM965.PSNC.855', 'HBM986.KFWG.239', 'HBM232.MBNR.586']
-
-
 # Main workflow
 def main():
     parser = argparse.ArgumentParser(description="Normalize, merge, and preprocess KPMP + HuBMAP datasets.")
@@ -225,7 +273,7 @@ def main():
     HuBMAP_LK_raw = sc.read(args.hubmap_lk)
     HuBMAP_RK_raw = sc.read(args.hubmap_rk)
 
-    # Shared column mappings
+        # Shared column mappings
     KPMP_shared = {
         "library_id": "dataset_id",
         "tissue_ontology_term_id": "as_id",
@@ -253,17 +301,17 @@ def main():
 
     # Annotate KPMP
     KPMP_SN_raw.obs["consortium"] = "KPMP"
-    KPMP_SN_raw.obs["collection"] = "KPMP SC RNAseq"
+    KPMP_SN_raw.obs["collection"] = "KPMP SC RNAseq"   
+    KPMP_SN_raw.obs["general_cl_label"] = KPMP_SN_raw.obs["cell_type"]
     KPMP_SN_raw.obs.rename(columns=KPMP_shared, inplace=True)
     KPMP_SN_raw.var.rename(columns=KPMP_var_shared, inplace=True)
     KPMP_SN_raw = remove_extra_var(KPMP_SN_raw)
     KPMP_SN_raw = drop_unique_obs_columns(KPMP_SN_raw)
 
     # HuBMAP cleaning
-    
-    HuBMAP_LK_raw = filter_to_dataset_cell_types(HuBMAP_LK_raw, mapping, source_col='predicted_label')
-    HuBMAP_RK_raw = filter_to_dataset_cell_types(HuBMAP_RK_raw, mapping, source_col='predicted_label')
 
+    HuBMAP_LK_raw = filter_to_dataset_cell_types(HuBMAP_LK_raw, label_mapping, source_col='predicted_label')
+    HuBMAP_RK_raw = filter_to_dataset_cell_types(HuBMAP_RK_raw, label_mapping, source_col='predicted_label')
 
     HuBMAP_LK_raw=remove_slide_seq_cells(HuBMAP_LK_raw,slide_seq)
     HuBMAP_RK_raw=remove_slide_seq_cells(HuBMAP_RK_raw,slide_seq)
@@ -279,6 +327,9 @@ def main():
 
     HuBMAP_LK_raw = map_the_gene_name(HuBMAP_LK_raw, KPMP_SN_raw.var)
     HuBMAP_RK_raw = map_the_gene_name(HuBMAP_RK_raw, KPMP_SN_raw.var)
+    
+    HuBMAP_LK_raw = general_cl_label_added(HuBMAP_LK_raw)
+    HuBMAP_RK_raw = general_cl_label_added(HuBMAP_RK_raw)
 
     # Keep shared genes
     shared = (
@@ -286,7 +337,6 @@ def main():
         .intersection(HuBMAP_LK_raw.var.index)
         .intersection(HuBMAP_RK_raw.var.index)
     )
-    print(f"Found {len(shared)} genes shared across all datasets.")
 
     KPMP_SN_raw   = KPMP_SN_raw[:, shared].copy()
     HuBMAP_LK_raw = HuBMAP_LK_raw[:, shared].copy()
@@ -313,8 +363,7 @@ def main():
     sc.pp.log1p(adata_concat_scvi)
 
     # Label harmonization
-    adata_concat_scvi.obs["general_cl_label"] = adata_concat_scvi.obs["cl_label"].map(label_mapping)
-    adata_concat_scvi.obs["general_cl_label"] = adata_concat_scvi.obs["general_cl_label"].fillna(adata_concat_scvi.obs["cl_label"])
+    adata_concat_scvi.obs["general_cl_id"] = adata_concat_scvi.obs["general_cl_label"].map(cl_id_mapping)
     adata_concat_scvi.obs["age"] = adata_concat_scvi.obs["age"].astype(str)
 
     print(adata_concat_scvi.obs[["cl_label", "general_cl_label"]].head(20))
@@ -323,6 +372,7 @@ def main():
     print(f"Genes: {adata_concat_scvi.n_vars}")
 
     # Save
+    print(f"Saving merged AnnData to {args.output}")
     adata_concat_scvi.write(args.output)
 
 
