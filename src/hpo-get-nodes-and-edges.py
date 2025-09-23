@@ -238,7 +238,7 @@ HPO_AS_kidney.reset_index(drop=True, inplace=True)
 HPO_AS_kidney.head()
 
 # %%
-HPO_AS_kidney.head().to_csv("./input-csvs/hpo-kidney-as-nodes.csv", index=False)
+HPO_AS_kidney.to_csv("./input-csvs/hpo-kidney-as-nodes.csv", index=False)
 
 # %% [markdown]
 # # Edge tables
