@@ -1,0 +1,192 @@
+@prefix kg: <https://purl.humanatlas.io/vocab/kg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://purl.obolibrary.org/obo/CL_0000084> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "T cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_0000097> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "mast cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_0000113> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "mononuclear phagocyte" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_0000115> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "endothelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_0000236> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "B cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_0000451> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "dendritic cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_0000576> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "monocyte" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_0000653> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "podocyte" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_0000775> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "neutrophil" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_0000786> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "plasma cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_0002306> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "epithelial cell of proximal tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_0002319> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "neural cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_1000452> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "parietal epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_1000597> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "papillary tips cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_1000692> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney interstitial fibroblast" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_1000695> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney interstitial alternatively activated macrophage" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_1000768> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney connecting tubule epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_1000849> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney distal convoluted tubule epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_1000909> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_1001106> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney loop of Henle thick ascending limb epithelial cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_1001318> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "renal interstitial pericyte" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_1001431> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney collecting duct principal cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/CL_1001432> a <http://purl.obolibrary.org/obo/CL_0000000>,
+        owl:Class ;
+    rdfs:label "kidney collecting duct intercalated cell" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/graph/hra-lit> .
+
+<http://purl.obolibrary.org/obo/UBERON_0000074> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal glomerulus" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001228> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal papilla" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001229> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "renal corpuscle" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001231> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "nephron tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001232> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "collecting duct of renal tubule" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0001986> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "endothelium" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0002113> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+<http://purl.obolibrary.org/obo/UBERON_0003527> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
+        owl:Class ;
+    rdfs:label "kidney capillary" ;
+    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
+
+[] a kg:Graph ;
+    kg:nodes <http://purl.obolibrary.org/obo/CL_0000084>,
+        <http://purl.obolibrary.org/obo/CL_0000097>,
+        <http://purl.obolibrary.org/obo/CL_0000113>,
+        <http://purl.obolibrary.org/obo/CL_0000115>,
+        <http://purl.obolibrary.org/obo/CL_0000236>,
+        <http://purl.obolibrary.org/obo/CL_0000451>,
+        <http://purl.obolibrary.org/obo/CL_0000576>,
+        <http://purl.obolibrary.org/obo/CL_0000653>,
+        <http://purl.obolibrary.org/obo/CL_0000775>,
+        <http://purl.obolibrary.org/obo/CL_0000786>,
+        <http://purl.obolibrary.org/obo/CL_0002306>,
+        <http://purl.obolibrary.org/obo/CL_0002319>,
+        <http://purl.obolibrary.org/obo/CL_1000452>,
+        <http://purl.obolibrary.org/obo/CL_1000597>,
+        <http://purl.obolibrary.org/obo/CL_1000692>,
+        <http://purl.obolibrary.org/obo/CL_1000695>,
+        <http://purl.obolibrary.org/obo/CL_1000768>,
+        <http://purl.obolibrary.org/obo/CL_1000849>,
+        <http://purl.obolibrary.org/obo/CL_1000909>,
+        <http://purl.obolibrary.org/obo/CL_1001106>,
+        <http://purl.obolibrary.org/obo/CL_1001318>,
+        <http://purl.obolibrary.org/obo/CL_1001431>,
+        <http://purl.obolibrary.org/obo/CL_1001432>,
+        <http://purl.obolibrary.org/obo/UBERON_0000074>,
+        <http://purl.obolibrary.org/obo/UBERON_0001228>,
+        <http://purl.obolibrary.org/obo/UBERON_0001229>,
+        <http://purl.obolibrary.org/obo/UBERON_0001231>,
+        <http://purl.obolibrary.org/obo/UBERON_0001232>,
+        <http://purl.obolibrary.org/obo/UBERON_0001986>,
+        <http://purl.obolibrary.org/obo/UBERON_0002113>,
+        <http://purl.obolibrary.org/obo/UBERON_0003527> .
+

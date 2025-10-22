@@ -49,7 +49,7 @@ ORDER BY DESC(?count)
 | http://purl.org/ccf/ccf_characterizes | 43819 |
 | https://purl.humanatlas.io/vocab/hp#has_modifier | 5074 |
 | https://purl.humanatlas.io/graph/hra-lit#COOCCURS_WITH_DISEASE | 981 |
-| http://purl.org/ccf/ccf_located_in | 352 |
+| http://purl.org/ccf/ccf_located_in | 375 |
 | http://purl.org/ccf/ccf_part_of | 313 |
 | ... | ... |
 
@@ -86,7 +86,7 @@ ORDER BY ?graph
 | https://purl.humanatlas.io/collection/hra | 2120944 |
 | https://purl.humanatlas.io/collection/hra-api | 2006982 |
 | https://purl.humanatlas.io/graph/ccf | 557123 |
-| https://purl.humanatlas.io/graph/hra-kidney-disease-atlas | 392487 |
+| https://purl.humanatlas.io/graph/hra-kidney-disease-atlas | 393537 |
 | https://purl.humanatlas.io/vocab/cl | 99013 |
 | https://purl.humanatlas.io/vocab/hp | 903078 |
 | https://purl.humanatlas.io/vocab/uberon | 1181703 |
@@ -161,9 +161,9 @@ ORDER BY DESC(?count)
 
 | label | count |
 | :--- | :--- |
-| # Edges | 50780 |
+| # Edges | 50953 |
 | # Nodes | 13028 |
-| # Edge Types | 10 |
+| # Edge Types | 11 |
 | # Node Types | 7 |
 
 
@@ -242,7 +242,12 @@ WHERE {
 
 | iri |
 | :--- |
-
+| http://purl.obolibrary.org/obo/HP_0001874 |
+| http://purl.obolibrary.org/obo/HP_0001875 |
+| http://purl.obolibrary.org/obo/HP_0001876 |
+| http://purl.obolibrary.org/obo/HP_0001881 |
+| http://purl.obolibrary.org/obo/HP_0001882 |
+| ... |
 
 
 ### <a id="asct-disease-evidence"></a>asct-disease-evidence
@@ -528,11 +533,11 @@ ORDER BY ?as ?ct DESC(?mean_gene_expr)
 
 | mean_gene_expr | gene | ct | as | phenotype | gene_label | ct_label | as_label | phenotype_label | num_sources |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 3.843714 | http://identifiers.org/hgnc/10327 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000085 | RPL26 | T cell | renal papilla | Horseshoe kidney | 1 |
-| 3.843714 | http://identifiers.org/hgnc/10327 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000104 | RPL26 | T cell | renal papilla | Renal agenesis | 1 |
-| 3.843714 | http://identifiers.org/hgnc/10327 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000122 | RPL26 | T cell | renal papilla | Unilateral renal agenesis | 1 |
-| 2.8935435 | http://identifiers.org/hgnc/132 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000126 | ACTB | T cell | renal papilla | Hydronephrosis | 1 |
-| 2.853652 | http://identifiers.org/hgnc/10369 | http://purl.obolibrary.org/obo/CL_0000084 | http://purl.obolibrary.org/obo/UBERON_0001228 | http://purl.obolibrary.org/obo/HP_0000085 | RPL9 | T cell | renal papilla | Horseshoe kidney | 1 |
+| 5.4554906 | http://identifiers.org/hgnc/17175 | http://purl.obolibrary.org/obo/CL_0000653 | http://purl.obolibrary.org/obo/UBERON_0000074 | http://purl.obolibrary.org/obo/HP_0000097 | PLCE1 | podocyte | renal glomerulus | Focal segmental glomerulosclerosis | 2 |
+| 5.4554906 | http://identifiers.org/hgnc/17175 | http://purl.obolibrary.org/obo/CL_0000653 | http://purl.obolibrary.org/obo/UBERON_0000074 | http://purl.obolibrary.org/obo/HP_0000100 | PLCE1 | podocyte | renal glomerulus | Nephrotic syndrome | 2 |
+| 5.4554906 | http://identifiers.org/hgnc/17175 | http://purl.obolibrary.org/obo/CL_0000653 | http://purl.obolibrary.org/obo/UBERON_0000074 | http://purl.obolibrary.org/obo/HP_0001967 | PLCE1 | podocyte | renal glomerulus | Diffuse mesangial sclerosis | 2 |
+| 5.4554906 | http://identifiers.org/hgnc/17175 | http://purl.obolibrary.org/obo/CL_0000653 | http://purl.obolibrary.org/obo/UBERON_0000074 | http://purl.obolibrary.org/obo/HP_0003774 | PLCE1 | podocyte | renal glomerulus | Stage 5 chronic kidney disease | 2 |
+| 5.4554906 | http://identifiers.org/hgnc/17175 | http://purl.obolibrary.org/obo/CL_0000653 | http://purl.obolibrary.org/obo/UBERON_0000074 | http://purl.obolibrary.org/obo/HP_0012579 | PLCE1 | podocyte | renal glomerulus | Minimal change glomerulonephritis | 2 |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
 

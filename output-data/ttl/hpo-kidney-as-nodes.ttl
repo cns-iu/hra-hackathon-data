@@ -92,11 +92,6 @@
     rdfs:label "glomerular epithelium" ;
     rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
 
-<http://purl.obolibrary.org/obo/UBERON_0004190> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
-        owl:Class ;
-    rdfs:label "renal glomerulus vasculature" ;
-    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
-
 <http://purl.obolibrary.org/obo/UBERON_0004200> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
         owl:Class ;
     rdfs:label "kidney pyramid" ;
@@ -142,11 +137,6 @@
     rdfs:label "kidney interstitium" ;
     rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
 
-<http://purl.obolibrary.org/obo/UBERON_0006544> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
-        owl:Class ;
-    rdfs:label "kidney vasculature" ;
-    rdfs:isDefinedBy <https://purl.humanatlas.io/vocab/hp> .
-
 <http://purl.obolibrary.org/obo/UBERON_0009883> a <http://purl.obolibrary.org/obo/UBERON_0000061>,
         owl:Class ;
     rdfs:label "medullary ray" ;
@@ -171,7 +161,6 @@
         <http://purl.obolibrary.org/obo/UBERON_0003527>,
         <http://purl.obolibrary.org/obo/UBERON_0004100>,
         <http://purl.obolibrary.org/obo/UBERON_0004188>,
-        <http://purl.obolibrary.org/obo/UBERON_0004190>,
         <http://purl.obolibrary.org/obo/UBERON_0004200>,
         <http://purl.obolibrary.org/obo/UBERON_0004203>,
         <http://purl.obolibrary.org/obo/UBERON_0004205>,
@@ -181,6 +170,5 @@
         <http://purl.obolibrary.org/obo/UBERON_0004539>,
         <http://purl.obolibrary.org/obo/UBERON_0004639>,
         <http://purl.obolibrary.org/obo/UBERON_0005215>,
-        <http://purl.obolibrary.org/obo/UBERON_0006544>,
         <http://purl.obolibrary.org/obo/UBERON_0009883> .
 

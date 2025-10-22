@@ -1,0 +1,121 @@
+@prefix kg: <https://purl.humanatlas.io/vocab/kg#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+[] a kg:Graph ;
+    kg:edges [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_0000451> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_0002319> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0001228> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_1000597> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0001986> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_0000115> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_0000775> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_0000786> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_0000576> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0001232> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_1001431> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_0000084> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0001232> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_1001432> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_1001318> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_0000113> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0001231> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_1001106> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_0000097> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0001231> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_1000768> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0000074> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_0000653> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_1000695> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0001229> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_1000452> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_0000236> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0001231> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_0002306> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0001231> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_1000909> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0002113> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_1000692> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ],
+        [ a rdf:Statement ;
+            rdf:object <http://purl.obolibrary.org/obo/UBERON_0001231> ;
+            rdf:predicate <http://purl.org/ccf/ccf_located_in> ;
+            rdf:subject <http://purl.obolibrary.org/obo/CL_1000849> ;
+            rdfs:isDefinedBy <https://purl.humanatlas.io/collection/hra> ] .
+
