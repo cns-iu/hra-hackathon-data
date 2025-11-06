@@ -1,5 +1,6 @@
 #+ summary: Unique Kidney AS, CT, and B in HRA
 
+PREFIX biolink: <https://w3id.org/biolink/vocab/>
 PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ccf: <http://purl.org/ccf/>
@@ -7,11 +8,11 @@ PREFIX partof: <http://purl.obolibrary.org/obo/BFO_0000050>
 PREFIX kidney: <http://purl.obolibrary.org/obo/UBERON_0002113>
 PREFIX HRA: <https://purl.humanatlas.io/collection/hra>
 
-SELECT DISTINCT ?subject ?predicate ?object (HRA: as ?source)
+SELECT DISTINCT ?subject ?predicate ?object ?category ("knowledge_assertion" as ?knowledge_level) ("manual_agent" as ?agent_type) (HRA: as ?primary_knowledge_source)
 FROM HRA:
 WHERE {
   {
-    SELECT ?subject (ccf:ccf_part_of as ?predicate) ?object
+    SELECT ?subject (biolink:part_of as ?predicate) ?object (biolink:AnatomicalEntityToAnatomicalEntityAssociation as ?category)
     WHERE {
       ?subject ccf:ccf_part_of* ?object .
       ?subject ccf:ccf_part_of* kidney: .
@@ -20,7 +21,7 @@ WHERE {
   }
   UNION
   {
-    SELECT ?subject (ccf:ccf_located_in as ?predicate) ?object
+    SELECT ?subject (biolink:located_in as ?predicate) ?object (biolink:CellToAnatomicalEntityAssociation as ?category)
     WHERE {
       [] a ccf:CellMarkerDescriptor ;
         ccf:primary_anatomical_structure ?object ;
@@ -31,7 +32,7 @@ WHERE {
   }
   UNION
   {
-    SELECT ?subject (ccf:ccf_characterizes as ?predicate) ?object
+    SELECT ?subject (biolink:expressed_in as ?predicate) ?object (biolink:GeneToEntityAssociation as ?category)
     WHERE {
       [] a ccf:CellMarkerDescriptor ;
         ccf:primary_anatomical_structure ?as ;

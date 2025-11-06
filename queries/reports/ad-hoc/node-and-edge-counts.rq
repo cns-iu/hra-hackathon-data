@@ -1,4 +1,4 @@
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX biolink: <https://w3id.org/biolink/vocab/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -10,7 +10,7 @@ WHERE {
     WHERE {
       SELECT DISTINCT ?s 
       WHERE {
-        ?s a owl:Class .
+        ?s a biolink:NamedThing .
       }
     }
   }
@@ -30,9 +30,9 @@ WHERE {
     WHERE {
       SELECT DISTINCT ?class
       WHERE {
-        ?s a owl:Class ;
+        ?s a biolink:NamedThing ;
           a ?class .
-        FILTER(?class != owl:Class)
+        FILTER(?class != biolink:NamedThing)
       }
     }
   }

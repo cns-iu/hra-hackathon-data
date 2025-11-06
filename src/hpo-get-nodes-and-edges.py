@@ -169,13 +169,14 @@ hpo_genes_to_phenotype_kidney_annotated
 # %%
 gene_nodes_table = pd.DataFrame(
     {
-        "iri": [
-            "http://identifiers.org/hgnc/" + a.split(":")[-1]
+        "id": [
+            "HGNC:" + a.split(":")[-1]
             for a in hpo_genes_to_phenotype_kidney_annotated["HGNC"]
         ],
-        "label": hpo_genes_to_phenotype_kidney_annotated["gene_symbol"],
-        "type": "http://purl.bioontology.org/ontology/HGNC/gene",
-        "source": "https://purl.humanatlas.io/vocab/hp",
+        "name": hpo_genes_to_phenotype_kidney_annotated["gene_symbol"],
+        "symbol": hpo_genes_to_phenotype_kidney_annotated["gene_symbol"],
+        "category": "biolink:Gene",
+        "provided_by": "https://purl.humanatlas.io/vocab/hp",
     }
 )
 gene_nodes_table.drop_duplicates(inplace=True)
@@ -189,13 +190,13 @@ gene_nodes_table.to_csv("./input-csvs/hpo-kidney-genes-nodes.csv", index=False)
 # %%
 phenotype_nodes_table = pd.DataFrame(
     {
-        "iri": [
-            "http://purl.obolibrary.org/obo/HP_" + a.split(":")[-1]
+        "id": [
+            "HP:" + a.split(":")[-1]
             for a in hpo_genes_to_phenotype_kidney_annotated["hpo_id"]
         ],
-        "label": hpo_genes_to_phenotype_kidney_annotated["hpo_name"],
-        "type": "http://purl.obolibrary.org/obo/HP_0000118",  # phenotypic abnormality
-        "source": "https://purl.humanatlas.io/vocab/hp",
+        "name": hpo_genes_to_phenotype_kidney_annotated["hpo_name"],
+        "category": "biolink:PhenotypicFeature",  # phenotypic abnormality
+        "provided_by": "https://purl.humanatlas.io/vocab/hp",
     }
 )
 
@@ -209,38 +210,6 @@ phenotype_nodes_table_complete.to_csv(
 )
 
 # %% [markdown]
-# # AS table:
-#
-# - Bruce retrived all the AS UBERON terms in HPO: https://api.triplydb.com/s/2r-5G7lyW
-#     - HPO_AS_uberon.csv
-#
-# - Bruce also prepared this file mapping: AS -> Organ Mapping https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra/as-parts.csv?location=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002113 . The corresponding SPARQL is here: https://github.com/hubmapconsortium/ccf-grlc/blob/main/hra/as-parts.rq
-#
-#     - The last part of the URL correspond to the ueberon term of Kidney: UBERON_0002113
-#     - as-parts.csv
-#
-#
-
-# %%
-HPO_AS = pd.read_csv("./HRA_HPO_integration/data/HPO_AS_uberon.csv")
-HPO_AS.head()
-
-# %%
-kidney_as_parts = pd.read_csv("./HRA_HPO_integration/data/as-parts.csv")
-kidney_as_parts.head()
-
-# %%
-HPO_AS_kidney = HPO_AS[HPO_AS["iri"].isin(kidney_as_parts["part_iri"])]
-HPO_AS_kidney.head()
-
-# %%
-HPO_AS_kidney.reset_index(drop=True, inplace=True)
-HPO_AS_kidney.head()
-
-# %%
-HPO_AS_kidney.to_csv("./input-csvs/hpo-kidney-as-nodes.csv", index=False)
-
-# %% [markdown]
 # # Edge tables
 #
 #  Subject | Predicate | Object
@@ -248,7 +217,7 @@ HPO_AS_kidney.to_csv("./input-csvs/hpo-kidney-as-nodes.csv", index=False)
 
 # %%
 hpo_genes_to_phenotype_kidney_annotated["hgnc_iri"] = [
-    "http://identifiers.org/hgnc/" + a.split(":")[-1]
+    "HGNC:" + a.split(":")[-1]
     for a in hpo_genes_to_phenotype_kidney_annotated["HGNC"]
 ]
 hpo_genes_to_phenotype_kidney_annotated.head()
@@ -259,12 +228,15 @@ hpo_genes_to_phenotype_kidney_annotated.head()
 edge_table = pd.DataFrame(
     {
         "subject": hpo_genes_to_phenotype_kidney_annotated["hgnc_iri"],
-        "predicate": "https://purl.humanatlas.io/vocab/hp#has_modifier",
+        "predicate": "biolink:has_phenotype",
         "object": [
-            "http://purl.obolibrary.org/obo/HP_" + a.split(":")[-1]
+            "HP:" + a.split(":")[-1]
             for a in hpo_genes_to_phenotype_kidney_annotated["hpo_id"]
         ],
-        "source": "https://purl.humanatlas.io/vocab/hp",
+        "category": "biolink:EntityToDiseaseOrPhenotypicFeatureAssociation",
+        "knowledge_level": "knowledge_assertion",
+        "agent_type": "manual_agent",
+        "primary_knowledge_source": "https://purl.humanatlas.io/vocab/hp"
     }
 )
 edge_table

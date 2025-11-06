@@ -2,16 +2,22 @@
 WITH rows AS MATERIALIZED (SELECT * FROM read_csv('/dev/stdin'))
 SELECT DISTINCT
   "ct" as subject,
-  'http://purl.org/ccf/ccf_located_in' as predicate,
+  'biolink:located_in' as predicate,
   "as" as object,
-  'https://purl.humanatlas.io/graph/hra-pop' as source,
+  'biolink:CellToAnatomicalEntityAssociation' as category,
+  'statistical_association' as knowledge_level,
+  'automated_agent' as agent_type,
+  'https://purl.humanatlas.io/graph/hra-pop' as primary_knowledge_source,
   '' as gene_expr
 FROM rows
 UNION ALL
 SELECT DISTINCT
   "biomarker" as subject,
-  'http://purl.org/ccf/ccf_characterizes' as predicate,
+  'biolink:expressed_in' as predicate,
   "ct" as object,
-  'https://purl.humanatlas.io/graph/hra-pop' as source,
+  'biolink:GeneToEntityAssociation' as category,
+  'statistical_association' as knowledge_level,
+  'automated_agent' as agent_type,
+  'https://purl.humanatlas.io/graph/hra-pop' as primary_knowledge_source,
   "gene_expr" as gene_expr
 FROM rows

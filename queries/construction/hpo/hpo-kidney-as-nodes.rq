@@ -1,0 +1,24 @@
+PREFIX biolink: <https://w3id.org/biolink/vocab/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ccf: <http://purl.org/ccf/>
+PREFIX part_of: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX UBERON: <https://purl.humanatlas.io/vocab/uberon>
+PREFIX HRA: <https://purl.humanatlas.io/collection/hra>
+PREFIX HPO: <https://purl.humanatlas.io/vocab/hp>
+PREFIX kidney: <http://purl.obolibrary.org/obo/UBERON_0002113>
+
+SELECT DISTINCT ?id ?name (biolink:GrossAnatomicalStructure as ?category) (HPO: as ?provided_by)
+FROM UBERON:
+FROM HRA:
+FROM NAMED HPO:
+WHERE {
+  ?id ccf:ccf_part_of*|part_of:* kidney: .
+  ?id rdfs:label ?name .
+
+  FILTER EXISTS {
+    GRAPH HPO: {
+      ?id rdfs:label ?name .
+    }
+  }
+}
+ORDER BY ?id

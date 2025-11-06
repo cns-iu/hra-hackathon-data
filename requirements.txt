@@ -1,7 +1,7 @@
-linkml
 nodeenv
 csvkit
 sssom[all]
+kgx
 # requirements for hpo integration
 anyio
 appnope

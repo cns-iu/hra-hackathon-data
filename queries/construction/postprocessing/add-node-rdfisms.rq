@@ -1,0 +1,17 @@
+#+ summary: Update query to take SPOs from statements and make them simple triples
+
+PREFIX biolink: <https://w3id.org/biolink/vocab/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX HRAkda: <https://purl.humanatlas.io/graph/hra-kidney-disease-atlas>
+
+INSERT {
+  GRAPH HRAkda: {
+    ?iri a ?type .
+  }
+}
+WHERE {
+  GRAPH HRAkda: {
+    ?iri biolink:category ?type .
+  }
+}

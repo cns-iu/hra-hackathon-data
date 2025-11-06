@@ -19,13 +19,12 @@ HPO=https://purl.humanatlas.io/vocab/hp
 
 DOs_TO_IMPORT="$CCF $HRA $HRA_API $UBERON $CL $HPO"
 
-for TTL in $OUTPUT_DIR/ttl/*.ttl; do
-  blazegraph-runner load --journal=$JNL "--graph=${HRA_ATLAS}" $TTL
-done
+# Load HRA Atlas from KGX graph output
+blazegraph-runner load --journal=$JNL "--graph=${HRA_ATLAS}" $DIR/hra-kidney-disease-atlas.nt
 
 # Make modifications to the KG to improve its usefulness
-blazegraph-runner update --journal=$JNL queries/construction/postprocessing/reify-edges.rq
-blazegraph-runner update --journal=$JNL queries/construction/postprocessing/remove-useless-edges.rq
+blazegraph-runner update --journal=$JNL queries/construction/postprocessing/add-node-rdfisms.rq
+blazegraph-runner update --journal=$JNL queries/construction/postprocessing/add-edge-rdfisms.rq
 
 # Dump HRA Atlas back out to turtle format for publishing
 blazegraph-runner dump --journal=$JNL "--graph=${HRA_ATLAS}" $DIR/hra-kidney-disease-atlas.ttl
