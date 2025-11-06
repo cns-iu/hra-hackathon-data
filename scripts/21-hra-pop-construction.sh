@@ -18,8 +18,10 @@ if [ "$1" == "--clean" ] || [ "$CLEAN" == "true" ]; then
   ./src/sql-select.sh queries/construction/hra-pop/hra-pop-kidney-nodes.sql \
     input-csvs/hra-pop-kidney-data.csv \
     input-csvs/hra-pop-kidney-nodes.csv
+  ./src/compact-uris-in-csv.py -i input-csvs/hra-pop-kidney-nodes.csv -o dummy --inplace
 
   ./src/sql-select.sh queries/construction/hra-pop/hra-pop-kidney-edges.sql \
     input-csvs/hra-pop-kidney-data.csv \
     input-csvs/hra-pop-kidney-edges.csv
+  ./src/compact-uris-in-csv.py -i input-csvs/hra-pop-kidney-edges.csv -o dummy --inplace
 fi

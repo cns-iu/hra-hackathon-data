@@ -1,0 +1,140 @@
+{
+    "graph_name": "Graph",
+    "node_stats": {
+        "total_nodes": 12876,
+        "node_categories": [
+            "biolink:Cell",
+            "biolink:Gene",
+            "biolink:GrossAnatomicalStructure",
+            "biolink:NamedThing",
+            "biolink:PhenotypicFeature"
+        ],
+        "node_id_prefixes": [
+            "CL",
+            "ENSEMBL",
+            "HGNC",
+            "HP",
+            "NCIT",
+            "UBERON"
+        ],
+        "node_id_prefixes_by_category": {
+            "unknown": [],
+            "biolink:Cell": [
+                "CL",
+                "NCIT"
+            ],
+            "biolink:NamedThing": [
+                "HP"
+            ],
+            "biolink:GrossAnatomicalStructure": [
+                "UBERON",
+                "NCIT"
+            ],
+            "biolink:PhenotypicFeature": [
+                "HP"
+            ],
+            "biolink:Gene": [
+                "HGNC",
+                "ENSEMBL"
+            ]
+        },
+        "count_by_category": {
+            "unknown": {
+                "count": 0
+            },
+            "biolink:Cell": {
+                "count": 80
+            },
+            "biolink:NamedThing": {
+                "count": 113
+            },
+            "biolink:GrossAnatomicalStructure": {
+                "count": 64
+            },
+            "biolink:PhenotypicFeature": {
+                "count": 183
+            },
+            "biolink:Gene": {
+                "count": 12436
+            }
+        },
+        "count_by_id_prefixes_by_category": {
+            "unknown": {},
+            "biolink:Cell": {
+                "CL": 75,
+                "NCIT": 5
+            },
+            "biolink:NamedThing": {
+                "HP": 113
+            },
+            "biolink:GrossAnatomicalStructure": {
+                "UBERON": 62,
+                "NCIT": 2
+            },
+            "biolink:PhenotypicFeature": {
+                "HP": 183
+            },
+            "biolink:Gene": {
+                "HGNC": 10825,
+                "ENSEMBL": 1611
+            }
+        },
+        "count_by_id_prefixes": {
+            "CL": 75,
+            "NCIT": 7,
+            "HP": 296,
+            "UBERON": 62,
+            "HGNC": 10825,
+            "ENSEMBL": 1611
+        }
+    },
+    "edge_stats": {
+        "total_edges": 39129,
+        "predicates": [
+            "biolink:expressed_in",
+            "biolink:has_phenotype",
+            "biolink:located_in",
+            "biolink:part_of"
+        ],
+        "count_by_predicates": {
+            "unknown": {
+                "count": 0
+            },
+            "biolink:has_phenotype": {
+                "count": 4530
+            },
+            "biolink:located_in": {
+                "count": 352
+            },
+            "biolink:part_of": {
+                "count": 313
+            },
+            "biolink:expressed_in": {
+                "count": 33934
+            }
+        },
+        "count_by_spo": {
+            "biolink:Cell-biolink:has_phenotype-biolink:NamedThing": {
+                "count": 105
+            },
+            "biolink:Cell-biolink:located_in-biolink:GrossAnatomicalStructure": {
+                "count": 352
+            },
+            "biolink:GrossAnatomicalStructure-biolink:has_phenotype-biolink:PhenotypicFeature": {
+                "count": 37
+            },
+            "biolink:GrossAnatomicalStructure-biolink:part_of-biolink:GrossAnatomicalStructure": {
+                "count": 313
+            },
+            "biolink:GrossAnatomicalStructure-biolink:has_phenotype-biolink:NamedThing": {
+                "count": 8
+            },
+            "biolink:Gene-biolink:has_phenotype-biolink:PhenotypicFeature": {
+                "count": 4380
+            },
+            "biolink:Gene-biolink:expressed_in-biolink:Cell": {
+                "count": 33934
+            }
+        }
+    }
+}

@@ -1,3 +1,4 @@
+PREFIX biolink: <https://w3id.org/biolink/vocab/>
 PREFIX hint: <http://www.bigdata.com/queryHints#> 
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -9,8 +10,7 @@ PREFIX HP: <http://purl.obolibrary.org/obo/HP_>
 PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
 PREFIX HRA: <https://purl.humanatlas.io/collection/hra-api>
 
-# SELECT DISTINCT ?phenotype_iri ?phenotype_label ?as ?ct
-SELECT DISTINCT ?subject ?predicate ?object ("https://purl.humanatlas.io/vocab/hp" as ?source)
+SELECT DISTINCT ?subject ?predicate ?object ?category ("knowledge_assertion" as ?knowledge_level) ("manual_agent" as ?agent_type) ("https://purl.humanatlas.io/vocab/hp" as ?source)
 
 WITH {
   SELECT DISTINCT ?phenotype_iri ?phenotype_label ?as_child ?ct
@@ -168,17 +168,19 @@ WHERE {
     INCLUDE %data
     INCLUDE %ct_kids
     FILTER(isIRI(?ct))
-    BIND(?phenotype_iri as ?subject)
-    BIND(<https://purl.humanatlas.io/vocab/hp#phenotype_occurs_in> as ?predicate)
-    BIND(?ct as ?object)
+    BIND(?ct as ?subject)
+    BIND(biolink:has_phenotype as ?predicate)
+    BIND(?phenotype_iri as ?object)
+    BIND(biolink:EntityToDiseaseOrPhenotypicFeatureAssociation as ?category)
   }
   UNION
   {
     INCLUDE %as_kids
     INCLUDE %data
-    BIND(?phenotype_iri as ?subject)
-    BIND(<https://purl.humanatlas.io/vocab/hp#phenotype_occurs_in> as ?predicate)
-    BIND(?as_child as ?object)
+    BIND(?as_child as ?subject)
+    BIND(biolink:has_phenotype as ?predicate)
+    BIND(?phenotype_iri as ?object)
+    BIND(biolink:EntityToDiseaseOrPhenotypicFeatureAssociation as ?category)
   }
 }
 ORDER BY ?subject

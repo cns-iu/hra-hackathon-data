@@ -9,5 +9,6 @@ if [ "$1" == "--clean" ] || [ "$CLEAN" == "true" ]; then
   for RQ in queries/construction/hra-asctb/*.rq; do
     OUT=$INPUT_DIR/$(basename -s .rq $RQ).csv
     ./src/sparql-select.sh $ENDPOINT $RQ | csvformat > $OUT
+    ./src/compact-uris-in-csv.py -i $OUT -o dummy --inplace
   done
 fi

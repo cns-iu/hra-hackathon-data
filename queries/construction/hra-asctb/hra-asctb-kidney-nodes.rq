@@ -1,33 +1,34 @@
 #+ summary: Unique Kidney AS, CT, and B in HRA
 
+PREFIX biolink: <https://w3id.org/biolink/vocab/>
 PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ccf: <http://purl.org/ccf/>
 PREFIX kidney: <http://purl.obolibrary.org/obo/UBERON_0002113>
 PREFIX HRA: <https://purl.humanatlas.io/collection/hra>
 
-SELECT DISTINCT ?iri (SAMPLE(?label) as ?label) (SAMPLE(?type) as ?type) (HRA: as ?source)
+SELECT DISTINCT ?id (SAMPLE(?name) as ?name) (SAMPLE(?symbol) as ?symbol) (SAMPLE(?category) as ?category) (HRA: as ?provided_by)
 FROM HRA:
 WHERE {
-  VALUES (?asctb_type ?type) {
-    ("AS"^^xsd:string <http://purl.obolibrary.org/obo/UBERON_0000061>)
-    ("CT"^^xsd:string <http://purl.obolibrary.org/obo/CL_0000000>)
-    ("BM"^^xsd:string <http://purl.bioontology.org/ontology/HGNC/gene>)
+  VALUES (?asctb_type ?category) {
+    ("AS"^^xsd:string biolink:GrossAnatomicalStructure)
+    ("CT"^^xsd:string biolink:Cell)
+    ("BM"^^xsd:string biolink:Gene)
   }
-  ?iri ccf:ccf_asctb_type ?asctb_type ;
-    rdfs:label ?label .
+  ?id ccf:ccf_asctb_type ?asctb_type ;
+    rdfs:label ?name .
 
   # AS
   {
-    ?iri ccf:ccf_part_of ?object .
-    ?iri ccf:ccf_part_of* kidney: .
+    ?id ccf:ccf_part_of ?object .
+    ?id ccf:ccf_part_of* kidney: .
   }
   UNION
   # CT
   {
     [] a ccf:CellMarkerDescriptor ;
       ccf:primary_anatomical_structure ?as ;
-      ccf:primary_cell_type ?iri .
+      ccf:primary_cell_type ?id .
     ?as ccf:ccf_part_of* kidney: .
   }
   UNION
@@ -35,9 +36,11 @@ WHERE {
   {
     [] a ccf:CellMarkerDescriptor ;
       ccf:primary_anatomical_structure ?as ;
-      ccf:biomarker ?iri .
+      ccf:biomarker ?id .
     ?as ccf:ccf_part_of* kidney: .
+
+    ?id rdfs:label ?symbol .
   }
 }
-GROUP BY ?iri
-ORDER BY ?iri
+GROUP BY ?id
+ORDER BY ?id

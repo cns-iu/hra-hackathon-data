@@ -49,7 +49,7 @@ if [ ! -e "$ENV/opt/blazegraph-runner" ]; then
 fi
 
 if [ ! -e "$ENV/bin/duckdb" ]; then
-  curl -L -o duckdb_cli-linux-amd64.zip https://github.com/duckdb/duckdb/releases/download/v1.0.0/duckdb_cli-linux-amd64.zip &&
+  curl -L -o duckdb_cli-linux-amd64.zip https://github.com/duckdb/duckdb/releases/download/v1.4.1/duckdb_cli-linux-amd64.zip &&
     unzip -qq duckdb_cli-linux-amd64.zip duckdb &&
     mv duckdb $ENV/bin/duckdb &&
     rm -f duckdb_cli-linux-amd64.zip

@@ -1,29 +1,31 @@
-iri,label,type,source
-http://purl.obolibrary.org/obo/UBERON_0004100,renal collecting system,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0000074,renal glomerulus,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0002113,kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0004538,left kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0004539,right kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0009883,medullary ray,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0001285,nephron,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0001294,inner medulla of kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0004200,kidney pyramid,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0001228,renal papilla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0001986,endothelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0001229,renal corpuscle,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0001225,cortex of kidney,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0005215,kidney interstitium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0004203,cortical collecting duct,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0000362,renal medulla,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0002319,mesangium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0001232,collecting duct of renal tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0002042,lymphatic vessel endothelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0004205,inner medullary collecting duct,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0001231,nephron tubule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0004188,glomerular epithelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0004294,glomerular capillary endothelium,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0004639,renal afferent arteriole,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0003527,kidney capillary,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0002015,kidney capsule,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0004212,glomerular capillary,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
-http://purl.obolibrary.org/obo/UBERON_0003517,kidney blood vessel,http://purl.obolibrary.org/obo/UBERON_0000061,https://purl.humanatlas.io/vocab/hp
+id,name,category,provided_by
+UBERON:0000074,renal glomerulus,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0000362,renal medulla,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0001225,cortex of kidney,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0001228,renal papilla,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0001229,renal corpuscle,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0001231,nephron tubule,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0001232,collecting duct of renal tubule,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0001285,nephron,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0001294,inner medulla of kidney,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0001986,endothelium,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0002015,kidney capsule,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0002042,lymphatic vessel endothelium,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0002113,kidney,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0002319,mesangium,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0003517,kidney blood vessel,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0003527,kidney capillary,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0004100,renal collecting system,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0004188,glomerular epithelium,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0004190,renal glomerulus vasculature,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0004200,kidney pyramid,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0004203,cortical collecting duct,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0004205,inner medullary collecting duct,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0004212,glomerular capillary,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0004294,glomerular capillary endothelium,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0004538,left kidney,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0004539,right kidney,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0004639,renal afferent arteriole,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0005215,kidney interstitium,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0006544,kidney vasculature,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
+UBERON:0009883,medullary ray,biolink:GrossAnatomicalStructure,https://purl.humanatlas.io/vocab/hp
